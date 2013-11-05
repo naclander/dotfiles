@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/hemite/.config'
+let g:netrw_dirhist_2='/home/hemite/.vim'
+let g:netrw_dirhist_3='/home/hemite/Dropbox/Einstein/classes/cs111/lab1-Skeleton-1b'
+let g:netrw_dirhist_4='/home/hemite/workspace'
+let g:netrw_dirhist_5='/home/hemite/Dropbox/Einstein/classes/cs111'
+let g:netrw_dirhist_6='/home/hemite/.config/i3status'
+let g:netrw_dirhist_7='/home/hemite/VirtualBox VMs/Shared'
