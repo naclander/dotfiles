@@ -1,0 +1,3 @@
+#!/bin/bash
+telnet v6address.com 2> /dev/null;
+host $( telnet v6address.com 2> /dev/null | cat | grep Your | cut -d \  -f 5 );
