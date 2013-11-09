@@ -1,0 +1,5 @@
+#!/bin/sh
+rm .weather
+wget -q -O - http://www.wunderground.com/cgi-bin/findweather/hdfForecast?query=90024 |
+sed -n 's/.*<meta name="og:title".*content="\([^"]*\)".*/\1/p' | 
+sed -n 's/&deg;/ deg/p' >> .weather

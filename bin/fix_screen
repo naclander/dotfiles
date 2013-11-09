@@ -1,0 +1,5 @@
+#!/bin/bash
+#correctley reset laptop screen resolution
+xrandr --output LVDS1 --auto
+exec xrandr --output HDMI1 --auto --right-of LVDS1
+

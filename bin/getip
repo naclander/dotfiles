@@ -1,3 +1,8 @@
 #!/bin/bash
-telnet v6address.com 2> /dev/null;
-host $( telnet v6address.com 2> /dev/null | cat | grep Your | cut -d \  -f 5 );
+GREEN='\033[00;32m';
+PURPLE='\033[00;35m'
+RESTORE='\033[0m';
+ip=$(wget -qO- icanhazip.com);
+echo -e "${GREEN}$ip${RESTORE}";
+echo -e "${PURPLE}$(host $ip | sed s/.*pointer//g | sed "s/^[ \t]*//")${RESTORE}"
+
