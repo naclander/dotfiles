@@ -3,6 +3,8 @@ GREEN='\033[00;32m';
 PURPLE='\033[00;35m'
 RESTORE='\033[0m';
 ip=$(wget -qO- icanhazip.com);
+#Display our IP address
 echo -e "${GREEN}$ip${RESTORE}";
-echo -e "${PURPLE}$(host $ip | sed s/.*pointer//g | sed "s/^[ \t]*//")${RESTORE}"
+#Call host on our IP, parse and display output
+echo -e "${PURPLE}$(host $ip | sed s/.*pointer\ //g | sed s'/.$//' )${RESTORE}"
 
