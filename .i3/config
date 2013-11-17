@@ -98,6 +98,10 @@ bindsym Mod1+a focus parent
 # focus the child container
 #bindsym Mod1+d focus child
 
+#cycle through workspaces
+bindsym Mod1+semicolon workspace next 
+bindsym Mod1+g workspace prev 
+
 # switch to workspace
 bindsym Mod1+1 workspace 1
 bindsym Mod1+2 workspace 2
