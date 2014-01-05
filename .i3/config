@@ -35,6 +35,9 @@ bindsym Mod1+C exec chromium
 #start pcmanfm
 bindsym Mod1+p exec pcmanfm
 
+#start ksnapshot
+bindsym Mod1+Print exec ksnapshot
+
 #volumeUp
 bindsym XF86AudioRaiseVolume exec "amixer set Master 2+ unmute"
 #volumeDown

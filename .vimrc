@@ -14,7 +14,6 @@ set completeopt=menu,menuone,longest
 "Tab width to 4
 set tabstop=4
 set ai
-map <F2> :NERDTree<CR>
 "curser in the middle of the page when pgdown and pgup
 "set scrolloff=999 
 " Show line number, cursor position.
