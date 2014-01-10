@@ -1,0 +1,5 @@
+T 1378854614 19*	19Now talking on #lug
+T 1378854699 31<hemite>30	cool, znc works fine now
+T 1378855500 22*	Disconnected (Remote host closed socket).
+T 1378855543 19*	19Now talking on #lug
+T 1378855569 22*	Disconnected (Remote host closed socket).

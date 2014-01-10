@@ -1,0 +1,182 @@
+T 1371271558 19*	19Now talking on #latex
+T 1371271558 29*	29Topic for #latex 29is: "FAQ: http://www.tex.ac.uk/cgi-bin/texfaq2html | Ask fsbot about ,lshort | For previews, ask fsbot about ,texbot | listings package for source code"
+T 1371271558 29*	29Topic for #latex 29set by tlhiv 29at Fri Jan 30 05:24:13 2009
+T 1371271558 28-29ChanServ28-	[#latex] Hi and Welcome to #LaTeX! Before you ask, please read the FAQ at http://faq.tug.org and the documentation at http://www.tug.org/begin.html
+T 1371271611 31<hemite>30	Do you guys think writing for a blog in latex and then converting it to HTML is a good idea?
+T 1371271810 18<tzvy>	Have you looked at mathjax, or some other such tool?
+T 1371271860 31<hemite>30	I do have a current latex to html program I use
+T 1371271891 31<hemite>30	It works allright, I'm more concerned with finding a good template that would work well for web blogs, and so I was wondering if you guys hadany recomendations
+T 1371272880 23*	23gandalfcome has quit (23Quit: Computer has gone to sleep.23)
+T 1371272977 19*	19gandalfcome (~gandalfco@75-119-235-183.dsl.teksavvy.com) has joined #latex
+T 1371274777 19*	19nilg (~user@77.70.2.229) has joined #latex
+T 1371274981 19*	19ngladitz (~ngladitz@95-91-246-141-dynip.superkabel.de) has joined #latex
+T 1371274982 23*	23ngladitz has quit (23Changing host23)
+T 1371274982 19*	19ngladitz (~ngladitz@unaffiliated/ngladitz) has joined #latex
+T 1371275477 23*	23nilg has quit (23Remote host closed the connection23)
+T 1371275730 19*	19ffio_ (~fire@unaffiliated/security) has joined #latex
+T 1371275840 23*	23ffio has quit (23Ping timeout: 260 seconds23)
+T 1371276612 23*	23RogerSterling has quit (23Remote host closed the connection23)
+T 1371276983 19*	19MortenTemp (~morten@212.130.47.184) has joined #latex
+T 1371277153 23*	23espy has quit (23Quit: KVIrc 4.3.1 Aria http://www.kvirc.net/23)
+T 1371277389 23*	23gandalfcome has quit (23Quit: Computer has gone to sleep.23)
+T 1371277483 19*	19gandalfcome (~gandalfco@75-119-235-183.dsl.teksavvy.com) has joined #latex
+T 1371277520 23*	23andern has quit (23Ping timeout: 260 seconds23)
+T 1371278596 19*	19Moviuro (~quassel@LVelizy-156-45-56-246.w80-13.abo.wanadoo.fr) has joined #latex
+T 1371278687 19*	19elbeardmorez (~elbeardmo@93-97-95-47.zone5.bethere.co.uk) has joined #latex
+T 1371279296 23*	23tzvy has quit (23Quit: Linkinus - http://linkinus.com23)
+T 1371279333 19*	19ekiM (~ekiM@cpc32-aztw25-2-0-cust157.18-1.cable.virginmedia.com) has joined #latex
+T 1371279368 23*	23saulo_ has quit (23Ping timeout: 240 seconds23)
+T 1371279996 23*	23MortenTemp has quit (23Read error: Operation timed out23)
+T 1371280218 23*	23Fatal has quit (23Ping timeout: 264 seconds23)
+T 1371280572 23*	23digitsm has quit (23Ping timeout: 260 seconds23)
+T 1371280572 19*	19RogerSterling (~RogerSter@95-91-124-140-dynip.superkabel.de) has joined #latex
+T 1371280618 23*	23Luftwaffles has quit (23Quit: Sleeeeep23)
+T 1371280751 19*	19galex-713 (~galex-713@188.148.24.109.rev.sfr.net) has joined #latex
+T 1371281243 19*	19vbTeX (~Thunderbi@glo44-1-82-67-129-170.fbx.proxad.net) has joined #latex
+T 1371281280 23*	23vbTeX has quit (23Client Quit23)
+T 1371281334 23*	23kszonek has quit (23Ping timeout: 264 seconds23)
+T 1371281358 19*	19kszonek (~kszonek@87-205-173-113.adsl.inetia.pl) has joined #latex
+T 1371281463 23*	23kerrick has quit (23Quit: Leaving23)
+T 1371281469 23*	23ekiM has quit (23Quit: Leaving.23)
+T 1371282042 19*	19oleb (~oleb@h77-53-171-227.dynamic.se.alltele.net) has joined #latex
+T 1371282560 23*	23KAREEEM has quit (23Ping timeout: 260 seconds23)
+T 1371282620 19*	19kerrick (~kerrick@c-69-181-16-119.hsd1.ca.comcast.net) has joined #latex
+T 1371283133 22*	Disconnected (Connection reset by peer).
+T 1371283150 22*	hemite sets mode +i hemite
+T 1371283150 28-29NickServ28-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+T 1371283157 19*	19Now talking on #latex
+T 1371283157 29*	29Topic for #latex 29is: "FAQ: http://www.tex.ac.uk/cgi-bin/texfaq2html | Ask fsbot about ,lshort | For previews, ask fsbot about ,texbot | listings package for source code"
+T 1371283157 29*	29Topic for #latex 29set by tlhiv 29at Fri Jan 30 05:24:13 2009
+T 1371283158 28-29NickServ28-	You are now identified for Hemite.
+T 1371283158 28-29ChanServ28-	[#latex] Hi and Welcome to #LaTeX! Before you ask, please read the FAQ at http://faq.tug.org and the documentation at http://www.tug.org/begin.html
+T 1371283183 19*	19taurgal (~taurgal@mhy71-2-88-167-61-222.fbx.proxad.net) has joined #latex
+T 1371283186 18<taurgal>	Hie
+T 1371283213 18<taurgal>	I get ugly vertical spaces after multicols environment
+T 1371283224 18<taurgal>	Any iea how I can get rid of them?
+T 1371283252 18<taurgal>	*idea
+T 1371283806 19*	19gic (~gic@proxy.iitk.ac.in) has joined #latex
+T 1371283870 23*	23RylaiC has quit (23Excess Flood23)
+T 1371283886 19*	19thehandler (~this@41.89.164.16) has joined #latex
+T 1371283895 19*	19RylaiC (~rylai@unaffiliated/rylaic) has joined #latex
+T 1371283951 19*	19al-tabq (~at-tabq@24.134.79.146) has joined #latex
+T 1371284106 23*	23Moviuro has quit (23Ping timeout: 256 seconds23)
+T 1371284368 23*	23al-tabq has quit (23Ping timeout: 276 seconds23)
+T 1371284552 19*	19al-tabq (~at-tabq@24.134.79.146) has joined #latex
+T 1371284800 23*	23kerrick has quit (23Ping timeout: 268 seconds23)
+T 1371285111 19*	19Icewing (~Icewing@koln-5d819e4f.pool.mediaWays.net) has joined #latex
+T 1371285114 23*	23Icewing has quit (23Changing host23)
+T 1371285115 19*	19Icewing (~Icewing@unaffiliated/icewing) has joined #latex
+T 1371285911 23*	23Aji-Dahaka has quit (23Read error: Connection reset by peer23)
+T 1371285930 19*	19Aji-Dahaka (~notroot@173.12.63.132) has joined #latex
+T 1371285933 23*	23RylaiC has quit (23Ping timeout: 245 seconds23)
+T 1371286351 19*	19gidna (~gidna@dynamic-adsl-94-37-192-35.clienti.tiscali.it) has joined #latex
+T 1371286354 18<gidna>	Hi
+T 1371286385 18<gidna>	I would like to avoiding writing \begin{equation*} using a macro How can I do this?
+T 1371286558 19*	19RylaiC (~rylai@unaffiliated/rylaic) has joined #latex
+T 1371286947 19*	19iSUSE (~iSUSE@221.175.254.41) has joined #latex
+T 1371287269 23*	23oleb has quit (23Ping timeout: 248 seconds23)
+T 1371287414 19*	19RogerSte_ (~RogerSter@95-91-124-140-dynip.superkabel.de) has joined #latex
+T 1371287561 23*	23RogerSterling has quit (23Ping timeout: 256 seconds23)
+T 1371287624 23*	23gidna has quit (23Quit: Leaving23)
+T 1371287786 19*	19oleb (~oleb@h77-53-171-227.dynamic.se.alltele.net) has joined #latex
+T 1371287830 23*	23oleb has quit (23Client Quit23)
+T 1371287839 19*	19Moviuro (~quassel@LVelizy-156-45-56-246.w80-13.abo.wanadoo.fr) has joined #latex
+T 1371287881 19*	19oleb (~oleb@h77-53-171-227.dynamic.se.alltele.net) has joined #latex
+T 1371288370 23*	23Celelibi (23~celelibi@2a02-8426-50a1-9d00-021b-2fff-fe35-963d.rev.sfr.net) has left #latex (23"Quitte"23)
+T 1371288421 23*	23ffio_ has quit (23Ping timeout: 252 seconds23)
+T 1371288750 23*	23thehandler has quit (23Ping timeout: 264 seconds23)
+T 1371288827 19*	19q66 (~q66@213.191.105.214) has joined #latex
+T 1371288850 19*	19Th0rsten (~th0rsten@p54A3A0BC.dip0.t-ipconnect.de) has joined #latex
+T 1371289162 19*	19BCMM (~BCMM@unaffiliated/bcmm) has joined #latex
+T 1371289670 18<Moviuro>	Is it necessry to put the babel package in an English written document ?
+T 1371289687 18<Moviuro>	(I'm French and use Babel anytime I need to write something)
+T 1371289743 19*	19ekiM (~ekiM@cpc32-aztw25-2-0-cust157.18-1.cable.virginmedia.com) has joined #latex
+T 1371289771 18<taurgal>	Moviuro: I guess it depends if you write an american document or not, there might be subtle differences...
+T 1371289810 18<Moviuro>	Na, the only English used worldwide is American ;) 
+T 1371290186 18<YoungFrog>	I'd load it anyway, although it doesn't seem to do much in the "american" case.
+T 1371290200 18<YoungFrog>	why are you reluctant to load it ?
+T 1371290435 23*	23ngladitz has quit (23Quit: Leaving23)
+T 1371290483 19*	19structuralist (~structura@70-36-196-135.dsl.static.sonic.net) has joined #latex
+T 1371290501 19*	19szx (~szx@host-2-60-25-27.pppoe.omsknet.ru) has joined #latex
+T 1371290552 18<szx>	what does \qquad do?
+T 1371290708 18<YoungFrog>	some horizontal space
+T 1371290708 23*	23Th0rsten has quit (23Remote host closed the connection23)
+T 1371290720 18<YoungFrog>	about twice what \quad does IIRC
+T 1371290723 19*	19serge_sans_paill (~serge@2a01:e34:ee9e:89b0:6a5d:43ff:fe09:907a) has joined #latex
+T 1371290747 19*	19Th0rsten (~th0rsten@p54A3A0BC.dip0.t-ipconnect.de) has joined #latex
+T 1371290770 18<YoungFrog>	just checked: 1em for quad, 2em for qquad
+T 1371290960 18<Moviuro>	YoungFrog: I'm not reluctant ; just trying to purge my skel files from unnecessary lines ;)
+T 1371290969 19*	19vbTeX (~Thunderbi@glo44-1-82-67-129-170.fbx.proxad.net) has joined #latex
+T 1371291182 23*	23vbTeX has quit (23Client Quit23)
+T 1371291541 19*	19Simooon (~simon@gw.obelnet.dk) has joined #latex
+T 1371291646 19*	19Anonynous (~Anonynous@g231189190.adsl.alicedsl.de) has joined #latex
+T 1371291702 23*	23fixl has quit (23Quit: KVIrc 4.3.1 Aria http://www.kvirc.net/23)
+T 1371292102 23*	23crundar has quit (23Quit: Page closed23)
+T 1371292108 23*	23Moviuro has quit (23Ping timeout: 245 seconds23)
+T 1371292490 23*	23al-tabq has quit (23Quit: al-tabq23)
+T 1371292522 19*	19ToApolytoXaos (~ToApolyto@46.21.62.128) has joined #latex
+T 1371292600 23*	23ekiM has quit (23Quit: Leaving.23)
+T 1371292638 23*	23RogerSte_ has quit (23Remote host closed the connection23)
+T 1371293019 19*	19ekiM (~ekiM@cpc32-aztw25-2-0-cust157.18-1.cable.virginmedia.com) has joined #latex
+T 1371293037 23*	23Th0rsten has quit (23Remote host closed the connection23)
+T 1371293114 19*	19Moviuro (~quassel@LVelizy-156-45-56-246.w80-13.abo.wanadoo.fr) has joined #latex
+T 1371293122 23*	23szx has quit (23Ping timeout: 245 seconds23)
+T 1371293569 19*	19thehandler (~this@41.89.164.16) has joined #latex
+T 1371294208 23*	23pretty_function has quit (23Ping timeout: 260 seconds23)
+T 1371294355 19*	19artpicre (~artpicre@vit94-10-78-240-193-57.fbx.proxad.net) has joined #latex
+T 1371294415 18<benzea>	btw. I solved my babel infinite loop issue; seems to be an issue in debians texlive 2013 packaging
+T 1371294540 23*	23artpicre has quit (23Client Quit23)
+T 1371294553 19*	19artpicre (~artpicre@vit94-10-78-240-193-57.fbx.proxad.net) has joined #latex
+T 1371294578 22*	artpicre is now known as Artpicre
+T 1371294968 19*	19pretty_function (~sigBART@123.252.212.238) has joined #latex
+T 1371295248 19*	19EthanCooler (~Ethan@219.82.95.239) has joined #latex
+T 1371295596 23*	23Noctis_Lux has quit (23Ping timeout: 240 seconds23)
+T 1371295877 23*	23debsan has quit (23Ping timeout: 240 seconds23)
+T 1371296507 19*	19RogerSterling (~RogerSter@95-91-124-140-dynip.superkabel.de) has joined #latex
+T 1371296549 19*	19Noctis_Lux (~mervamee@207.107.8.234) has joined #latex
+T 1371296573 23*	23contingencyplan has quit (23Ping timeout: 240 seconds23)
+T 1371296647 19*	19debsan (~debsan@244-79-245-190.fibertel.com.ar) has joined #latex
+T 1371296677 23*	23thehandler has quit (23Ping timeout: 248 seconds23)
+T 1371296746 19*	19thehandler (~this@41.89.164.16) has joined #latex
+T 1371296765 23*	23RogerSterling has quit (23Remote host closed the connection23)
+T 1371297232 23*	23stochasm has quit (23Ping timeout: 260 seconds23)
+T 1371297444 18<dzan>	hi, is there something like \emph{ } build in standard for using a more 'terminal font', i'd use it when I mention machine instructions in a piece of text and such
+T 1371297525 19*	19Lindrian (~Lindrian@unaffiliated/lindrian) has joined #latex
+T 1371297556 18<The-Compiler>	dzan: \texttt
+T 1371297562 18<Lindrian>	Hey. I'm getting "Undefined control sequence \setmainfont" and i get "Bad character code (61961)" if I use \maketitle... Anyone know whats up?
+T 1371297570 18<dzan>	The-Compiler, thanks
+T 1371297573 18<The-Compiler>	dzan: (called teletype font)
+T 1371297641 23*	23Icewing has quit (23Remote host closed the connection23)
+T 1371297645 18<The-Compiler>	dzan: maybe you want something like  \newcommand[1]{\mach}{\texttt{#1}}   to follow the spirit of LaTeX, then you can also easily change that if you decide to do something else for machine instructions
+T 1371297739 23*	23thehandler has quit (23Ping timeout: 256 seconds23)
+T 1371297769 18<dzan>	The-Compiler, thanks, I really need to learn to define my own commands :D
+T 1371297826 18<The-Compiler>	dzan: it's easy, I started doing so way too late
+T 1371297831 18<The-Compiler>	http://en.wikibooks.org/wiki/LaTeX/Macros helps
+T 1371297906 18<dzan>	The-Compiler, thanks a lot! I'll go over that after my thesis is done :p ( too late but i'm in a hurry :D )
+T 1371297909 19*	19Noldorin (~noldorin@unaffiliated/noldorin) has joined #latex
+T 1371298148 19*	19szx (~szx@host-2-60-25-27.pppoe.omsknet.ru) has joined #latex
+T 1371298203 19*	19sanfran (~sanfran@185.3.135.18) has joined #latex
+T 1371298272 18<rapha>	Hi!
+T 1371298315 18<rapha>	Why does LaTeX begin a second page so early with scrlttr2 (after only about two thirds of the first page have been used up) and how do I prevent this?
+T 1371298354 18<rapha>	(Instead of beginning the second page with a new word after the first page has been filled, the second page begins with a whole new paragraph)
+T 1371298431 23*	23iSUSE has quit (23Remote host closed the connection23)
+T 1371298461 19*	19tlhiv_laptop (~foo@c-68-35-204-183.hsd1.al.comcast.net) has joined #latex
+T 1371298504 18<benzea>	rapha: sounds like it is trying to prevent widows or orphans from occuring
+T 1371298506 23*	23structuralist has quit (2323)
+T 1371298509 18<benzea>	adding more text to the paragraph might help
+T 1371298541 23*	23gic has quit (23Quit: Leaving23)
+T 1371298608 23*	23rudi95 has quit (2323)
+T 1371298620 23*	23Noldorin has quit (23Quit: Computer has gone to sleep.23)
+T 1371298655 18<benzea>	rapha: (or changing the penalties, but that is usually not such a good idea)
+T 1371298676 18<The-Compiler>	rapha: maybe you also want to add  enlargefirstpage  to your documentclass options
+T 1371299050 23*	23Artpicre has quit (23Quit: IRC :: Intelligence Communément Répartie23)
+T 1371299074 19*	19artpicre (~artpicre@vit94-10-78-240-193-57.fbx.proxad.net) has joined #latex
+T 1371299132 22*	artpicre is now known as Artpicre
+T 1371299551 22*	f8ld is now known as f8l
+T 1371299647 23*	23szx has quit (23Ping timeout: 245 seconds23)
+T 1371299772 23*	23Moviuro has quit (23Ping timeout: 245 seconds23)
+T 1371299784 23*	23pretty_function has quit (23Remote host closed the connection23)
+T 1371300142 19*	19exFalso (~exfalso@149.241.12.113) has joined #latex
+T 1371300171 18<exFalso>	hi, does anyone know about a backwards \implies?
+T 1371300252 23*	23remmy444 has quit (23Ping timeout: 252 seconds23)
+T 1371300288 18<exFalso>	\newcommand{\bimplies}{\Longleftarrow}

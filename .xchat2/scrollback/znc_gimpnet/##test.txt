@@ -1,0 +1,9 @@
+T 1383967955 19*	19Now talking on ##Test
+T 1383967955 22*	irc.eagle.y.se sets mode +n ##Test
+T 1383967955 22*	irc.eagle.y.se sets mode +t ##Test
+T 1383967955 22*	hemite sets mode +s ##Test
+T 1383967955 22*	hemite sets mode +t ##Test
+T 1383967955 22*	hemite sets mode +n ##Test
+T 1383967961 18*	hemite LOLOL
+T 1383967965 31<hemite>30	hi
+T 1383967972 18*	hemite Wants to go kill you

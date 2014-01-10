@@ -1,0 +1,11 @@
+T 1376280076 19*	19Now talking on #test.test.test
+T 1376280076 22*	adams.freenode.net sets mode +n #test.test.test
+T 1376280076 22*	adams.freenode.net sets mode +s #test.test.test
+T 1376280084 31<hemite>30	test
+T 1376280098 22*	Disconnected ().
+T 1376280103 No channel joined. Try /join #<channel>
+T 1376280109 22*	Disconnected ().
+T 1376280123 19*	19Now talking on #test.test.test
+T 1376280123 22*	calvino.freenode.net sets mode +n #test.test.test
+T 1376280123 22*	calvino.freenode.net sets mode +s #test.test.test
+T 1376280129 31<hemite>30	test

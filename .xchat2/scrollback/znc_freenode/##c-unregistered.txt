@@ -1,0 +1,680 @@
+T 1389260101 23*	23thevishy has quit (23Ping timeout: 272 seconds23)
+T 1389260117 22*	boen is now known as Guest45774
+T 1389260285 23*	23WorldGenesis has quit (23Quit: Death is but a door, time is but a window: I'll be back!23)
+T 1389260306 23*	23gl (23~foo@opcode.org) has left ##c-unregistered
+T 1389260308 19*	19gl (~foo@opcode.org) has joined ##c-unregistered
+T 1389260533 19*	19Freeman42 (~Freeeman4@109.99.230.8) has joined ##c-unregistered
+T 1389260623 19*	19lid6j86 (~lid6j86@183.100.76.121) has joined ##c-unregistered
+T 1389260719 23*	23ewnd9 has quit (23Ping timeout: 260 seconds23)
+T 1389260822 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389260858 23*	23Freeman42 has quit (23Ping timeout: 264 seconds23)
+T 1389260933 23*	23lid6j86 has quit (23Ping timeout: 272 seconds23)
+T 1389260955 23*	23djtorr3 has quit (23Ping timeout: 272 seconds23)
+T 1389260983 19*	19Caterpillar2 (~Caterpill@nat-wifi2.uniroma3.it) has joined ##c-unregistered
+T 1389260990 19*	19travisjeffery (~textual@CPE602ad086c6c9-CM602ad086c6c6.cpe.net.cable.rogers.com) has joined ##c-unregistered
+T 1389261191 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389261437 19*	19zhost (~quassel@host-178.215.200.102-internet.zabrze.debacom.pl) has joined ##c-unregistered
+T 1389261546 19*	19ewnd9 (~ewnd9@5.254.254.126) has joined ##c-unregistered
+T 1389261672 19*	19Freeman42 (~Freeeman4@109.99.230.8) has joined ##c-unregistered
+T 1389261979 23*	23pretty_function has quit (23Ping timeout: 260 seconds23)
+T 1389261994 19*	19MousTO (~Mous@80.250.21.176) has joined ##c-unregistered
+T 1389262003 23*	23e0s_ has quit (23Ping timeout: 260 seconds23)
+T 1389262112 23*	23Caterpillar2 (23~Caterpill@nat-wifi2.uniroma3.it) has left ##c-unregistered (23"Once you know what it is you want to be true, instinct is a very useful device for enabling you to know that it is"23)
+T 1389262160 23*	23hcl308 has quit (23Quit: Konversation terminated!23)
+T 1389262478 23*	23ewnd9 has quit (23Ping timeout: 264 seconds23)
+T 1389262686 23*	23Guest32748 has quit (23Changing host23)
+T 1389262686 19*	19Guest32748 (~jaa@unaffiliated/uukgoblin) has joined ##c-unregistered
+T 1389262690 22*	Guest32748 is now known as UukGoblin
+T 1389262860 22*	Guest45774 is now known as boen
+T 1389262971 19*	19thevishy (~thevishy@mail.zeomega.com) has joined ##c-unregistered
+T 1389262995 23*	23boen (23~boen@91-118-87-17.static.xdsl-line.inode.at) has left ##c-unregistered (23"Leaving"23)
+T 1389263030 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389263261 19*	19cantoma (~jduro@cspc-res-20.campus.bath.ac.uk) has joined ##c-unregistered
+T 1389263316 23*	23komar has quit (23Read error: Operation timed out23)
+T 1389263326 19*	19pgib (~pgib@76.18.186.63) has joined ##c-unregistered
+T 1389263336 23*	23yannis has quit (23Remote host closed the connection23)
+T 1389263441 23*	23Freeman42 has quit (23Quit: Leaving23)
+T 1389263476 19*	19lid6j86 (~lid6j86@183.100.76.121) has joined ##c-unregistered
+T 1389263481 19*	19ramok (~komar@mapocho.bionik.tu-berlin.de) has joined ##c-unregistered
+T 1389263488 23*	23kludge` has quit (23Ping timeout: 260 seconds23)
+T 1389263490 23*	23gl (23~foo@opcode.org) has left ##c-unregistered
+T 1389263491 19*	19gl (~foo@opcode.org) has joined ##c-unregistered
+T 1389263493 19*	19wz (~wz@5.165.28.38) has joined ##c-unregistered
+T 1389263493 23*	23gl (23~foo@opcode.org) has left ##c-unregistered
+T 1389263533 23*	23wz (23~wz@5.165.28.38) has left ##c-unregistered (23"Ухожу я от вас"23)
+T 1389263727 23*	23cantoma (23~jduro@cspc-res-20.campus.bath.ac.uk) has left ##c-unregistered (23"Leaving"23)
+T 1389263764 19*	19DarkCthulhu2 (~DarkCthul@202.164.25.5) has joined ##c-unregistered
+T 1389263768 19*	19farito (~farito@82.69.82.248) has joined ##c-unregistered
+T 1389263804 19*	19kludge` (~comet@unaffiliated/espiral) has joined ##c-unregistered
+T 1389263854 23*	23DarkCthulhu2 has quit (23Client Quit23)
+T 1389263936 19*	19DarkCthulhu_ (~DarkCthul@202.164.25.5) has joined ##c-unregistered
+T 1389263950 19*	19VeinMelted (~VeinMelte@202.137.29.147) has joined ##c-unregistered
+T 1389264014 19*	19jeaton (~jeaton@ks-67-239-123-64.dhcp.embarqhsd.net) has joined ##c-unregistered
+T 1389264070 23*	23jeaton has quit (23Changing host23)
+T 1389264070 19*	19jeaton (~jeaton@unaffiliated/jeaton) has joined ##c-unregistered
+T 1389264100 23*	23jeaton (23~jeaton@unaffiliated/jeaton) has left ##c-unregistered
+T 1389264158 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389264266 19*	19kyrylo (~quassel@subtle/user/kyrylo) has joined ##c-unregistered
+T 1389264441 22*	DarkCthulhu_ is now known as DarkCthulhu
+T 1389264452 23*	23DarkCthulhu has quit (23Changing host23)
+T 1389264452 19*	19DarkCthulhu (~DarkCthul@unaffiliated/darkcthulhu) has joined ##c-unregistered
+T 1389264469 19*	19pgib (~pgib@76.18.186.63) has joined ##c-unregistered
+T 1389264544 19*	19mjtpzfrl (~silent@80.248.71.211) has joined ##c-unregistered
+T 1389265099 23*	23megaTherion_ (23~therion@unix.io) has left ##c-unregistered (23"Leaving"23)
+T 1389265101 19*	19megaTherion_ (~therion@unix.io) has joined ##c-unregistered
+T 1389265102 23*	23megaTherion_ (23~therion@unix.io) has left ##c-unregistered (23"Leaving"23)
+T 1389265184 23*	23mjtpzfrl has quit (23Ping timeout: 265 seconds23)
+T 1389265224 23*	23DarkCthulhu has quit (23Quit: Nettalk6 - www.ntalk.de23)
+T 1389265430 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389265647 23*	23lid6j86 has quit (23Ping timeout: 260 seconds23)
+T 1389265702 19*	19yannis (~yannis@dsl-aaux3b.dyn.edudsl.gr) has joined ##c-unregistered
+T 1389265716 19*	19dr001 (~dr001@172-3-106-245.lightspeed.rcsntx.sbcglobal.net) has joined ##c-unregistered
+T 1389265720 23*	23dr001 has quit (23Read error: Connection reset by peer23)
+T 1389265883 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389266007 23*	23farito has quit (23Ping timeout: 256 seconds23)
+T 1389266165 19*	19mjtpzfrl1 (~silent@80.248.71.211) has joined ##c-unregistered
+T 1389266514 23*	23IFN10EBrain has quit (23Quit: Lost terminal23)
+T 1389266682 19*	19kirotawa (~kirotawa@187-40-146-191.user.veloxzone.com.br) has joined ##c-unregistered
+T 1389266702 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389266703 23*	23Kuukunen- has quit (23Quit: leaving23)
+T 1389266715 19*	19Kuukunen (~aki@kuukunen.net) has joined ##c-unregistered
+T 1389266978 19*	19techfreak (~tj@93.183.210.70) has joined ##c-unregistered
+T 1389266995 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389267056 23*	23thevishy has quit (23Quit: Leaving23)
+T 1389267180 19*	19elbeardmorez (~quassel@94-195-206-197.zone9.bethere.co.uk) has joined ##c-unregistered
+T 1389267215 19*	19prc (~karen@host-92-19-48-220.as13285.net) has joined ##c-unregistered
+T 1389267620 23*	23i336_ has quit (23Ping timeout: 265 seconds23)
+T 1389267830 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389268062 23*	23letony has quit (23Read error: Operation timed out23)
+T 1389268074 19*	19CrowX- (~CrowX---@79.141.122.86) has joined ##c-unregistered
+T 1389268138 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389268390 23*	23Guest6133 has quit (23Quit: leaving23)
+T 1389268958 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389268976 19*	19wald0 (~wald0@229.Red-79-154-237.dynamicIP.rima-tde.net) has joined ##c-unregistered
+T 1389269100 23*	23techfreak has quit (23Ping timeout: 252 seconds23)
+T 1389269109 19*	19farito (~farito@82-69-82-248.dsl.in-addr.zen.co.uk) has joined ##c-unregistered
+T 1389269114 19*	19letony (~hmm@cpe-65-189-16-139.cinci.res.rr.com) has joined ##c-unregistered
+T 1389269149 19*	19Blue_Hat (~TwinKam20@69.160.113.40) has joined ##c-unregistered
+T 1389269553 23*	23vs73nx has quit (23Quit: goodnight23)
+T 1389269589 22*	bui___ is now known as bui
+T 1389269612 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389269846 23*	23VeinMelted has quit (23Quit: Computer has gone to sleep.23)
+T 1389270075 19*	19vol4ko2 (~drugovo@77.29.15.178) has joined ##c-unregistered
+T 1389270305 19*	19ewnd9 (~ewnd9@5.254.254.126) has joined ##c-unregistered
+T 1389270381 19*	19senft (~senft@dslb-088-069-134-046.pools.arcor-ip.net) has joined ##c-unregistered
+T 1389270424 19*	19PearFish (~AngelFish@wsip-24-249-169-68.ph.ph.cox.net) has joined ##c-unregistered
+T 1389270446 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389270459 19*	19unixpenguin (~unixpengu@ltea-047-064-078-023.pools.arcor-ip.net) has joined ##c-unregistered
+T 1389270527 23*	23senft (23~senft@dslb-088-069-134-046.pools.arcor-ip.net) has left ##c-unregistered
+T 1389270582 23*	23SunFish has quit (23Ping timeout: 245 seconds23)
+T 1389270614 19*	19phantoxe (~destroy@a89-154-119-158.cpe.netcabo.pt) has joined ##c-unregistered
+T 1389270647 19*	19Gama11 (~quassel@p57B2B8A6.dip0.t-ipconnect.de) has joined ##c-unregistered
+T 1389270669 23*	23unixpenguin (23~unixpengu@ltea-047-064-078-023.pools.arcor-ip.net) has left ##c-unregistered
+T 1389270730 23*	23ottofung (23~ottofung@219.136.62.226) has left ##c-unregistered
+T 1389270754 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389270801 19*	19npx (~alex@162-193-166-249.lightspeed.mmphtn.sbcglobal.net) has joined ##c-unregistered
+T 1389270867 19*	19VeinMelted (~VeinMelte@202.137.29.147) has joined ##c-unregistered
+T 1389271038 23*	23kyrylo has quit (23Remote host closed the connection23)
+T 1389271041 23*	23farito has quit (23Ping timeout: 272 seconds23)
+T 1389271362 23*	23VeinMelted has quit (23Remote host closed the connection23)
+T 1389271365 23*	23jlf_` has quit (23Excess Flood23)
+T 1389271402 23*	23wolfmother has quit (23Quit: Leaving23)
+T 1389271521 23*	23mounir_ has quit (23Read error: Operation timed out23)
+T 1389271574 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389271584 19*	19Judge_Dredd (~Judge_Dre@ip-95-221-6-89.bb.netbynet.ru) has joined ##c-unregistered
+T 1389271629 19*	19Caterpillar2 (~Caterpill@193.204.167.182) has joined ##c-unregistered
+T 1389271642 23*	23Judge_Dredd (23~Judge_Dre@ip-95-221-6-89.bb.netbynet.ru) has left ##c-unregistered
+T 1389271649 23*	23mjtpzfrl1 has quit (23Quit: leaving23)
+T 1389271658 23*	23npx has quit (23Ping timeout: 264 seconds23)
+T 1389271695 19*	19looper (~looper@p5B323676.dip0.t-ipconnect.de) has joined ##c-unregistered
+T 1389271805 19*	19barbanegra (~libertad@r186-54-251-249.dialup.adsl.anteldata.net.uy) has joined ##c-unregistered
+T 1389271805 23*	23barbanegra has quit (23Changing host23)
+T 1389271805 19*	19barbanegra (~libertad@unaffiliated/barbanegra) has joined ##c-unregistered
+T 1389271868 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389272412 23*	23yannis has quit (23Remote host closed the connection23)
+T 1389272445 19*	19yannis (~yannis@dsl-aaux3b.dyn.edudsl.gr) has joined ##c-unregistered
+T 1389272448 19*	19mounir_ (~mounir@105.157.118.70) has joined ##c-unregistered
+T 1389272598 19*	19nighty-_ (~nighty@lns-bzn-49f-62-147-170-46.adsl.proxad.net) has joined ##c-unregistered
+T 1389272702 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389272731 23*	23yannis has quit (23Ping timeout: 260 seconds23)
+T 1389272839 19*	19npx (~alex@162-193-166-249.lightspeed.mmphtn.sbcglobal.net) has joined ##c-unregistered
+T 1389272947 19*	19filipe_cantarell (~quassel@177.43.14.152) has joined ##c-unregistered
+T 1389273251 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389273305 19*	19twocows (~twocows@unaffiliated/twocows) has joined ##c-unregistered
+T 1389273425 23*	23average has quit (23Ping timeout: 252 seconds23)
+T 1389273498 19*	19average (~un_golan@5-12-244-91.residential.rdsnet.ro) has joined ##c-unregistered
+T 1389273645 19*	19techfreak (~tj@178.137.15.101) has joined ##c-unregistered
+T 1389273739 23*	23ewnd9 has quit (23Ping timeout: 260 seconds23)
+T 1389273903 19*	19mjtpzfrl (~silent@80.248.71.211) has joined ##c-unregistered
+T 1389273994 23*	23netmind has quit (23Quit: Sto andando via23)
+T 1389274019 18<mjtpzfrl>	ohayo gozaimasu kirotawa
+T 1389274070 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389274105 18<kirotawa>	mjtpzfrl: ohayou! :P
+T 1389274166 18<mjtpzfrl>	need somthing?
+T 1389274223 18<kirotawa>	mjtpzfrl: no.
+T 1389274244 23*	23joeri_ has quit (23Quit: leaving23)
+T 1389274327 18<mjtpzfrl>	lol
+T 1389274338 19*	19mar77i_ (~mar77i@46-127-186-116.dynamic.hispeed.ch) has joined ##c-unregistered
+T 1389274424 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389274448 23*	23mar77i has quit (23Ping timeout: 252 seconds23)
+T 1389274500 23*	23Caterpillar2 has quit (23Quit: You were not made to live as brutes, but to follow virtue and knowledge.23)
+T 1389274526 19*	19joeri_ (~joeri@209.141.56.186) has joined ##c-unregistered
+T 1389274621 23*	23Blue_Hat has quit (23Read error: Connection reset by peer23)
+T 1389274675 19*	19Blue_Hat (~TwinKam20@69.160.113.40) has joined ##c-unregistered
+T 1389274739 19*	19gaffa (~gaffa@0x5e92ee85.adsl.cybercity.dk) has joined ##c-unregistered
+T 1389274832 23*	23mjtpzfrl has quit (23Remote host closed the connection23)
+T 1389274919 19*	19Smjert (~smjert@2-230-17-181.ip199.fastwebnet.it) has joined ##c-unregistered
+T 1389275132 23*	23joeri_ has quit (23Quit: leaving23)
+T 1389275153 22*	mar77i_ is now known as mar77i
+T 1389275163 19*	19joeri_ (~joeri@209.141.56.186) has joined ##c-unregistered
+T 1389275183 23*	23jdolan has quit (23Ping timeout: 276 seconds23)
+T 1389275205 19*	19RIscRIpt (~RIscRIpt@46.109.170.187) has joined ##c-unregistered
+T 1389275235 23*	23HelloShitty has quit (23Quit: Leaving23)
+T 1389275246 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389275277 19*	19hpt (~hpt@123.114.135.151) has joined ##c-unregistered
+T 1389275298 23*	23arietis has quit (23Quit: Computer has gone to sleep.23)
+T 1389275650 19*	19jdolan (~jdolan@198.11.8.123) has joined ##c-unregistered
+T 1389275811 23*	23phantoxe has quit (23Remote host closed the connection23)
+T 1389275930 19*	19phantoxe (~destroy@a89-154-119-158.cpe.netcabo.pt) has joined ##c-unregistered
+T 1389276523 23*	23Immutable has quit (23Ping timeout: 243 seconds23)
+T 1389276523 23*	23RIscRIpt (23~RIscRIpt@46.109.170.187) has left ##c-unregistered (23"Leaving"23)
+T 1389276523 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389276523 23*	23wooden has quit (23Ping timeout: 264 seconds23)
+T 1389276523 19*	19ewnd9 (~ewnd9@5.254.254.126) has joined ##c-unregistered
+T 1389276523 23*	23koollman (23samson_t@sp1.kooll.info) has left ##c-unregistered
+T 1389276621 19*	19arietis (~arietis@188.242.181.162) has joined ##c-unregistered
+T 1389276632 23*	23Deck_ has quit (23Read error: Connection reset by peer23)
+T 1389276693 19*	19kyrylo (~kyrylo@37.229.164.192) has joined ##c-unregistered
+T 1389276811 22*	widmo_ is now known as widmo
+T 1389276873 19*	19w4pm (~w4pm@rrcs-24-43-59-146.west.biz.rr.com) has joined ##c-unregistered
+T 1389277154 23*	23w4pm has quit (23Ping timeout: 252 seconds23)
+T 1389277175 19*	19wooden (~anon@pdpc/supporter/active/wooden) has joined ##c-unregistered
+T 1389277238 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389277672 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389277770 23*	23Hero764 has quit (23Ping timeout: 265 seconds23)
+T 1389277773 19*	19oleo (~oleo@xdsl-78-35-185-48.netcologne.de) has joined ##c-unregistered
+T 1389278180 19*	19vol4ko (~drugovo@77.29.15.178) has joined ##c-unregistered
+T 1389278187 23*	23vol4ko has quit (23Changing host23)
+T 1389278187 19*	19vol4ko (~drugovo@unaffiliated/vol4ko) has joined ##c-unregistered
+T 1389278318 19*	19Jonbo (~Jonbo123@24.140.125.4) has joined ##c-unregistered
+T 1389278347 19*	19cdonts (~cdonts@190.18.222.29) has joined ##c-unregistered
+T 1389278366 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389278384 23*	23Guest42558 has quit (23Ping timeout: 253 seconds23)
+T 1389278526 19*	19camx (cime@84-255-226-248.static.t-2.net) has joined ##c-unregistered
+T 1389278617 19*	19foofoo (c744dafd@gateway/web/freenode/ip.199.68.218.253) has joined ##c-unregistered
+T 1389278634 18<foofoo>	where do I go from where I was
+T 1389278675 19*	19IFN10EBrain (~tuxydo@abxa237.neoplus.adsl.tpnet.pl) has joined ##c-unregistered
+T 1389278676 19*	19cdonts_ (~cdonts@200-081-038-131.wireless.movistar.net.ar) has joined ##c-unregistered
+T 1389278764 18<foofoo>	it was intagers and if statments so , whats to do next
+T 1389278772 23*	23cdonts has quit (23Ping timeout: 252 seconds23)
+T 1389278816 19*	19Felix91 (~Chatzilla@nat-wh-hadi.rz.uni-karlsruhe.de) has joined ##c-unregistered
+T 1389278861 23*	23Felix91 (23~Chatzilla@nat-wh-hadi.rz.uni-karlsruhe.de) has left ##c-unregistered
+T 1389278910 23*	23cdonts_ (23~cdonts@200-081-038-131.wireless.movistar.net.ar) has left ##c-unregistered
+T 1389278935 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389279081 23*	23camx has quit (2323)
+T 1389279156 19*	19`petey` (~petey@198.179.137.254) has joined ##c-unregistered
+T 1389279457 18<foofoo>	helloo
+T 1389279730 23*	23arietis has quit (23Quit: Computer has gone to sleep.23)
+T 1389279758 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389279810 19*	19Caterpillar2 (~Caterpill@nat-wifi2.uniroma3.it) has joined ##c-unregistered
+T 1389279859 23*	23Smjert (23~smjert@2-230-17-181.ip199.fastwebnet.it) has left ##c-unregistered (23"Leaving"23)
+T 1389279981 23*	23Caterpillar2 has quit (23Excess Flood23)
+T 1389280009 19*	19Caterpillar2 (~Caterpill@nat-wifi2.uniroma3.it) has joined ##c-unregistered
+T 1389280060 23*	23twocows has quit (23Ping timeout: 253 seconds23)
+T 1389280151 23*	23average has quit (23Ping timeout: 260 seconds23)
+T 1389280207 23*	23foofoo has quit (23Quit: Page closed23)
+T 1389280343 23*	23`petey` has quit (23Remote host closed the connection23)
+T 1389280375 23*	23filipe_cantarell has quit (23Remote host closed the connection23)
+T 1389280393 23*	23perdido has quit (23Quit: Leaving23)
+T 1389280424 19*	19avalon (avalon@nox.plik.org) has joined ##c-unregistered
+T 1389280428 19*	19perdido (~na@99-194-128-248.dyn.centurytel.net) has joined ##c-unregistered
+T 1389280434 23*	23avalon (23avalon@nox.plik.org) has left ##c-unregistered
+T 1389280580 19*	19VeinMelted (~VeinMelte@203.128.83.94) has joined ##c-unregistered
+T 1389280621 23*	23perdido has quit (23Client Quit23)
+T 1389280634 19*	19T-DeskTop (~t-desktop@119-171-45-190.rev.home.ne.jp) has joined ##c-unregistered
+T 1389280738 23*	23T-DeskTop has quit (23Client Quit23)
+T 1389280993 19*	19uuair (~uuair@125.33.116.64) has joined ##c-unregistered
+T 1389281228 19*	19a3f (~chatzilla@p3EE1CCFC.dip0.t-ipconnect.de) has joined ##c-unregistered
+T 1389281374 19*	19farito (~farito@82-69-82-248.dsl.in-addr.zen.co.uk) has joined ##c-unregistered
+T 1389281406 19*	19perdido (~na@99-194-128-248.dyn.centurytel.net) has joined ##c-unregistered
+T 1389281490 19*	19{Nathan} (~nathan@d118-75-207-49.try.wideopenwest.com) has joined ##c-unregistered
+T 1389281602 19*	19jlemij (~jlemij@91.212.45.198) has joined ##c-unregistered
+T 1389281605 23*	23hpt has quit (23Ping timeout: 272 seconds23)
+T 1389281653 19*	19grrk-bzzt (~grrk-bzzt@ABordeaux-651-1-124-240.w109-214.abo.wanadoo.fr) has joined ##c-unregistered
+T 1389281673 19*	19`petey` (~petey@198.179.137.254) has joined ##c-unregistered
+T 1389281695 19*	1921WAB5D8K (~mybigmout@193.28.144.173) has joined ##c-unregistered
+T 1389281785 19*	19pretty_f_ (~pretty_fu@61.12.96.10) has joined ##c-unregistered
+T 1389281801 23*	23a3f has quit (23Ping timeout: 265 seconds23)
+T 1389281852 19*	19twocows (~twocows@unaffiliated/twocows) has joined ##c-unregistered
+T 1389281882 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389281909 23*	23npx has quit (23Ping timeout: 272 seconds23)
+T 1389282071 23*	23pretty_f_ has quit (23Ping timeout: 252 seconds23)
+T 1389282255 19*	19a3f (~a3f@p3EE1CCFC.dip0.t-ipconnect.de) has joined ##c-unregistered
+T 1389282331 19*	19jrolland-MacBook (~jrolland@134.48.4.236) has joined ##c-unregistered
+T 1389282356 23*	23jrolland-MacBook has quit (23Max SendQ exceeded23)
+T 1389282420 19*	19jrolland-MacBook (~jrolland@134.48.4.236) has joined ##c-unregistered
+T 1389282475 23*	23jrolland-MacBook has quit (23Read error: Connection reset by peer23)
+T 1389282483 19*	19jlf (~user@pdpc/supporter/active/jlf) has joined ##c-unregistered
+T 1389282486 23*	23Caterpillar2 has quit (23Changing host23)
+T 1389282486 19*	19Caterpillar2 (~Caterpill@unaffiliated/caterpillar) has joined ##c-unregistered
+T 1389282512 19*	19jrolland-MacBook (~jrolland@134.48.4.236) has joined ##c-unregistered
+T 1389282526 23*	23jlemij has quit (23Ping timeout: 265 seconds23)
+T 1389282552 19*	19bePolite (~sprinf@195.24.220.16) has joined ##c-unregistered
+T 1389282552 23*	23bePolite has quit (23Changing host23)
+T 1389282552 19*	19bePolite (~sprinf@unaffiliated/sprinf) has joined ##c-unregistered
+T 1389282566 23*	2321WAB5D8K has quit (23Ping timeout: 264 seconds23)
+T 1389282634 23*	23bePolite (23~sprinf@unaffiliated/sprinf) has left ##c-unregistered
+T 1389282668 23*	23jlf (23~user@pdpc/supporter/active/jlf) has left ##c-unregistered
+T 1389282677 23*	23s0ul has quit (23Ping timeout: 258 seconds23)
+T 1389282710 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389282806 23*	23zedas has quit (23Remote host closed the connection23)
+T 1389282876 23*	23zhost has quit (23Read error: Operation timed out23)
+T 1389283239 23*	23uuair has quit (2323)
+T 1389283248 19*	19s0ul (~Mr18@souleiman.xen.prgmr.com) has joined ##c-unregistered
+T 1389283326 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389283427 23*	23farito has quit (23Ping timeout: 260 seconds23)
+T 1389283471 19*	19zedas (~zedas@zedsvc2.xen.prgmr.com) has joined ##c-unregistered
+T 1389283623 23*	23jrolland-MacBook has quit (23Ping timeout: 260 seconds23)
+T 1389283627 23*	23prc has quit (23Quit: Leaving.23)
+T 1389283724 23*	23zedas has quit (23Ping timeout: 252 seconds23)
+T 1389283795 23*	23`petey` has quit (23Remote host closed the connection23)
+T 1389283802 19*	19zedas (~zedas@zedsvc2.xen.prgmr.com) has joined ##c-unregistered
+T 1389284012 19*	19`petey`_ (~petey@198.179.137.254) has joined ##c-unregistered
+T 1389284012 23*	23Caterpillar2 has quit (23Ping timeout: 265 seconds23)
+T 1389284137 23*	23out0xCF8 has quit (23Quit: Linkinus - http://linkinus.com23)
+T 1389284150 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389284165 19*	19wald0_ (~wald0@229.Red-79-154-237.dynamicIP.rima-tde.net) has joined ##c-unregistered
+T 1389284182 19*	19Ssmario2 (~mounir@41.143.212.137) has joined ##c-unregistered
+T 1389284204 19*	19jrolland-MacBook (~jrolland@134.48.162.1) has joined ##c-unregistered
+T 1389284211 19*	19Caterpillar2 (~Caterpill@nat-wifi2.uniroma3.it) has joined ##c-unregistered
+T 1389284255 23*	23mounir_ has quit (23Read error: Operation timed out23)
+T 1389284313 22*	`petey`_ is now known as `petey`
+T 1389284582 23*	23Blue_Hat has quit (23Ping timeout: 264 seconds23)
+T 1389284710 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389284807 19*	19npx (~alex@162-193-166-249.lightspeed.mmphtn.sbcglobal.net) has joined ##c-unregistered
+T 1389285235 19*	19otherflow (~otherflow@unaffiliated/otherflow) has joined ##c-unregistered
+T 1389285247 23*	23mikar has quit (23Ping timeout: 260 seconds23)
+T 1389285398 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389285514 19*	19Jupito (~jupo@215.Red-83-56-217.dynamicIP.rima-tde.net) has joined ##c-unregistered
+T 1389285536 23*	23Jupito (23~jupo@215.Red-83-56-217.dynamicIP.rima-tde.net) has left ##c-unregistered
+T 1389285853 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389286497 23*	23jrolland-MacBook has quit (23Ping timeout: 252 seconds23)
+T 1389286550 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389286586 23*	23VeinMelted has quit (23Quit: Lingo - http://www.lingoirc.com23)
+T 1389286707 23*	23Caterpillar2 has quit (23Quit: You were not made to live as brutes, but to follow virtue and knowledge.23)
+T 1389287026 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389287094 19*	19aynik (~aynik@unaffiliated/aynik) has joined ##c-unregistered
+T 1389287159 19*	19hypebeast (pi@g230223095.adsl.alicedsl.de) has joined ##c-unregistered
+T 1389287351 23*	23hypebeas1 has quit (23Ping timeout: 252 seconds23)
+T 1389287557 23*	23OverMe has quit (23Remote host closed the connection23)
+T 1389287681 19*	19yannis (~yannis@dsl-aaux3b.dyn.edudsl.gr) has joined ##c-unregistered
+T 1389287846 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389288065 19*	19kmiles (~kmiles@cpe-66-8-172-60.hawaii.res.rr.com) has joined ##c-unregistered
+T 1389288229 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389288541 23*	23kmiles has quit (23Remote host closed the connection23)
+T 1389288666 19*	19Patharius_ (~Patharius@86.125.250.12) has joined ##c-unregistered
+T 1389288670 23*	23ozialien_ has quit (23Quit: Leaving23)
+T 1389288836 23*	23Patharius has quit (23Ping timeout: 252 seconds23)
+T 1389288926 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389289042 23*	23phantoxe has quit (2323)
+T 1389289379 23*	23Solid-State (23~bearjew@192.73.238.238) has left ##c-unregistered
+T 1389289456 23*	23yannis has quit (23Remote host closed the connection23)
+T 1389289631 23*	23gaffa (23~gaffa@0x5e92ee85.adsl.cybercity.dk) has left ##c-unregistered (23"Leaving"23)
+T 1389289732 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389289778 23*	23ewnd9 has quit (23Remote host closed the connection23)
+T 1389289806 19*	19ewnd9 (~ewnd9@5.254.254.126) has joined ##c-unregistered
+T 1389289888 19*	19kmiles (~kmiles@cpe-66-8-172-60.hawaii.res.rr.com) has joined ##c-unregistered
+T 1389289996 23*	23`petey` has quit (23Remote host closed the connection23)
+T 1389290480 23*	23JarJar_ has quit (23Quit: Leaving...23)
+T 1389290702 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389290764 19*	19`petey` (~petey@198.179.137.254) has joined ##c-unregistered
+T 1389290898 19*	19infracom (~infracom@91.229.248.87) has joined ##c-unregistered
+T 1389291015 23*	23kmiles has quit (23Remote host closed the connection23)
+T 1389291026 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389291186 19*	19mirise (~mirise@91.212.45.23) has joined ##c-unregistered
+T 1389291217 19*	19iflow0885 (~iflow@212.77.182.114) has joined ##c-unregistered
+T 1389291223 23*	23infracom has quit (23Remote host closed the connection23)
+T 1389291223 23*	23mirise has quit (23Remote host closed the connection23)
+T 1389291356 23*	23ewnd9 has quit (23Remote host closed the connection23)
+T 1389291378 19*	19ewnd9 (~ewnd9@5.254.254.126) has joined ##c-unregistered
+T 1389291668 19*	19arietis (~arietis@188.242.181.162) has joined ##c-unregistered
+T 1389291854 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389292168 19*	19pgib (~pgib@76.18.186.63) has joined ##c-unregistered
+T 1389292197 22*	Spark_ is now known as Spark
+T 1389292352 19*	19camilasan (~camilasan@91-64-83-129-dynip.superkabel.de) has joined ##c-unregistered
+T 1389292423 19*	19jets (~textual@65.127.163.16) has joined ##c-unregistered
+T 1389292510 23*	23aynik has quit (23Quit: everything will be ok at the end, and if is not ok, is not the end23)
+T 1389292551 23*	23abandini has quit (23Quit: Leaving23)
+T 1389292704 23*	23jets has quit (23Ping timeout: 265 seconds23)
+T 1389292862 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389293281 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389293392 23*	23mkf has quit (23Ping timeout: 260 seconds23)
+T 1389293454 19*	19mkf (telex@gateway/shell/anapnea.net/x-obaucucwqftgkcbd) has joined ##c-unregistered
+T 1389293480 23*	23`petey` has quit (23Remote host closed the connection23)
+T 1389293514 19*	19`petey` (~petey@198.179.137.254) has joined ##c-unregistered
+T 1389293580 19*	19jrolland-MacBook (~jrolland@134.48.4.236) has joined ##c-unregistered
+T 1389293689 19*	19w4pm (~w4pm@rrcs-24-43-59-146.west.biz.rr.com) has joined ##c-unregistered
+T 1389293787 23*	23`petey` has quit (23Ping timeout: 272 seconds23)
+T 1389293849 19*	19i336_ (~i336_@CPE-121-216-220-114.lnse3.ken.bigpond.net.au) has joined ##c-unregistered
+T 1389293864 19*	19NavNeet (~NavNeeT@1.38.21.148) has joined ##c-unregistered
+T 1389293931 19*	19farito (~farito@82-69-82-248.dsl.in-addr.zen.co.uk) has joined ##c-unregistered
+T 1389293960 18<NavNeet>	NavNeet: +R
+T 1389293979 18<NavNeet>	umode +R
+T 1389294075 18<NavNeet>	how do register here
+T 1389294106 19*	19`petey` (~petey@198.179.137.254) has joined ##c-unregistered
+T 1389294110 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389294149 19*	19subbyyy (~win@nat-204-14-239-210-sfo.net.salesforce.com) has joined ##c-unregistered
+T 1389294255 18<NavNeet>	how ???????????
+T 1389294394 19*	19Agathezol (~agathezol@smtpstatic.blackfoot.net) has joined ##c-unregistered
+T 1389294448 19*	19psychicist_ (~psychicis@nat-192-168-32-0-rw3.maverick.com.pl) has joined ##c-unregistered
+T 1389294515 23*	23NavNeet (23~NavNeeT@1.38.21.148) has left ##c-unregistered (23"Leaving"23)
+T 1389294574 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389294986 23*	23Muzer has quit (23Read error: Connection reset by peer23)
+T 1389295012 23*	23{Nathan} has quit (23Remote host closed the connection23)
+T 1389295058 19*	19rudi94 (~rudi@nrbg-4dbf429a.pool.mediaWays.net) has joined ##c-unregistered
+T 1389295097 19*	19Muzer (~muzer@cpc4-sotn9-2-0-cust230.15-1.cable.virginm.net) has joined ##c-unregistered
+T 1389295147 19*	19x_root (~undefined@189.26.254.56) has joined ##c-unregistered
+T 1389295262 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389295274 23*	23iflow0885 has quit (23Ping timeout: 264 seconds23)
+T 1389295400 23*	23x_root (23~undefined@189.26.254.56) has left ##c-unregistered
+T 1389295632 23*	23ewnd9 has quit (23Ping timeout: 245 seconds23)
+T 1389295687 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389295922 19*	19BillyZane (~Billy@ip68-7-196-94.sd.sd.cox.net) has joined ##c-unregistered
+T 1389295937 18<a3f>	http://freenode.net/faq.shtml#nicksetup
+T 1389295938 18<candide>	Title of a3f's link: freenode: frequently-asked questions
+T 1389296055 23*	23przemoc86 has quit (23Ping timeout: 260 seconds23)
+T 1389296114 19*	19przemoc (~przemoc@unaffiliated/przemoc) has joined ##c-unregistered
+T 1389296183 23*	23SM0TVI (23kvirc@unaffiliated/sm0tvi) has left ##c-unregistered (23"I view things as they are, without regard to place or person\; my country is the world, and my religion is to do good. -- Thomas Paine (*1737 †1809)"23)
+T 1389296510 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389296652 22*	Ssmario2 is now known as orfix
+T 1389296721 19*	19bluebird (~bluebird@p20030061E9308C01D8E8A73376CA91E5.dip0.t-ipconnect.de) has joined ##c-unregistered
+T 1389296807 23*	23farito has quit (23Ping timeout: 245 seconds23)
+T 1389296860 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389296921 23*	23camilasan has quit (23Ping timeout: 252 seconds23)
+T 1389297322 23*	23w4pm has quit (23Ping timeout: 272 seconds23)
+T 1389297436 23*	23BillyZane has quit (23Ping timeout: 272 seconds23)
+T 1389297781 19*	19janutek (~janutek@ale224.neoplus.adsl.tpnet.pl) has joined ##c-unregistered
+T 1389297830 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389297871 23*	23zeitue has quit (23Quit: Leaving23)
+T 1389298112 19*	19eroll (~erol@201.240.240.43) has joined ##c-unregistered
+T 1389298212 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389298280 19*	19ZogG_laptop (~ZogG_lapt@bzq-79-183-105-116.red.bezeqint.net) has joined ##c-unregistered
+T 1389298290 19*	19FriskyKat (SomeWhere@90.205.112.104) has joined ##c-unregistered
+T 1389298290 23*	23ZogG_laptop has quit (23Changing host23)
+T 1389298290 19*	19ZogG_laptop (~ZogG_lapt@funtoo/user/ZogG) has joined ##c-unregistered
+T 1389298300 19*	19BillyZane (~Billy@unaffiliated/billyzane) has joined ##c-unregistered
+T 1389298359 23*	23kirotawa has quit (23Ping timeout: 265 seconds23)
+T 1389298897 19*	19mia_wallace (mia@212.224.84.208) has joined ##c-unregistered
+T 1389298901 23*	23travisjeffery has quit (23Ping timeout: 252 seconds23)
+T 1389299030 23*	23pgib has quit (23Ping timeout: 240 seconds23)
+T 1389299123 23*	23oleo has quit (23Ping timeout: 272 seconds23)
+T 1389299147 19*	19w4pm (~w4pm@rrcs-24-43-59-146.west.biz.rr.com) has joined ##c-unregistered
+T 1389299161 19*	19oleo (~oleo@xdsl-78-35-134-69.netcologne.de) has joined ##c-unregistered
+T 1389299324 19*	19pgib (~pgib@c-76-18-186-63.hsd1.tn.comcast.net) has joined ##c-unregistered
+T 1389299579 23*	23mia_wallace (23mia@212.224.84.208) has left ##c-unregistered
+T 1389299875 23*	23arietis has quit (23Quit: Computer has gone to sleep.23)
+T 1389299903 19*	19djtorr3 (~lid6j86@183.100.76.121) has joined ##c-unregistered
+T 1389299950 19*	19WorldGenesis (~BOGUS@cpe-69-204-221-62.stny.res.rr.com) has joined ##c-unregistered
+T 1389299983 23*	23Markaci has quit (23Ping timeout: 245 seconds23)
+T 1389300099 19*	19Markaci (~Mark@64.69.82.160) has joined ##c-unregistered
+T 1389300252 23*	23elbeardmorez has quit (23Ping timeout: 260 seconds23)
+T 1389300263 23*	23ZogG_laptop has quit (23Ping timeout: 272 seconds23)
+T 1389300356 19*	19ZogG_laptop (~ZogG_lapt@bzq-112-168-31-118.red.bezeqint.net) has joined ##c-unregistered
+T 1389300356 23*	23ZogG_laptop has quit (23Changing host23)
+T 1389300356 19*	19ZogG_laptop (~ZogG_lapt@funtoo/user/ZogG) has joined ##c-unregistered
+T 1389301033 23*	23bel3atar (23~bel3atar_@50708181.static.ziggozakelijk.nl) has left ##c-unregistered
+T 1389301192 19*	19arietis (~arietis@188.242.181.162) has joined ##c-unregistered
+T 1389301195 19*	19w0rmie (~Ayo@41.249.67.212) has joined ##c-unregistered
+T 1389301232 23*	23w0rmie (23~Ayo@41.249.67.212) has left ##c-unregistered
+T 1389301463 19*	19mar77i_ (~mar77i@46-127-186-116.dynamic.hispeed.ch) has joined ##c-unregistered
+T 1389301505 23*	23arietis has quit (23Quit: Textual IRC Client: http://www.textualapp.com/23)
+T 1389301508 19*	19zhost (~quassel@host-178.215.200.102-internet.zabrze.debacom.pl) has joined ##c-unregistered
+T 1389301547 22*	kst` is now known as kst
+T 1389301592 23*	23kst (23~user@cpe-98-155-22-177.san.res.rr.com) has left ##c-unregistered (23"ERC Version 5.3 (IRC client for Emacs)"23)
+T 1389301599 23*	23mar77i has quit (23Ping timeout: 260 seconds23)
+T 1389301604 19*	19kst (~user@cpe-98-155-22-177.san.res.rr.com) has joined ##c-unregistered
+T 1389301613 23*	23kst (23~user@cpe-98-155-22-177.san.res.rr.com) has left ##c-unregistered (23"ERC Version 5.3 (IRC client for Emacs)"23)
+T 1389301677 19*	19bePolite (~sprinf@unaffiliated/sprinf) has joined ##c-unregistered
+T 1389301680 19*	19sprinf (~sprinf@unaffiliated/sprinf) has joined ##c-unregistered
+T 1389301708 23*	23sprinf (23~sprinf@unaffiliated/sprinf) has left ##c-unregistered
+T 1389301726 23*	23bePolite (23~sprinf@unaffiliated/sprinf) has left ##c-unregistered
+T 1389301772 23*	23ZogG_laptop has quit (23Ping timeout: 252 seconds23)
+T 1389301880 19*	19ZogG_laptop (~ZogG_lapt@bzq-79-183-105-116.red.bezeqint.net) has joined ##c-unregistered
+T 1389301892 23*	23ZogG_laptop has quit (23Changing host23)
+T 1389301892 19*	19ZogG_laptop (~ZogG_lapt@funtoo/user/ZogG) has joined ##c-unregistered
+T 1389302502 23*	23bluebird has quit (23Quit: Leaving23)
+T 1389302515 19*	19dirtydawg (dirtydawg@gateway/shell/blinkenshell.org/x-hapsmqmxwfxwgpcs) has joined ##c-unregistered
+T 1389302524 19*	19Blue_Hat (~TwinKam20@69.160.113.40) has joined ##c-unregistered
+T 1389302637 23*	23Gama11 has quit (23Read error: Connection reset by peer23)
+T 1389302742 19*	19IFN10EBr1in (~tuxydo@aeat210.neoplus.adsl.tpnet.pl) has joined ##c-unregistered
+T 1389302748 23*	23IFN10EBr1in has quit (23Client Quit23)
+T 1389302824 23*	23IFN10EBrain has quit (23Read error: Operation timed out23)
+T 1389302833 19*	19Nytram (~Nytram@97e5ea15.skybroadband.com) has joined ##c-unregistered
+T 1389303056 19*	19IFN10EBrain (~tuxydo@aeat210.neoplus.adsl.tpnet.pl) has joined ##c-unregistered
+T 1389303207 19*	19w0rmie (~Ayo@41.249.67.212) has joined ##c-unregistered
+T 1389303209 19*	19coeus (~coeus@dslb-092-072-123-069.pools.arcor-ip.net) has joined ##c-unregistered
+T 1389303419 23*	23Blue_Hat has quit (23Read error: Connection reset by peer23)
+T 1389303491 23*	23w0rmie has quit (23Read error: Connection reset by peer23)
+T 1389303508 19*	19w0rmie (~Ayo@41.249.67.212) has joined ##c-unregistered
+T 1389303588 23*	23w0rmie (23~Ayo@41.249.67.212) has left ##c-unregistered
+T 1389303839 19*	19w0rmie (~Ayo@41.249.67.212) has joined ##c-unregistered
+T 1389303864 19*	19tomnewmann (~tomnewman@user-5af46516.broadband.tesco.net) has joined ##c-unregistered
+T 1389303867 23*	23w0rmie (23~Ayo@41.249.67.212) has left ##c-unregistered
+T 1389304052 19*	19Caterpillar2 (~Caterpill@93-42-81-219.ip85.fastwebnet.it) has joined ##c-unregistered
+T 1389304085 23*	23Caterpillar2 has quit (23Changing host23)
+T 1389304085 19*	19Caterpillar2 (~Caterpill@unaffiliated/caterpillar) has joined ##c-unregistered
+T 1389304113 19*	19araujo (~araujo@gentoo/developer/araujo) has joined ##c-unregistered
+T 1389304310 19*	19mikar (~demian@ip-5-146-133-47.unitymediagroup.de) has joined ##c-unregistered
+T 1389304555 23*	23twocows has quit (23Quit: Nettalk6 - www.ntalk.de23)
+T 1389304636 23*	23araujo (23~araujo@gentoo/developer/araujo) has left ##c-unregistered (23"Leaving"23)
+T 1389304975 23*	23jackneill has quit (23Ping timeout: 272 seconds23)
+T 1389305106 23*	23Agathezol has quit (23Quit: leaving23)
+T 1389305458 23*	23otherflow has quit (23Quit: Quitte23)
+T 1389305502 19*	19yannis (~yannis@dsl-aaux3b.dyn.edudsl.gr) has joined ##c-unregistered
+T 1389305818 23*	23a3f has quit (23Quit: ChatZilla 0.9.90.1 [Firefox 26.0/20131205075310]23)
+T 1389306092 23*	23Nytram has quit (23Quit: Going... Going... Gone...    > POP! <23)
+T 1389306092 23*	23techfreak has quit (23Read error: Connection reset by peer23)
+T 1389306104 19*	19techfreak (~tj@178.137.15.101) has joined ##c-unregistered
+T 1389306150 23*	23techfreak has quit (23Client Quit23)
+T 1389306339 19*	19Thales (~thales@unaffiliated/helpsys) has joined ##c-unregistered
+T 1389306604 19*	19w4pm_ (~w4pm@rrcs-24-43-59-146.west.biz.rr.com) has joined ##c-unregistered
+T 1389306723 23*	23w4pm has quit (23Ping timeout: 260 seconds23)
+T 1389306874 19*	19prc (~karen@host-92-19-48-220.as13285.net) has joined ##c-unregistered
+T 1389306948 23*	23Caterpillar2 has quit (23Quit: You were not made to live as brutes, but to follow virtue and knowledge.23)
+T 1389307501 19*	19DeadDingo (~voodoo@67.110.212.114.ptr.us.xo.net) has joined ##c-unregistered
+T 1389307517 23*	23DeadDingo (23~voodoo@67.110.212.114.ptr.us.xo.net) has left ##c-unregistered
+T 1389307697 23*	23IFN10EBrain has quit (23Quit: Lost terminal23)
+T 1389307955 23*	23vol4ko2 has quit (23Ping timeout: 260 seconds23)
+T 1389307971 23*	23WorldGenesis has quit (23Quit: Death is but a door, time is but a window: I'll be back!23)
+T 1389308016 23*	23vol4ko has quit (23Ping timeout: 265 seconds23)
+T 1389308117 23*	23mikar has quit (23Remote host closed the connection23)
+T 1389308134 19*	19ceboya (~cebolia@190.122.78.2) has joined ##c-unregistered
+T 1389308136 23*	23ceboya (23~cebolia@190.122.78.2) has left ##c-unregistered
+T 1389308139 19*	19mikar (~demian@ip-5-146-133-47.unitymediagroup.de) has joined ##c-unregistered
+T 1389308175 19*	19ceboya (~cebolia@190.122.78.2) has joined ##c-unregistered
+T 1389308183 23*	23ceboya (23~cebolia@190.122.78.2) has left ##c-unregistered
+T 1389308437 23*	23mikar has quit (23Remote host closed the connection23)
+T 1389308456 19*	19mikar (~demian@ip-5-146-133-47.unitymediagroup.de) has joined ##c-unregistered
+T 1389308880 23*	23wald0_ has quit (23Quit: Lost terminal23)
+T 1389308935 23*	23jdolan has quit (23Ping timeout: 260 seconds23)
+T 1389308958 23*	23Markaci has quit (23Ping timeout: 245 seconds23)
+T 1389308961 19*	19roboo (~Ja@chello089173242063.chello.sk) has joined ##c-unregistered
+T 1389309170 23*	23wald0 has quit (23Ping timeout: 264 seconds23)
+T 1389309210 23*	23roboo has quit (23Read error: Connection reset by peer23)
+T 1389309354 19*	19euclid (~anunakki@68.64.167.190) has joined ##c-unregistered
+T 1389309391 23*	23janutek has quit (23Ping timeout: 246 seconds23)
+T 1389309541 23*	23anunakki has quit (23Ping timeout: 248 seconds23)
+T 1389309726 19*	19jdolan (~jdolan@50-203-107-132-static.hfc.comcastbusiness.net) has joined ##c-unregistered
+T 1389309856 23*	23jrolland-MacBook has quit (23Quit: Leaving23)
+T 1389309923 19*	19wald0 (~wald0@229.Red-79-154-237.dynamicIP.rima-tde.net) has joined ##c-unregistered
+T 1389310093 19*	19farito (~farito@82-69-82-248.dsl.in-addr.zen.co.uk) has joined ##c-unregistered
+T 1389310098 23*	23nighty-_ has quit (23Quit: Disappears in a puff of smoke23)
+T 1389310242 23*	23wald0 has quit (23Ping timeout: 272 seconds23)
+T 1389310308 23*	23`petey` has quit (23Remote host closed the connection23)
+T 1389310312 19*	19araujo (~araujo@gentoo/developer/araujo) has joined ##c-unregistered
+T 1389310318 23*	23euclid has quit (23Disconnected by services23)
+T 1389310341 19*	19`petey` (~petey@198.179.137.254) has joined ##c-unregistered
+T 1389310343 19*	19bars (~anunakki@68.64.167.190) has joined ##c-unregistered
+T 1389310402 23*	23araujo (23~araujo@gentoo/developer/araujo) has left ##c-unregistered
+T 1389310423 19*	19janutek (~janutek@ale224.neoplus.adsl.tpnet.pl) has joined ##c-unregistered
+T 1389310657 19*	19hpt (~hpt@123.114.129.124) has joined ##c-unregistered
+T 1389310793 19*	19juser_ (~juser@grm-studby-128-39-149-158.studby.uia.no) has joined ##c-unregistered
+T 1389310818 23*	23`petey` has quit (23Remote host closed the connection23)
+T 1389310929 23*	23juser has quit (23Read error: Operation timed out23)
+T 1389311209 23*	23MousTO has quit (23Read error: Connection reset by peer23)
+T 1389311233 19*	19average (~un_golan@5-12-22-166.residential.rdsnet.ro) has joined ##c-unregistered
+T 1389311401 19*	19Rodya_ (~trav@71.175.107.141) has joined ##c-unregistered
+T 1389311510 23*	23w4pm_ has quit (23Ping timeout: 264 seconds23)
+T 1389311651 19*	19BSaboia_ (~BSaboia@177.19.75.33) has joined ##c-unregistered
+T 1389311757 23*	23BillyZane has quit (23Ping timeout: 245 seconds23)
+T 1389311758 23*	23LiamM has quit (23Excess Flood23)
+T 1389311903 19*	19LiamM (~liamm.com@pdpc/supporter/active/liamm) has joined ##c-unregistered
+T 1389311913 23*	23LiamM (23~liamm.com@pdpc/supporter/active/liamm) has left ##c-unregistered
+T 1389312061 19*	19`petey` (~petey@198.179.137.254) has joined ##c-unregistered
+T 1389312095 19*	19w4pm (~w4pm@rrcs-24-43-59-146.west.biz.rr.com) has joined ##c-unregistered
+T 1389312107 19*	19IFN10EBrain (~tuxydo@aeat210.neoplus.adsl.tpnet.pl) has joined ##c-unregistered
+T 1389312257 19*	19Markaci (~Mark@64.69.82.160) has joined ##c-unregistered
+T 1389312448 19*	19araujo (~araujo@190.73.46.113) has joined ##c-unregistered
+T 1389312448 23*	23araujo has quit (23Changing host23)
+T 1389312448 19*	19araujo (~araujo@gentoo/developer/araujo) has joined ##c-unregistered
+T 1389312518 23*	23emma has quit (23Ping timeout: 264 seconds23)
+T 1389312562 23*	23araujo (23~araujo@gentoo/developer/araujo) has left ##c-unregistered
+T 1389312617 19*	19emma (~em@unaffiliated/emma) has joined ##c-unregistered
+T 1389312631 19*	19BillyZane (~Billy@unaffiliated/billyzane) has joined ##c-unregistered
+T 1389312710 23*	23Markaci has quit (23Read error: Connection reset by peer23)
+T 1389312725 19*	19Markaci (~Mark@64.69.82.160) has joined ##c-unregistered
+T 1389313235 23*	23janutek has quit (23Ping timeout: 252 seconds23)
+T 1389313978 23*	23eroll has quit (23Remote host closed the connection23)
+T 1389314091 23*	23`petey` has quit (23Remote host closed the connection23)
+T 1389314158 23*	23zhost has quit (23Ping timeout: 246 seconds23)
+T 1389314280 23*	23farito has quit (23Ping timeout: 265 seconds23)
+T 1389314499 19*	19filipe_cantarell (~quassel@177.98.141.203) has joined ##c-unregistered
+T 1389314869 19*	19wolfmother (~wolfmothe@CPE-120-149-104-174.njdc2.vic.bigpond.net.au) has joined ##c-unregistered
+T 1389314946 19*	19SillyPanda (~textual@90.206.21.202) has joined ##c-unregistered
+T 1389315058 19*	19grrrrrr (~libertad@unaffiliated/barbanegra) has joined ##c-unregistered
+T 1389315179 23*	23barbanegra has quit (23Ping timeout: 265 seconds23)
+T 1389315186 22*	grrrrrr is now known as barbanegra
+T 1389315302 23*	23letony has quit (23Read error: Connection reset by peer23)
+T 1389315465 19*	19ryonagana (~quassel@179.154.116.177) has joined ##c-unregistered
+T 1389315566 23*	23mikar has quit (23Ping timeout: 252 seconds23)
+T 1389315966 19*	19di0_ (~di0_@187.37.88.147) has joined ##c-unregistered
+T 1389315967 23*	23di0_ has quit (23Changing host23)
+T 1389315967 19*	19di0_ (~di0_@unaffiliated/di0-/x-5053590) has joined ##c-unregistered
+T 1389315994 23*	23CrowX- has quit (23Remote host closed the connection23)
+T 1389316061 19*	19dozn (~dozn@24-207-52-240.eastlink.ca) has joined ##c-unregistered
+T 1389316092 23*	23dozn (23~dozn@24-207-52-240.eastlink.ca) has left ##c-unregistered
+T 1389316262 19*	19Immutable (~Michael@27-32-68-174.static.tpgi.com.au) has joined ##c-unregistered
+T 1389316358 23*	23IFN10EBrain has quit (23Quit: Lost terminal23)
+T 1389316386 19*	19letony (~hmm@cpe-65-189-16-139.cinci.res.rr.com) has joined ##c-unregistered
+T 1389316434 23*	23letony has quit (23Read error: Connection reset by peer23)
+T 1389316515 19*	19wat_ (c6909c39@gateway/web/freenode/ip.198.144.156.57) has joined ##c-unregistered
+T 1389316556 23*	23djtorr3 has quit (23Read error: Connection reset by peer23)
+T 1389316557 18<wat_>	does anyone know if there is an offline version of ideone.com?
+T 1389316656 18<SillyPanda>	yes, it's `vi`
+T 1389316671 18<SillyPanda>	now fuck off and get back to programming some code
+T 1389316686 18<wat_>	what?
+T 1389316695 18<SillyPanda>	sssh, go program
+T 1389316721 18*	SillyPanda is an asshole btw
+T 1389316733 18<wat_>	yeah im trying to, just looking for a multi language compiler & debugger
+T 1389316753 18<wat_>	so VI is an IDE like that?
+T 1389316907 18*	SillyPanda is confused
+T 1389316913 18<SillyPanda>	are you trolling or something?
+T 1389316921 18<wat_>	no im actually completely new
+T 1389316940 18<wat_>	you going to be condescending or can you help?
+T 1389316950 18<SillyPanda>	what do you want to do?
+T 1389316955 18<wat_>	i'm looking for something like ideone.com for offline use
+T 1389316985 18<SillyPanda>	it's just a text editor, with a nice "compile" button that runs your stuff
+T 1389317003 18<SillyPanda>	but on the cloud, or whatever you call it
+T 1389317005 18<wat_>	so what do you recommend to use for C for a beginner?
+T 1389317031 18<SillyPanda>	I recommend a text editor
+T 1389317032 23*	23filipe_cantarell has quit (23Remote host closed the connection23)
+T 1389317041 18<SillyPanda>	then using a compiler to compile it
+T 1389317064 18<wat_>	yeah but it would be nice if there was an all in one
+T 1389317067 18<SillyPanda>	which makes a native program than you can run, and prints "Hello World"
+T 1389317084 18<wat_>	because right now I need to transfer it via ftp to a remove server to compile it
+T 1389317097 18<SillyPanda>	0.o
+T 1389317102 19*	19Plazma (~Plazma@freenode/staff/plazma) has joined ##c-unregistered
+T 1389317106 18<wat_>	first week of school
+T 1389317109 18<SillyPanda>	so you copy your source files over to the server
+T 1389317119 18<SillyPanda>	then you ssh in or something and run `cc`
+T 1389317120 18<wat_>	yeah then gcc <file> o- <output>
+T 1389317124 18<SillyPanda>	right
+T 1389317124 18<wat_>	yeah
+T 1389317131 18<wat_>	-o*
+T 1389317145 18<wat_>	i've got sublime text
+T 1389317151 18<SillyPanda>	I <3 sublime text
+T 1389317161 18<SillyPanda>	it'd be much easier if you could edit your files on the server and compile them there and see the results instantly
+T 1389317172 18<SillyPanda>	I guess thats the point of your online IDE thingie
+T 1389317185 18<wat_>	yeah i can but it's using a really rudamentary editor
+T 1389317195 18<SillyPanda>	which is why I say `vi`
+T 1389317207 18<wat_>	can you link it to me?
+T 1389317218 18<SillyPanda>	ssh in, edit file, ESC-!gcc -o derp myfile.c
+T 1389317251 19*	19chris__0076 (~Chris_007@adsl-184-47-245-85.asm.bellsouth.net) has joined ##c-unregistered
+T 1389317264 18<wat_>	honestly i want to just do it locally and upload the final version
+T 1389317297 18<SillyPanda>	why not use something like Microsoft Visual Studio or CodeLite?
+T 1389317300 18<wat_>	ideone is perfect, but i don't always have internet access
+T 1389317305 18<SillyPanda>	write your program, test it locally
+T 1389317312 18<SillyPanda>	then upload to server and run it
+T 1389317318 23*	23subbyyy has quit (23Read error: Operation timed out23)
+T 1389317321 18<wat_>	codelite sounds good, never heard of it
+T 1389317323 18<wat_>	thanks
+T 1389317404 23*	23ryonagana has quit (23Remote host closed the connection23)
+T 1389317475 23*	23chris___0076 has quit (23Ping timeout: 260 seconds23)
+T 1389317494 19*	19letony (~hmm@cpe-65-189-16-139.cinci.res.rr.com) has joined ##c-unregistered
+T 1389317497 23*	23wat_ has quit (23Quit: Page closed23)
+T 1389317547 23*	23letony has quit (23Read error: Connection reset by peer23)
+T 1389317558 23*	23w4pm has quit (23Ping timeout: 264 seconds23)
+T 1389317569 18<SillyPanda>	http://www.youtube.com/watch?v=EjwWsd7kK4w <-- awesome set
+T 1389317570 18<candide>	Title of SillyPanda's link: Noisia Invites #5: Jay-P (Full DJ Set) - YouTube
+T 1389317575 18<SillyPanda>	oh shit, wrong channel
+T 1389317713 19*	19w3pm (~w3pm@rrcs-24-43-59-146.west.biz.rr.com) has joined ##c-unregistered
+T 1389317713 19*	19w4pm (~w4pm@rrcs-24-43-59-146.west.biz.rr.com) has joined ##c-unregistered
+T 1389317846 23*	23Rodya_ has quit (23Quit: Ex-Chat23)
+T 1389317928 23*	23tomnewmann has quit (23Quit: Meow!23)
+T 1389318242 19*	19HoloIRCUser (~holoirc@42-67-163-176.dynamic-ip.hinet.net) has joined ##c-unregistered
+T 1389318264 18<NOPonPOP>	SillyPanda: sshfs
+T 1389318272 18<NOPonPOP>	is what i use to achieve what you mentioned
+T 1389318280 18<NOPonPOP>	all the heavy lifting (fuse) is done on client side
+T 1389318291 18<Schroeder>	Dan Le Batard is a true American hero
+T 1389318323 18<SillyPanda>	NOPonPOP: I dunno, I don't think having files appear magically on the remote system was the problem
+T 1389318336 22*	HoloIRCUser is now known as Testtube
+T 1389318417 18<NOPonPOP>	...
+T 1389318429 18<NOPonPOP>	cuts out the step where you run it locally, test, then upload
+T 1389318443 18<SillyPanda>	yeah but the problem was the quick turnaround time
+T 1389318449 18<SillyPanda>	of edit, compile, results
+T 1389318457 18<SillyPanda>	the online editor thing had a nice big green 'Run' button that did that
+T 1389318458 23*	23stanzgy_ has quit (23Ping timeout: 264 seconds23)
+T 1389318465 18<SillyPanda>	for me, `vi` does it
+T 1389318482 18<NOPonPOP>	silly panda
+T 1389318564 18*	SillyPanda bitches on about having to seduce the computer room secretary and get herpes in return for being able to compile stuff - or whatever it is old guys talk about these days
+T 1389318578 18<SillyPanda>	blah blah lawn etc.
+T 1389318917 19*	19stanzgy (~stanzgy@123.58.191.67) has joined ##c-unregistered
+T 1389319044 23*	23Testtube has quit (23Quit: Testtube23)
+T 1389319342 19*	19Blue_Hat (~TwinKam20@69.160.113.40) has joined ##c-unregistered
+T 1389319640 23*	23jdolan has quit (23Ping timeout: 246 seconds23)
+T 1389319671 23*	23Blue_Hat has quit (23Quit: Leaving23)
+T 1389319730 19*	19Blue_Hat (~TwinKam20@69.160.113.40) has joined ##c-unregistered
+T 1389319895 19*	19Sprocklem (~Sprocklem@S010674440130be65.cg.shawcable.net) has joined ##c-unregistered
+T 1389320028 19*	19jdolan (~jdolan@50-203-107-132-static.hfc.comcastbusiness.net) has joined ##c-unregistered
+T 1389320301 19*	19thlorenz (~thlorenz@cpe-68-173-97-224.nyc.res.rr.com) has joined ##c-unregistered
+T 1389320450 19*	19filipe_cantarell (~quassel@177.98.141.203) has joined ##c-unregistered
+T 1389320731 23*	23filipe_cantarell has quit (23Read error: Connection reset by peer23)
+T 1389320815 23*	23Blue_Hat has quit (23Read error: Connection reset by peer23)
+T 1389321118 19*	19bePolite (~sprinf@195.24.209.20) has joined ##c-unregistered
+T 1389321118 23*	23bePolite has quit (23Changing host23)
+T 1389321118 19*	19bePolite (~sprinf@unaffiliated/sprinf) has joined ##c-unregistered
+T 1389321125 23*	23bePolite (23~sprinf@unaffiliated/sprinf) has left ##c-unregistered
+T 1389321235 19*	19Blue_Hat (~TwinKam20@69.160.113.40) has joined ##c-unregistered
+T 1389321266 23*	23Blue_Hat has quit (23Read error: Connection reset by peer23)
+T 1389321332 19*	19Blue_Hat (~TwinKam20@69.160.113.40) has joined ##c-unregistered
+T 1389321465 23*	23looper has quit (23Quit: Computer has gone to sleep.23)
+T 1389321508 19*	19ajunior (~textual@c-71-229-96-99.hsd1.fl.comcast.net) has joined ##c-unregistered
+T 1389335999 22*	Disconnected (Remote host closed socket).
+T 1389336010 19*	19Now talking on ##c-unregistered
+T 1389336010 29*	29Topic for ##c-unregistered 29is: To join ##c, register your account: http://freenode.net/faq.shtml#nicksetup
+T 1389336010 29*	29Topic for ##c-unregistered 29set by pragma- 29at Sat Oct 26 21:36:35 2013
+T 1389336062 23*	23average has quit (23Ping timeout: 264 seconds23)
+T 1389336294 23*	23grrk-bzzt has quit (23Remote host closed the connection23)
+T 1389336399 19*	19heiner (~heiner@p50857212.dip0.t-ipconnect.de) has joined ##c-unregistered
+T 1389336511 23*	23kmiles has quit (23Remote host closed the connection23)
+T 1389336627 23*	23heiner_ has quit (23Ping timeout: 260 seconds23)

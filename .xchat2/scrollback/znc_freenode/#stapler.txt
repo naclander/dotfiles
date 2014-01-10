@@ -1,0 +1,711 @@
+T 1384463566 18<baumy>	and they probably pay like $45k a year max
+T 1384463566 18<baumy>	high pay, high qualifications, shitty job; pick 2
+T 1384463567 18<baumy>	or something
+T 1384463567 18<avocado>	maybe
+T 1384463642 18<baumy>	i wonder if i could find one of those shitty jobs and do what they think is full time work in 2-3 hours a day
+T 1384463651 18<baumy>	and take in the full salary
+T 1384463652 18<baumy>	that could be a good deal
+T 1384463840 18<avocado>	i suppose so
+T 1384463841 18<baumy>	i wonder if shitty small business/startup people realize that the CS side of what they want done takes a good programmer nowhere near full time
+T 1384463841 18<baumy>	and they end up spending most of the time jacking off
+T 1384463841 18<avocado>	no idea
+T 1384470388 18<Loser777>	been the truth since 1999
+T 1384470393 18<Loser777>	ever watch office space?
+T 1384470501 18<avocado>	yes
+T 1384473743 18<Nerval>	Loser777: I think I'm going to go with this insane build, what do you think
+T 1384473766 18<Nerval>	http://secure.newegg.com/WishList/PublicWishDetail.aspx?WishListNumber=28916067
+T 1384473767 18<hazel>	Title: Newegg.com - Once You Know, You Newegg
+T 1384474011 18<baumy>	is hazel promoting newegg now
+T 1384476314 22*	Disconnected (Remote host closed socket).
+T 1384476325 22*	hemite sets mode +i hemite
+T 1384476325 19*	19Now talking on #stapler
+T 1384476325 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384476325 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384476325 28-29NickServ28-	You are already logged in as Hemite.
+T 1384479825 18<baumy>	TheRageKage: https://github.com/eggert
+T 1384479825 18<hazel>	Title: eggert (Paul Eggert) · GitHub
+T 1384481156 18<baumy>	avocado: i heard today that ucla received a subsidy from microsoft for shutting down the old linux lab and replacing it with windows machines
+T 1384481819 18<Loser777>	okay this build is not really balanced
+T 1384481824 18<Loser777>	I don't know what you're going for storage wise
+T 1384481850 18<Loser777>	I also don't think you need 1kW
+T 1384481873 18<Loser777>	never heard of that CPU cooler before
+T 1384481997 18<Nerval>	Loser777: storage wise? and the cooler got good reviews on newegg, cant really emss that up
+T 1384482334 18<Loser777>	well when I was a kid
+T 1384482341 18<Loser777>	I researched cpu coolers for months
+T 1384482350 18<Loser777>	but I guess that doesn't matter if you're not overclocking anyway
+T 1384482362 18<Loser777>	the storage doesn't make sense because you're doing hybrid fast with kind of slow
+T 1384482380 18<Loser777>	you're basically hitting the worst part of price/perf
+T 1384482398 18<baumy>	can you copy the link i wanna see how terrible this is
+T 1384482405 18<Nerval>	the ssd is for my operating system, the 2 10000RPM hardrives will just be mirrored
+T 1384482411 18<avocado>	baumy: is eggert the one maintaining the timezone files???
+T 1384482416 18<baumy>	avocado: yes
+T 1384482420 18<baumy>	he got sued over it a couple years back
+T 1384482425 18<Nerval>	and I don't think coolers really matter Loser777 
+T 1384482435 18<Nerval>	you just turn the fan speed up if you OC
+T 1384482445 18<Nerval>	mostly they are build around being quiet today it seems
+T 1384482453 18<baumy>	avocado: https://en.wikipedia.org/wiki/Tz_database
+T 1384482454 18<hazel>	Title: tz database - Wikipedia, the free encyclopedia
+T 1384482457 18<avocado>	baumy: i recall that happening
+T 1384482461 18<baumy>	https://www.eff.org/deeplinks/2012/01/just-facts-lawsuit-against-timezone-database-deserves-sanctions
+T 1384482463 18<hazel>	Title: Just the Facts: Lawsuit Against TimeZone Database Deserves Sanctions | Electronic Frontier Foundation
+T 1384482497 18<Loser777>	Nerval: I don't see the point of mirroring two shit class hard drives
+T 1384482525 18<Loser777>	Nerval: I think you could cut $1k out of this build and add a second tesla
+T 1384482534 18<Loser777>	Nerval: why else would you get an eATX board
+T 1384482558 18<Nerval>	wtf why are the hard drives shit class? and you mean titan?
+T 1384482593 18<Loser777>	yeah I don't know nvidiot names
+T 1384482610 18<Loser777>	they are shit class because they try to tween between 15k and desktop class 7200rpm
+T 1384482615 18<baumy>	avocado: eggert also has some 2,500 commits in coreutils
+T 1384482636 18<Loser777>	Nerval: honestly I'm surprised that they even make them anymore... pretty much a failed attempt to combat SSDs
+T 1384482651 18<Nerval>	Loser777: look at the reviews, people love them
+T 1384482672 18<avocado>	baumy: it sounds like he's been part of it for a while, so i imagine so. that's pretty cool
+T 1384482677 18<baumy>	avocado: https://github.com/coreutils/coreutils/graphs/contributors
+T 1384482677 18<hazel>	Title: Contributors to coreutils/coreutils · GitHub
+T 1384482695 18<Loser777>	Nerval: that's shortsighted and a lot of reviewers are idiots
+T 1384482713 18<Loser777>	Nerval:  it's likely a speed placebo... the price premium you're paying would be for something an order of magnitude faster
+T 1384482721 18<Loser777>	Nerval: but it clearly is not even close
+T 1384482730 18<Loser777>	http://www.anandtech.com/show/5729/western-digital-velociraptor-1tb-wd1000dhtz-review/2
+T 1384482731 18<hazel>	Title: AnandTech | Western Digital VelociRaptor 1TB (WD1000DHTZ) Review
+T 1384482758 18<Loser777>	Nerval: look at how an old SSD fucking smokes the shit out of that... if you look at it in that way all of the hard drives are mediocre in more or less the same way
+T 1384482769 18<Nerval>	Loser777: but 1TB SSDs are much more expensive than 10000K HDs. like, I have a lot of money to spend but I dont want to throw it away
+T 1384482774 18<Nerval>	that why I like the hybrid solution
+T 1384482790 18<Loser777>	Nerval: just get two cheaper 2x2TB drives or something and maybe get an even more expensive SSD
+T 1384482793 18<Loser777>	Nerval: winwin
+T 1384482827 18<Loser777>	Nerval: this is not really post flood hard drive market you can find some 2TB drives for a much better price
+T 1384482844 18<Nerval>	I guess I've always wanted the experience of having a +7200RPM drive... but yeah thats also a good idea, I'll sit on it
+T 1384482900 18<Loser777>	Nerval: ... SSD = 1000k RPM drive
+T 1384482929 18<baumy>	this is hilarious
+T 1384482929 18<Nerval>	its about old school ingenuity and shit. the hard drive era is ending
+T 1384482955 18<Nerval>	you know, some times you just want to paint flames on your car and put spinning skull rims on it
+T 1384482973 18<Loser777>	I don't even want to do that
+T 1384482978 18<Loser777>	*ever
+T 1384482994 18<Nerval>	Richard Feynman probally would want to do that
+T 1384483036 18<Loser777>	w/e ricer 
+T 1384483042 18<Nerval>	:P
+T 1384483083 18<Loser777>	yeah when did you do your first PC build
+T 1384483095 18<Loser777>	my cynicism is honed through years of low budget imaginary builds
+T 1384483101 18<Nerval>	05? back in the days of AGP
+T 1384483104 18<Nerval>	fun times
+T 1384483125 18<Nerval>	I remember the first PCI-E graphics cards coming out, was so jelly
+T 1384483133 18<Loser777>	AGP was on its way out back in 05
+T 1384483139 18<Loser777>	PCI-E was around back then
+T 1384483160 18<Nerval>	yeah but I had no money, got stuff out of the dumpster behind the computer store
+T 1384483166 18<Nerval>	i was like 13 dude
+T 1384483221 18<Loser777>	I was 12 when I put a fucking PCI Radeon 9250 into an emachines setup
+T 1384483224 18<Loser777>	so I could play CS:S
+T 1384483227 18<Loser777>	that was fucking hilarious
+T 1384483236 18<Loser777>	1280x1024 / 40fps I was like WOW SO FAST
+T 1384483266 18<Nerval>	yeah dude
+T 1384483276 18<Nerval>	god CS:S, so much fun
+T 1384483299 18<Nerval>	I wish I had memories of steam coming out in 2004 though, that must have been a fun time
+T 1384483315 18<Nerval>	but I had no money so I didnt get steam until like 2006, had to pirate everything
+T 1384483470 18<Nerval>	apparently the half-life 2 beta was leaked back then, must have been a really community around that
+T 1384483506 18<Nerval>	awesome*
+T 1384483518 18<Loser777>	weren't you on the internet
+T 1384483522 18<Loser777>	like 24/7
+T 1384483525 18<Loser777>	until you were 16
+T 1384483529 18<Loser777>	how did you not have shit
+T 1384483548 18<Nerval>	Loser777: not have what shit?
+T 1384483656 18<Loser777>	okay nvm
+T 1384483662 18<Loser777>	but pirated servers for CS:S
+T 1384483665 18<Loser777>	were around for a while
+T 1384483669 18<Loser777>	hence digitalzone
+T 1384483715 18<Nerval>	Yeah, I think the first stuff I played were the mmorpgs gunbound, maplestory, and ROSE
+T 1384483735 18<Nerval>	I hacked the fuck out of that stuff till I eventually was banned
+T 1384484053 18<Loser777>	evidently you are not familiar with Loser777 of bwhacks.com
+T 1384484094 18<avocado>	are you a l33t h4x0r?
+T 1384484192 18<baumy>	http://youtu.be/M7FIvfx5J10
+T 1384484192 18<hazel>	Title: Volvo Trucks - The Epic Split feat. Van Damme (Live Test 6) - YouTube
+T 1384484261 18<Loser777>	now I was sub script kiddie status who almost got banned circa 2005
+T 1384484535 18<avocado>	baumy: lol, he is insane
+T 1384484541 18<avocado>	i want to watch bloodsport now
+T 1384484552 18<baumy>	hes 53 years old
+T 1384484576 18<avocado>	there's no gamespy anymore
+T 1384484640 18<Nerval>	Loser777: did you just do skiddie stuff? I mostly did that with memory editing programs, but then I got wireshark and did a little packet editing
+T 1384484687 18<Loser777>	no I spread around "private" versions of hacks
+T 1384484706 18<Nerval>	like you were a spy in private hack rings?
+T 1384484715 18<Nerval>	leaker*
+T 1384484739 18<avocado>	just go to antichat.ru and be done, you losers
+T 1384484813 18<Nerval>	shh avocado we were both very hardcore when we were 13
+T 1384484893 18<avocado>	clearly you're both still very hardcore
+T 1384484954 18<avocado>	i want to be elite
+T 1384484969 18<avocado>	Nerval: do you rollerblade around mit?
+T 1384485012 18<baumy>	avocado: http://jbaumy.com/files/text/2013-11-14_19-09-52.txt
+T 1384485013 18<hazel>	File type: [text/plain] 5.2K
+T 1384485026 18<baumy>	highly recommend reading this version of the conversation
+T 1384485029 18<baumy>	its really amusing
+T 1384485096 18<Nerval>	avocado: No, thinking about picking up unicycle though
+T 1384485164 18<avocado>	unicycle is not practical in any sense
+T 1384485185 18<avocado>	unless you're thinking of joining cirque du soleil (which you should probably go to art school, not mit)
+T 1384485192 18<Nerval>	um, it can fit into tighter spaces?
+T 1384485248 18<avocado>	yea, just walk
+T 1384485261 18<Nerval>	true
+T 1384485428 18<avocado>	when i was little, i made stilts to walk on. i should probably do that again
+T 1384485566 18<Loser777>	nerval how many more bitches have there been
+T 1384485606 18<Nerval>	???
+T 1384485831 18<Loser777>	ok
+T 1384485988 18<Nerval>	Loser777: are you going to be in your aprt at UCLA over winter break?
+T 1384486690 18<avocado>	i know i am
+T 1384486824 18<Nerval>	want to chill?
+T 1384487037 18<avocado>	no
+T 1384487046 18<avocado>	i'm going to be in a different city
+T 1384487737 18<Loser777>	uh
+T 1384487745 18<Loser777>	I will probably be home for a week or two
+T 1384487752 18<Loser777>	but I don't like to stay at home for too long usually
+T 1384487818 18<Nerval>	k, I'll be there at some point in december that isnt +/-2days around christmas
+T 1384487857 18<Loser777>	btw
+T 1384487859 18<Loser777>	can you drive stick
+T 1384487938 18<Nerval>	yes
+T 1384487941 18<Nerval>	why
+T 1384489677 22*	Disconnected (Remote host closed socket).
+T 1384491518 22*	hemite sets mode +i hemite
+T 1384491518 19*	19Now talking on #stapler
+T 1384491518 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384491518 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384491518 18<***>	Buffer Playback...
+T 1384491518 18<avocado>	[20:36:36] hm
+T 1384491518 18<***>	Playback Complete.
+T 1384491522 28-29NickServ28-	You are already logged in as Hemite.
+T 1384494067 19*	19gib (60f776c6@gateway/web/freenode/ip.96.247.118.198) has joined #stapler
+T 1384502727 18<baumy>	avocado: you know those annoying artifacts scrot leaves sometimes?
+T 1384502748 18<baumy>	gnome-screenshot doesn't seem to do that
+T 1384502751 18<TheRageKage>	its called semen
+T 1384502761 18<baumy>	gnome must swallo
+T 1384502761 18<baumy>	w
+T 1384502766 18<TheRageKage>	lol
+T 1384502871 18<avocado>	i concur
+T 1384502886 18<baumy>	im way too excited about this
+T 1384502891 18<baumy>	those random white pixels annoyed the shit out of me
+T 1384502903 18<avocado>	>:3
+T 1384502929 18<baumy>	although the screen kind of flashes a bit after you take the shot
+T 1384502933 18<baumy>	which scrot doesn't do
+T 1384502935 18<baumy>	but im ok with that
+T 1384504510 18<avocado>	me too
+T 1384504830 18<sankey>	you mean the "camera flash" ?
+T 1384504853 18<baumy>	i guess?
+T 1384504875 18<baumy>	it just kinda turns the selection area gray for a split second
+T 1384504937 18<sankey>	in gnome-shell, the selection area (or the whole screen) fades from fully white to normal for about 500ms
+T 1384504946 18<sankey>	it's very fancy
+T 1384504970 18<avocado>	mine doesn't do anything
+T 1384504977 18<avocado>	except make me u_u
+T 1384504988 18<baumy>	y u u_u bb
+T 1384505605 18<avocado>	actually i don't notice the problems too much with scrot
+T 1384505609 18<avocado>	it's just annoying sometimes
+T 1384505623 18<baumy>	not anymore =D
+T 1384505642 18<avocado>	i usually end up just clicking a window instead of drawing a region
+T 1384505650 18<baumy>	ah
+T 1384505660 18<baumy>	i forget i can do that and drag across a window
+T 1384505667 18<baumy>	then feel stupid once i finish
+T 1384505741 18<avocado>	wow, i forgot i had already installed puppet on my ec2
+T 1384505767 18<avocado>	and of course all the ips are bad and i'm not even running puppetmaster 
+T 1384505775 18<baumy>	what does puppet actually do
+T 1384505785 18<baumy>	i thought it was just a wrapper for tons of shit
+T 1384505796 18<avocado>	a little bit more than just a wrapper
+T 1384505819 18<avocado>	but basically it gives you a consistent way to specify packages/files/etc to put on a machine and how it should be done
+T 1384505844 18<avocado>	and if things are done correctly, it shouldn't matter if it's a windows machine, freebsd server, arch, or debian, or whatever
+T 1384505878 18<avocado>	it's really only useful for machines you don't want to have to get into yourself
+T 1384506128 18<avocado>	but it's pretty neat
+T 1384506177 18<avocado>	it's not super complicated to use either
+T 1384506184 18<avocado>	just can be tedious to set up
+T 1384508327 22*	Disconnected (Remote host closed socket).
+T 1384540755 22*	hemite sets mode +i hemite
+T 1384540755 19*	19Now talking on #stapler
+T 1384540755 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384540755 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384540759 28-29NickServ28-	You are already logged in as Hemite.
+T 1384549826 22*	Disconnected (Remote host closed socket).
+T 1384549836 22*	hemite sets mode +i hemite
+T 1384549836 19*	19Now talking on #stapler
+T 1384549836 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384549836 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384549840 28-29NickServ28-	You are already logged in as Hemite.
+T 1384551508 22*	Disconnected (Remote host closed socket).
+T 1384551518 22*	hemite sets mode +i hemite
+T 1384551519 19*	19Now talking on #stapler
+T 1384551519 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384551519 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384551519 28-29NickServ28-	You are already logged in as Hemite.
+T 1384559439 18<avocado>	Nerval: does stanford have some sort of keycard access to class rooms/buildings?
+T 1384559456 18<avocado>	i want to sit in on some classes despite them having a no audit policy
+T 1384570076 18<Nerval>	avocado: yeah, but only after hours, its a swipe like ucla
+T 1384577863 22*	Disconnected (Remote host closed socket).
+T 1384581507 22*	hemite sets mode +i hemite
+T 1384581507 19*	19Now talking on #stapler
+T 1384581507 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384581507 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384581512 28-29NickServ28-	You are already logged in as Hemite.
+T 1384586694 22*	Disconnected (Remote host closed socket).
+T 1384634575 22*	hemite sets mode +i hemite
+T 1384634575 19*	19Now talking on #stapler
+T 1384634575 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384634575 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384634581 28-29NickServ28-	You are already logged in as Hemite.
+T 1384636348 22*	Disconnected (Remote host closed socket).
+T 1384636438 22*	hemite sets mode +i hemite
+T 1384636438 19*	19Now talking on #stapler
+T 1384636438 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384636438 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384636443 28-29NickServ28-	You are already logged in as Hemite.
+T 1384638222 19*	19poorasian (~JERRY@cpe-75-83-207-212.socal.res.rr.com) has joined #stapler
+T 1384643004 19*	19Now talking on #stapler
+T 1384643004 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384643004 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384643005 28-29NickServ28-	You are already logged in as Hemite.
+T 1384643809 18<Loser777>	o/
+T 1384643810 18<hazel>	\o
+T 1384648986 23*	23poorasian has quit (23Ping timeout: 245 seconds23)
+T 1384652464 18<baumy>	avocado: are you watching the stanford/sc game?
+T 1384652495 18<avocado>	not any blue. hurts my eyes
+T 1384652511 18<avocado>	is sc getting raped?
+T 1384652525 18<baumy>	hanging in so far
+T 1384652530 18<baumy>	stanford is up 7-6
+T 1384652542 18<avocado>	interesante
+T 1384652550 18<baumy>	stanford just had a hilarious touchdown run
+T 1384652557 18<baumy>	dude went straightforward into the pile
+T 1384652561 18<baumy>	about 4 sc guys jumped on top of him
+T 1384652566 18<baumy>	he stayed standing and just kind of backed out of there
+T 1384652569 18<baumy>	and went back around
+T 1384652572 18<avocado>	lol
+T 1384652572 18<baumy>	and then kept going for 40 yards
+T 1384652610 18<avocado>	!c shower or make it 5 days
+T 1384652611 18<hazel>	make it 5 days
+T 1384652616 18<avocado>	oh hazel, you're a dirty bitch
+T 1384652619 18<baumy>	lolol
+T 1384652633 18<avocado>	i want to shower
+T 1384652646 18<avocado>	fuk u hazel
+T 1384654212 18<Loser777>	jesus
+T 1384665609 18<hazel>	well okay
+T 1384666278 18<sankey>	??
+T 1384666283 18<sankey>	o/
+T 1384666284 18<hazel>	\o
+T 1384666558 18<baumy>	hazel: fuck you
+T 1384666584 18<avocado>	i think she fucked off
+T 1384666618 18<baumy>	i dont want to do this stupid 144 project
+T 1384666619 18<baumy>	fuck this class
+T 1384666626 18<Danikar>	what class is that?
+T 1384666633 18<baumy>	web applications
+T 1384666640 18<Danikar>	that sounds awful. lol
+T 1384666652 18<avocado>	i thought about making a web application today
+T 1384666665 18<baumy>	aka 'here learn these api calls'
+T 1384666982 18<sankey>	by any chance are you dealing with java servlets?
+T 1384667005 18<baumy>	yep
+T 1384667019 18<baumy>	fuck this up the butt
+T 1384667027 18<sankey>	are those even a thing IRL?
+T 1384667040 18<baumy>	i have no idea
+T 1384667046 18<baumy>	i dont know how widely tomcat is used either
+T 1384667067 18<Danikar>	the place i worked at before ucla used tomcat, but they were weird people.
+T 1384667069 18<avocado>	tomcat is pretty widely used
+T 1384667088 18<avocado>	it's not the /worst/ thing ever, but java makes things tedious
+T 1384667092 18<baumy>	well if i actually have to do this again in my life i will be unhappy
+T 1384667119 18<avocado>	java is perfect for "enterprise" level web apps
+T 1384667120 18<sankey>	web programming, or servlets?
+T 1384667125 18<baumy>	yes
+T 1384667126 18<sankey>	baumy: ^
+T 1384667148 18<baumy>	sankey: ^
+T 1384667154 18<avocado>	^^
+T 1384667156 18<sankey>	baumy: o/
+T 1384667168 18<baumy>	fuck the world 
+T 1384667175 18<avocado>	aw man, he left you hanging
+T 1384667194 18<baumy>	im too pissed at 144 to be high fiving
+T 1384667210 18<sankey>	hazel should support the tcp three-way handshake
+T 1384667238 18<baumy>	why would i want to establish a tcp connection with hazel
+T 1384667244 18<avocado>	wat.
+T 1384667262 18<avocado>	aren't we on irc over tcp?
+T 1384667272 18<sankey>	so
+T 1384667281 18<sankey>	i don't see your point
+T 1384667294 18<sankey>	what's wrong with tcp over tcp
+T 1384667330 18<sankey>	should be twice as fast
+T 1384667342 18<avocado>	makes sense
+T 1384667348 18<avocado>	it's like rolling a thing on top of rolling logs
+T 1384667377 18<sankey>	like walking up an escalator
+T 1384667515 18<baumy>	i concur
+T 1384670484 18<Nerval>	lol, I joined a social network for researchers
+T 1384670488 18<Nerval>	https://www.researchgate.net/profile/Michael_Skuhersky/
+T 1384670489 18<hazel>	File type: [Oh god] I don't know what you want!
+T 1384670684 18<avocado>	cool
+T 1384670890 18<sankey>	i don't understand all these social networks
+T 1384670957 18<avocado>	social networks = lots of ad money because it's easy to target people 
+T 1384670986 18<Nerval>	This one is actually useful, some other people in my lab told me, because it includes a feature like stack overflow but for esoteric research stuff
+T 1384671050 18<baumy>	like every field in the world, once someone does it successfully, everyone else wants to ride the coattails
+T 1384671164 18<sankey>	i just don't think most (any?) of them have any actual value to the user/consumer
+T 1384671204 18<sankey>	but they try hard to establish themselves as standards
+T 1384671228 18<sankey>	which greatly affects the people *not* using them
+T 1384671233 18<avocado>	the users are the product for the business selling them to their customers, the people who buy the ads
+T 1384671274 18<avocado>	it just so happens, that offering your livestock such and such social networking keeps them fat and juicy for harvest
+T 1384671275 18<sankey>	avocado: i understand the benefit to the service provider, that is clear
+T 1384671291 18<sankey>	so, yes, i "understand" social networks
+T 1384671316 18<sankey>	what i don't understand is how there isn't more of social resistance to them
+T 1384671322 18<avocado>	well, then you're wrong. they have great value to their customers
+T 1384671345 18<avocado>	as i explained who their customers are and why they're so valuable
+T 1384671415 18<sankey>	i haven't failed to neglect the advantages of being signed on to one of these networks,
+T 1384671443 18<sankey>	i'm just more disgusted by the implementations of them, and how centralized they are
+T 1384671464 18<sankey>	it allows too much control of their users
+T 1384671491 18<sankey>	what's stopping linkedin from making somebody appear less attractive as a possible employee
+T 1384671527 18<sankey>	like how yelp currently accepts bribes to manipulate ratings and other map data
+T 1384671546 18<avocado>	yelp doesn't accept bribes
+T 1384671564 18<sankey>	they certainly wouldn't say that
+T 1384671605 18<avocado>	anyway, that is not their business, so they could give fuck all about those things
+T 1384671803 18<baumy>	i got in an argument with some guy who interned at facebook about that
+T 1384671808 18<baumy>	it was hilarious
+T 1384671845 18<sankey>	oh god, facebook
+T 1384671875 18<avocado>	i should intern somewhere
+T 1384671876 18<baumy>	i wish i could delete my facebook
+T 1384671879 18<avocado>	but i need money
+T 1384671882 18*	sankey loves his new Toyota!
+T 1384671885 18<baumy>	but i know too many people who literally only communicate via facebook message
+T 1384671892 18<avocado>	baumy: same
+T 1384671894 18<baumy>	i cant even call or text the fuckers
+T 1384671900 18<baumy>	and forget email
+T 1384671927 18<baumy>	i should make a list of people i only talk to via facebook
+T 1384671933 18<baumy>	and decide if theyre worth having in my life
+T 1384671939 18<avocado>	yea, my sister is awful. i can't email her. she rarely responds to texts, at least not promptly. but facebook? instant every time, no matter what time.
+T 1384671948 18<baumy>	wow
+T 1384671953 18<baumy>	i even got my parents onto irc and email
+T 1384671969 18<baumy>	how can you respond to facebook but not text?
+T 1384671969 18<avocado>	baumy: i disabled notifcations from facebook. and in the last year, i haven't really talked to anyone on it
+T 1384671994 18<baumy>	its the best method of group communication that people I know can figure out how to use =/
+T 1384672021 18<baumy>	during breaks when local friends are planning get together, groups of people here like the guys i play basketball with and what not
+T 1384672026 18<baumy>	good luck getting them on a mailing list
+T 1384672027 18<avocado>	well, it is nice that you can find people by only konwing their name... but i can do that if people use pgp
+T 1384672062 18*	sankey loves his new Windows 8 tablet!
+T 1384672129 18<sankey>	avocado: my keyring is my address book
+T 1384672143 18<sankey>	i know three people
+T 1384672149 18<baumy>	lol
+T 1384672152 18<baumy>	i think i only know avocado 
+T 1384672158 18<baumy>	if thats how we're doing it
+T 1384672194 18<sankey>	i'm preparing a keysigning party, and building a web app for it
+T 1384672196 18<sankey>	https://linux.ucla.edu/wiki/index.php/Keysigning_party
+T 1384672198 18<hazel>	Title: Keysigning party - Wiki | LUG@UCLA
+T 1384672210 18<baumy>	i like the idea of a keysigning party
+T 1384672217 18<baumy>	i dislike the idea of having to talk to people from lug
+T 1384672230 18<sankey>	you get used to it
+T 1384672244 18<avocado>	i want to go to a keysigning party. i've missed the last 3 i wanted to go to
+T 1384672261 18<avocado>	gotta get dat web
+T 1384672324 18<sankey>	it's mostly an excuse to learn perl
+T 1384672341 18<sankey>	then i met somebody in lug that used to program in perl for a living
+T 1384672357 18<sankey>	and he gave me a long and disappointing lecture on why he is giving up on perl because of perl 6
+T 1384672373 18<baumy>	i thought most sane people gave up on perl because of python
+T 1384672375 18<baumy>	and ruby
+T 1384672393 18<baumy>	can we just keep perl regexes and leave the rest in history
+T 1384672626 18<sankey>	i don't plan on seriosly pursuing learning perl beyond this project
+T 1384672627 18<avocado>	i don't want perl 6t
+T 1384672629 18<avocado>	6*
+T 1384672636 18<avocado>	i miss it the way it was
+T 1384672659 18<avocado>	it's like super awk/sed, on steroids!
+T 1384672672 18<baumy>	fuck awk too
+T 1384672767 18<sankey>	the place i'm going to work at requires me to know node.js
+T 1384672778 18<sankey>	for no practical reason other than "to see where it will take us"
+T 1384672783 18<baumy>	lol
+T 1384672795 18<avocado>	node.js is fun
+T 1384672803 18<sankey>	no saying it isn't
+T 1384672811 18<baumy>	i hacked a bit on some node.js thing that made a webpage frontend for mpd
+T 1384672816 18<baumy>	it confuses me
+T 1384672873 18<avocado>	i used it because mtgox has a websockets stream and i didn't want to fuck around figuring out anyone elses websockets lib
+T 1384672894 18<avocado>	it really didn't get much simpler than using node.js
+T 1384672923 18<baumy>	i kinda dived in head first and balls deep
+T 1384672936 18<baumy>	i still dont really know what it is
+T 1384672946 18<avocado>	i mean, if you've had any exposure with javascript, it's not hard or anything
+T 1384672952 18<baumy>	i have not really
+T 1384672957 18<Nerval>	https://www.researchgate.net/post/Why_is_necessary_to_do_simulations_after_docking_and_why_is_water_used_as_a_solvent_for_simulations?exp_tc=tprc
+T 1384672957 18<hazel>	File type: [Oh god] I don't know what you want!
+T 1384672963 18<Nerval>	that kind of shit is useful though
+T 1384672967 18<Nerval>	they arent all bad
+T 1384673053 18<avocado>	Nerval: i honestly could not give fewer fucks
+T 1384673074 18<baumy>	lol
+T 1384673231 18<sankey>	i imagine there are just more libraries for python/ruby/perl than for javascript
+T 1384673254 18<sankey>	e.g. i'm currently using a standard perl library for dynamically rendering a .tex document into PDF
+T 1384673270 18<avocado>	it depends on what you want to do
+T 1384673285 18<avocado>	if you want to do "web 2.0" masturbation, node.js is the best
+T 1384673286 18<baumy>	i must be missing something
+T 1384673291 18<baumy>	why do you need perl for that?
+T 1384673303 18<avocado>	if you watn to do "classically unix" things, CPAN has about a million years worth of packages
+T 1384673318 18<avocado>	if you want to do slightly less web2.0 but still masturbate, ruby if your tool
+T 1384673325 18<avocado>	and python is just general all around decent
+T 1384673355 18<avocado>	python is just what everyone seems to use to prototype shit they'll eventually redo in something better
+T 1384673378 18<sankey>	lol
+T 1384673379 18<baumy>	i have no intention of rewriting my im client server thing in anything other than python
+T 1384673391 18<sankey>	i love python
+T 1384673400 18<sankey>	but that's sorta true
+T 1384673437 18<avocado>	python is good, but if you need to ramp up your server to handle like 100k connections, you'll probably need something else
+T 1384673447 18<baumy>	its ok
+T 1384673449 18<baumy>	i only send ims to myself
+T 1384673453 18<baumy>	;_;
+T 1384673456 18<avocado>	T_T
+T 1384673650 18<baumy>	avocado: you should constantly listen to some udp port for me to send messages on
+T 1384673653 18<baumy>	itll be fun i promise
+T 1384673743 18<Nerval>	avocado: then why would you bother to type that out
+T 1384674059 18<avocado>	baumy: where
+T 1384674085 18<baumy>	i havent decided yet
+T 1384674094 18<baumy>	my goal is to basically implement a subset of irc functionality
+T 1384674096 18<baumy>	but over udp
+T 1384674103 18<baumy>	because i dont care if i hear what you have to say
+T 1384674193 18<avocado>	baumy: we should implement discard servers
+T 1384674195 18<avocado>	http://en.wikipedia.org/wiki/Discard_Protocol
+T 1384674196 18<hazel>	Title: Discard Protocol - Wikipedia, the free encyclopedia
+T 1384674236 18<avocado>	it's basically a tcp/udp /dev/null
+T 1384674254 18<baumy>	glorious
+T 1384674278 18<baumy>	ill github the shit i have so far once i finish my actual school projects
+T 1384674282 18<baumy>	which hopefully will be tomorrow afternoon
+T 1384674324 18<Loser777>	so apparently github destroys the integrity of opensource
+T 1384674338 18<avocado>	i don't like github
+T 1384674343 18<Loser777>	by encouraging to do really hacky projects with the purpose of getting as many commits in as possible
+T 1384674416 22*	Disconnected (Remote host closed socket).
+T 1384674557 19*	19Now talking on #stapler
+T 1384674557 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384674557 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384674557 18<***>	Buffer Playback...
+T 1384674557 18<baumy>	[23:46:10] and that seems entirely dependent on how you use it
+T 1384674557 18<Loser777>	[23:46:15] well bitbucket doesn't encourage cheerleading
+T 1384674557 18<Loser777>	[23:46:19] your repos as much
+T 1384674557 18<Loser777>	[23:46:28] free accounts get private repos on bitbucket
+T 1384674557 18<Loser777>	[23:46:35] also in other news
+T 1384674557 18<Loser777>	[23:46:41] someone made a thread on 4chan /g/
+T 1384674557 18<baumy>	[23:46:41] i interact with repos on github that interest me
+T 1384674557 18<Loser777>	[23:46:46] we pretend we'ere hackernews
+T 1384674557 18<baumy>	[23:46:49] and i hope nobody ever interacts with mine
+T 1384674557 18<avocado>	[23:47:04] Loser777: where did you read that? because my experience with github is entirely the opposite
+T 1384674557 18<baumy>	[23:47:17] i was going to say what avocado said
+T 1384674557 18<avocado>	[23:47:18] it kills opensource because people are afraid to post stupid, trivial things
+T 1384674557 18<baumy>	[23:47:28] well
+T 1384674557 18<avocado>	[23:47:31] not because people write "bad commits"
+T 1384674557 18<baumy>	[23:47:32] i was going to say not quite that
+T 1384674557 18<baumy>	[23:47:44] but now i think about it you may have a point
+T 1384674557 18<avocado>	[23:48:06] for example, how many times do you start a project, but you don't want to show anyone because you don't want them to see your "stupid errors"?
+T 1384674557 18<avocado>	[23:48:54] i read a blog post that basically gave me a mantra that i kind of wish more people took seriously or to heart: you are not your code.
+T 1384674557 18<***>	Playback Complete.
+T 1384674574 18<avocado>	github is more of a "coding portfolio" than a place to share code
+T 1384674601 18<sankey>	avocado: so do you think that if github pro was totally free (assume github never runs out of money) then that would greatly benefit open source?
+T 1384674604 18<avocado>	i mean, that's entirely the reason why i'm so reluctant to put EVERYTHING on github
+T 1384674619 18<avocado>	sankey: what does github pro have to do with anything?
+T 1384674634 18<sankey>	gives people the ability to make private repos, right?
+T 1384674647 18<sankey>	i just made up that name, "github pro"
+T 1384674656 18<avocado>	is that was Loser777 was talking about?
+T 1384674660 18<sankey>	nonono
+T 1384674674 18<sankey>	you had the right idea
+T 1384674685 18<avocado>	i have unlimited free private repos on bitbucket
+T 1384674688 18<avocado>	and i use them liberally
+T 1384674699 18<avocado>	because there is some sort of "shame" in posting "bad code"
+T 1384674806 31<hemite>30	If you're embarrassed about posting your code then use an alias account 
+T 1384674816 31<hemite>30	I'm not really sure how its Github or Gitorious' fault
+T 1384675665 22*	Disconnected (Remote host closed socket).
+T 1384675676 22*	hemite sets mode +i hemite
+T 1384675676 19*	19Now talking on #stapler
+T 1384675676 29*	29Topic for #stapler 29is: https://scontent-b-lax.xx.fbcdn.net/hphotos-prn1/1012892_10151590378058935_599174483_n.jpg | http://rustledjimmies.com/ | http://i.imgur.com/aPEt71I.jpg
+T 1384675676 29*	29Topic for #stapler 29set by baumy 29at Thu Sep 19 14:32:06 2013
+T 1384675676 18<***>	Buffer Playback...
+T 1384675676 18<avocado>	[23:54:59] there are LOTS of people using github for all the right reasons
+T 1384675676 18<baumy>	[23:55:11] my main positive experiences on github come from people developing vim plugins
+T 1384675676 18<avocado>	[23:55:32] github does a lot of things very well, and github itself is not the problem
+T 1384675676 18<avocado>	[23:55:43] it's just one of the cultural side effects
+T 1384675676 18<avocado>	[23:55:56] where you'd be better off having two github profiles
+T 1384675676 18<avocado>	[23:56:15] your "professional portfolio" that shows you contributing to major projects and has very well written code
+T 1384675676 18<avocado>	[23:56:27] and then your 2nd, dirty bang the hookers behind the motel kind of codes
+T 1384675676 18<sankey>	[23:56:58] i haven't given the "coding portfolio" much thought before today, but i just don't like github because it's very centralized
+T 1384675676 18<baumy>	[23:57:01] i think the problem lies with people who feel self conscious posting anything that isn't beautiful, and companies who would look at somebody rolling in the mud with weird code and judge them
+T 1384675676 18<avocado>	[23:57:14] sankey: it's git, make as decentralized as you want
+T 1384675676 18<sankey>	[23:57:16] with centralization comes some very cool/neat features that define github
+T 1384675676 18<baumy>	[23:57:33] i dont see how centralization is an issue..
+T 1384675676 18<sankey>	[23:58:11] avocado: just because git is labeled a distributed protocol doesn't make github a decentralized service
+T 1384675676 18<avocado>	[23:58:30] sankey: why does github need to be "decentralized"?
+T 1384675676 18<baumy>	[23:58:34] so youd rather there be a lot of different sites that offer the same service as github?
+T 1384675676 18<avocado>	[23:59:13] sankey: you do realize, you can easily make your own git hosting service with almost all the features and maybe more than github
+T 1384675676 18<baumy>	[23:59:16] its easy enough to host it on your own server
+T 1384675676 18<avocado>	[23:59:20] gitorious does it pretty well
+T 1384675676 18<baumy>	[23:59:20] lol
+T 1384675676 18<sankey>	[23:59:21] baumy: that's exactly why centralization is necessary---to provide conveniece
+T 1384675676 18<sankey>	[23:59:44] it's just interesting to think about ways to federate github features
+T 1384675676 18<sankey>	[00:00:20] and seamlessly partition github into multiple entities that don't rely on each other
+T 1384675676 18<avocado>	[00:00:34] sankey: like which parts?
+T 1384675676 18<baumy>	[00:00:36] i dont understand why that would matter
+T 1384675676 18<avocado>	[00:00:44] same
+T 1384675676 18<sankey>	[00:01:26] avocado: for instance, github makes it easy to clone/fork other projects on github
+T 1384675676 18<sankey>	[00:01:39] can you clone my gitweb project into your github with one click?
+T 1384675676 18<sankey>	[00:01:41] i dont' think so
+T 1384675676 18<baumy>	[00:02:00] i could probably do it with 4 or 5 clicks
+T 1384675676 18<avocado>	[00:02:01] well it's easy to clone anyone's github
+T 1384675676 18<baumy>	[00:02:15] it sounds like youre tearing down one convenience in favor of another
+T 1384675676 18<baumy>	[00:03:19] which just as easily could be added if github implemented some way to clone some remotely hosted repo and pull/push from/to it
+T 1384675676 18<baumy>	[00:03:39] which they definitely wouldnt do but still
+T 1384675676 18<avocado>	[00:03:54] that's not really their job to do that, either
+T 1384675676 18<baumy>	[00:04:05] exactly
+T 1384675676 18<avocado>	[00:04:15] they take a git repo, they make it look pretty, and they let people make comments that they store for others to see
+T 1384675676 18<avocado>	[00:04:30] the forking is just a convenience for something you can do yourself
+T 1384675676 18<avocado>	[00:04:41] and beyond that, github doesn't really do much else
+T 1384675676 18<sankey>	[00:05:04] well, and it provides a wiki for each proejct
+T 1384675676 18<avocado>	[00:05:29] taht can fall under the "make comments" nonsense :P
+T 1384675676 18<sankey>	[00:05:58] the thing is...github adds in all this nonsense that too many projects *rely* on, i think
+T 1384675676 18<baumy>	[00:06:09] what kind of nonsense?
+T 1384675676 18<sankey>	[00:06:15] and i firmly believe these features are not actually nonsense
+T 1384675676 18<avocado>	[00:06:15] people relying on the issue tracker and wiki?
+T 1384675676 18<baumy>	[00:06:29] i dont think many people 'rely' on the wiki
+T 1384675676 18<baumy>	[00:06:35] the issue tracker maybe, but so what?
+T 1384675676 18<avocado>	[00:07:15] i've never used github wiki, but anyone that has time to make a wiki has time to make documentation inside the source repo
+T 1384675676 18<sankey>	[00:07:25] i hate when it boils down to this, but what if github goes down
+T 1384675676 18<avocado>	[00:07:42] people lose their dick measuring stick and the world moves on
+T 1384675676 18<baumy>	[00:07:52] if you have a project that people *need* access to regularly and you host it on github
+T 1384675676 18<***>	Playback Complete.
+T 1384675679 28-29NickServ28-	You are already logged in as Hemite.
+T 1384675679 18<baumy>	the problem is not with github if it goes down
+T 1384675680 18<avocado>	sankey: the nice thing about github going down is everyone has a "backup"
+T 1384675688 18<baumy>	it wouldnt be hard to just move somewhere else
+T 1384675694 18<baumy>	youre not stuck there in any way
+T 1384675703 18<sankey>	i don't think people are backing up the issue tracker or the wiki
+T 1384675726 18<avocado>	the issue tracker would be a setback, but it's not the end of the world
+T 1384675728 18<baumy>	if you lose your project documentation because you only kept it on github wiki and you cant get to it if github goes down
+T 1384675731 18<baumy>	fuck you a little bit
+T 1384675737 18<baumy>	issue tracker im not sure what you could do about
+T 1384675753 18<avocado>	sankey: issue trackers are not what keep opensource alive
+T 1384675767 18<baumy>	avocado: for some projects, completely losing your issue tracker might be the end of the world
+T 1384675775 18<baumy>	sometimes a lot of in depth discussions and analysis go on in those threads
+T 1384675784 18<baumy>	which may take a lot of duplicated effort to reproduce
+T 1384675797 18<avocado>	duplicated effort is not the end of the world
+T 1384675805 18<avocado>	it's a setback
+T 1384675811 18<baumy>	exageration yeah
+T 1384675812 18<avocado>	and an annoyance
+T 1384675819 18<baumy>	but it could potentially be a pretty significant setback
+T 1384675833 18<baumy>	which it sure wouldnt hurt to plan for and protect against
+T 1384675849 18<baumy>	i wonder if github has api calls to get issue tracker thread info or something
+T 1384675911 18<avocado>	there are so many better issue trackers that people use if they're serious about bug tracking anyway
+T 1384675926 18<baumy>	erm
+T 1384675929 18<baumy>	i wouldnt agree with that
+T 1384675939 18<baumy>	s/people use/people should use/
+T 1384675968 18<baumy>	and its definitely a bit of an annoyance to primarily host your code on github, and an issue tracker somewhere else
+T 1384675995 18<avocado>	well it's only annoying because github already has a bug tracker
+T 1384675996 31<hemite>30	meh, that's what openmw does
+T 1384676011 18<avocado>	but bugzilla, trac, redmine, and rt are the best..
+T 1384676028 18<avocado>	rt is my favorite.. when i can manage to actually set it up
+T 1384676061 18<avocado>	for like the last 2 years i've been meaning to set up rt on my ec2
+T 1384676080 18<baumy>	but openmw has its own server/website/whatever
+T 1384676085 18<sankey>	avocado: it's not so hard for other people to ignore flashy/attracive features that github provides
+T 1384676088 18<baumy>	not all little shitkicker projects do
+T 1384676128 18<avocado>	sankey: and you're telling me those projects will suffer crippling, catastrophic, project ending losses if they lose them?
+T 1384676146 18<baumy>	does something have to be that bad in order to try to deal with it?
+T 1384676152 31<hemite>30	openmw has its own server for redmine
+T 1384676160 18<baumy>	thats fantastic for openmw
+T 1384676168 31<hemite>30	but it uses github to host the code/ commit tracking
+T 1384676172 18<sankey>	avocado: i think you have too much of a project-by-project perspective
+T 1384676178 18<sankey>	i'm talking what if github goes down
+T 1384676226 18<sankey>	say all projects, on average would be set back by 10%
+T 1384676235 18<sankey>	that's huge
+T 1384676254 18<avocado>	how many of those projects will cease to be able to continue development?
+T 1384676263 18<sankey>	a very small percentage
+T 1384676271 18<sankey>	but that's not the point
+T 1384676273 18<baumy>	avocado: i think youre hammering too hard on that
+T 1384676287 18<baumy>	just because a setback doesnt kill a project dead, doesnt mean it isnt serious and shouldn't be avoided if possible
+T 1384676303 18<avocado>	baumy: sankey, you're talking about github going completely AWOL from the internet and never returning. so, assuming that is the world we live in, i think my point is pretty reasonable.
+T 1384676323 18<avocado>	people will manage just fine going somewhere else
+T 1384676330 18<baumy>	fair
+T 1384676360 18<avocado>	but they will have the SAME problem anywhere else they go to host whatever it is they find they want hosted
+T 1384676371 18<baumy>	unless they host it themselves
+T 1384676382 18<avocado>	in which case, they'll probably have a worse time at it
+T 1384676383 18<baumy>	which is impractical for a lot of projects obv
+T 1384676390 18<baumy>	true
+T 1384676400 18<avocado>	now, yes, it's good to have a backup of your issues
+T 1384676409 18<avocado>	but that's why so many bug trackers are integrated with email
+T 1384676421 18<avocado>	so even if the tracker goes kaput, everyone still has their emails
+T 1384676426 18<baumy>	actually i forgot about that
+T 1384676437 18<baumy>	project owners should have a complete email backup of issue threads
+T 1384676442 18<baumy>	unless they delete their emails but who does that
+T 1384676466 18<avocado>	so, yes, i do understand wanting to offload some of the responsibility that github takes by doing FULL project hosting
+T 1384676472 18<avocado>	but it's not something i would get up in arms about
+T 1384676477 18<avocado>	there are much better fights to pick
+T 1384676488 18<avocado>	for isntance, fuck canonical
+T 1384676529 18<baumy>	good thread guys
+T 1384676532 18<sankey>	we should make bzrhub
+T 1384676542 18<avocado>	launchpad?
+T 1384676554 18<baumy>	i dont understand why anybody uses not git
+T 1384676604 31<hemite>30	front page of /r/programming
+T 1384676651 18<baumy>	i assume nothing
+T 1384676656 18<baumy>	git is perfect
+T 1384676700 18<baumy>	the top comment is bullshit
+T 1384676709 31<hemite>30	the top comment is a joke
+T 1384676719 18<baumy>	it doesnt seem like it
+T 1384676726 18<baumy>	ive heard people make that point in seriousness
+T 1384676753 18<baumy>	ive forgotten how terrible r/programming is
+T 1384676757 18<baumy>	im not reading the rest of this
+T 1384676824 18<sankey>	baumy i think you are still reading the rest of it
+T 1384676832 18<baumy>	nope
+T 1384676837 18<sankey>	pics or it didn't happen
+T 1384676838 18<baumy>	watching the most recent parks and rec
+T 1384676855 18<avocado>	r/programming is basically r/gaming
+T 1384676878 18<sankey>	or wrose,
+T 1384676878 31<hemite>30	I'd compare it more to /r/games
+T 1384676878 18<baumy>	http://jbaumy.com/files/screens/2013-11-17_00-27-25.png
+T 1384676879 18<hazel>	File type: [image/png] 1.8M
+T 1384676881 18<sankey>	r/technology
+T 1384676900 31<hemite>30	r/gaming seems more like /r/programminghumor
+T 1384677120 18<baumy>	i think about ~1500 is the sweet spot of subscribers to a reddit
+T 1384677130 18<baumy>	lower, no content
+T 1384677133 18<baumy>	higher, shit
+T 1384677138 18<avocado>	fuck 4 million
+T 1384677142 18<baumy>	lol
+T 1384677147 18<baumy>	pics4lyfe?
+T 1384677168 18<baumy>	o i typoed
+T 1384677172 18<avocado>	yea
+T 1384677172 18<baumy>	i meant 15,000
+T 1384677176 18<avocado>	it's kind of funny
+T 1384677189 18<avocado>	i've gotten to the point now where any mods above me give zero fucks about removing me
+T 1384677210 18<baumy>	do you even do anything?
+T 1384677213 18<avocado>	but all the mods below me want to institute "minimum requirements" to stay a mod
+T 1384677221 18<baumy>	theres a mod heirarchy?
+T 1384677231 18<baumy>	why would anyone care that much about a place where people post pictures
+T 1384677231 18<avocado>	it's buy time as a mod
+T 1384677236 18<avocado>	by*
+T 1384677242 18<baumy>	ah
+T 1384677248 18<baumy>	well at least its something simple like that
+T 1384677249 18<avocado>	so first mod is the "owner", he can remove any mod that joins after him
+T 1384677253 18<baumy>	gotcha
+T 1384677255 18<avocado>	yea
+T 1384677295 18<avocado>	i'm just waiting for my free year of reddit gold to show up from the admins
+T 1384677311 18<baumy>	is reddit gold expensive?
+T 1384677380 18<baumy>	i still am not really clear on the point of it
+T 1384677384 18<baumy>	is it just a way to donate to reddit?
+T 1384677412 18<avocado>	yea and you get like 2 or 3 extra features
+T 1384677425 18<baumy>	ok then explain this to me
+T 1384677431 18<baumy>	somebody makes a witty or insightful or stupid comment
+T 1384677437 18<baumy>	and someone else buys them reddit gold
+T 1384677437 18<avocado>	like 500 comments per page, highlights new comments, and that's about all i know
+T 1384677443 18<baumy>	why would you donate to reddit in recognition of somebodys comment?
+T 1384677453 18<baumy>	why not just give that person money
+T 1384677458 18<avocado>	because people fucking love their imaginary internet points
+T 1384677468 18<avocado>	i don't understand it all
+T 1384677471 18<avocado>	at all*
+T 1384677479 18<baumy>	the only subreddits i go in big enough to have that happen are the porn ones
+T 1384677485 18<baumy>	and that generally doesnt seem to happen in the porn ones
+T 1384677509 18<avocado>	like it baffles me that people are so caught up with "karma whoring" and people that are "gaming the system to get more karma"
+T 1384677546 18<Loser777>	yeah today I learned that maybe /g/ that bad
+T 1384677547 18<baumy>	im disappointed that you keep the points for comments after you delete them
+T 1384677547 18<avocado>	like... WOW, if you multiplied their karma by the weight of goods it provides, we're all equal: 0
+T 1384677556 18<Loser777>	maybe I'll go back to my 4chan lyf3styl3 of 2010-2012
+T 1384677561 18<baumy>	i tend to delete all my comments about a few weeks after i make them
+T 1384677572 18<baumy>	because i want to have conversations sometimes, but generally dont want people to be able to read things ive said in the past
+T 1384677579 18<baumy>	but because the points stay you can tell ive deleted things
+T 1384677596 18<avocado>	after about 2005, i've decided i hated "chatting" on forums
+T 1384677613 18<Loser777>	either you are old or matured quickly
+T 1384677618 18<Loser777>	I joined my first forum in 2005
+T 1384677619 18<baumy>	it has to be a sufficiently small forum for it to be enjoyable
+T 1384677647 18<avocado>	i much prefer irc
+T 1384677653 18<avocado>	for just chatting and bullshitting
+T 1384677683 18<avocado>	forums are good when there is purpose
+T 1384677684 18<baumy>	agreed
+T 1384677691 18<avocado>	and often times, i have no purpose
+T 1384677728 18<avocado>	so i can't be bothered to just get involved with a random conversation that is going to have to span more than 5 minutes of my life lol
+T 1384677741 18<avocado>	i lose interest too fast
+T 1384677750 18<baumy>	i have virgils root beer
+T 1384677756 18<avocado>	so many times i'll leave a comment on reddit and then the next day i'll have a reply
+T 1384677762 18<baumy>	do you think its a good idea to mix it with alcohol
+T 1384677766 18<baumy>	or a bad idea
+T 1384677766 18<avocado>	and i think "i could reply, but i ran out of fucks..."
+T 1384677784 18<avocado>	you should pour it into a square cup
+T 1384677805 18<baumy>	ha ha ha
+T 1384677807 18<avocado>	wait! that'll cube your root beer
+T 1384677818 18<avocado>	beer root beer
+T 1384677837 18<avocado>	that could be a thing, couldn't it?
+T 1384677842 18<baumy>	probably
+T 1384677844 18<avocado>	alcoholic root beer?
+T 1384677849 18<avocado>	beer root beer
+T 1384677959 18<avocado>	i should take a class in glass blowing
+T 1384678023 18<avocado>	i just applied to this http://www.imagefap.com/jobdesc.php
+T 1384678024 18<hazel>	Title: ImageFap Jobs
+T 1384678102 18<baumy>	excellent
+T 1384678119 18<baumy>	i want this job
+T 1384678121 18<avocado>	i almost was going to work at a porn company

@@ -1,0 +1,502 @@
+T 1378761054 18<crypticmofo>	dam that sucks
+T 1378761065 18<gustav>	your keyboard need to be able to use capslock as a normal key, which is supposedly are not
+T 1378761137 18<crypticmofo>	well how about this .. i want to remap the alt key to mod
+T 1378761140 18<crypticmofo>	how about that ?
+T 1378761156 18<gustav>	take a look at the keyboard options pane we looked at before
+T 1378761165 18<gustav>	most of the common mapping are available there
+T 1378761184 18<gustav>	it should be possible, as they have the same functionality
+T 1378761248 18<crypticmofo>	yea cuase right now im using weechat-curses
+T 1378761265 18<crypticmofo>	it relies on alt key for stuff .. i really don't need it i can just /buffer <whatever number>
+T 1378761280 18<gustav>	you could remap the win/super key to alt then
+T 1378761281 18<crypticmofo>	so i want to put alt as mod and my windows key realy for nothing
+T 1378761320 18<gustav>	if it's not possible with the options in the gnome-control-center it should be possible to google a solution
+T 1378761430 18<crypticmofo>	gustav: remember when you first start i3 you can map from window or alt
+T 1378761434 18<crypticmofo>	its probably in there somewhere
+T 1378761445 18<gustav>	oh, thats the line you mentioned earlier
+T 1378761476 18<gustav>	super is mod4 and alt is mod1 iirc
+T 1378761481 18<crypticmofo>	aw
+T 1378761483 18<crypticmofo>	so just change that
+T 1378761546 18<crypticmofo>	let me look at the guide
+T 1378761549 18<vandannen1>	gustav: your script crashes in the case of an empty workspace as no window is focused, and thus line 45 fails
+T 1378761583 18<crypticmofo>	yea alt = mod1
+T 1378761602 18<gustav>	vandannen1: damn, good catch. Should have seen that myself
+T 1378761604 18<gustav>	Thanks!
+T 1378761672 18<crypticmofo>	yea that was it
+T 1378761771 18<gustav>	vandannen1: I guess you just sometimes needs a fresh perspective. Thanks a lot!
+T 1378761809 18<vandannen1>	gustav: no problem - looks like a nice feature. maybe you can post your solution here when you are finished: https://faq.i3wm.org/question/2473/run-or-focus-in-i3/ 
+T 1378761810 18<frank>	[Link Info] Run or focus in i3 - i3 FAQ
+T 1378761926 18<gustav>	vandannen1: thanks. I've only been using i3 for the past month, but I've built a few scripts to solve some of it's shortcomings (from my very own humble perspective). You can see them here: https://github.com/gustavnikolaj/dotfiles/tree/master/i3/.i3
+T 1378761927 18<frank>	[Link Info] dotfiles/i3/.i3 at master · gustavnikolaj/dotfiles · GitHub
+T 1378761951 18<gustav>	I'll consider adding them to the faq page when I get around to writing some proper documentation and comments in the code
+T 1378761981 18<gustav>	(the scripts/nextfind.py is not my doing. I got it from a colleagues dotfiles repo and it did not have any attribution comment)
+T 1378762350 19*	19Fandekasp (~Fandekasp@twice-C4C4BEB6.static.tpgi.com.au) has joined #i3
+T 1378762414 18<vandannen1>	cool. just an idea: you could use "focus output right" and "workspace next_on_output" to cycle through ws/monitors
+T 1378762450 22*	vandannen1 is now known as vandannen
+T 1378762681 23*	23bitonic has quit (23Input/output error23)
+T 1378762733 18<gustav>	vandannen: I posted my script here: https://faq.i3wm.org/question/2473/run-or-focus-in-i3/?answer=2506#post-id-2506
+T 1378762733 18<frank>	[Link Info] Run or focus in i3 - i3 FAQ
+T 1378762745 18<gustav>	Unfortunately, I'm unable to provide the link to the github page
+T 1378762774 18<gustav>	vandannen: great suggestion with the built in commands! I'll make sure to incoorporate that asap
+T 1378762777 18<gustav>	thanks!
+T 1378762877 23*	23Fandekasp has quit (23Ping timeout23)
+T 1378762994 18<gustav>	vandannen: is "move workspace to output right" working? "move workspace to output N" works and you use "focus output right" - I'm at home and only use dual monitors at work :)
+T 1378763099 18<vandannen>	"move workspace to output right" moves the whole ws to the next output. 
+T 1378763120 23*	23gishuel has quit (23Client exited23)
+T 1378763135 18<vandannen>	"move to output right" moves the current container
+T 1378763166 18<gustav>	wow, cool. most of my scripts are replaceable by simple oneliners then :)
+T 1378763950 23*	23aeqwa has quit (23HELP! i see everything TWiCE /  Lost terminal23)
+T 1378764059 19*	19agribu (~agribu@twice-270310A5.draugr.de) has joined #i3
+T 1378764177 23*	23agribu has quit (23Client exited23)
+T 1378764361 18<gustav>	vandannen: thanks for your help, and good night!
+T 1378764364 23*	23gustav has quit (23HELP! i see everything TWiCE /  leaving23)
+T 1378764746 23*	23CCfan has quit (23Ping timeout23)
+T 1378765040 23*	23Kiryx has quit (23Ping timeout23)
+T 1378765405 19*	19cewood (~cewood@twice-33DC6565.static.internode.on.net) has joined #i3
+T 1378765712 23*	23frakturfreak has quit (23Ping timeout23)
+T 1378765736 19*	19Fandekasp (~Fandekasp@twice-C4C4BEB6.static.tpgi.com.au) has joined #i3
+T 1378766579 23*	23Fandekasp has quit (23Ping timeout23)
+T 1378767128 19*	19frakturfreak (fraktur@twice-6E661E5C.dip0.t-ipconnect.de) has joined #i3
+T 1378767254 23*	23_Ultrabug has quit (23Client exited23)
+T 1378767460 23*	23Necoro has quit (23HELP! i see everything TWiCE /  Verlassend23)
+T 1378767669 23*	23mbelluzzo has quit (23Ping timeout23)
+T 1378768470 23*	23marcosmoyano has quit (23Client exited23)
+T 1378768616 19*	19strcat (~strcat@twice-DF949338.cpe.net.cable.rogers.com) has joined #i3
+T 1378769217 19*	19BloodyFi2 (~delta@twice-59EAF297.dip0.t-ipconnect.de) has joined #i3
+T 1378769271 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378769530 23*	23Scall has quit (23Ping timeout23)
+T 1378769656 23*	23vandannen has quit (23Ping timeout23)
+T 1378769720 23*	23BloodyFire has quit (23Ping timeout23)
+T 1378769781 19*	19Scall (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378770018 23*	23Scall- has quit (23Ping timeout23)
+T 1378771018 23*	23mhcerri1 has quit (23Ping timeout23)
+T 1378771524 19*	19mhcerri1 (~Marcelo@531EC5EC.F8CBC9E0.5C66193F.IP) has joined #i3
+T 1378774311 19*	19dagnachew (~dagnachew@twice-28136F68.dsl.bell.ca) has joined #i3
+T 1378774750 23*	23ParadoxG has quit (23HELP! i see everything TWiCE /  Leaving.23)
+T 1378775241 23*	23dagnachew has quit (23HELP! i see everything TWiCE /  Leaving23)
+T 1378775833 19*	19geier_ (~geier@twice-3E2421A0.dip0.t-ipconnect.de) has joined #i3
+T 1378775910 19*	19nslqqq (~nsl@DE7D23C6.198F128A.3DEA2C15.IP) has joined #i3
+T 1378776214 23*	23nslqqq has quit (23HELP! i see everything TWiCE /  Leaving.23)
+T 1378776297 23*	23geier has quit (23Ping timeout23)
+T 1378776878 19*	19dagnachew (~dagnachew@twice-28136F68.dsl.bell.ca) has joined #i3
+T 1378778232 18<frank>	::i3faq:: Terminal backgrounds @ https://faq.i3wm.org/question/2507/terminal-backgrounds/ (by DataMonSTAR)
+T 1378780664 23*	23dagnachew has quit (23HELP! i see everything TWiCE /  Leaving23)
+T 1378781256 23*	23BloodyFi2 has quit (23HELP! i see everything TWiCE /  Beam me up, Scotty!23)
+T 1378781331 19*	19frakturf1 (fraktur@33D4A18E:D156423:A3327E91:IP) has joined #i3
+T 1378781587 23*	23crypticmofo has quit (23Ping timeout23)
+T 1378781774 19*	19crypticmofo (~crypticmo@twice-872BCE4D.hsd1.ca.comcast.net) has joined #i3
+T 1378781778 18<crypticmofo>	hi all
+T 1378781780 18<crypticmofo>	is there a battery applet ?
+T 1378781831 23*	23frakturfreak has quit (23Ping timeout23)
+T 1378781832 22*	frakturf1 is now known as frakturfreak
+T 1378782567 19*	19nslqqq (~nsl@DE7D23C6.198F128A.3DEA2C15.IP) has joined #i3
+T 1378783683 18<mue>	crypticmofo: are you not using i3status?
+T 1378783903 18<crypticmofo>	mue: yes
+T 1378783908 18<crypticmofo>	i think let me look
+T 1378783926 18<crypticmofo>	yes it came out of ps aux
+T 1378784109 18<mue>	crypticmofo: i3status should also show you the battery status, not sure why you want an applet
+T 1378784196 18<crypticmofo>	chr 36.49 ?
+T 1378784207 18<mue>	yes
+T 1378786272 19*	19dagnachew (~dagnachew@twice-28136F68.dsl.bell.ca) has joined #i3
+T 1378786390 23*	23dagnachew has quit (23HELP! i see everything TWiCE /  Leaving23)
+T 1378786406 19*	19dagnachew (~dagnachew@twice-28136F68.dsl.bell.ca) has joined #i3
+T 1378786894 23*	23dagnachew has quit (23HELP! i see everything TWiCE /  Leaving23)
+T 1378787271 18<crypticmofo>	thanks mue 
+T 1378787278 18<mue>	yw
+T 1378787286 18<crypticmofo>	wow was that really an hour later
+T 1378787443 19*	19aeqwa (~aeqwa@twice-9AC9427.dsl.tropolys.de) has joined #i3
+T 1378787910 23*	23frakturfreak has quit (23HELP! i see everything TWiCE /  Wenns halt war, wies halt war, irgendwie wars, denn noch nie wars, dass es nicht irgendwie war.23)
+T 1378788356 23*	23orkun has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.023)
+T 1378788749 23*	23quazimodo has quit (23Ping timeout23)
+T 1378791808 23*	23strcat has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.123)
+T 1378792825 19*	19Kiryx (~Kiryx@twice-2A3770B7.internetia.net.pl) has joined #i3
+T 1378793136 18<okraits>	aaa
+T 1378793508 18<okraits>	Sorry
+T 1378793659 19*	19orkun (~orkun@D5345240.729BD30C.FE6165E0.IP) has joined #i3
+T 1378794868 23*	23aeqwa has quit (23Ping timeout23)
+T 1378795543 19*	19vandannen (~ntwst@twice-74A5CDCA.netcologne.de) has joined #i3
+T 1378796520 18<rafi_>	does anyone use the 'truly ergonomic keyboard'?
+T 1378797406 23*	23cewood has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.123)
+T 1378797498 19*	19vaxholm (~tommie@twice-EAC19A70.cust.tele2.se) has joined #i3
+T 1378798099 18<btwe_>	rafi_, which is your version of that kb?
+T 1378798115 18<rafi_>	207
+T 1378798240 23*	23vaxholm has quit (23Ping timeout23)
+T 1378798756 19*	19vaxholm (~tommie@52013E94.65966847.A9641D85.IP) has joined #i3
+T 1378799214 19*	19Now talking on #i3
+T 1378799214 29*	29Topic for #i3 29is: i3 v4.6 released | i3status 2.7 released | i3lock 2.5 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | http://build.i3wm.org/download-count.txt | paste at http://p.nnev.de/ | file upload at http://bayfiles.com/
+T 1378799214 29*	29Topic for #i3 29set by sECuRE 29at Wed Aug  7 12:15:26 2013
+T 1378799341 19*	19Now talking on #i3
+T 1378799341 29*	29Topic for #i3 29is: i3 v4.6 released | i3status 2.7 released | i3lock 2.5 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | http://build.i3wm.org/download-count.txt | paste at http://p.nnev.de/ | file upload at http://bayfiles.com/
+T 1378799341 29*	29Topic for #i3 29set by sECuRE 29at Wed Aug  7 12:15:26 2013
+T 1378799512 19*	19aswen (~aswen@twice-E7B1D815.nedap.com) has joined #i3
+T 1378801403 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378801460 23*	23heoyea has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.123)
+T 1378801668 23*	23Scall has quit (23Ping timeout23)
+T 1378801668 22*	Scall- is now known as Scall
+T 1378802215 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378802525 23*	23Scall has quit (23Ping timeout23)
+T 1378802526 22*	Scall- is now known as Scall
+T 1378803151 19*	19CCfan (~stonis@2B8FF842.98B83A7A.7527884A.IP) has joined #i3
+T 1378804644 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378804879 23*	23Scall has quit (23Ping timeout23)
+T 1378804879 22*	Scall- is now known as Scall
+T 1378805395 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378805636 23*	23Scall has quit (23Ping timeout23)
+T 1378805637 22*	Scall- is now known as Scall
+T 1378805784 19*	19alex` (~alex@twice-8DB97DFD.w83-199.abo.wanadoo.fr) has joined #i3
+T 1378807466 23*	23mhcerri1 has quit (23Ping timeout23)
+T 1378807562 23*	23vandannen has quit (23Ping timeout23)
+T 1378810182 19*	19spion (~spion@4C88C664.A7DC83B5.1C68CCE6.IP) has joined #i3
+T 1378811221 19*	19vandannen (~ntwst@twice-74A5CDCA.netcologne.de) has joined #i3
+T 1378811527 23*	23alex` has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.123)
+T 1378813484 19*	19spion_ (~spion@EBAD3A6C.A7DC83B5.1C68CCE6.IP) has joined #i3
+T 1378813537 19*	19senft (~senft@twice-DD9DB167.pools.arcor-ip.net) has joined #i3
+T 1378813589 19*	19senft_ (~senft@twice-DD9DB167.pools.arcor-ip.net) has joined #i3
+T 1378813639 18<senft_>	hey, I once stumpled upon a patch for gaps between windows (much like dwm's useless gaps) for i3. I cannot seem to find it now. Anyone knows where to look?
+T 1378813685 18<okraits>	senft_: http://infra.in.zekjur.net/pipermail/i3-discuss/2012-November/001042.html
+T 1378813686 18<frank>	[Link Info] [i3] [PATCH 5/5] Added window insets (similar to herbstluftwm)
+T 1378813723 18<senft_>	thanks!
+T 1378813746 18<okraits>	You're welcome
+T 1378813944 23*	23spion has quit (23Ping timeout23)
+T 1378814177 18<senft_>	now that draws some funky artifacts on the background :D too bad..
+T 1378814190 18<Tucos>	grab the transparency patch a few mails earlier
+T 1378814396 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378814662 23*	23Scall has quit (23Ping timeout23)
+T 1378814875 19*	19Scall (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378814906 18<senft_>	the transparency patch doesn't work with the most recent code, right? Does is say somewhere on which version it works?
+T 1378814939 18<Tucos>	it's not that old yet, i think it should mostly apply
+T 1378814949 23*	23Scall- has quit (23Ping timeout23)
+T 1378814971 18<senft>	there are some strange files in the patch (cfgparse.l, cfgparse.y) which I dont seem to find in the code
+T 1378815094 18<Tucos>	oh, it introduces it as an option; then you'll have to port that or just tear it out :p
+T 1378815147 18<senft>	okay.. let's see ;) thanks so far!
+T 1378815563 18<okraits>	senft_: I also plan to try out the patch for insets and transparency - can you give me a status update if you did improvements on it?
+T 1378815705 19*	19mhcerri1 (~Marcelo@C2DAAA3D.4813414E.9370507C.IP) has joined #i3
+T 1378815730 18<Tucos>	might want to push them to https://github.com/ashinkarov/i3-extras then
+T 1378815731 18<frank>	[Link Info] ashinkarov/i3-extras · GitHub
+T 1378815740 18<senft>	okraits: well the insets patch is easy to apply. But I don't think I'll get the transparency patch working.
+T 1378815815 19*	19Fandekasp (~Fandekasp@twice-C4C4BEB6.static.tpgi.com.au) has joined #i3
+T 1378815927 18<okraits>	Tucos: thanks for the hint - is that your repo?
+T 1378815966 18<Tucos>	nope, i use simple plain i3
+T 1378815983 18<okraits>	Yeah, me also
+T 1378816077 23*	23senft has quit (23HELP! i see everything TWiCE /  leaving23)
+T 1378816087 22*	senft_ is now known as senft
+T 1378816217 19*	19dagnachew (~dagnachew@twice-28136F68.dsl.bell.ca) has joined #i3
+T 1378816290 23*	23dagnachew has quit (23HELP! i see everything TWiCE /  Leaving23)
+T 1378816303 19*	19dagnachew (~dagnachew@twice-28136F68.dsl.bell.ca) has joined #i3
+T 1378816576 19*	19alex` (~alex@twice-8DB97DFD.w83-199.abo.wanadoo.fr) has joined #i3
+T 1378817327 18<rafi_>	its a bummer these aren't built-in features
+T 1378817525 18<Tucos>	it's a small set of users that like 'em and an even smaller set that actually uses the patches
+T 1378817640 18<senft>	I just stumpled across this beatiful screenshot of bspwm and wanted to try to tweak my i3 in that direction ;) http://paste.unixhub.net/index.php/NlKe/
+T 1378817693 18<okraits>	senft: Heh, saw that screenshot as well today
+T 1378817755 23*	23vaxholm has quit (23HELP! i see everything TWiCE /  Leaving23)
+T 1378817790 18<Tucos>	somebody linked it elsewhere yesterday i think; not sure what people like about it so much
+T 1378817826 18<okraits>	But i didn't try out those patches yet although i've been using i3 for almost a year now
+T 1378817877 18<rafi_>	solid colors get boring.. 
+T 1378817920 18<okraits>	Tucos: well, it's always the old battle looks versus simplicity/ease of use/stability/performance
+T 1378817932 18<Tucos>	you need something to do if colours bother you :p
+T 1378817952 18<okraits>	;-)
+T 1378818012 18<Tucos>	i3 does a kickass job at being stable lately (and about time too >.>); don't care about looks much myself.
+T 1378818166 18<okraits>	Tucos: what i mean is that michael of course wants to avoid complexity which would be increased by such a patch (and michaels opinion is totally understandable)
+T 1378818204 18<okraits>	and complexity can decrease stability :)
+T 1378818243 18<Tucos>	of course
+T 1378818267 19*	19quazimodo (~quazimodo@twice-D544C79C.carlnfd2.nsw.optusnet.com.au) has joined #i3
+T 1378818281 19*	19vaxholm (~tommie@52013E94.65966847.A9641D85.IP) has joined #i3
+T 1378818349 18<okraits>	on the other hand it's not wizardry to implement such gaps - but it's just not a feature he wants - i guess that's the main point
+T 1378818413 18<Tucos>	the gaps need the transparency patch which is a problem to begin with
+T 1378818458 18<okraits>	only in combination with a transparent terminal or in general?
+T 1378818488 18<Tucos>	in general
+T 1378818507 18<Tucos>	it has a non-negligibigleigle performance overhead
+T 1378818685 18<okraits>	Ah i see
+T 1378818771 19*	19marcosmoyano (~marcosmoy@40765A4F.DA881DD5.D70F2471.IP) has joined #i3
+T 1378818964 18<okraits>	Tucos: So the insets patch has a performance issue which the transparency patch fixes? i didn't quite get it
+T 1378818965 23*	23esr has quit (23Connection reset by peer23)
+T 1378818993 18<Tucos>	no, the transparency patch enables 32-bit visuals (i.e. adds alpha), which has a performance impact
+T 1378819050 18<okraits>	Hmm ok
+T 1378819098 19*	19esr (~esr@twice-B26B3C4F.phlapa.fios.verizon.net) has joined #i3
+T 1378819161 18<Tucos>	e.g. http://code.stapelberg.de/git/i3/commit/?h=next&id=58ecd1490088da428e89ce732c583cb8cefaf320 ; i think later on it got pulled entirely but didn't find that in the log
+T 1378819162 18<frank>	[Link Info] i3 - A better tiling and dynamic window manager
+T 1378819318 18<okraits>	Ok, so that seems like already "merged" but not enabled by default
+T 1378819350 18<okraits>	i don't use transparency so i didn't know the state of that
+T 1378819367 18<Tucos>	yeah, it's still in there apparently. not sure if it still has the commandline option to enable it or that was something else
+T 1378819486 18<Tucos>	ah, 9d68d780e2ca45e231a3cb76063860c561e0453c removes the option, but apparently automatically enables it when needed.. idunno
+T 1378819524 18<okraits>	Ah ok
+T 1378819644 18<okraits>	although senft still got the artefacts
+T 1378819993 18<Tucos>	yeah and that patch on the ML is needed to fix that, so something's screwy :po
+T 1378820044 18<okraits>	:-)
+T 1378820285 23*	23SardemFF7 has quit (23Ping timeout23)
+T 1378820322 23*	23v0n has quit (23Ping timeout23)
+T 1378820345 19*	19mbelluzzo (~mbelluzzo@6B7E2D44.5F470483.38C37A9D.IP) has joined #i3
+T 1378820375 19*	19v0n (~vivien@twice-A9A022F.savoirfairelinux.net) has joined #i3
+T 1378820418 23*	23v0n has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.2-dev23)
+T 1378820419 19*	19v0n (~vivien@twice-A9A022F.savoirfairelinux.net) has joined #i3
+T 1378820694 19*	19agribu (~agribu@twice-270310A5.draugr.de) has joined #i3
+T 1378820817 19*	19SardemFF7 (sardemff7@twice-81CE1823.hfc.dyn.abo.bbox.fr) has joined #i3
+T 1378820817 22*	26ChanServ gives channel operator status to26 SardemFF7
+T 1378821692 23*	23Scall has quit (23Ping timeout23)
+T 1378821749 19*	19Scall (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378822953 19*	19verdugo (~mverdu@D1F5CF9C.9B93D15.E1FBD4AA.IP) has joined #i3
+T 1378823114 23*	23agribu (23~agribu@twice-270310A5.draugr.de) has left #i3
+T 1378823182 23*	23Fandekasp has quit (23Ping timeout23)
+T 1378823230 19*	19agribu (~agribu@twice-270310A5.draugr.de) has joined #i3
+T 1378823351 23*	23Kiryx has quit (23Ping timeout23)
+T 1378824859 19*	19maxtor (~maxtor@twice-E0A59105.alshamil.net.ae) has joined #i3
+T 1378824912 18<maxtor>	can i disable the title bar?
+T 1378825014 18<sECuRE>	maxtor: http://i3wm.org/docs/userguide.html#_border_style_for_new_windows
+T 1378825015 18<frank>	[Link Info] i3: i3 User’s Guide
+T 1378825043 18<maxtor>	i saw that. but i think my only choice is new_window 1pixel. right?
+T 1378825052 18<sECuRE>	yeah
+T 1378825060 18<sECuRE>	or none, depending on whether you want to keep borders
+T 1378825062 18<maxtor>	i wish something like 2pixel
+T 1378825069 18<sECuRE>	see the examples
+T 1378825077 18<sECuRE>	# A 3 px border
+T 1378825078 18<sECuRE>	new_window pixel 3
+T 1378825090 18<maxtor>	but that creates a title bar
+T 1378825126 18<sECuRE>	no, not for me?
+T 1378825140 18<maxtor>	hmmm wait. i guess it's only "normal? that has title bar?
+T 1378825149 18<sECuRE>	when using “i3-msg border pixel 3” i get a window without a title bar and 3px borders
+T 1378825220 18<Tucos>	the config spec for pixel seems a bit off (doesn't specify a param)
+T 1378825245 18<sECuRE>	if it’s broken, patches are welcome (or at least a bug report) ;)
+T 1378825283 18<Tucos>	i meant in the docs, the code works fine :p
+T 1378825331 18<maxtor>	sECuRE: it's not broken. it's just me not doing the test right
+T 1378825361 18<maxtor>	i wonder if it's wise to say "hide_edge_borders both"
+T 1378825383 18<sECuRE>	Tucos: patches for the docs welcome ;)
+T 1378825464 18<maxtor>	isn't hide_edge_borders both a bad idea?
+T 1378825486 18<maxtor>	if i have two vertical tiles in a screen, it's hard to notice which one is selected
+T 1378825509 18<Tucos>	people use it; if you think it's a bad idea, don't use it :p
+T 1378825512 18<maxtor>	but it's a great feature if combined with a missing feature: tile_select_effect blink or something like that
+T 1378825525 18<sECuRE>	not gonna happen
+T 1378825529 18<maxtor>	why
+T 1378825531 18<sECuRE>	blink
+T 1378825532 18<sECuRE>	dude
+T 1378825533 18<sECuRE>	srsly
+T 1378825535 18<Tucos>	focus_container_sparkles
+T 1378825540 18<sECuRE>	lol :D
+T 1378825547 18<maxtor>	lol
+T 1378825578 18<maxtor>	you have to revist that again
+T 1378825605 18<maxtor>	that blink will allow the usage of smaller border pixels.. like 1 pixel only, and yet your selection's position is crystal clear
+T 1378825649 18<maxtor>	1 pixel border, auto hide both edges, and still maintain perfect usability even when there are only two vertical tiles in a screen
+T 1378825682 18<Tucos>	i vote for a Morgan Freeman voiceover
+T 1378825760 18<maxtor>	sECuRE: did you change your mind?
+T 1378825776 18<sECuRE>	it’s not perfect usability, and i don’t care about 1 more pixel
+T 1378825802 18<sECuRE>	any kind of effect that is not visible is hidden state
+T 1378825804 18<maxtor>	it's not 1 pixel. it's 1 pixel multiple by the width or height of the whole window
+T 1378825805 18<sECuRE>	and hidden state is bad
+T 1378825838 19*	19latz (~latz@FBDEE564.6012B57A.31763670.IP) has joined #i3
+T 1378825892 18<maxtor>	hmm are you sure that hidden state is always bad
+T 1378825920 18<sECuRE>	yes
+T 1378825925 18<maxtor>	evidence?
+T 1378825936 18<maxtor>	i get why it's sometimes bad, even most of the times
+T 1378825969 18<sECuRE>	have fun splitting hairs
+T 1378825979 18<sECuRE>	i’m just saying for me hidden state is much worse than saving one pixel
+T 1378825985 18<sECuRE>	(or a one pixel line, whatever)
+T 1378826009 18<maxtor>	you can have $mod+b to manually force a blink (i.e. resurrect the hidden state)
+T 1378826041 18<sECuRE>	i am not convinced and i really doubt you can convince me of that feature
+T 1378826069 18<sECuRE>	there is a cost for having new options/commands, and the benefit here does not justify that cost
+T 1378826085 18<maxtor>	it's extremely eye-catching. you will worry a lot less when that blink happens. a lot less effort than seeing which tile ahs which border color
+T 1378826251 18<maxtor>	is it hard to code such thing?
+T 1378826335 19*	19nachtwandler (~nachtwand@twice-FE46AC96.dip0.t-ipconnect.de) has joined #i3
+T 1378826416 18<maxtor>	how much money is good enough to have you code it?
+T 1378826430 18<maxtor>	and hopefully not drop it in next iterations
+T 1378826433 18<sECuRE>	i don’t code for money, now give it up already
+T 1378826446 18<maxtor>	lol. i'm serious. i personally love money.
+T 1378826485 18<maxtor>	some projects have like bounty stuff. dude puts money for a feature, and whomever codes it takes its money
+T 1378826514 18<sECuRE>	yeah, but that’s not how i3 works, and i already expressed my reasons for not wanting that feature, those will not change with money
+T 1378826521 18<sECuRE>	just patch it in yourself and maintain that patch if you really want it
+T 1378826524 18<Stilvoid>	maxtor: what are you offering? ;)
+T 1378826628 18<maxtor>	my offer: i'll pay the least amount of money possible to convince someone to code a feature that gets into the mainline code of i3 that causes a blink on the selected tile's area (e.g. a blink on the tile's content that has a chosen color)
+T 1378826662 18<sECuRE>	Stilvoid: you just entered a bidding war with every other programmer on this planet :p
+T 1378826704 23*	23alex` has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.123)
+T 1378826707 18<maxtor>	lol
+T 1378826738 18<Stilvoid>	if it's to get in the mainline, no way
+T 1378826759 18<Stilvoid>	cos that means we'd have hire an assassin for sECuRE 
+T 1378826773 18<maxtor>	i don't think "no way" is realistic. probably that merely increases its cost significantly (but not impossible)
+T 1378826791 18<sECuRE>	the problem is that killing me does not grant you access to the git repository automatically
+T 1378826795 18<Stilvoid>	what's wrong with having your own patch?
+T 1378826806 18<Stilvoid>	sECuRE: yeah, we'll need a torturer too
+T 1378826844 18<maxtor>	no need for a torturer, i can do that
+T 1378826869 18<Stilvoid>	haha
+T 1378826880 18<Stilvoid>	again, just patch it
+T 1378826881 18<maxtor>	but that's a bit risky. i kinda feel he will put a backdoor in my version somehow
+T 1378826889 18<Stilvoid>	unless everyone wants your change
+T 1378826892 18<Stilvoid>	which seems unlikely
+T 1378826913 18<maxtor>	do you not agree that such blink significantly enhances visibility?
+T 1378826934 18<Stilvoid>	I don't want anything blinking
+T 1378826946 18<maxtor>	it's just one blink upon selection
+T 1378826947 18<Stilvoid>	so I wouldn't use it personally
+T 1378826948 18<sECuRE>	nobody wants anything blinking. even mozilla removed the <blink> tag by now
+T 1378826984 18<maxtor>	that blink is stupid. it keeps happening all the time
+T 1378827006 18<maxtor>	it's good it's gone
+T 1378827014 18<Stilvoid>	can't say I've ever not been able to tell which of windows is focussed
+T 1378827034 18<maxtor>	cause you use the title bar too?
+T 1378827047 18<sECuRE>	i know people who don’t use title bars and still can tell
+T 1378827066 18<maxtor>	only when one does not hide edge borders
+T 1378827081 18<sECuRE>	no, some people use urxvt’s opacity feature to make clear which terminal is focused
+T 1378827085 18<Stilvoid>	don't hide the borders? :)
+T 1378827091 18<sECuRE>	that obviously only works with terminals, but…
+T 1378827103 18<maxtor>	Stilvoid: pixels wasted
+T 1378827113 18<sECuRE>	why don’t you just make your font size 1px smaller?
+T 1378827117 19*	19strcat (~strcat@twice-DF949338.cpe.net.cable.rogers.com) has joined #i3
+T 1378827119 18<sECuRE>	you’ll get so much more pixels out of that
+T 1378827126 18<sECuRE>	or buy a computer with a bigger display
+T 1378827127 18<Stilvoid>	maxtor: invest in a larger monitor?
+T 1378827128 18<maxtor>	 hard to read
+T 1378827144 18<maxtor>	have a three rampaging ultrasharp 24" monitors
+T 1378827178 18<sECuRE>	okay, i think with that, everything that could’ve been said in this discussion has been said
+T 1378827198 18<maxtor>	i didn't pay for it to waste pixels
+T 1378827204 18<Stilvoid>	but... patch your own copy :)
+T 1378827208 18<maxtor>	plan B) can you help me to patch it? i have no idea if it's possible
+T 1378827209 18<Stilvoid>	or get someone to write a patch for you
+T 1378827225 18<Stilvoid>	easy to set up a package that will track master and reapply the patch every time you install
+T 1378827229 18<maxtor>	if it doesn't go to mainline, i'll patch myself
+T 1378827233 18<Stilvoid>	especially if you're on arch or something
+T 1378827330 18<maxtor>	gentoo. guess same ease.
+T 1378827358 18<maxtor>	i think the i3's license does not allow forking. true?
+T 1378827431 18<sECuRE>	wtf?
+T 1378827440 18<sECuRE>	it’s a FOSS license, of course it allows forking?!
+T 1378827458 18<maxtor>	it's Apache, no?
+T 1378827469 18<sECuRE>	i’m not talking to you anymore now. check your facts
+T 1378827495 18<maxtor>	oh BSD license!
+T 1378827497 19*	19frakturfreak (fraktur@twice-7E26CA14.dip0.t-ipconnect.de) has joined #i3
+T 1378827770 18<Stilvoid>	bsd ftw :)
+T 1378827789 23*	23crypticmofo has quit (23HELP! i see everything TWiCE /  WeeChat 0.3.723)
+T 1378827990 19*	19WhiteDemon (~WhiteDemo@twice-903A88F7.broadband.corbina.ru) has joined #i3
+T 1378828231 19*	19alex` (~alex@twice-8DB97DFD.w83-199.abo.wanadoo.fr) has joined #i3
+T 1378828348 19*	19Kiryx (~Kiryx@twice-EDB136BA.internetia.net.pl) has joined #i3
+T 1378828554 19*	19jcbjoe (~jcb@twice-872BCE4D.hsd1.ca.comcast.net) has joined #i3
+T 1378829338 23*	23aswen has quit (23HELP! i see everything TWiCE /  Ik ga weg23)
+T 1378829341 19*	19Twonky (~Twonky@twice-8176920B.cust.telecolumbus.net) has joined #i3
+T 1378829521 23*	23jcbjoe has quit (23HELP! i see everything TWiCE /  WeeChat 0.3.723)
+T 1378829754 23*	23agribu (23~agribu@twice-270310A5.draugr.de) has left #i3
+T 1378829882 23*	23senft has quit (23HELP! i see everything TWiCE /  Lost terminal23)
+T 1378829894 23*	23WhiteDemon has quit (23HELP! i see everything TWiCE /  leaving23)
+T 1378829925 18<rafi_>	I don't use title-bars, 2px border, and I'm loving it
+T 1378829952 19*	19lord4163 (~lord4163@twice-F08901EA.tbcn.telia.com) has joined #i3
+T 1378830345 18<Tucos>	<sECuRE> that obviously only works with terminals, but… # GTK3 has it too (needs an EWMH hint i3 does not currently have); too bad Qt doesn't have it yet or i'd have hacked added the EWMH hint
+T 1378830415 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378830513 23*	23lance has quit (23HELP! i see everything TWiCE /  leaving23)
+T 1378830539 19*	19lance (~lance@twice-1684712E.lightspeed.cicril.sbcglobal.net) has joined #i3
+T 1378830674 23*	23Scall has quit (23Ping timeout23)
+T 1378830723 19*	19Scall (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378830928 19*	19nachtwandler_ (~nachtwand@twice-FE660551.dip0.t-ipconnect.de) has joined #i3
+T 1378830930 18<baumy>	maxtor: why not just change the border color of your focused windows to some bright color? #0000FF? is that not clear enough which is focused?
+T 1378830993 23*	23Scall- has quit (23Ping timeout23)
+T 1378831050 18<maxtor>	baumy: it is already
+T 1378831063 18<maxtor>	baumy: i actually have it set to 0000ff too
+T 1378831076 18<baumy>	then you either have bad monitors or bad eyes ;)
+T 1378831080 23*	23nachtwandler has quit (23Ping timeout23)
+T 1378831099 23*	23orkun has quit (23HELP! i see everything TWiCE /  WeeChat 0.3.823)
+T 1378831135 18<maxtor>	baumy: i'm using 1 pixel borders, and it works great with black terminals. but imagine when i have multiple white windows open? it gets less visible
+T 1378831277 19*	19ParadoxG (~lgunsch@DDF29C76.695F5D76.4CFCC466.IP) has joined #i3
+T 1378831742 23*	23maxtor has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.123)
+T 1378833494 19*	19agribu (~agribu@twice-270310A5.draugr.de) has joined #i3
+T 1378834171 23*	23agribu (23~agribu@twice-270310A5.draugr.de) has left #i3
+T 1378834199 19*	19gishuel (~gishuel@twice-50990919.volia.net) has joined #i3
+T 1378834298 19*	19agribu (~agribu@twice-270310A5.draugr.de) has joined #i3
+T 1378834860 23*	23nachtwandler_ has quit (23HELP! i see everything TWiCE /  leaving23)
+T 1378836314 19*	19jcbjoe (~jcbjoe@twice-872BCE4D.hsd1.ca.comcast.net) has joined #i3
+T 1378836481 23*	23nslqqq has quit (23HELP! i see everything TWiCE /  Leaving.23)
+T 1378836650 23*	23jcbjoe has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.023)
+T 1378836681 19*	19Hesteban (~quassel@twice-15EFBB0D.rev.sfr.net) has joined #i3
+T 1378836786 19*	19vandannen1 (~ntwst@twice-E6066404.netcologne.de) has joined #i3
+T 1378836881 23*	23Hesteban has quit (23Client exited23)
+T 1378836925 19*	19flecha (~X@7253E72D.1D69B8BB.735521B0.IP) has joined #i3
+T 1378837044 23*	23spion_ has quit (23Ping timeout23)
+T 1378837161 23*	23vandannen has quit (23Ping timeout23)
+T 1378838280 23*	23alex` has quit (23Ping timeout23)
+T 1378838393 19*	19Hesteban (~quassel@twice-15EFBB0D.rev.sfr.net) has joined #i3
+T 1378838666 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378838864 19*	19alex` (~alex@twice-C78C8E6D.w90-3.abo.wanadoo.fr) has joined #i3
+T 1378838891 23*	23flecha has quit (23HELP! i see everything TWiCE /  Saindo23)
+T 1378838936 23*	23Scall has quit (23Ping timeout23)
+T 1378838937 22*	Scall- is now known as Scall
+T 1378839479 19*	19orkun (~orkun@D190876B.1ECD7B74.B8A0E0CD.IP) has joined #i3
+T 1378839640 23*	23vaxholm has quit (23Ping timeout23)
+T 1378839772 23*	23dagnachew has quit (23HELP! i see everything TWiCE /  Leaving23)
+T 1378840244 23*	23alex` has quit (23Ping timeout23)
+T 1378840249 19*	19_Ultrabug (~Ultrabug@E3E3468C.6E394538.F95A07A6.IP) has joined #i3
+T 1378840975 19*	19v1n (~vivien@twice-A9A022F.savoirfairelinux.net) has joined #i3
+T 1378841155 23*	23v0n has quit (23Ping timeout23)
+T 1378841504 23*	23v1n has quit (23Ping timeout23)
+T 1378841514 19*	19jcbjoe (~jcbjoe@twice-872BCE4D.hsd1.ca.comcast.net) has joined #i3
+T 1378841556 19*	19v1n (~vivien@twice-A9A022F.savoirfairelinux.net) has joined #i3
+T 1378841564 18<jcbjoe>	hey all .. i have a question .. i want to up the gui / filemanager in i3 .. when i do nautilus i get the filemanger and a seperate box or something that says desktop
+T 1378841585 18<jcbjoe>	is there a recommended filemanger that is light that won't interfer or whatever with i3
+T 1378841591 18<Tucos>	https://faq.i3wm.org/question/1/how-can-i-get-rid-of-the-nautilus-desktop-window/
+T 1378841592 18<frank>	[Link Info] How can I get rid of the nautilus desktop window? - i3 FAQ
+T 1378841638 18<jcbjoe>	oh
+T 1378841652 23*	23v1n has quit (23HELP! i see everything TWiCE /  WeeChat 0.4.2-dev23)
+T 1378841652 19*	19v0n (~vivien@twice-A9A022F.savoirfairelinux.net) has joined #i3
+T 1378841693 18<btwe_>	i use zsh as file manager, but would not recommend that for people not beeing me :)
+T 1378841719 18<jcbjoe>	thanks Tucos 
+T 1378841722 18<jcbjoe>	btwe_: :D
+T 1378841732 18<Tucos>	you're welcome
+T 1378841827 18<jcbjoe>	wow i find stack window layout to be awesome
+T 1378841840 18<baumy>	jcbjoe: ranger is an excellent file manager if you love the terminal
+T 1378841842 18<baumy>	and vim
+T 1378841845 18<jcbjoe>	i hve a 13 inch lenova twist not a lot of realestate
+T 1378841852 18<jcbjoe>	mod+j all day
+T 1378841854 18<jcbjoe>	:D
+T 1378841858 18<baumy>	as guis go, ive found qtfm to be sufficient and also quite minimal, as well as easily skinnable
+T 1378841878 18<jcbjoe>	well mod+j all day and mod+j k l ;
+T 1378841882 18<jcbjoe>	thats it really
+T 1378842067 23*	23lord4163 has quit (23HELP! i see everything TWiCE /  lord416323)
+T 1378842310 19*	19WhiteDemon (~WhiteDemo@twice-26B131B9.broadband.corbina.ru) has joined #i3
+T 1378842685 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378843015 23*	23Scall has quit (23Ping timeout23)
+T 1378843016 22*	Scall- is now known as Scall
+T 1378843729 18<jcbjoe>	question ... my battery according to i3status is stuck at 86.49% yet if i boot into windows it will ay 100%
+T 1378843732 18<jcbjoe>	any ideas ?
+T 1378843740 18<jcbjoe>	its been charging all night and day
+T 1378843874 23*	23Twonky has quit (23HELP! i see everything TWiCE /  WeeChat 0.3.9.223)
+T 1378843961 18<Tucos>	first paragraph at http://i3wm.org/i3status/manpage.html#_battery
+T 1378843962 18<frank>	[Link Info] i3: i3status(1)
+T 1378844036 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378844107 23*	23Scall has quit (23Ping timeout23)
+T 1378844108 22*	Scall- is now known as Scall
+T 1378844117 23*	23verdugo has quit (23HELP! i see everything TWiCE /  good bye blue sky23)
+T 1378844328 18<jcbjoe>	Tucos: im assuming i need to add that in eaither .i3/config or /etc/i3 or /etc/i3stats.conf ?
+T 1378844351 18<Tucos>	that's the i3status manpage, so it's talking about i3status.conf
+T 1378844355 23*	23agribu has quit (23Client exited23)
+T 1378844358 18<jcbjoe>	k
+T 1378844803 19*	19knopwob (~knopwob@twice-7D13B5E0.pool.mediaways.net) has joined #i3
+T 1378844816 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378844933 23*	23Hesteban has quit (23Client exited23)
+T 1378845057 19*	19fly-away (~fly@20CAF170.92CC8DB3.3B0DEA2E.IP) has joined #i3
+T 1378845075 23*	23Scall has quit (23Ping timeout23)
+T 1378845181 18<knopwob>	long time no see
+T 1378845185 19*	19spion_ (~spion@28808C7.5AE0E4FC.4CCE06E9.IP) has joined #i3
+T 1378845206 19*	19Scall (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378845502 23*	23Scall- has quit (23Ping timeout23)
+T 1378845793 23*	23mhcerri1 has quit (23Ping timeout23)
+T 1378846615 19*	19strcat1 (~strcat@twice-DF949338.cpe.net.cable.rogers.com) has joined #i3
+T 1378846615 23*	23strcat has quit (23Connection reset by peer23)
+T 1378846867 23*	23Kiryx has quit (23Ping timeout23)
+T 1378847289 19*	19phraktal (~t_rakowsk@9F7D1BF7.66991275.244122E6.IP) has joined #i3
+T 1378847346 23*	23Scall has quit (23Ping timeout23)
+T 1378847426 18<phraktal>	Hi, I'm completely new to i3 
+T 1378847426 19*	19Scall (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378847441 18<phraktal>	I'm trying to get more than 10 workspaces going 
+T 1378847476 18<phraktal>	and I've manage to create an extra workspace but I do not know how to switch to it using keyboard
+T 1378847520 23*	23frakturfreak has quit (23Ping timeout23)
+T 1378847779 19*	19frakturfreak (fraktur@33D4A18E:D156423:A3327E91:IP) has joined #i3
+T 1378847786 23*	23CCfan has quit (23Ping timeout23)
+T 1378847875 18<spion_>	maybe something like `bindsym $mod+pick_your_key_here workspace 11` in ~/.i3/config would work?
+T 1378847960 23*	23mue has quit (23Connection reset by peer23)
+T 1378847980 19*	19mue (~mue@twice-DF8542B1.eu) has joined #i3
+T 1378848075 23*	23gishuel has quit (23Client exited23)
+T 1378848206 18<phraktal>	spion_: I see, thank you
+T 1378848352 23*	23phraktal has quit (23Client exited23)
+T 1378848358 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378848481 23*	23Scall has quit (23Ping timeout23)
+T 1378848481 22*	Scall- is now known as Scall
+T 1378848679 19*	19Kiryx (~Kiryx@twice-2A3770B7.internetia.net.pl) has joined #i3
+T 1378848776 19*	19Scall- (~chat@twice-5CA0647E.business.telecomitalia.it) has joined #i3
+T 1378849008 23*	23Scall has quit (23Ping timeout23)
+T 1378849008 22*	Scall- is now known as Scall
+T 1378849089 23*	23v0n has quit (23Ping timeout23)
+T 1378849636 19*	19v0n (~vivien@twice-A9A022F.savoirfairelinux.net) has joined #i3
+T 1378850092 19*	19Now talking on #i3
+T 1378850092 29*	29Topic for #i3 29is: i3 v4.6 released | i3status 2.7 released | i3lock 2.5 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | http://build.i3wm.org/download-count.txt | paste at http://p.nnev.de/ | file upload at http://bayfiles.com/
+T 1378850092 29*	29Topic for #i3 29set by sECuRE 29at Wed Aug  7 12:15:26 2013
+T 1378850344 19*	19Now talking on #i3
+T 1378850344 29*	29Topic for #i3 29is: i3 v4.6 released | i3status 2.7 released | i3lock 2.5 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | http://build.i3wm.org/download-count.txt | paste at http://p.nnev.de/ | file upload at http://bayfiles.com/
+T 1378850344 29*	29Topic for #i3 29set by sECuRE 29at Wed Aug  7 12:15:26 2013

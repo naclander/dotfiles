@@ -1,0 +1,382 @@
+T 1378711212 29*	29Topic for #xchat 29is: IRC Client http://www.xchat.org/ | Official Win32: 2.8.9, Other&Linux: 2.8.8, SVN log: http://xchat.org/url/cia/ | Win32 build lineup: http://rnbw.in/cf | MacOSX http://rnbw.in/bRIfS (less support) | www.xchat.org/blacktheme.zip | German: #xchat.de | xchat-gnome http://rnbw.in/YXTNf | http://xchat.org/faq/ & http://xchatdata.net/Using/FAQ <- search, ask, wait, answers aren't instant
+T 1378711212 29*	29Topic for #xchat 29set by LifeIsPain 29at Fri Nov 25 22:48:21 2011
+T 1378711239 31<hemite>30	So I like xchat's interface, but I can't run it in a screen session and make it persistent
+T 1378711265 31<hemite>30	Or can I? Is there a guide somewhere on setting a bouncer IRC thing or something
+T 1378711283 18<TingPing>	use znc
+T 1378711319 31<hemite>30	you've had good results with it personaly?
+T 1378711329 18<TingPing>	mhm, good stuff
+T 1378711341 18<TingPing>	make sure you get 1.0 if you are on an old distro
+T 1378711342 31<hemite>30	can you give me a run down of its uses/functionality?
+T 1378711381 18<TingPing>	perhaps their site could provide more info than me - http://wiki.znc.in/ZNC
+T 1378711394 18<TingPing>	but it just always stays connected and when i wake up i get the messages while i was gone
+T 1378711406 31<hemite>30	so xchat connects somehow to znc?
+T 1378711412 21<LIP>21	hemite: znc is a bnc which maintains the connection to the irc server, and you connect to that. you can connect to the bnc session from multiple computers if need be, all on the same connection
+T 1378711436 18<TingPing>	you connect to it like any other server, yes
+T 1378711439 18<LIP>	and XChat connects to the znc session the same way it connects to other IRC servers
+T 1378711480 31<hemite>30	so assuming I set up znc, how would I use xchat to connect to it? I don't see any prefrence settings for "proxy" or similiar
+T 1378711483 18<LIP>	well, mostly the same, some differences, like any on connect things won't be right when you connect to the overall IRC server, but when you connect to the bnc session
+T 1378711533 18<LIP>	you connect directly to it, the address and port of the znc
+T 1378711565 18<LIP>	it isn't the same as a socks proxy
+T 1378711595 31<hemite>30	Ok, this seems to be the solution I am looking for. I'll look for guides on how to set up this whole system.
+T 1378711603 31<hemite>30	It looks a bit complicated
+T 1378711714 19*	19tdebaets (~tdebaets@alc112.alcatel.be) has joined #xchat
+T 1378713232 23*	23tekkbuzz has quit (23Ping timeout: 264 seconds23)
+T 1378713986 19*	19Waylander (~Dakeyras@reverse-dns.completel.fr) has joined #xchat
+T 1378714299 19*	19ecky--ptang-zoob (~Y@94-226-11-249.access.telenet.be) has joined #xchat
+T 1378714796 23*	23xk05 has quit (23Ping timeout: 260 seconds23)
+T 1378714802 23*	23KindOne has quit (23Ping timeout: 264 seconds23)
+T 1378714966 19*	19KindOne (~KindOne@colchester-lug/silly-fool/donut) has joined #xchat
+T 1378715064 19*	19`deb (~relax@CPE0026f3966ed8-CM0026f3966ed5.cpe.net.cable.rogers.com) has joined #xchat
+T 1378715116 19*	19KindOne- (~KindOne@colchester-lug/silly-fool/donut) has joined #xchat
+T 1378715306 23*	23KindOne has quit (23Ping timeout: 264 seconds23)
+T 1378715343 19*	19xk05 (~xk05@30.176-62-69.ftth.swbr.surewest.net) has joined #xchat
+T 1378715417 19*	19KindOne (~KindOne@colchester-lug/silly-fool/donut) has joined #xchat
+T 1378715558 23*	23KindOne- has quit (23Ping timeout: 264 seconds23)
+T 1378716003 19*	19TwiztedZer0 (~TZ@unaffiliated/twiztedzero) has joined #xchat
+T 1378716005 23*	23TwiztedZero has quit (23Ping timeout: 246 seconds23)
+T 1378716029 23*	23TwiztedZer0 has quit (23Read error: Connection reset by peer23)
+T 1378716106 19*	19TwiztedZero (~TZ@unaffiliated/twiztedzero) has joined #xchat
+T 1378716749 19*	19TwiztedZer0 (~TZ@unaffiliated/twiztedzero) has joined #xchat
+T 1378716831 23*	23TwiztedZero has quit (23Ping timeout: 276 seconds23)
+T 1378716896 23*	23Ryccardo has quit (23Ping timeout: 260 seconds23)
+T 1378716959 22*	TwiztedZer0 is now known as TwiztedZero
+T 1378717221 23*	23`deb has quit (23Ping timeout: 248 seconds23)
+T 1378717507 23*	23milo64 (23milo64@2a00:dcc0:eda:3748:247:48:123:2) has left #xchat (23"WeeChat 0.4.1"23)
+T 1378718505 23*	23Htbrdd has quit (23Read error: Operation timed out23)
+T 1378718560 23*	23trusktr has quit (23Ping timeout: 264 seconds23)
+T 1378718605 19*	19Htbrdd (~Htbrdd2@24-181-58-207.dhcp.gnvl.sc.charter.com) has joined #xchat
+T 1378718636 23*	23Alina-malina has quit (23Read error: Connection reset by peer23)
+T 1378718644 19*	19Alina-malina (Alina-mali@46.162.237.209) has joined #xchat
+T 1378718763 23*	23Alina-malina has quit (23Excess Flood23)
+T 1378718779 19*	19Alina-malina (Alina-mali@46.162.237.209) has joined #xchat
+T 1378721723 19*	19`deb (~relax@CPE0026f3966ed8-CM0026f3966ed5.cpe.net.cable.rogers.com) has joined #xchat
+T 1378722044 19*	19bizarro_1 (~bizarro_1@51.Red-88-19-141.staticIP.rima-tde.net) has joined #xchat
+T 1378722982 23*	23Daemon404 (23~who_knows@pdpc/supporter/student/Daemon404) has left #xchat
+T 1378723436 23*	23DarkAceZ has quit (23Ping timeout: 240 seconds23)
+T 1378724213 23*	23`deb has quit (23Read error: Connection reset by peer23)
+T 1378724719 23*	23thunderrd has quit (23Remote host closed the connection23)
+T 1378725031 19*	19AsumFace (~asumface@31-17-37-41-dynip.superkabel.de) has joined #xchat
+T 1378726297 23*	23Alina-malina has quit (23Quit: Leaving23)
+T 1378726310 19*	19Alina-malina (~Alina-mal@host-209.237.162.46.ucom.am) has joined #xchat
+T 1378726940 23*	23xk05 has quit (23Ping timeout: 256 seconds23)
+T 1378726981 23*	23protospork has quit (23Ping timeout: 248 seconds23)
+T 1378727068 19*	19DarkAceZ (~BillyMays@unaffiliated/darkacez) has joined #xchat
+T 1378727347 19*	19Sephiroth (~Sephiroth@pdpc/supporter/student/sephiroth) has joined #xchat
+T 1378728161 19*	19Ryccardo (~riki@adsl-ull-74-8.42-151.net24.it) has joined #xchat
+T 1378728798 23*	23Ryccardo has quit (23Quit: Leaving23)
+T 1378731425 23*	23iasov has quit (23Ping timeout: 245 seconds23)
+T 1378731523 19*	19tekkbuzz (~oijvlj@unaffiliated/tekkbuzz) has joined #xchat
+T 1378731584 19*	19iasov (~iasov@184.82.9.82) has joined #xchat
+T 1378731688 23*	23Sephiroth has quit (23Read error: Connection reset by peer23)
+T 1378731711 19*	19Sephiroth (~Sephiroth@pdpc/supporter/student/sephiroth) has joined #xchat
+T 1378732248 19*	19agarnier (~agarnier@2a01:e35:8b61:d960:868f:69ff:feaa:b921) has joined #xchat
+T 1378732530 19*	19Mew (~Sephiroth@pdpc/supporter/student/sephiroth) has joined #xchat
+T 1378732694 23*	23Sephiroth has quit (23Ping timeout: 240 seconds23)
+T 1378732729 19*	19Liir (~franck@unaffiliated/liir) has joined #xchat
+T 1378732783 23*	23darknyan has quit (23Ping timeout: 264 seconds23)
+T 1378732863 22*	zz_sidv is now known as sidv
+T 1378733097 19*	19darknyan (~darknyan@unaffiliated/darknyan) has joined #xchat
+T 1378733236 19*	19smartboyhw (~smartboyh@ubuntu/member/smartboyhw) has joined #xchat
+T 1378734099 23*	23Repentinus has quit (23Read error: Operation timed out23)
+T 1378734910 19*	19thunderrd (~thunderrd@119.42.79.52) has joined #xchat
+T 1378734914 23*	23agarnier has quit (23Quit: Quitte23)
+T 1378734951 23*	23thunderrd (23~thunderrd@119.42.79.52) has left #xchat
+T 1378735138 19*	19Repentinus (~repentinu@150.20.190.90.dyn.estpak.ee) has joined #xchat
+T 1378735284 19*	19rickyb98 (~rickyb98@151.73.34.76) has joined #xchat
+T 1378735288 22*	rickyb98 is now known as Guest1219
+T 1378735288 18<Guest1219>	hello :)
+T 1378735343 18<Guest1219>	i know this must be a faq.. but how do i write python scripts for xchat?
+T 1378735346 18<Guest1219>	thanks in advance
+T 1378735350 18<Guest1219>	grr nick
+T 1378735351 18<Guest1219>	:P
+T 1378735406 18<Guest1219>	oh faqs in topic
+T 1378735408 18<Guest1219>	let's c.
+T 1378735466 18<Guest1219>	ok found
+T 1378735469 18<Guest1219>	thanks :)
+T 1378735472 23*	23Guest1219 (23~rickyb98@151.73.34.76) has left #xchat
+T 1378735754 23*	23Liir has quit (23Ping timeout: 264 seconds23)
+T 1378736073 19*	19Liir (~franck@unaffiliated/liir) has joined #xchat
+T 1378736295 23*	23tekkbuzz has quit (23Quit: Ship has sank!23)
+T 1378736301 23*	23bizarro_1 has quit (23Read error: Connection reset by peer23)
+T 1378736388 19*	19bizarro_1 (~bizarro_1@51.Red-88-19-141.staticIP.rima-tde.net) has joined #xchat
+T 1378736632 19*	19protospork (~bleh@172.245.35.64) has joined #xchat
+T 1378736720 23*	23bizarro_1 has quit (23Read error: Connection reset by peer23)
+T 1378736806 19*	19bizarro_1 (~bizarro_1@51.Red-88-19-141.staticIP.rima-tde.net) has joined #xchat
+T 1378736882 19*	19JoeSomebody (~JoeSomebo@unaffiliated/joesomebody) has joined #xchat
+T 1378737248 23*	23bizarro_1 has quit (23Read error: Connection reset by peer23)
+T 1378737327 23*	23JoeSomebody has quit (23Ping timeout: 260 seconds23)
+T 1378737349 19*	19bizarro_1 (~bizarro_1@51.Red-88-19-141.staticIP.rima-tde.net) has joined #xchat
+T 1378737725 23*	23Liir has quit (23Quit: Leaving23)
+T 1378737789 23*	23Bry8Star{T2_ has quit (23Ping timeout: 240 seconds23)
+T 1378737919 23*	23raSter^ has quit (23Excess Flood23)
+T 1378737960 19*	19raSter^ (raster@gateway/shell/elitebnc/x-dbjmjtyjkebwewpw) has joined #xchat
+T 1378737986 23*	23Repentinus has quit (23Ping timeout: 264 seconds23)
+T 1378738091 19*	19Bry8Star{T2 (~Bry8Star-@gateway/tor-sasl/bry8star-2) has joined #xchat
+T 1378738709 23*	23Kabaka has quit (23Ping timeout: 240 seconds23)
+T 1378738837 19*	19CihanKaygusuz (~Cihan@78.185.5.250) has joined #xchat
+T 1378738933 23*	23]seth[ has quit (23Ping timeout: 245 seconds23)
+T 1378739121 19*	19Kabaka (~Kabaka@botters/kabaka) has joined #xchat
+T 1378739586 19*	19Vicissitude (~Vicissitu@pdpc/supporter/active/vicissitude) has joined #xchat
+T 1378740207 19*	19trusktr (~trusktr@c-76-114-26-222.hsd1.ca.comcast.net) has joined #xchat
+T 1378741291 19*	19Penguiniator (~Penguinia@unaffiliated/penguiniator) has joined #xchat
+T 1378741298 23*	23trusktr has quit (23Ping timeout: 264 seconds23)
+T 1378741526 23*	23tdebaets has quit (23Ping timeout: 240 seconds23)
+T 1378741893 19*	19]seth[ (~seth@ppp-188-174-122-119.dynamic.mnet-online.de) has joined #xchat
+T 1378742575 23*	23darknyan has quit (23Ping timeout: 245 seconds23)
+T 1378742700 23*	23BlueShark has quit (23Quit: Leaving.23)
+T 1378742728 19*	19BlueShark (BlueShark@unaffiliated/blueshark) has joined #xchat
+T 1378742926 19*	19darknyan (~darknyan@unaffiliated/darknyan) has joined #xchat
+T 1378743219 23*	23smartboyhw has quit (23Quit: I will come back later.23)
+T 1378744444 19*	19Chryyz (~Chryyz@mobile-166-147-067-149.mycingular.net) has joined #xchat
+T 1378744746 23*	23Kabaka has quit (23Remote host closed the connection23)
+T 1378744958 23*	23berndj has quit (23Ping timeout: 240 seconds23)
+T 1378744971 19*	19Kabaka (~Kabaka@botters/kabaka) has joined #xchat
+T 1378745027 23*	23sunwind has quit (23Ping timeout: 260 seconds23)
+T 1378745049 19*	19berndj (~berndj@41-133-203-179.dsl.mweb.co.za) has joined #xchat
+T 1378745167 23*	23c-moi has quit (23Ping timeout: 260 seconds23)
+T 1378745291 23*	23Waylander has quit (23Remote host closed the connection23)
+T 1378745343 19*	19JoeSomebody (~JoeSomebo@unaffiliated/joesomebody) has joined #xchat
+T 1378745920 19*	19c-moi (~onnyresis@tui75-3-88-168-237-224.fbx.proxad.net) has joined #xchat
+T 1378745980 19*	19Liir (~franck@unaffiliated/liir) has joined #xchat
+T 1378746533 23*	23Liir has quit (23Ping timeout: 248 seconds23)
+T 1378746676 19*	19Liir (~franck@unaffiliated/liir) has joined #xchat
+T 1378746695 19*	19sunwind (~paradox@cpc3-brmb8-2-0-cust22.1-3.cable.virginmedia.com) has joined #xchat
+T 1378747332 19*	19Monday (~Alpha@24-246-51-209.cable.teksavvy.com) has joined #xchat
+T 1378747356 18<Monday>	how do i turn off automatic connect when disconnect
+T 1378747541 18<Chryyz>	/set net_auto_reconnect 0 - if you don't want it to reconnect at all.
+T 1378747571 18<Chryyz>	/net_auto_reconnectonfail 0 - if you want it to stop attempting reconnects if it fails the first time
+T 1378747613 18<Chryyz>	Append set to the second one too, sorry.
+T 1378747624 19*	19rhonabwy (~rhonabwy@95.157.57.154.dynamic.cablesurf.de) has joined #xchat
+T 1378747916 18<Monday>	okay, now disconnect me to see if it works :P
+T 1378747935 18<sacarasc>	How could we do that?
+T 1378747995 18<Monday>	DDoS
+T 1378748027 18<Monday>	nevermind, i'll just unplug the internet :P
+T 1378748207 19*	19tdebaets (~tdebaets@109.130.24.94) has joined #xchat
+T 1378748539 19*	19binaryhat (~binaryhat@pool-96-224-67-193.nycmny.east.verizon.net) has joined #xchat
+T 1378748596 23*	23JoeSomebody has quit (23Ping timeout: 246 seconds23)
+T 1378748933 23*	23Liir has quit (23Ping timeout: 246 seconds23)
+T 1378749399 19*	19River_Rat (~me@gentoo/contributor/riverrat) has joined #xchat
+T 1378749417 19*	19JoeSomebody (~JoeSomebo@unaffiliated/joesomebody) has joined #xchat
+T 1378749484 23*	23RiverRat has quit (23Ping timeout: 264 seconds23)
+T 1378749637 23*	23Monday has quit (23Ping timeout: 248 seconds23)
+T 1378749857 19*	19Jahe (Jahe@88.85.137.0) has joined #xchat
+T 1378750025 23*	23binaryhat has quit (23Quit: Leaving23)
+T 1378750357 19*	19River-Rat (~me@gentoo/contributor/riverrat) has joined #xchat
+T 1378750459 19*	19binaryhat (~binaryhat@pool-96-224-67-193.nycmny.east.verizon.net) has joined #xchat
+T 1378750530 19*	19xk05 (~xk05@30.176-62-69.ftth.swbr.surewest.net) has joined #xchat
+T 1378750571 23*	23River_Rat has quit (23Ping timeout: 260 seconds23)
+T 1378750655 19*	19ShadeTornado (~ShadeTorn@f124242.upc-f.chello.nl) has joined #xchat
+T 1378750852 19*	19Valdars (~valdar@82.131.59.78.cable.starman.ee) has joined #xchat
+T 1378751064 19*	19grandie (~Grandad@p57ACE76E.dip0.t-ipconnect.de) has joined #xchat
+T 1378751229 23*	23grandie has quit (23Remote host closed the connection23)
+T 1378751533 19*	19trusktr (~trusktr@130.86.73.142) has joined #xchat
+T 1378752365 19*	19Liir (~franck@unaffiliated/liir) has joined #xchat
+T 1378752717 23*	23nemysis has quit (23Remote host closed the connection23)
+T 1378752801 23*	23Liir has quit (23Read error: Operation timed out23)
+T 1378753330 23*	23Chryyz has quit (23Remote host closed the connection23)
+T 1378753530 23*	23trusktr has quit (23Ping timeout: 276 seconds23)
+T 1378754048 19*	19Munto (~frugal@2a01:e35:139d:91e0:221:85ff:fee1:5c3c) has joined #xchat
+T 1378754406 19*	19tpyo (~tpyo@31-209-252-101.dsl.dynamic.simnet.is) has joined #xchat
+T 1378754910 23*	23xk05 has quit (23Quit: Leaving23)
+T 1378755643 23*	23Emmanuel_Chanel has quit (23Ping timeout: 264 seconds23)
+T 1378755744 19*	19Emmanuel_Chanel (~emmanuel@O090160.ppp.dion.ne.jp) has joined #xchat
+T 1378755780 19*	19Ryccardo (~riki@adsl-ull-74-8.42-151.net24.it) has joined #xchat
+T 1378755900 23*	23Ryccardo has quit (23Read error: Connection reset by peer23)
+T 1378755939 23*	23binaryhat has quit (23Quit: Leaving23)
+T 1378756847 23*	23Jahe has quit (23Quit: Leaving23)
+T 1378756900 19*	19nemysis (noident@freebsd/developer/pcbsd.nemysis) has joined #xchat
+T 1378757293 19*	19NightMonkey (~NightrMon@64.124.185.45) has joined #xchat
+T 1378757293 23*	23NightMonkey has quit (23Changing host23)
+T 1378757293 19*	19NightMonkey (~NightrMon@pdpc/supporter/professional/nightmonkey) has joined #xchat
+T 1378758291 23*	23nemysis has quit (23Ping timeout: 264 seconds23)
+T 1378758345 19*	19nemysis (noident@freebsd/developer/pcbsd.nemysis) has joined #xchat
+T 1378759458 23*	23AsumFace has quit (23Ping timeout: 276 seconds23)
+T 1378759909 23*	23Kabaka has quit (23Ping timeout: 240 seconds23)
+T 1378760722 19*	19Kabaka (~Kabaka@botters/kabaka) has joined #xchat
+T 1378761090 19*	19Haswell (~Haswell@unaffiliated/haswell) has joined #xchat
+T 1378761431 23*	23c-moi has quit (23Remote host closed the connection23)
+T 1378761573 23*	23ender` has quit (23Quit:  The evolution of languages: FORTRAN is a non-typed language. C is a weakly typed language. Ada is a strongly typed language. C++ is a strongly hyped language.	-- Ron Sercely23)
+T 1378762839 19*	19Nickiniz (~Akenna@78.182.229.74) has joined #xchat
+T 1378762940 23*	23mharris has quit (23Quit: "23)
+T 1378762945 23*	23Nickiniz (23~Akenna@78.182.229.74) has left #xchat
+T 1378763149 23*	23ender| has quit (23Ping timeout: 256 seconds23)
+T 1378763211 23*	23Vicissitude has quit (23Quit: Remember to always consume madness responsibly23)
+T 1378763495 19*	19Karasaar (~Karasaar@p57AF37CB.dip0.t-ipconnect.de) has joined #xchat
+T 1378763534 18<Karasaar>	Greetings. I would like to ask if it is possible to stop x-chat from coloring usernames in red when they're being highlighted?
+T 1378763676 18<sacarasc>	Being highlighted, or highlighting you?
+T 1378763690 18<Karasaar>	Being highlighted.
+T 1378763701 18<Karasaar>	Being colored red within the x-chat window
+T 1378763765 18<sacarasc>	Settings ▶ Advanced ▶ Text Events. Find "Channel Msg Hilight" (and maybe Channel Action Hilight) and edit them so they don't have %C04 in them next to $1.
+T 1378763775 18<sacarasc>	Hit enter when you're done with editing, then 'OK'.
+T 1378763793 19*	19Mewtwo (~Sephiroth@pdpc/supporter/student/sephiroth) has joined #xchat
+T 1378763867 18<Karasaar>	Ok, let me try that
+T 1378763916 19*	19ender| (~ender1@2a01:260:4094:1:42:42:42:42) has joined #xchat
+T 1378763919 18<Karasaar>	Wait
+T 1378763932 18<Karasaar>	It says: "$4%C21%B%H<%H$1%H>%H%O%C21$t$2"
+T 1378763950 18<Karasaar>	So do I change the %H then?
+T 1378763956 18<Karasaar>	(Or rather, delete?)
+T 1378763966 18<LIP>	no, delete the %C21
+T 1378763967 18<sacarasc>	Only if you want <> to appear around the nick.
+T 1378763969 18<Karasaar>	k
+T 1378763975 18<Karasaar>	Both instances?
+T 1378763978 18<LIP>	the first one, that is
+T 1378763989 18<LIP>	if you delete the second one, it makes the line not be red
+T 1378763990 18<Karasaar>	ok
+T 1378763990 23*	23Mew has quit (23Ping timeout: 240 seconds23)
+T 1378763995 18<LIP>	so if you don't want the rest of the line red, then you remove that
+T 1378764002 18<Karasaar>	Ah
+T 1378764005 18<Karasaar>	I'll delete that aswell then
+T 1378764006 18<Karasaar>	Thanks.
+T 1378764006 18<sacarasc>	See https://toxin.jottit.com/xchat_text_events for more info on text events.
+T 1378764022 18<Karasaar>	Nah, that's actually all I wanted.
+T 1378764023 18<Karasaar>	xD
+T 1378764038 18<LIP>	so after you delete it, hit return on the keyboard and then Save
+T 1378764062 18<sacarasc>	Then we can say Karasaar and you shouldn't be red.
+T 1378764069 18<Karasaar>	Yeah, now it's white xD
+T 1378764308 18<Karasaar>	Is there anywhere specific I have to "Save it to"?
+T 1378764329 18<LIP>	Karasaar: sorry, meant OK on that screen, not Save As
+T 1378764334 18<Karasaar>	Ah
+T 1378764344 18<Karasaar>	Well then that's great. Thanks for the help.
+T 1378764408 23*	23DarkAceZ has quit (23Ping timeout: 245 seconds23)
+T 1378764769 22*	sidv is now known as zz_sidv
+T 1378765338 23*	23Karasaar has quit (23Quit: Doing stuff23)
+T 1378765478 19*	19Johannes13 (~Johannes@p4FDE80BF.dip0.t-ipconnect.de) has joined #xchat
+T 1378765478 23*	23Johannes13 has quit (23Changing host23)
+T 1378765478 19*	19Johannes13 (~Johannes@unaffiliated/johannes13) has joined #xchat
+T 1378765892 19*	19Johannes13_ (~Johannes@unaffiliated/johannes13) has joined #xchat
+T 1378766031 19*	19Karasaar (~Karasaar@p57AF37CB.dip0.t-ipconnect.de) has joined #xchat
+T 1378766055 23*	23Johannes13 has quit (23Ping timeout: 260 seconds23)
+T 1378766204 19*	19ender` (krneki@foo.eternallybored.org) has joined #xchat
+T 1378766259 18<Karasaar>	Heh, I screwed around with textmessages and now I can't copy what is being said, any tipps? (Here's the code: %C18<%C4$3$4$1>%H%O$t$2   )
+T 1378766297 18<LIP>	Karasaar: you need to remove the %H
+T 1378766305 18<Karasaar>	Thx
+T 1378766308 18<Karasaar>	You guys are awesome
+T 1378766321 18<LIP>	%H should be in pairs, the first one hides the text, the second unhides it
+T 1378766382 18<Karasaar>	Aha
+T 1378766457 23*	23tdebaets has quit (23Quit: tdebaets23)
+T 1378766519 23*	23ender` has quit (23Quit:  Puritanism - the haunting fear that someone, somewhere, may be happy.	-- Henry Mencken23)
+T 1378766682 23*	23Karasaar has quit (23Quit: Doing stuff23)
+T 1378766876 19*	19DarkAceZ (~BillyMays@unaffiliated/darkacez) has joined #xchat
+T 1378766946 23*	23Johannes13_ has quit (23Ping timeout: 276 seconds23)
+T 1378766974 23*	23Valdars has quit (23Quit: Leaving23)
+T 1378767187 19*	19ender` (krneki@foo.eternallybored.org) has joined #xchat
+T 1378767283 23*	23DarkAceZ has quit (23Ping timeout: 245 seconds23)
+T 1378767921 19*	19DarkAceZ (~BillyMays@unaffiliated/darkacez) has joined #xchat
+T 1378767973 19*	19setmeaway (stemearay@119.201.52.138) has joined #xchat
+T 1378768107 19*	19Moochie (4a7db7c4@gateway/web/freenode/ip.74.125.183.196) has joined #xchat
+T 1378768377 23*	23Moochie has quit (23Ping timeout: 250 seconds23)
+T 1378768444 19*	19nutron (~nutron@unaffiliated/nutron) has joined #xchat
+T 1378768485 23*	23ecky--ptang-zoob has quit (23Ping timeout: 248 seconds23)
+T 1378768627 23*	23tpyo has quit (23Quit: Leaving23)
+T 1378769686 19*	19macwolf74 (~rnjohnson@unaffiliated/macwolf74) has joined #xchat
+T 1378769861 23*	23Penguiniator has quit (23Quit: Leaving23)
+T 1378770465 23*	23Uisgdlyast has quit (23Read error: Connection reset by peer23)
+T 1378770492 19*	19Knunez (Knunez@gateway/shell/ircrelay.com/x-ysuzorsjhrmjxlex) has joined #xchat
+T 1378770500 23*	23Knunez (23Knunez@gateway/shell/ircrelay.com/x-ysuzorsjhrmjxlex) has left #xchat (23"Textual IRC Client: www.textualapp.com"23)
+T 1378770776 23*	23ender` has quit (23Quit:  Sometimes I lie awake at night, and I ask, "Where have I gone wrong?" Then a voice says to me, "This is going to take more than one night."23)
+T 1378771088 19*	19Guest27710 (Uisgdlyast@running.in.circles.around.panicbnc.net) has joined #xchat
+T 1378771136 19*	19FluxD (~FluxD@cpe-24-27-44-38.austin.res.rr.com) has joined #xchat
+T 1378771136 23*	23FluxD has quit (23Changing host23)
+T 1378771136 19*	19FluxD (~FluxD@unaffiliated/fluxd) has joined #xchat
+T 1378771217 19*	19trusktr (~trusktr@130.86.73.142) has joined #xchat
+T 1378771384 23*	23bozonius has quit (23Remote host closed the connection23)
+T 1378771423 19*	19forculus (~forculus@unaffiliated/forculus) has joined #xchat
+T 1378771917 23*	23MsJack has quit (23Read error: Connection reset by peer23)
+T 1378771998 19*	19MsJack (~MsJack@89-156-132-2.rev.numericable.fr) has joined #xchat
+T 1378772067 23*	23MsJack has quit (23Client Quit23)
+T 1378772334 19*	19MsJack (~MsJack@89-156-132-2.rev.numericable.fr) has joined #xchat
+T 1378772466 23*	23trusktr has quit (23Ping timeout: 256 seconds23)
+T 1378772836 19*	19c-moi (~onnyresis@tui75-3-88-168-237-224.fbx.proxad.net) has joined #xchat
+T 1378773278 23*	23Vampire0 has quit (23Ping timeout: 240 seconds23)
+T 1378773522 23*	23forculus has quit (23Remote host closed the connection23)
+T 1378773706 23*	23MsJack has quit (23Read error: Connection reset by peer23)
+T 1378773766 19*	19MsJack (~MsJack@89-156-132-2.rev.numericable.fr) has joined #xchat
+T 1378774248 19*	19sertsa (~sertsa@248.223.118.66.brainstorminternet.net) has joined #xchat
+T 1378774788 19*	19ecky--ptang-zoob (~Y@94-226-11-249.access.telenet.be) has joined #xchat
+T 1378775038 19*	19Chryyz (~Chryyz@mobile-166-147-067-149.mycingular.net) has joined #xchat
+T 1378775183 23*	23ecky--ptang-zoob has quit (23Ping timeout: 260 seconds23)
+T 1378775893 19*	19jgk (~jgk@pool-71-191-180-93.washdc.fios.verizon.net) has joined #xchat
+T 1378776208 23*	23macwolf74 has quit (23Ping timeout: 245 seconds23)
+T 1378776251 23*	23nutron has quit (23Quit: I must go eat my cheese!23)
+T 1378776279 19*	19MsJack1 (~MsJack@89-156-132-2.rev.numericable.fr) has joined #xchat
+T 1378776306 19*	19`deb (~relax@CPE0026f3966ed8-CM0026f3966ed5.cpe.net.cable.rogers.com) has joined #xchat
+T 1378776315 23*	23MsJack1 has quit (23Read error: Connection reset by peer23)
+T 1378776326 23*	23`deb has quit (23Client Quit23)
+T 1378776346 22*	trout is now known as variable
+T 1378776351 19*	19MsJack1 (~MsJack@89-156-132-2.rev.numericable.fr) has joined #xchat
+T 1378776398 23*	23MsJack has quit (23Ping timeout: 264 seconds23)
+T 1378776415 23*	23bluebomber has quit (23Quit: Freedom!23)
+T 1378776456 19*	19apoplexy_ (~heyman@CPEbc1401279703-CMbc1401279700.cpe.net.cable.rogers.com) has joined #xchat
+T 1378776628 23*	23NightMonkey has quit (23Remote host closed the connection23)
+T 1378776954 19*	19macwolf74 (~rnjohnson@unaffiliated/macwolf74) has joined #xchat
+T 1378777355 19*	19]seth[_ (~seth@ppp-188-174-26-200.dynamic.mnet-online.de) has joined #xchat
+T 1378777438 23*	23jgk (23~jgk@pool-71-191-180-93.washdc.fios.verizon.net) has left #xchat (23"Leaving"23)
+T 1378777574 23*	23]seth[ has quit (23Ping timeout: 240 seconds23)
+T 1378777995 23*	23WormDrink has quit (23Quit: Leaving23)
+T 1378778631 23*	23bizarro_1 has quit (23Quit: Leaving23)
+T 1378778716 19*	19trusktr (~trusktr@130.86.73.142) has joined #xchat
+T 1378779028 23*	23DarkAceZ has quit (23Ping timeout: 256 seconds23)
+T 1378779412 22*	River-Rat is now known as RiverRat
+T 1378779814 19*	19Vampire0 (vampire@jEdit/Vampire) has joined #xchat
+T 1378779894 19*	19DarkAceZ (~BillyMays@unaffiliated/darkacez) has joined #xchat
+T 1378779979 23*	23]seth[_ has quit (23Remote host closed the connection23)
+T 1378780038 19*	19guest42342 (~neon@bzq-79-180-186-202.red.bezeqint.net) has joined #xchat
+T 1378780046 18<guest42342>	LifeIsPain, hi
+T 1378780226 23*	23Chryyz has quit (23Ping timeout: 245 seconds23)
+T 1378780341 19*	19binaryhat (~binaryhat@pool-96-224-67-193.nycmny.east.verizon.net) has joined #xchat
+T 1378780397 23*	23iasov has quit (23Read error: Operation timed out23)
+T 1378780588 23*	23trusktr has quit (23Ping timeout: 264 seconds23)
+T 1378780790 23*	23Haswell has quit (23Ping timeout: 264 seconds23)
+T 1378780857 23*	23binaryhat has quit (23Quit: Leaving23)
+T 1378780965 19*	19iasov (~iasov@184.82.9.82) has joined #xchat
+T 1378781405 23*	23ShadeTornado has quit (23Quit: Leaving23)
+T 1378781478 23*	23MsJack1 has quit (23Quit: Quitte23)
+T 1378782208 23*	23macwolf74 has quit (23Quit: Elvis has left the building!23)
+T 1378782305 22*	zz_sidv is now known as sidv
+T 1378783523 23*	23Sazpaimon_ has quit (23Changing host23)
+T 1378783523 19*	19Sazpaimon_ (wat@unaffiliated/Sazpaimon) has joined #xchat
+T 1378783783 19*	19jgk (~jgk@pool-71-191-180-93.washdc.fios.verizon.net) has joined #xchat
+T 1378783796 23*	23jgk (23~jgk@pool-71-191-180-93.washdc.fios.verizon.net) has left #xchat (23"Leaving"23)
+T 1378784118 19*	19btree (~btree@unaffiliated/archis) has joined #xchat
+T 1378784343 23*	23btree (23~btree@unaffiliated/archis) has left #xchat
+T 1378785039 23*	23CihanKaygusuz has quit (23Ping timeout: 260 seconds23)
+T 1378785516 19*	19CihanKaygusuz (~Cihan@78.185.5.250) has joined #xchat
+T 1378788578 19*	19trusktr (~trusktr@c-76-114-26-222.hsd1.ca.comcast.net) has joined #xchat
+T 1378788870 22*	sidv is now known as zz_sidv
+T 1378791948 23*	23sertsa has quit (23Ping timeout: 256 seconds23)
+T 1378792036 23*	23raSter^ has quit (23Excess Flood23)
+T 1378792170 19*	19raSter^- (raster@gateway/shell/elitebnc/x-ywncsudetjgjcolc) has joined #xchat
+T 1378793150 23*	23brr has quit (23Ping timeout: 245 seconds23)
+T 1378793174 23*	23KindOne has quit (23Ping timeout: 264 seconds23)
+T 1378793175 23*	23ShapeShifter499 has quit (23Ping timeout: 245 seconds23)
+T 1378793200 23*	23zoktar has quit (23Ping timeout: 245 seconds23)
+T 1378793246 23*	23nemysis has quit (23Ping timeout: 264 seconds23)
+T 1378793268 19*	19nemysis (noident@219-99.77-83.cust.bluewin.ch) has joined #xchat
+T 1378793269 19*	19KindOne (~KindOne@colchester-lug/silly-fool/donut) has joined #xchat
+T 1378793273 23*	23nemysis has quit (23Changing host23)
+T 1378793273 19*	19nemysis (noident@freebsd/developer/pcbsd.nemysis) has joined #xchat
+T 1378793363 19*	19brr (baboons@2605:6400:1:fed5:22:8df6:4076:3042) has joined #xchat
+T 1378793398 23*	23Bry8Star{T2 has quit (23Remote host closed the connection23)
+T 1378793475 19*	19zoktar (~zoktar@unaffiliated/zoktar) has joined #xchat
+T 1378793493 23*	23bandroidx has quit (23Quit: ZNC - http://znc.in23)
+T 1378793494 23*	23Xan|Away has quit (23Excess Flood23)
+T 1378793508 19*	19Bry8Star{T2 (~Bry8Star-@gateway/tor-sasl/bry8star-2) has joined #xchat
+T 1378793518 19*	19bandroidx (~bandroidx@unaffiliated/bandroid) has joined #xchat
+T 1378793642 23*	23marienz has quit (23Ping timeout: 624 seconds23)
+T 1378793656 19*	19ShapeShifter499 (ShapeShift@bounce.around.the.world.panicbnc.net) has joined #xchat
+T 1378793982 23*	23JoeSomebody has quit (23Read error: Connection timed out23)
+T 1378794020 19*	19ender` (krneki@foo.eternallybored.org) has joined #xchat
+T 1378794061 23*	23RiverRat has quit (23Read error: Connection timed out23)
+T 1378794087 19*	19RiverRat (~me@gentoo/contributor/riverrat) has joined #xchat
+T 1378794598 19*	19sertsa (~sertsa@248.223.118.66.brainstorminternet.net) has joined #xchat
+T 1378794823 23*	23Mewtwo has quit (23Read error: Connection reset by peer23)
+T 1378794933 23*	23TwiztedZero has quit (23Ping timeout: 245 seconds23)
+T 1378795056 19*	19JoeSomebody (~JoeSomebo@unaffiliated/joesomebody) has joined #xchat
+T 1378795280 19*	19Xanadar (iamxan@2001:470:1f0f:521:c0de:c0de:c0de:c0de) has joined #xchat
+T 1378796613 19*	19marienz (~marienz@freenode/staff/marienz) has joined #xchat
+T 1378797454 19*	19tdebaets (~tdebaets@alc112.alcatel.be) has joined #xchat
+T 1378797783 19*	19Fudus (~User@180.194.7.113) has joined #xchat
+T 1378797901 19*	19TwiztedZero (~TZ@unaffiliated/twiztedzero) has joined #xchat
+T 1378798813 19*	19smartboyhw (~smartboyh@ubuntu/member/smartboyhw) has joined #xchat
+T 1378798842 23*	23Sleepy63 has quit (23Ping timeout: 264 seconds23)
+T 1378799164 23*	23Munto has quit (23Quit: Let's make things Frugal!23)

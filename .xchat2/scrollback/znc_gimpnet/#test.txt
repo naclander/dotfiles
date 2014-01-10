@@ -1,0 +1,8 @@
+T 1384674571 19*	19Now talking on #test
+T 1384674571 22*	irc.poop.nl sets mode +n #test
+T 1384674571 22*	irc.poop.nl sets mode +t #test
+T 1384674572 22*	hemite sets mode +s #test
+T 1384674572 22*	hemite sets mode +t #test
+T 1384674572 22*	hemite sets mode +n #test
+T 1384674579 18*	hemite waves
+T 1384674584 18*	hemite lols at you

@@ -1,0 +1,505 @@
+T 1389042562 18<CPMPickupBot>	05We need a sub for 10NTF05 at 10#cpmpickup05 @ 10lazery.cpmpickup.de:27962;password lobstarz05 please join!
+T 1389042873 19*	19gaiiax (~asd@gaiia.users.quakenet.org) has joined #cpmduel
+T 1389043083 23*	23gaiia has quit (23Read error: Operation timed out23)
+T 1389043141 23*	23kernel_ has quit (23Signed off23)
+T 1389043464 22*	gaiiax is now known as gaiia
+T 1389044973 22*	Disconnected (Remote host closed socket).
+T 1389053548 19*	19Now talking on #cpmduel
+T 1389053548 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05RU 04[0/2] 12][ 05UK 04[0/2] 12][ 05NL 04[0/2] 12][ 05LOW 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| NA 1v1 tourney - http://goo.gl/6a3Tll
+T 1389053548 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Mon Jan  6 12:00:46 2014
+T 1389053548 18<***>	Buffer Playback...
+T 1389053548 18<quartz>	[15:37:03] not sure if this is the right place, but anyone willing to help a new guy to the cpm scene? :p
+T 1389053548 18<***>	Playback Complete.
+T 1389053809 23*	23farnish has quit (23Signed off23)
+T 1389053920 18<tana>	quartz cpmpickup is a better place to ask questions
+T 1389053932 23*	23tana has quit (23Signed off23)
+T 1389053951 19*	19tana (~tana@tana.users.quakenet.org) has joined #cpmduel
+T 1389054086 23*	23Balto has quit (23Signed off23)
+T 1389054813 23*	23HellTiger has quit (23Ping timeout23)
+T 1389054872 23*	23bdh-khumr has quit (23Signed off23)
+T 1389055465 23*	23_es has quit (23Signed off23)
+T 1389055831 23*	23lisk has quit (23Signed off23)
+T 1389055831 23*	23Hugo has quit (23Signed off23)
+T 1389056051 23*	23feaJz has quit (23Signed off23)
+T 1389057171 23*	23pears has quit (23Signed off23)
+T 1389058135 23*	23quartz has quit (23Ping timeout23)
+T 1389058175 23*	23fatola has quit (23Signed off23)
+T 1389060201 22*	Disconnected (Remote host closed socket).
+T 1389061892 19*	19Now talking on #cpmduel
+T 1389061892 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05RU 04[0/2] 12][ 05UK 04[0/2] 12][ 05NL 04[0/2] 12][ 05LOW 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| NA 1v1 tourney - http://goo.gl/6a3Tll
+T 1389061892 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Mon Jan  6 12:00:46 2014
+T 1389061908 23*	23gaiia has quit (23Signed off23)
+T 1389064832 19*	19xero (~xero@70.49.99.44) has joined #cpmduel
+T 1389065446 23*	23Smilecythe has quit (23Signed off23)
+T 1389066137 19*	19dsharp3 (kvirc@h190n5-n-a31.ias.bredband.telia.com) has joined #cpmduel
+T 1389066219 18<dsharp3>	http://www.twitch.tv/speeddemosarchivesda/popout <-- quake speed run now AGDQ 2014
+T 1389066790 19*	19nvz (~nvz@pool-74-99-152-9.hrbgpa.fios.verizon.net) has joined #cpmduel
+T 1389067950 23*	23santile has quit (23Read error: Connection reset by peer23)
+T 1389069571 23*	23venim has quit (23Ping timeout23)
+T 1389069702 23*	23Anarrr has quit (23Signed off23)
+T 1389069942 23*	23rehepappen has quit (23Signed off23)
+T 1389070138 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070138 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389070204 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070204 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389070240 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070240 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389070430 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070431 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389070550 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070550 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389070586 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070586 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389070707 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070707 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389070771 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070771 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389070812 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389070827 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070864 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389070864 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389071108 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071108 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389071156 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389071158 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071172 19*	19venim (~venim@venim.users.quakenet.org) has joined #cpmduel
+T 1389071504 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071504 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389071655 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071655 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389071696 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071696 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389071763 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071763 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389071810 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071810 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389071909 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071909 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389071954 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071954 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389071994 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389071994 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389072016 23*	23TheDynamite has quit (23Signed off23)
+T 1389072019 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389072036 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072183 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072183 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389072242 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072242 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389072344 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072344 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389072438 23*	23nineX_ has quit (23Signed off23)
+T 1389072439 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389072458 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072527 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072527 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389072612 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072612 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389072655 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072655 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389072695 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389072698 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072804 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072804 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389072862 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072862 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389072975 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389072975 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389073041 23*	23PlayLessPromode has quit (23Signed off23)
+T 1389073084 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389073084 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389073129 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389073129 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389073215 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389073215 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389073318 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389073318 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389073389 19*	19bdh-khumr (utrukson@192-0-249-170.cpe.teksavvy.com) has joined #cpmduel
+T 1389073409 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389073432 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389073499 19*	19karlb_ (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389073499 23*	23karlb has quit (23Read error: Connection reset by peer23)
+T 1389073668 23*	23xero has quit (23Signed off23)
+T 1389073798 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389073798 23*	23karlb_ has quit (23Read error: Connection reset by peer23)
+T 1389073983 19*	19LuGia (LuGia@178-75-150-97.bb.dnainternet.fi) has joined #cpmduel
+T 1389073983 22*	26Q gives voice to26 LuGia
+T 1389074044 23*	23fluffyanimals has quit (23Ping timeout23)
+T 1389081635 22*	Disconnected (Remote host closed socket).
+T 1389081646 19*	19Now talking on #cpmduel
+T 1389081646 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05RU 04[0/2] 12][ 05UK 04[0/2] 12][ 05NL 04[0/2] 12][ 05LOW 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| NA 1v1 tourney - http://goo.gl/6a3Tll
+T 1389081646 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Mon Jan  6 12:00:46 2014
+T 1389081759 19*	19Toast (~NEWBRO@host86-137-125-3.range86-137.btcentralplus.com) has joined #cpmduel
+T 1389116158 22*	Disconnected (Remote host closed socket).
+T 1389116170 19*	19Now talking on #cpmduel
+T 1389116170 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05RU 04[0/2] 12][ 05UK 04[0/2] 12][ 05NL 04[0/2] 12][ 05LOW 04[0/2] 12][ 05DE 04[0/2] 12][ 05SE 04[0/2] 12|| NA 1v1 tourney - http://goo.gl/6a3Tll
+T 1389116170 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Tue Jan  7 07:43:21 2014
+T 1389116170 18<***>	Buffer Playback...
+T 1389116170 18<Crashmb>	[07:11:37] duel anyone ?
+T 1389116170 18<Christiaan>	[07:15:05] sure Crashmb
+T 1389116170 18<Christiaan>	[07:15:07] ip?
+T 1389116170 18<Crashmb>	[07:15:13] !add de
+T 1389116170 18<Crashmb>	[07:15:41] Christiaan
+T 1389116170 18<Crashmb>	[07:15:58] !q3 de
+T 1389116170 18<Christiaan>	[07:16:40] coming
+T 1389116170 18<CPMPickupBot>	[07:16:42] 06de is roboty.cpmpickup.de:27961;password lobstarz
+T 1389116170 18<Christiaan>	[07:16:43] !add de
+T 1389116170 18<CPMPickupBot>	[07:16:44] TDM on 03cpm21 05(0/14)
+T 1389116170 18<CPMPickupBot>	[07:16:48] 10DE 05ready @ 04roboty.cpmpickup.de:27961;password lobstarz || 05Players: 10[Crashmb, Christiaan]
+T 1389116170 18<kahko>	[07:43:01] !q3 de
+T 1389116170 18<CPMPickupBot>	[07:43:02] 06de is roboty.cpmpickup.de:27961;password lobstarz
+T 1389116170 18<CPMPickupBot>	[07:43:04] TDM on 03cpm21 05(0/14)
+T 1389116170 18<kahko>	[07:43:09] !add se
+T 1389116170 18<_es>	[07:43:15] !add se
+T 1389116170 18<CPMPickupBot>	[07:43:17] 10SE 05ready @ 04home.granis.se:27960;password bender || 05Players: 10[kahko, _es]
+T 1389116170 18<***>	Playback Complete.
+T 1389116248 23*	23Crashmb has quit (23Signed off23)
+T 1389116365 23*	23Plaisi has quit (23Ping timeout23)
+T 1389116395 19*	19esc|eThaD (esc_eThaD@data-129-97.cgates.lt) has joined #cpmduel
+T 1389155445 22*	Disconnected (Remote host closed socket).
+T 1389159200 19*	19Now talking on #cpmduel
+T 1389159200 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05RU 04[0/2] 12][ 05UK 04[0/2] 12][ 05NL 04[0/2] 12][ 05LOW 04[0/2] 12][ 05DE 04[0/2] 12][ 05SE 04[0/2] 12|| NA 1v1 tourney - http://goo.gl/6a3Tll
+T 1389159200 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Tue Jan  7 13:42:27 2014
+T 1389159200 18<***>	Buffer Playback...
+T 1389159200 18<kahko>	[10:45:34] !add se
+T 1389159200 18<kahko>	[11:07:41] !remove
+T 1389159200 18<ZEN|ele>	[11:27:56] !add de
+T 1389159200 18<ZEN|ele>	[11:37:18] !remove
+T 1389159200 18<ZEN|ele>	[12:07:52] !add de
+T 1389159200 18<ZEN|ele>	[12:29:33] !remove
+T 1389159200 18<esc|eThaD>	[12:38:14] !q3 mczone.ru:27968
+T 1389159200 18<CPMPickupBot>	[12:38:14] 1V1 on 03cpm24 05(4/16) || Players: 10[RPML7  boss:3, RPML7  DEZ:0] || Spectators: 14[veliarS:0, KaryonOk:0] || Time left: 6:55
+T 1389159200 18<_es>	[12:51:24] !add se
+T 1389159200 18<_es>	[13:42:27] !remove
+T 1389159200 18<***>	Playback Complete.
+T 1389160567 22*	Disconnected (Remote host closed socket).
+T 1389162379 19*	19Now talking on #cpmduel
+T 1389162379 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05RU 04[0/2] 12][ 05UK 04[0/2] 12][ 05NL 04[0/2] 12][ 05LOW 04[0/2] 12][ 05DE 04[0/2] 12][ 05SE 04[0/2] 12|| NA 1v1 tourney - http://goo.gl/6a3Tll
+T 1389162379 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Tue Jan  7 13:42:27 2014
+T 1389163316 23*	23L-xero has quit (23Signed off23)
+T 1389163354 23*	23nineX_ has quit (23Signed off23)
+T 1389164893 23*	23LuGia has quit (23Ping timeout23)
+T 1389165254 23*	23venim has quit (23Ping timeout23)
+T 1389166003 19*	19PlayMoreCS (PlayLessPr@46.109.151.39) has joined #cpmduel
+T 1389166119 23*	23PlayLessPromode has quit (23Ping timeout23)
+T 1389167233 19*	19venim (~venim@venim.users.quakenet.org) has joined #cpmduel
+T 1389167727 19*	19TroX (~TroX@176.14.123.8) has joined #cpmduel
+T 1389211570 22*	Disconnected (Remote host closed socket).
+T 1389227142 19*	19Now talking on #cpmduel
+T 1389227142 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05SE 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[0/2] 12][ 05NL 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389227142 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Wed Jan  8 14:21:20 2014
+T 1389227142 18<***>	Buffer Playback...
+T 1389227142 18<neverGreen>	[00:38:17] should be ok for playing
+T 1389227142 18<ZEN|pan>	[00:46:27] !q3 okidoki#
+T 1389227142 18<CPMPickupBot>	[00:46:28] Couldn't query the server.
+T 1389227142 18<ZEN|pan>	[00:46:30] !q3 okidoki
+T 1389227142 18<CPMPickupBot>	[00:46:33] Couldn't query the server.
+T 1389227142 18<ZEN|pan>	[00:46:38] !q3 roboty
+T 1389227142 18<CPMPickupBot>	[00:46:39] 06roboty is roboty.cpmpickup.de:27961;password lobstarz
+T 1389227142 18<CPMPickupBot>	[00:46:40] TDM on 03cpm21 05(0/14)
+T 1389227142 18<ZEN|pan>	[01:22:01] !q3 granis
+T 1389227142 18<CPMPickupBot>	[01:22:01] 06granis is home.granis.se:27960;password bender
+T 1389227142 18<CPMPickupBot>	[01:22:03] 1V1 on 03cpm24 05(0/16)
+T 1389227142 18<ZEN|pan>	[01:24:03] !add
+T 1389227142 18<napalot>	[01:35:54] !who
+T 1389227142 18<napalot>	[01:36:00] !add de
+T 1389227142 18<CPMPickupBot>	[01:36:02] 10DE 05ready @ 04roboty.cpmpickup.de:27961;password lobstarz || 05Players: 10[ZEN|pan, napalot]
+T 1389227142 18<fzy>	[01:36:37] !!
+T 1389227142 18*	napalot [01:38:36] slaps ZEN|pan around a bit with a large trout
+T 1389227142 18<ZEN|pan>	[02:05:39] !add
+T 1389227142 18<_es>	[05:46:20] !add se
+T 1389227142 18<Gizma>	[05:49:19] !IP SE
+T 1389227142 18<_es>	[05:59:20] !remove
+T 1389227142 18<_es>	[05:59:38] !q3 granis
+T 1389227142 18<CPMPickupBot>	[05:59:38] 06granis is home.granis.se:27960;password bender
+T 1389227142 18<CPMPickupBot>	[05:59:40] 1V1 on 03cpm24 05(0/16)
+T 1389227142 18<ZEN|pan>	[06:34:11] !add
+T 1389227142 18<Gizma>	[06:39:02] !ip ru
+T 1389227142 18<Gizma>	[06:39:22] !add ru
+T 1389227142 18<CPMPickupBot>	[06:39:24] 10RU 05ready @ 0489.108.116.36:27966 || 05Players: 10[ZEN|pan, Gizma]
+T 1389227142 18<ZEN|pan>	[06:44:23] !add
+T 1389227142 18<Gizma>	[06:45:00] ZEN|pan
+T 1389227142 18<Gizma>	[06:45:07] [18:39] <@CPMPickupBot> 10RU 05ready @ 0489.108.116.36:27966 || 05Players: 10[ZEN|pan, Gizma]
+T 1389227142 18<ZEN|panda>	[06:50:00] sorry...I´m coming
+T 1389227142 18<ZEN|panda>	[07:16:17] !add de
+T 1389227142 18<ZEN|panda>	[07:16:25] Gizma add
+T 1389227142 18<Gizma>	[07:21:22] !ip de
+T 1389227142 18<Gizma>	[07:22:04] !add de
+T 1389227142 18<CPMPickupBot>	[07:22:06] 10DE 05ready @ 04roboty.cpmpickup.de:27961;password lobstarz || 05Players: 10[ZEN|panda, Gizma]
+T 1389227142 18<_es>	[07:22:18] !add se
+T 1389227142 18<_es>	[07:46:38] !remove
+T 1389227142 18<crouton{dR>	[08:00:30] !add se de nl uk
+T 1389227142 18<farnish>	[08:04:48] !add nl
+T 1389227142 18<farnish>	[08:05:08] !add de
+T 1389227142 18<farnish>	[08:05:19] !add uk
+T 1389227142 18<CPMPickupBot>	[08:05:21] 10NL 05ready @ 04shokushuzeme.me:27960;password || 05Players: 10[crouton{dR, farnish]
+T 1389227142 18<farnish>	[08:05:32] !remove
+T 1389227142 18<CPMPickupBot>	[09:34:11] 05We need a sub for 10NTF05 at 10#cpmpickup05 @ 10lazery.cpmpickup.de:27962;password lobstarz05 please join!
+T 1389227142 18<CPMPickupBot>	[10:39:05] 05We need a sub for 10CTF05 at 10#cpmpickup05 @ 10lazery.cpmpickup.de:27962;password lobstarz05 please join!
+T 1389227142 18<ZEN|pan>	[11:29:21] !add de
+T 1389227142 18<ZEN|pan>	[11:32:30] !remove
+T 1389227142 18<rokky>	[13:11:41] !add se de nl
+T 1389227142 18<***>	Playback Complete.
+T 1389227258 23*	23To4st has quit (23Signed off23)
+T 1389232892 22*	Disconnected (Remote host closed socket).
+T 1389232903 19*	19Now talking on #cpmduel
+T 1389232903 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05SE 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[0/2] 12][ 05NL 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389232903 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Wed Jan  8 14:21:20 2014
+T 1389233037 23*	23idenieide has quit (23Signed off23)
+T 1389233372 19*	19TheMafia (~mafia@CPE78cd8e661758-CM78cd8e661755.cpe.net.cable.rogers.com) has joined #cpmduel
+T 1389233427 23*	23memphis has quit (23Read error: Connection reset by peer23)
+T 1389256182 22*	Disconnected (Remote host closed socket).
+T 1389256211 19*	19Now talking on #cpmduel
+T 1389256211 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05SE 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[0/2] 12][ 05NL 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389256211 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Wed Jan  8 14:21:20 2014
+T 1389256730 23*	23Toast has quit (23Signed off23)
+T 1389257357 22*	HAL_9000_away is now known as HAL_9000
+T 1389258167 19*	19Hugo_ (~MrIco@5352A483.cm-6-3c.dynamic.ziggo.nl) has joined #cpmduel
+T 1389260272 22*	DEZ__ is now known as DEZ_
+T 1389262307 23*	23afgh has quit (23Signed off23)
+T 1389262359 18<kahko>	!add se
+T 1389262359 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05SE 04[1/2] 12][ 05RU 04[0/2] 12][ 05DE 04[0/2] 12][ 05NL 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389263002 19*	19gaiia (~asd@gaiia.users.quakenet.org) has joined #cpmduel
+T 1389263858 23*	23venim has quit (23Ping timeout23)
+T 1389264412 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389264485 18<_es>	!add se
+T 1389264485 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05SE 04[2/2] 12][ 05RU 04[0/2] 12][ 05DE 04[0/2] 12][ 05NL 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389264487 18<CPMPickupBot>	10SE 05ready @ 04home.granis.se:27960;password bender || 05Players: 10[kahko, _es]
+T 1389264491 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389266288 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389266562 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389266848 19*	19cons (~cons@p4FC01477.dip0.t-ipconnect.de) has joined #cpmduel
+T 1389267468 19*	19veliars (~sergey047@212.13.4.71) has joined #cpmduel
+T 1389268953 19*	19TroX (~TroX@176.14.123.8) has joined #cpmduel
+T 1389268987 19*	19Zack` (~Ziggy@cpc4-cast6-2-0-cust14.uddi.cable.virginm.net) has joined #cpmduel
+T 1389269007 19*	19pears (pears@85-23-4-250.bb.dnainternet.fi) has joined #cpmduel
+T 1389269482 19*	19ZEN|pan (~Ara@HSI-KBW-109-192-195-109.hsi6.kabel-badenwuerttemberg.de) has joined #cpmduel
+T 1389269493 18<ZEN|pan>	!add
+T 1389269493 22*	CPMPickupBot has changed the topic to: 05US 04[1/2] 12][ 05UK 04[1/2] 12][ 05LOW 04[1/2] 12][ 05RU 04[1/2] 12][ 05DE 04[1/2] 12][ 05NL 04[1/2] 12][ 05SE 04[1/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389269611 19*	19HellTiger (~HellTiger@138-141.199-178.cust.bluewin.ch) has joined #cpmduel
+T 1389269611 23*	23HellTiger has quit (23Registered23)
+T 1389269611 19*	19HellTiger (~HellTiger@HellTiger.users.quakenet.org) has joined #cpmduel
+T 1389269728 22*	fe4rz is now known as fe4rzacestlavie
+T 1389270522 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389270590 19*	19Gizma (~Gizma@46.164.192.75) has joined #cpmduel
+T 1389270663 18<Gizma>	!who
+T 1389270666 18<Gizma>	=)
+T 1389270930 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389271365 19*	19veliars[away] (~sergey047@212.13.4.71) has joined #cpmduel
+T 1389271496 23*	23veliars has quit (23Ping timeout23)
+T 1389271566 23*	23veliars[away] has quit (23Read error: Connection reset by peer23)
+T 1389271581 19*	19veliars (~sergey047@212.13.4.71) has joined #cpmduel
+T 1389271903 19*	19Balto (~balto@246.65.37.188.rev.vodafone.pt) has joined #cpmduel
+T 1389272371 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389272696 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389272798 23*	23fe4rzacestlavie has quit (23Signed off23)
+T 1389273796 23*	23ZEN|pan has quit (23Signed off23)
+T 1389273796 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389273798 19*	19Pill (~nabnabnab@541FB6EE.cm-5-8c.dynamic.ziggo.nl) has joined #cpmduel
+T 1389275234 23*	23gaiia has quit (23Read error: Operation timed out23)
+T 1389275830 19*	19nekon (~nekon2ez@nekon.users.quakenet.org) has joined #cpmduel
+T 1389276523 19*	19kernel_ (~kernel@176.109.237.192) has joined #cpmduel
+T 1389276566 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389276908 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389278452 19*	19m1zu (~M1zu@ANantes-653-1-48-100.w109-211.abo.wanadoo.fr) has joined #cpmduel
+T 1389278459 19*	19Maverick|MSG (~campagnol@MaverickMSG.users.quakenet.org) has joined #cpmduel
+T 1389278536 19*	19dansen (~Daniel@p5B0A073C.dip0.t-ipconnect.de) has joined #cpmduel
+T 1389278823 19*	19farnish (~farnish@95-91-249-78-dynip.superkabel.de) has joined #cpmduel
+T 1389278831 19*	19gaiia (~asd@gaiia.users.quakenet.org) has joined #cpmduel
+T 1389278868 23*	23m1zu has quit (23Signed off23)
+T 1389279179 19*	19napalot (~stormspir@178.215.97.124) has joined #cpmduel
+T 1389281085 19*	19santile (~santile@santile.users.quakenet.org) has joined #cpmduel
+T 1389281272 19*	19HellTiger_ (~HellTiger@138-141.199-178.cust.bluewin.ch) has joined #cpmduel
+T 1389281461 19*	19Quik (~nnscript@128-69-115-211.broadband.corbina.ru) has joined #cpmduel
+T 1389281480 23*	23HellTiger has quit (23Ping timeout23)
+T 1389281687 19*	19RTG` (~RTG@RTG96.users.quakenet.org) has joined #cpmduel
+T 1389282314 19*	19Maltek (~Maltek@188.113.81.249) has joined #cpmduel
+T 1389283121 23*	23gaiia has quit (23Signed off23)
+T 1389283236 19*	19Christiaan (~Christiaa@195-240-107-216.ip.telfort.nl) has joined #cpmduel
+T 1389283430 19*	19rehepappen (~oke@r22fw1.campusnet.ee) has joined #cpmduel
+T 1389283843 19*	19_nTk (romain.glo@hel59-2-82-227-217-20.fbx.proxad.net) has joined #cpmduel
+T 1389284112 19*	19feaJz (~dummy@93-81-104-38.broadband.corbina.ru) has joined #cpmduel
+T 1389284908 19*	19TrooX (~TroX@37-146-244-231.broadband.corbina.ru) has joined #cpmduel
+T 1389284994 23*	23TroX has quit (23Ping timeout23)
+T 1389285381 23*	23Christiaan has quit (23Signed off23)
+T 1389285739 19*	19PlayMoreCS (~PlayLessP@46.109.242.51) has joined #cpmduel
+T 1389285770 23*	23PlayLessPromode has quit (23Read error: Connection reset by peer23)
+T 1389285874 19*	19PlayLessPromode (~PlayLessP@46.109.242.51) has joined #cpmduel
+T 1389285875 23*	23PlayMoreCS has quit (23Read error: Connection reset by peer23)
+T 1389286634 19*	19afgh (afg@095160248174.zabrze.vectranet.pl) has joined #cpmduel
+T 1389286787 19*	19EmSixTeen (~nnscript@EmSixTeen.users.quakenet.org) has joined #cpmduel
+T 1389286873 23*	23Gizma has quit (23Signed off23)
+T 1389287280 19*	19HellTiger (~HellTiger@138-141.199-178.cust.bluewin.ch) has joined #cpmduel
+T 1389287280 23*	23HellTiger has quit (23Registered23)
+T 1389287280 19*	19HellTiger (~HellTiger@HellTiger.users.quakenet.org) has joined #cpmduel
+T 1389287348 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389287479 23*	23HellTiger_ has quit (23Ping timeout23)
+T 1389287592 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389288028 19*	19Gizma (~Gizma@46.164.192.75) has joined #cpmduel
+T 1389288030 23*	23Gizma has quit (23Read error: EOF from client23)
+T 1389288041 19*	19Gizma (~Gizma@46.164.192.75) has joined #cpmduel
+T 1389288079 19*	19Toast (~NEWBRO@host86-137-125-3.range86-137.btcentralplus.com) has joined #cpmduel
+T 1389289146 19*	19lisk (~lainen@l1sk.users.quakenet.org) has joined #cpmduel
+T 1389289392 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389289406 19*	19m1zu (~M1zu@ANantes-653-1-48-100.w109-211.abo.wanadoo.fr) has joined #cpmduel
+T 1389289672 19*	19venim (~venim@venim.users.quakenet.org) has joined #cpmduel
+T 1389289746 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389290283 23*	23venim has quit (23Read error: Connection reset by peer23)
+T 1389290453 19*	19venim (~venim@venim.users.quakenet.org) has joined #cpmduel
+T 1389290597 19*	19TheDynamite (~tnt@TheDynamite.users.quakenet.org) has joined #cpmduel
+T 1389291031 19*	19gaiia (~asd@gaiia.users.quakenet.org) has joined #cpmduel
+T 1389291196 19*	19ZEN|ele (~Glas@port-87-193-222-81.static.qsc.de) has joined #cpmduel
+T 1389292367 19*	19karlb (~karlb@h-35-25.a336.priv.bahnhof.se) has joined #cpmduel
+T 1389292511 18<_es>	!add se
+T 1389292511 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[1/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389293343 23*	23napalot has quit (23Read error: EOF from client23)
+T 1389293952 23*	23veliars has quit (23Signed off23)
+T 1389294082 23*	23Quik has quit (23Signed off23)
+T 1389294134 19*	19Quik (~nnscript@128-69-115-211.broadband.corbina.ru) has joined #cpmduel
+T 1389294218 19*	19veliars (~sergey047@212.13.4.71) has joined #cpmduel
+T 1389294566 19*	19Anarrr (~nnscript@BSN-77-143-204.static.dsl.siol.net) has joined #cpmduel
+T 1389296619 23*	23gaiia has quit (23Signed off23)
+T 1389296763 23*	23veliars has quit (23Signed off23)
+T 1389296848 23*	23afgh has quit (23Signed off23)
+T 1389297951 23*	23TrooX has quit (23Read error: Operation timed out23)
+T 1389297983 23*	23seif has quit (23Read error: Connection reset by peer23)
+T 1389298443 23*	23Hugo_ has quit (23Signed off23)
+T 1389298470 19*	19Hugo_ (~MrIco@5352A483.cm-6-3c.dynamic.ziggo.nl) has joined #cpmduel
+T 1389298621 19*	19seif (~seif@s3.telenet.ru) has joined #cpmduel
+T 1389299062 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389299243 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389299247 23*	23Quik has quit (23Ping timeout23)
+T 1389299324 23*	23Gizma has quit (23Signed off23)
+T 1389299414 19*	19PYTON (PYTON@EL-Condom.users.quakenet.org) has joined #cpmduel
+T 1389300066 18<PYTON>	lookin 4th for ca cup on saturday msg me or stfu :P
+T 1389300079 18<xerosawyer>	aite
+T 1389300080 18<xerosawyer>	i will play
+T 1389300090 18<xerosawyer>	elo over 9k
+T 1389300095 18<xerosawyer>	magnus carlsen of CA
+T 1389301397 19*	19astropilot (~astro@94.29.101.182) has joined #cpmduel
+T 1389301401 18<astropilot>	!who
+T 1389303305 23*	23dansen has quit (23Ping timeout23)
+T 1389303974 23*	23PlayLessPromode has quit (23Signed off23)
+T 1389304032 19*	19PlayLessPromode (~PlayLessP@46.109.242.51) has joined #cpmduel
+T 1389304095 23*	23LuGia has quit (23Ping timeout23)
+T 1389304412 19*	19ZEN|pan (~Ara@HSI-KBW-109-192-195-021.hsi6.kabel-badenwuerttemberg.de) has joined #cpmduel
+T 1389304415 18<ZEN|pan>	!add de
+T 1389304415 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[1/2] 12][ 05NL 04[0/2] 12][ 05SE 04[1/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389304645 18<ZEN|pan>	!who
+T 1389304653 18<ZEN|pan>	!q3 granis
+T 1389304653 18<CPMPickupBot>	06granis is home.granis.se:27960;password bender
+T 1389304655 18<CPMPickupBot>	1V1 on 03cpm24 05(0/16)
+T 1389304802 19*	19HellTiger_ (~HellTiger@138-141.199-178.cust.bluewin.ch) has joined #cpmduel
+T 1389304986 23*	23kernel_ has quit (23Signed off23)
+T 1389305022 23*	23_es has quit (23Signed off23)
+T 1389305022 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[1/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389305086 23*	23HellTiger has quit (23Ping timeout23)
+T 1389305118 18<astropilot>	!add de
+T 1389305118 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05DE 04[2/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389305120 18<CPMPickupBot>	10DE 05ready @ 04roboty.cpmpickup.de:27961;password lobstarz || 05Players: 10[ZEN|pan, astropilot]
+T 1389305124 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389305887 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389305928 23*	23Pill has quit (23Read error: Connection reset by peer23)
+T 1389306175 23*	23m1zu has quit (23Signed off23)
+T 1389306231 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389306528 23*	23Zack` has quit (23Quit23)
+T 1389306771 19*	19Eddeh (~Eddeh@Eddeh.users.quakenet.org) has joined #cpmduel
+T 1389306974 23*	23RTG` has quit (23Signed off23)
+T 1389308280 18<astropilot>	!add de se
+T 1389308281 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[1/2] 12][ 05DE 04[1/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389308341 23*	23Maltek has quit (23Read error: Connection reset by peer23)
+T 1389308673 23*	23PYTON has quit (23Signed off23)
+T 1389308920 23*	23cons has quit (23Signed off23)
+T 1389309015 19*	19Christiaan (~Christiaa@195-240-107-216.ip.telfort.nl) has joined #cpmduel
+T 1389309192 23*	23astropilot has quit (23Signed off23)
+T 1389309192 22*	CPMPickupBot has changed the topic to: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389309520 23*	23Smilecythe has quit (23*.net *.split23)
+T 1389309521 23*	23venim has quit (23*.net *.split23)
+T 1389309583 23*	23farnish has quit (23Signed off23)
+T 1389309651 23*	23Christiaan has quit (23Signed off23)
+T 1389309678 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389309678 19*	19venim (~venim@venim.users.quakenet.org) has joined #cpmduel
+T 1389309952 23*	23santile has quit (23Signed off23)
+T 1389310239 23*	23RenderBot has quit (23Ping timeout23)
+T 1389310310 19*	19RenderBot (igmdbbot@syncore.org) has joined #cpmduel
+T 1389310915 22*	HAL_9000 is now known as HAL_9000_away
+T 1389311008 19*	19xero (~xero@bas2-toronto43-1279321528.dsl.bell.ca) has joined #cpmduel
+T 1389311265 23*	23ZEN|ele has quit (23Signed off23)
+T 1389311270 23*	23ZEN|pan has quit (23Signed off23)
+T 1389311348 23*	23Hugo_ has quit (23Read error: Connection reset by peer23)
+T 1389311974 23*	23lisk has quit (23Signed off23)
+T 1389312363 19*	19spighty (~spighty@dslb-094-220-076-138.pools.arcor-ip.net) has joined #cpmduel
+T 1389312379 23*	23spighty has quit (23Registered23)
+T 1389312379 19*	19spighty (~spighty@spighty.users.quakenet.org) has joined #cpmduel
+T 1389312389 19*	19PlayMoreCS (PlayLessPr@46.109.242.51) has joined #cpmduel
+T 1389312454 23*	23PlayLessPromode has quit (23Ping timeout23)
+T 1389312519 23*	23HellTiger_ has quit (23Signed off23)
+T 1389312850 19*	19nineX_ (~nunya@nineX-.users.quakenet.org) has joined #cpmduel
+T 1389312850 22*	26Q gives voice to26 nineX_
+T 1389312874 19*	19fatola (~NEWBRO@cpc5-aztw26-2-0-cust670.18-1.cable.virginm.net) has joined #cpmduel
+T 1389312930 23*	23Balto has quit (23Signed off23)
+T 1389313625 23*	23Smilecythe has quit (23Ping timeout23)
+T 1389313915 19*	19Smilecythe (~sukkazan@85-76-5-177-nat.elisa-mobile.fi) has joined #cpmduel
+T 1389314619 23*	23Toast has quit (23Signed off23)
+T 1389315655 23*	23fatola has quit (23Signed off23)
+T 1389315786 23*	23spighty has quit (23Signed off23)
+T 1389316583 23*	23Smilecythe has quit (23Signed off23)
+T 1389316613 23*	23nekon has quit (23Read error: Connection reset by peer23)
+T 1389317828 19*	19dansen (~Daniel@p5B0A073C.dip0.t-ipconnect.de) has joined #cpmduel
+T 1389318246 19*	19gellehsak (gellehsak@69.157.75.186) has joined #cpmduel
+T 1389318358 19*	19venim-- (~venim@c-24-130-89-93.hsd1.ca.comcast.net) has joined #cpmduel
+T 1389318640 23*	23venim has quit (23Ping timeout23)
+T 1389319143 23*	23wavius has quit (23Signed off23)
+T 1389319550 19*	19wavius (~nope@63-155-38-179.bois.qwest.net) has joined #cpmduel
+T 1389320114 23*	23dansen has quit (23Signed off23)
+T 1389320507 18<CPMPickupBot>	05We need a sub for 10CTFS05 at 10#ugq05 @ 1069.9.170.60:27960;password05 please join!
+T 1389321102 23*	23karlb has quit (23Signed off23)
+T 1389321503 19*	19andonuts (~nope@63-155-38-179.bois.qwest.net) has joined #cpmduel
+T 1389335999 22*	Disconnected (Remote host closed socket).
+T 1389336011 19*	19Now talking on #cpmduel
+T 1389336011 29*	29Topic for #cpmduel 29is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389336011 29*	29Topic for #cpmduel 29set by CPMPickupBot 29at Thu Jan  9 15:13:12 2014
+T 1389337013 -10-11>	You are now talking on 11#cpmduel
+T 1389337013 -10-11-	Topic for 11#cpmduel is 1105US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389337013 -10-11-	Topic for 11#cpmduel set by 11CPMPickupBot at 11Thu Jan  9 15:13:12 2014
+T 1389337013 12-13Q12-	You didn't provide enough parameters for auth.
+T 1389337013 12-13Q12-	Usage: AUTH <username> <password>
+T 1389337013 12-13Q12-	For more information, type HELP auth.
+T 1389337139 <10-11-	RenderBot has quit 14(Ping timeout14)
+T 1389337187 25»19»	19Now talking on #cpmduel
+T 1389337187 29»22»	22Topic for #cpmduel is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389337187 29»22»	22Topic for #cpmduel set by CPMPickupBot at Thu Jan  9 15:13:12 2014
+T 1389337189 28-21Notice28-	21{28from Q21} You didn't provide enough parameters for auth.
+T 1389337189 28-21Notice28-	21{28from Q21} Usage: AUTH <username> <password>
+T 1389337189 28-21Notice28-	21{28from Q21} For more information, type HELP auth.
+T 1389337266 31-25-19-19»	19RenderBot (igmdbbot@syncore.org19) has Joined #cpmduel
+T 1389337332 25»19»	19Now talking on #cpmduel
+T 1389337332 29»22»	22Topic for #cpmduel is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389337332 29»22»	22Topic for #cpmduel set by CPMPickupBot at Thu Jan  9 15:13:12 2014
+T 1389337332 28-21Notice28-	21{28from Q21} You didn't provide enough parameters for auth.
+T 1389337332 28-21Notice28-	21{28from Q21} Usage: AUTH <username> <password>
+T 1389337332 28-21Notice28-	21{28from Q21} For more information, type HELP auth.
+T 1389337371 25»19»	19Now talking on #cpmduel
+T 1389337371 29»22»	22Topic for #cpmduel is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389337371 29»22»	22Topic for #cpmduel set by CPMPickupBot at Thu Jan  9 15:13:12 2014
+T 1389337371 28-21Notice28-	21{28from Q21} You didn't provide enough parameters for auth.
+T 1389337371 28-21Notice28-	21{28from Q21} Usage: AUTH <username> <password>
+T 1389337371 28-21Notice28-	21{28from Q21} For more information, type HELP auth.
+T 1389337415 25»19»	19Now talking on #cpmduel
+T 1389337415 29»22»	22Topic for #cpmduel is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389337415 29»22»	22Topic for #cpmduel set by CPMPickupBot at Thu Jan  9 15:13:12 2014
+T 1389337415 28-21Notice28-	21{28from Q21} You didn't provide enough parameters for auth.
+T 1389337415 28-21Notice28-	21{28from Q21} Usage: AUTH <username> <password>
+T 1389337415 28-21Notice28-	21{28from Q21} For more information, type HELP auth.
+T 1389337729 25»19»	19Now talking on #cpmduel
+T 1389337729 29»22»	22Topic for #cpmduel is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389337729 29»22»	22Topic for #cpmduel set by CPMPickupBot at Thu Jan  9 15:13:12 2014
+T 1389337730 28-21Notice28-	21{28from Q21} You didn't provide enough parameters for auth.
+T 1389337730 28-21Notice28-	21{28from Q21} Usage: AUTH <username> <password>
+T 1389337730 28-21Notice28-	21{28from Q21} For more information, type HELP auth.
+T 1389337782 25»19»	19Now talking on #cpmduel
+T 1389337782 29»22»	22Topic for #cpmduel is: 05US 04[0/2] 12][ 05UK 04[0/2] 12][ 05LOW 04[0/2] 12][ 05RU 04[0/2] 12][ 05NL 04[0/2] 12][ 05SE 04[0/2] 12][ 05DE 04[0/2] 12|| Today's task: PLAY MORE PROMODE !!!
+T 1389337782 29»22»	22Topic for #cpmduel set by CPMPickupBot at Thu Jan  9 15:13:12 2014
+T 1389337782 28-21Notice28-	21{28from Q21} You didn't provide enough parameters for auth.
+T 1389337782 28-21Notice28-	21{28from Q21} Usage: AUTH <username> <password>
+T 1389337782 28-21Notice28-	21{28from Q21} For more information, type HELP auth.

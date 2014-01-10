@@ -1,0 +1,6 @@
+T 1386850731 18<dimman_wrk>	Hi, please take a look at #ezquake-dev
+T 1386850739 18<dimman_wrk>	Sorry, #ezquake-devel
+T 1386880116 22*	Disconnected (Remote host closed socket).
+T 1386880234 31<hemite>30	I was in the correct channel was I not?
+T 1387188708 18<dimman_wrk>	Actually not really, #ezquake-devel is meant for developers only but it doesn't matter this time
+T 1387188711 18<dimman_wrk>	:)

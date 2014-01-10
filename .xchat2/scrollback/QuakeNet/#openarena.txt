@@ -1,0 +1,121 @@
+T 1375516865 19*	19Now talking on #openarena
+T 1375516865 29*	29Topic for #openarena 29is: Welcome to OpenArena irc channel ~ {/whois O4bot} and connect to all channels ~ stay tuned: www.openarena.ws www.arenawarriors.net www.aftershock-fps.com ~ to get our news !live !clansos !chs-clan !mega !oahelp ~ to use Skivvy !help ~ HAVE FUN!
+T 1375516865 29*	29Topic for #openarena 29set by O4bot 29at Thu Mar 21 09:40:57 2013
+T 1375516873 22*	26Q gives voice to26 hemite
+T 1375516874 31<hemite>30	So does anyone duel here?
+T 1375517973 19*	19emaz (~emaz@ppp-120-203.26-151.libero.it) has joined #openarena
+T 1375517973 22*	26Q gives voice to26 emaz
+T 1375517995 19*	19Light3r (~light@host125-120-dynamic.60-82-r.retail.telecomitalia.it) has joined #openarena
+T 1375517995 22*	26Q gives voice to26 Light3r
+T 1375518752 19*	19SmellyCat (~sc@pluto-ohm.visitor.camp.ohm2013.org) has joined #openarena
+T 1375518752 22*	26Q gives voice to26 SmellyCat
+T 1375518756 23*	23SmellyCat has quit (23Registered23)
+T 1375518756 19*	19SmellyCat (~sc@SmellyCat.users.quakenet.org) has joined #openarena
+T 1375518756 22*	26*.quakenet.org gives voice to26 SmellyCat
+T 1375519183 22*	NVB is now known as nvb
+T 1375525904 23*	23emaz has quit (23Quit: Leaving.23)
+T 1375527305 19*	19capo (~capo@95.182.broadband18.iol.cz) has joined #openarena
+T 1375527305 22*	26Q gives voice to26 capo
+T 1375529153 19*	19emaz (~emaz@ppp-120-203.26-151.libero.it) has joined #openarena
+T 1375529153 22*	26Q gives voice to26 emaz
+T 1375535312 22*	capo is now known as capo_
+T 1375541455 23*	23SmellyCat has quit (23Ping timeout23)
+T 1375547943 19*	19capo (~capo@95.182.broadband18.iol.cz) has joined #openarena
+T 1375547943 22*	26Q gives voice to26 capo
+T 1375548254 23*	23capo_ has quit (23Ping timeout23)
+T 1375552441 22*	capo is now known as Odamex|capo
+T 1375554227 23*	23emaz has quit (23Quit: Leaving.23)
+T 1375555534 19*	19Aeq (~aeq@Aeq.users.quakenet.org) has joined #openarena
+T 1375555534 22*	26Q gives voice to26 Aeq
+T 1375557237 19*	19emaz (~emaz@ppp-120-203.26-151.libero.it) has joined #openarena
+T 1375557237 22*	26Q gives voice to26 emaz
+T 1375558498 19*	19Light3r1 (~light@95.233.4.79) has joined #openarena
+T 1375558498 22*	26Q gives voice to26 Light3r1
+T 1375558735 23*	23Light3r has quit (23Ping timeout23)
+T 1375561851 23*	23emaz has quit (23Ping timeout23)
+T 1375563193 23*	23Zimmermint has quit (23Ping timeout23)
+T 1375563323 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375563323 22*	26Q gives channel operator status to26 Zimmermint
+T 1375563385 19*	19SmellyCat (~sc@SmellyCat.users.quakenet.org) has joined #openarena
+T 1375563385 22*	26Q gives voice to26 SmellyCat
+T 1375563623 23*	23SmellyCat has quit (23Signed off23)
+T 1375564473 22*	nvb is now known as NVB
+T 1375565570 23*	23Aeq has quit (23Signed off23)
+T 1375571372 22*	_Zd_ci-dev_ is now known as _Zd_Ci-Dev_
+T 1375572699 23*	23Zimmermint has quit (23Excess Flood23)
+T 1375572751 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375572751 22*	26Q gives channel operator status to26 Zimmermint
+T 1375574782 23*	23Light3r1 has quit (23Signed off23)
+T 1375575748 23*	23Zimmermint has quit (23Excess Flood23)
+T 1375575771 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375575771 22*	26Q gives channel operator status to26 Zimmermint
+T 1375576981 23*	23Zimmermint has quit (23Ping timeout23)
+T 1375577004 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375577005 22*	26Q gives channel operator status to26 Zimmermint
+T 1375577210 23*	23Odamex|capo has quit (23Signed off23)
+T 1375577892 22*	_Zd_Ci-Dev_ is now known as _Zd_ci-dev_
+T 1375577902 23*	23Zimmermint has quit (23Read error: Operation timed out23)
+T 1375578729 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375578729 22*	26Q gives channel operator status to26 Zimmermint
+T 1375578917 19*	19Catoptromancy (~Cato@c-68-62-246-249.hsd1.fl.comcast.net) has joined #openarena
+T 1375578920 22*	26Q gives voice to26 Catoptromancy
+T 1375579407 19*	19SmellyCat (~sc@pluto-ohm.visitor.camp.ohm2013.org) has joined #openarena
+T 1375579407 22*	26Q gives voice to26 SmellyCat
+T 1375579411 23*	23SmellyCat has quit (23Registered23)
+T 1375579411 19*	19SmellyCat (~sc@SmellyCat.users.quakenet.org) has joined #openarena
+T 1375579411 22*	26*.quakenet.org gives voice to26 SmellyCat
+T 1375579752 23*	23Zimmermint has quit (23Excess Flood23)
+T 1375579779 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375579779 22*	26Q gives channel operator status to26 Zimmermint
+T 1375580309 23*	23Zimmermint has quit (23Read error: Operation timed out23)
+T 1375580391 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375580391 22*	26Q gives channel operator status to26 Zimmermint
+T 1375581234 23*	23Zimmermint has quit (23Excess Flood23)
+T 1375581288 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375581288 22*	26Q gives channel operator status to26 Zimmermint
+T 1375586124 23*	23Zimmermint has quit (23Excess Flood23)
+T 1375586250 19*	19Zimmermint (~Zimmy@97e2346e.skybroadband.com) has joined #openarena
+T 1375586254 22*	26Q gives channel operator status to26 Zimmermint
+T 1375586460 23*	23SmellyCat has quit (23Signed off23)
+T 1375587274 19*	19_Zd_ci-d1v_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1375587274 22*	26Q gives voice to26 _Zd_ci-d1v_
+T 1375587373 23*	23_Zd_ci-dev_ has quit (23Ping timeout23)
+T 1375597941 19*	19Aeq (~aeq@Aeq.users.quakenet.org) has joined #openarena
+T 1375597941 22*	26Q gives voice to26 Aeq
+T 1375598431 22*	Aeq is now known as Aeq[afk]
+T 1375598685 22*	Aeq[afk] is now known as Aeq
+T 1375599579 19*	19emaz (~emaz@ppp-120-203.26-151.libero.it) has joined #openarena
+T 1375599579 22*	26Q gives voice to26 emaz
+T 1375600264 22*	Aeq is now known as Aeq[afk]
+T 1375601171 22*	Aeq[afk] is now known as Aeq
+T 1375602462 23*	23Aeq has quit (23Read error: EOF from client23)
+T 1375602516 19*	19Aeq (~aeq@Aeq.users.quakenet.org) has joined #openarena
+T 1375602516 22*	26Q gives voice to26 Aeq
+T 1375606939 19*	19Light3r (~light@95.233.4.79) has joined #openarena
+T 1375606939 22*	26Q gives voice to26 Light3r
+T 1375617651 23*	23emaz has quit (23Quit: Leaving.23)
+T 1375617998 22*	Aeq is now known as Aeq[afk]
+T 1375618043 22*	Aeq[afk] is now known as Aeq
+T 1375618330 19*	19emaz (~emaz@ppp-120-203.26-151.libero.it) has joined #openarena
+T 1375618330 22*	26Q gives voice to26 emaz
+T 1375620484 22*	Aeq is now known as Aeq[afk]
+T 1375621284 23*	23emaz has quit (23Quit: Leaving.23)
+T 1375621733 19*	19emaz (~emaz@ppp-120-203.26-151.libero.it) has joined #openarena
+T 1375621733 22*	26Q gives voice to26 emaz
+T 1375621877 23*	23emaz has quit (23Quit: Leaving.23)
+T 1375634158 22*	Aeq[afk] is now known as Aeq
+T 1375636249 19*	19f1re (~f_re@178-190-87-172.adsl.highway.telekom.at) has joined #openarena
+T 1375636249 22*	26Q gives voice to26 f1re
+T 1375637718 23*	23Light3r has quit (23Read error: Connection reset by peer23)
+T 1375638845 23*	23Catoptromancy has quit (23Quit: Leaving23)
+T 1375640166 19*	19emaz (~emaz@ppp-120-203.26-151.libero.it) has joined #openarena
+T 1375640166 22*	26Q gives voice to26 emaz
+T 1375641877 19*	19capo (~capo@95.182.broadband18.iol.cz) has joined #openarena
+T 1375641877 22*	26Q gives voice to26 capo
+T 1375642093 22*	capo is now known as Odamex|capo
+T 1375642125 23*	23f1re has quit (23Ping timeout23)
+T 1375645057 19*	19S-Creamer (~bern@77-172-192-191.ip.telfort.nl) has joined #openarena
+T 1375645057 22*	26Q gives voice to26 S-Creamer
+T 1375645793 19*	19echo1 (~jonte@p54B04B9D.dip0.t-ipconnect.de) has joined #openarena
+T 1375645793 22*	26Q gives voice to26 echo1
+T 1375646171 23*	23Aeq has quit (23Signed off23)

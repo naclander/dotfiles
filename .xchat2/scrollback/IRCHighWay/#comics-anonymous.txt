@@ -1,0 +1,602 @@
+T 1378615906 18<Kiry>	bah, can't connect to coondawg :(
+T 1378615974 18<gastr>	were you not able to get on the dropbox page?
+T 1378616007 18<Kiry>	dropbox page, yes
+T 1378616013 18<Kiry>	coondawg's server, no
+T 1378616753 23*	23TripleH has quit (23Quit: 23)
+T 1378617090 23*	23Jean_Clau has quit (23Ping timeout: 360 seconds23)
+T 1378617188 19*	19quantumcore (~quantumco@df46914.11de379d.354f3b3c.1b4962bdX) has joined #comics-anonymous
+T 1378617195 18<quantumcore>	@find donald duck
+T 1378617237 18<quantumcore>	!list
+T 1378617250 18<quantumcore>	@find garfield
+T 1378617279 23*	23quantumcore (23~quantumco@df46914.11de379d.354f3b3c.1b4962bdX) has left #comics-anonymous
+T 1378617307 19*	19Jean_Clau (~jean_clau@831ef56.14fd58ce.1654620b.6b45bb2X) has joined #comics-anonymous
+T 1378617517 18<Frankie>	!list
+T 1378617901 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378617901 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378617901 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378617903 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378617911 22*	Deadpool is now known as Deadp00l
+T 1378619985 23*	23m33p has quit (23Quit: 23)
+T 1378620101 23*	23Kiry (23~Kiry@Protectors.Own.Grayson) has left #comics-anonymous
+T 1378621812 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378621812 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378621812 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378621814 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378621822 22*	Deadpool is now known as Deadp00l
+T 1378622353 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378622460 19*	19Deadp00l (~serpico@11de379d.3d9ffd99.28ba3a9e.35556308X) has joined #comics-anonymous
+T 1378622460 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378622460 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378624396 18<gastr>	world war z was junk
+T 1378624406 18<gastr>	from start to finish
+T 1378624524 18<gastr>	shouldn't san francisco have been one of the safe locations?
+T 1378624559 18<gastr>	hell no outbreak in africa
+T 1378624563 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378624719 19*	19Deadp00l (~serpico@2f9b2a4a.2803ef39.27ea28c2.2430b3daX) has joined #comics-anonymous
+T 1378624719 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378624719 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378625227 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378625227 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378625227 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378625229 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378625237 22*	Deadpool is now known as Deadp00l
+T 1378626432 19*	19DaggerDash (~daggerdas@15ce2659.1654620b.pools.arcor-ip.net) has joined #comics-anonymous
+T 1378626631 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378626631 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378626631 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378626633 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378626641 22*	Deadpool is now known as Deadp00l
+T 1378626657 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378626753 19*	19Deadp00l (~serpico@cd7f79a.13919cb5.24988c47.354f3b3cX) has joined #comics-anonymous
+T 1378626753 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378626753 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378626973 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378626973 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378626973 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378626975 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378626983 22*	Deadpool is now known as Deadp00l
+T 1378627464 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378627464 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378627464 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378627466 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378627474 22*	Deadpool is now known as Deadp00l
+T 1378627604 23*	23gastr (23UPP@763458a.20db5883.irvnca.sbcglobal.net) has left #comics-anonymous
+T 1378627696 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378627784 19*	19Deadp00l (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378627784 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378627784 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378628318 18<Frankie>	!list
+T 1378629503 19*	19TripleH (~TripleH@124-149-87-192.dyn.iinet.net.au) has joined #comics-anonymous
+T 1378629543 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378629543 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378629543 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378629545 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378629553 22*	Deadpool is now known as Deadp00l
+T 1378630555 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378630555 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378630555 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378630557 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378630565 22*	Deadpool is now known as Deadp00l
+T 1378632195 23*	23DaggerDash has quit (23Read error: Connection reset by peer23)
+T 1378632259 19*	19DaggerDash (~daggerdas@15ce2659.1654620b.pools.arcor-ip.net) has joined #comics-anonymous
+T 1378634083 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378634083 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378634083 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378634085 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378634093 22*	Deadpool is now known as Deadp00l
+T 1378668097 19*	19Now talking on #comics-anonymous
+T 1378668097 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1 | #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1378668097 29*	29Topic for #comics-anonymous 29set by coondawg 29at Fri Aug 23 04:45:23 2013
+T 1378668146 23*	23hemite has quit (23Read error: Connection reset by peer23)
+T 1378668231 19*	19Now talking on #comics-anonymous
+T 1378668237 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1 | #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1378668238 29*	29Topic for #comics-anonymous 29set by coondawg 29at Fri Aug 23 04:45:23 2013
+T 1378668244 23*	23BenGrimm (23UPP@2470642c.3223f75b.res.rr.com) has left #comics-anonymous
+T 1378668357 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378668357 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378668357 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378668367 22*	Deadpool is now known as Deadp00l
+T 1378668432 18<gastr>	fix your connection!
+T 1378668660 18<Deadp00l>	It's my proxy.
+T 1378669220 18<gastr>	why are you using a proxy?
+T 1378669487 19*	19Jean_Clau (~jean_clau@831ef56.14fd58ce.ca.charter.com) has joined #comics-anonymous
+T 1378669627 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378669730 19*	19Deadp00l (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378669730 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378669730 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378671519 18<Frankie>	!list
+T 1378673825 23*	23Kraut has quit (23Read error: Input/output error23)
+T 1378673992 19*	19BenGrimm (UPP@2470642c.3223f75b.1e79b4c9.23fa4838X) has joined #comics-anonymous
+T 1378674002 22*	26e4 gives voice to26 BenGrimm
+T 1378674109 19*	19Chib (~Chib@3d9ffd99.2b6f2293.internode.on.net) has joined #comics-anonymous
+T 1378674109 22*	ChanServ sets mode +a #comics-anonymous Chib
+T 1378674109 22*	26ChanServ gives channel operator status to26 Chib
+T 1378674109 18<Frankie>	.•«WB (Chib) WB»•. - <!Chib> i sometimes wish i didn't grow up in a brothel
+T 1378674138 19*	19Kraut (~kraut@1fbd6a28.21b52b10.adsl.alicedsl.de) has joined #comics-anonymous
+T 1378674138 22*	26ChanServ gives channel half-operator status to26 Kraut
+T 1378675877 23*	23e4 has quit (23Ping timeout: 360 seconds23)
+T 1378676061 19*	19e4 (neokillerx@24988c47.16b4fba6.24624475.f8171X) has joined #comics-anonymous
+T 1378676061 22*	26ChanServ gives channel operator status to26 e4
+T 1378676544 23*	23Chib has quit (23Ping timeout: 360 seconds23)
+T 1378678665 23*	23Pudgy has quit (23Quit: "Our character is what we do when we think no one is looking." - H. Jackson Brown, Jr.23)
+T 1378678764 18<CantOutRunADuck>	ok so todds uncle is the dude walt used to kill all those guys in prison
+T 1378679020 19*	19Pudgy (~Pudgy@823cf43.1faf4a71.tn.charter.com) has joined #comics-anonymous
+T 1378679021 22*	26ChanServ gives channel operator status to26 Pudgy
+T 1378680805 23*	23Kraut has quit (23Ping timeout: 360 seconds23)
+T 1378681250 19*	19Hyusa (~Hyusa@14ef3beb.262dee27.res.rr.com) has joined #comics-anonymous
+T 1378681278 18<Hyusa>	!list
+T 1378681347 18<Hyusa>	@find Scarlet
+T 1378681437 23*	23Hyusa has quit (23Quit: Leaving23)
+T 1378681482 18<gastr>	i barely remember the jail killings
+T 1378682319 18<Frankie>	!list
+T 1378682524 23*	23Kiry (23~Kiry@Protectors.Own.Grayson) has left #comics-anonymous
+T 1378684164 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378684164 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378684164 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378684166 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378684174 22*	Deadpool is now known as Deadp00l
+T 1378684838 23*	23Rejected has quit (23Quit: 23)
+T 1378686621 22*	Disconnected (Connection timed out).
+T 1378686665 22*	hemite sets mode +i hemite
+T 1378686665 22*	hemite sets mode +x hemite
+T 1378686665 19*	19Now talking on #comics-anonymous
+T 1378686665 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1 | #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1378686665 29*	29Topic for #comics-anonymous 29set by coondawg 29at Fri Aug 23 04:45:23 2013
+T 1378686665 28-29Global28-	[Logon News - Apr 04 2004] Attention: Please do NOT click on URLs that unknown people send you and remember to report all spammers to #abuse.
+T 1378686665 28-29Global28-	[Logon News - Mar 18 2005] Your host is being checked for open proxies. Please disregard connections to ports like 8080 or 3128.
+T 1378686665 28-29Global28-	[Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1378686665 22*	Received a CTCP LAG from LagServ
+T 1378686665 22*	Received a CTCP PING BottlerTest PleaseIgnore from PingServ
+T 1378686884 19*	19Now talking on #comics-anonymous
+T 1378686884 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1 | #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1378686884 29*	29Topic for #comics-anonymous 29set by coondawg 29at Fri Aug 23 04:45:23 2013
+T 1378686884 28-29Global28-	[Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1378686884 22*	Received a CTCP LAG from LagServ
+T 1378686884 22*	Received a CTCP PING BottlerTest PleaseIgnore from PingServ
+T 1378687014 23*	23e4 has quit (23Ping timeout: 360 seconds23)
+T 1378687281 19*	19e4 (~neokiller@231e202b.e8a4d95.24624475.f8171X) has joined #comics-anonymous
+T 1378687281 22*	26ChanServ gives channel operator status to26 e4
+T 1378687784 19*	19Viper93 (~WinNT@198-84-180-172.cpe.teksavvy.com) has joined #comics-anonymous
+T 1378687914 19*	19m33p (~xm33px@355d5b65.1599c5.21b52b10.cc59707X) has joined #comics-anonymous
+T 1378688057 19*	19ohno (~ohno@112cbe95.33fe9952.res.rr.com) has joined #comics-anonymous
+T 1378688080 23*	23ohno (23~ohno@112cbe95.33fe9952.res.rr.com) has left #comics-anonymous (23Leaving23)
+T 1378693119 18<Frankie>	!list
+T 1378696330 19*	19MalSharpe (~kvirc@f5eb36d.f4f1334.rcsntx.sbcglobal.net) has joined #comics-anonymous
+T 1378696344 18<MalSharpe>	!list
+T 1378698418 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378698533 19*	19Deadp00l (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378698533 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378698533 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378701452 23*	23m33p has quit (23Quit: 23)
+T 1378703919 18<Frankie>	!list
+T 1378705645 18<gastr>	so
+T 1378705651 18<gastr>	did anyone get carted off the field in week 1?
+T 1378708414 19*	19TripleH (TripleH@124-170-60-176.dyn.iinet.net.au) has joined #comics-anonymous
+T 1378709567 23*	23MalSharpe has quit (23Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/23)
+T 1378709575 18<gastr>	Better Call Saul...
+T 1378709804 23*	23gastr (23UPP@763458a.20db5883.irvnca.sbcglobal.net) has left #comics-anonymous
+T 1378709882 19*	19gastr (UPP@763458a.20db5883.irvnca.sbcglobal.net) has joined #comics-anonymous
+T 1378709882 22*	26ChanServ gives channel operator status to26 gastr
+T 1378709883 18<Frankie>	.•«WB (gastr) WB»•. - <@gastr> someone welcome me back
+T 1378712799 19*	19minter (mibbit@ec7593a.3065b4fc.57322ea.2e01205dX) has joined #comics-anonymous
+T 1378712830 18<minter>	!list
+T 1378712833 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378712885 18<minter>	@find archie
+T 1378712960 19*	19Deadp00l (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378712960 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378712960 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378713327 18<minter>	Pep Comics 22 (1st archie).cbz 18.4MB
+T 1378713360 23*	23minter has quit (23Quit: http://www.mibbit.com ajax IRC Client23)
+T 1378713870 23*	23gastr (23UPP@763458a.20db5883.irvnca.sbcglobal.net) has left #comics-anonymous
+T 1378714719 18<Frankie>	!list
+T 1378715738 19*	19Rejected (~r0x@d0a9903.2d8b4caa.cpe.netcabo.pt) has joined #comics-anonymous
+T 1378719718 19*	19quantumcore (~quantumco@20db5883.11de379d.354f3b3c.1b4962bdX) has joined #comics-anonymous
+T 1378719729 18<quantumcore>	@find powerpuff
+T 1378719757 18<quantumcore>	@find powerpuff girls
+T 1378719779 18<quantumcore>	@find dexter's lab
+T 1378719792 23*	23quantumcore (23~quantumco@20db5883.11de379d.354f3b3c.1b4962bdX) has left #comics-anonymous
+T 1378720641 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378720641 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378720641 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378720643 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378720651 22*	Deadpool is now known as Deadp00l
+T 1378725519 18<Frankie>	!list
+T 1378728440 19*	19Chib (~Chib@2b2c869d.2f9b2a4a.internode.on.net) has joined #comics-anonymous
+T 1378728441 22*	ChanServ sets mode +a #comics-anonymous Chib
+T 1378728441 22*	26ChanServ gives channel operator status to26 Chib
+T 1378728441 18<Frankie>	.•«WB (Chib) WB»•. - <!Chib> i sometimes wish i didn't grow up in a brothel
+T 1378728700 18<CantOutRunADuck>	is The East a good movie?
+T 1378728760 19*	19Chibby (Chib@831ef56.3974cd3.internode.on.net) has joined #comics-anonymous
+T 1378728933 23*	23Chib has quit (23Ping timeout: 360 seconds23)
+T 1378729494 18<coondawg>	be!
+T 1378729497 18<coondawg>	nice
+T 1378729507 18<coondawg>	also zomg only one eps left of burn notice
+T 1378729510 18<coondawg>	wtf
+T 1378729511 18<coondawg>	!
+T 1378729557 18<CantOutRunADuck>	it only ran for like 20 seasons :(
+T 1378729702 18<coondawg>	only 7 13 ep seasons!
+T 1378729706 18<coondawg>	which is like 4.5
+T 1378729734 18<coondawg>	it is going out with a bang too
+T 1378729741 18<Frankie>	Are they wrapping it up and unburning him?
+T 1378729747 18<coondawg>	they actually got permission to blow up all of miami
+T 1378729773 18<coondawg>	he's been burned and unburned more than wolverine fighting the human torch
+T 1378729793 18<CantOutRunADuck>	i assume miami only gave permission to blow up all the black people
+T 1378729809 18<Frankie>	Nah, apparently they're just using CGI for the explosions
+T 1378729827 18<Frankie>	And filming in Flint for the post-explosion Miami
+T 1378730201 18<Chibby>	SadTech is possibly the worst name for a company ever.
+T 1378732296 18<Frankie>	I don't think so. What about Microsoft?
+T 1378732351 18<Frankie>	Soft and microscopic? Words used to describe coondawg's penis at his latest child molestation trial
+T 1378733225 23*	23thecoffeeman has quit (23Read error: Connection reset by peer23)
+T 1378733367 19*	19Kraut (~kraut@31b34b44.8d7465b.adsl.alicedsl.de) has joined #comics-anonymous
+T 1378733367 22*	26ChanServ gives channel half-operator status to26 Kraut
+T 1378734116 19*	19thecoffeeman (~thecoffee@191e2813.ec7593a.dsl.bell.ca) has joined #comics-anonymous
+T 1378734384 18<CantOutRunADuck>	Virgin Records is a pretty stupid name
+T 1378734526 23*	23thecoffeeman has quit (23SVSKilled: GHOST command used by thecoffeeguy23)
+T 1378734538 19*	19thecoffeeman (~thecoffee@3239def7.2e138044.dsl.bell.ca) has joined #comics-anonymous
+T 1378734907 23*	23thecoffeeman has quit (23Ping timeout: 360 seconds23)
+T 1378735014 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378735014 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378735014 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378735016 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378735024 22*	Deadpool is now known as Deadp00l
+T 1378735045 19*	19thecoffeeman (~thecoffee@3239def7.2e138044.dsl.bell.ca) has joined #comics-anonymous
+T 1378735481 19*	19pitchan (~androirc@22cbf9e3.823cf43.14ef3beb.3d344119X) has joined #comics-anonymous
+T 1378736318 23*	23pitchan has quit (23Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )23)
+T 1378736319 18<Frankie>	!list
+T 1378736323 22*	26Frankie gives voice to26 thecoffeeman
+T 1378737595 18<Kraut>	I'm missing context
+T 1378737598 18<Kraut>	is the crowd racist?
+T 1378737599 18<Kraut>	http://www.youtube.com/watch?v=SdCzixCxZEQ
+T 1378737607 23*	23CantOutRunADuck has quit (23Ping timeout: 360 seconds23)
+T 1378738832 18<Deadp00l>	For booing the white guy?
+T 1378738868 18<Kraut>	yeah
+T 1378738882 18<Kraut>	all but him gets cheers
+T 1378738892 18<Kraut>	that makes the crowd racist
+T 1378739192 19*	19gastr (UPP@763458a.20db5883.1e706c24.252137eX) has joined #comics-anonymous
+T 1378739192 22*	26ChanServ gives channel operator status to26 gastr
+T 1378739192 18<Frankie>	.•«WB (gastr) WB»•. - <@gastr> someone welcome me back
+T 1378739369 18<Deadp00l>	I wouldn't know, I dislike basketball. His is the only unfamiliar name in the lot though, to me anyway.
+T 1378739407 18<Kraut>	so not only are they racist
+T 1378739417 18<Kraut>	they successfully erased him from history!
+T 1378739801 23*	23TripleH has quit (23Quit: 23)
+T 1378739827 19*	19TripleH (TripleH@124-170-60-176.dyn.iinet.net.au) has joined #comics-anonymous
+T 1378740416 19*	19Ishka (~Ishka_7@398d5d27.31b34b44.adamswells.com) has joined #comics-anonymous
+T 1378740433 18<Ishka>	@FIND penthouse
+T 1378740590 18<Ishka>	@gastr
+T 1378740601 18<Ishka>	@FIND anime
+T 1378740885 18<Ishka>	@locator erotic
+T 1378741086 18<Ishka>	@gastr
+T 1378741133 18<Ishka>	gastr- 3: (Satanika v2 #02 (verotica) (c2c) (jhulk1).cbr 13.6MB)
+T 1378741160 18<Ishka>	@gastr- 3: (Satanika v2 #02 (verotica) (c2c) (jhulk1).cbr 13.6MB)
+T 1378741202 18<Ishka>	@locator superman
+T 1378741239 18<Ishka>	@Frankie
+T 1378741257 18<Frankie>	Yeah, that's not how it works
+T 1378741272 18<Frankie>	You might try !list Frankie
+T 1378741294 18<Ishka>	Hi Frankie.......   I haven't been here before, how's it supposed to work?
+T 1378741316 18<Ishka>	!list Frankie
+T 1378741357 18<Frankie>	Well you do !list for a list of all the servers or @find superman (or whatever)
+T 1378741414 18<Frankie>	Although @finds only report 5 or 10 files, and obviously in a comics channel people will have more than 5 "superman " files
+T 1378741454 18<Ishka>	Hi Frankie.  I did "!list Frankie" and nothing happened!
+T 1378741466 18<Frankie>	It should have sent a notice to you
+T 1378741467 18<Ishka>	Does @locator work here?
+T 1378741471 18<Frankie>	No
+T 1378741482 18<Frankie>	There are no XDCC bots in the channel
+T 1378741492 18<Frankie>	We use a different system called fserve
+T 1378741528 18<Ishka>	Oh!
+T 1378741557 18<Ishka>	Does that mean I have to go somewhere else to pick up a file?
+T 1378741618 18<Frankie>	You connect to scripts running on the people who run an fserve, navigating the folders and downloading files using text commands
+T 1378741674 18<Frankie>	In order to connect to people, you send a 'trigger' to them via a /ctcp message (a particular type of private message)
+T 1378741763 18<Ishka>	Frankie  Do you mean I should type "/ctcp Frankie I WANT COMICS!!" here??
+T 1378741773 18<Frankie>	Yes
+T 1378741786 18<Frankie>	This opens a DCC chat window (a direct chat connection between you and the person hosting the files). You then can list the files and folders by typing "dir"
+T 1378741793 18<Ishka>	and then will there be further instructions ??
+T 1378741839 18<Frankie>	You move into a folder by typing "cd folder", move back into the parent folder by typing "cd .." and you download a file by typing "get filename.ext"
+T 1378741880 18<Ishka>	Ohmigosh!  That takes us back into the good ole days of "DOS"
+T 1378741883 18<Frankie>	Although with my server's script you can just type "1D" "0D" and "1F"
+T 1378741918 18<Ishka>	........  but that's sure different.......
+T 1378741943 18<Frankie>	Well it's supposed to be simpler for people who aren't familiar with DOS
+T 1378742131 18<TripleH>	forget DOS those are hexadecimal numbers!
+T 1378742136 18<TripleH>	:P
+T 1378742155 18<Frankie>	Not necessarily
+T 1378742176 18<TripleH>	oh do they go past F?
+T 1378742177 18<Frankie>	They could be numbers for anything over base-16
+T 1378742192 18<Ishka>	Yeah, I spent most of my life counting in hex...
+T 1378742210 18<TripleH>	:)
+T 1378742374 18<Ishka>	TripleH.   Hex counts from 0 to 9 the a,b,c,d,e,f     a is decimal 10, b is decimal 11,,,, f is decimal 15.   10 hex is decimal 16, etc....
+T 1378742410 18<TripleH>	yeah I know hex
+T 1378742501 18<TripleH>	when clearing verifying memory areas from chips I like to program in the pattern 0xDEAD 0xBEEF ... its easy to spot any bad bits
+T 1378742540 18<Ishka>	Good idea oldtimer......
+T 1378742552 18<TripleH>	lol
+T 1378742558 18<Ishka>	Are you into AVR micro's?
+T 1378742596 18<TripleH>	used to write for embedded systems after my university days ... theres not much need for that anymore
+T 1378742683 18<TripleH>	rememeber .... "There are 10 types of people in the world - Those who understand binary, and those who don't"
+T 1378742691 18<Ishka>	???  I can't believe there's not much need for it!   Everything is based on micro's!!!   I spent the last 25 years of my working life doing embedded applications! 
+T 1378742753 18<TripleH>	well where I am manufacturing died 10 years ago and the need for embedded programmers went with it ... there are some roles but not as much as there used to be
+T 1378742762 18<TripleH>	thanks to globalisation!
+T 1378742778 18<Ishka>	For more than 10 years I did all the electronics for NACCo corp... (Hyster/Yale)
+T 1378742805 18<Ishka>	Oh......   You mean all that type of stuff is done in China now?
+T 1378742817 18<TripleH>	sorry not familiar with those
+T 1378742847 18<TripleH>	yep ... factories closed down never to return
+T 1378742869 18<TripleH>	and the companies that do that stuff are all small
+T 1378742892 18<Ishka>	If we don't know how to do that sort of stuff then we're in really deep doodoo!   We don't make computers, televisions, automobiles, etc.....
+T 1378742905 18<TripleH>	Im from Australia
+T 1378742921 18<Ishka>	I've been retired for 12 years now, I guess I'm out of touch....
+T 1378742923 18<TripleH>	high dollar, high wages, we cant be competitive
+T 1378742954 18<TripleH>	I moved from electronics -> embedded -> apps
+T 1378742982 18<Ishka>	Who's running this country?  Sounds to me like we're just waiting for the Chinese to foreclose on us........
+T 1378742989 18<TripleH>	programming is still the same but the jobs opportunities arent there
+T 1378743029 18<TripleH>	companies love offshoring
+T 1378743036 18<Ishka>	Australia is my second most favorite place in the world......   
+T 1378743077 18<TripleH>	oh its great to live ... low crime and good weather
+T 1378743124 18<Ishka>	I take advantage of offshoring whenever I can, but for anything less than 100k/year I try to keep US companies busy......
+T 1378743191 18<TripleH>	well thats admirable ... most companies are all about the bottom line and shareholders
+T 1378743203 18<Ishka>	Save room for me......   as soon as they take my medical care away from me and give it to the illegal aliens I'll be joining you......
+T 1378743220 18<TripleH>	we have banks here making record profits and cutting staff wherever they can
+T 1378743245 18<TripleH>	we have social medicine here ... for everyone!
+T 1378743246 18<TripleH>	:P
+T 1378743319 18<Ishka>	Banks don't make a product.  Nor do restaurants, department stores, governments, used car lots, etc. etc.  
+T 1378743362 18<TripleH>	its just an example of offshoring
+T 1378743418 18<TripleH>	the big tech companies all left as well
+T 1378743451 18<Ishka>	Farmers make a product, Ford makes a product, they generate wealth.  The others just trade money back and forth and spread it thinner and thinner...
+T 1378743477 18<TripleH>	the local car industry is nearly dead here as well
+T 1378743499 18<Ishka>	For an Aussie you speak pretty good English!  I hardly detect any accent!!!
+T 1378743534 18<TripleH>	strewth do ya hear me accent now cobber?
+T 1378743562 18<TripleH>	(Please note: No Australian actually talks like this)
+T 1378743595 18<Ishka>	That's more like it!  I spent some time in Hong Kong, way back when, and met a bunch of Aussies.  They were all nice blokes, but they talked funny.......
+T 1378743627 18<TripleH>	but you still understood them right?
+T 1378743649 18<TripleH>	Ive been to the US a couple of times and most love the accent
+T 1378743668 18<Ishka>	Well, sort of....  it took a little to get used to it and they had a lot of colloquialisms.......
+T 1378743687 18<TripleH>	but sometimes saying basic words like "water" for example gets people confused
+T 1378743738 18<TripleH>	yeah they shouldnt do that in front of Americans ... its easy to get confused with what they're saying
+T 1378743753 18<Ishka>	..... Yeah....  The scandavics would order a "wodka and vater".........
+T 1378743796 18<TripleH>	well Id asker for a "war-terr" and they say "oh you mean war-rra"
+T 1378743810 18<TripleH>	if you can work out what I mean lol
+T 1378743837 18<Ishka>	Yeah......   If you ask me the Brits don't speak good English either!!    
+T 1378743840 18<TripleH>	still love your country and always had a good time there
+T 1378743891 18<TripleH>	there are dialects in the UK that no one that speaks English can follow
+T 1378743901 18<Ishka>	Glad to hear that, I'm too old to travel now, always wished I could visit 'down under'.
+T 1378743956 18<TripleH>	oh well there are plenty to websites to help you see what a country is like
+T 1378743960 18<TripleH>	of*
+T 1378744013 18<Ishka>	Really enjoyed chatting with you.  I really have to get back to work...  I'm DJ'ing a ballroom dance tonight and have a lot to do yet......
+T 1378744058 18<TripleH>	cool ... enjoy
+T 1378744517 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378744517 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378744517 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378744519 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378744527 22*	Deadpool is now known as Deadp00l
+T 1378745480 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378745480 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378745480 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378745482 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378745490 22*	Deadpool is now known as Deadp00l
+T 1378747088 19*	19TripleHHH (~TripleH@3a15f1cd.2fc699fc.iinet.net.au) has joined #comics-anonymous
+T 1378747119 18<Frankie>	!list
+T 1378747393 23*	23TripleH has quit (23Ping timeout: 360 seconds23)
+T 1378748693 23*	23TripleHHH has quit (23Quit: 23)
+T 1378750010 23*	23Kraut has quit (23Ping timeout: 360 seconds23)
+T 1378753248 18<gastr>	http://www.desmoinesregister.com/article/20130908/NEWS/309080061/Iowa-grants-permits-for-blind-residents-to-carry-guns-in-public?Frontpage&gcheck=1&nclick_check=1
+T 1378754532 19*	19CantOutRunADuck (duck@18c3868a.25b55acd.xirvik.com) has joined #comics-anonymous
+T 1378755423 18<CantOutRunADuck>	goddamit why did breaking bad have to end then
+T 1378755752 23*	23thecoffeeman has quit (23Read error: Connection reset by peer23)
+T 1378755877 19*	19thecoffeeman (~thecoffee@3239def7.2e138044.dsl.bell.ca) has joined #comics-anonymous
+T 1378757920 18<Frankie>	!list
+T 1378757924 22*	26Frankie gives voice to26 thecoffeeman
+T 1378759997 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378759997 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378759997 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378759999 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378760007 22*	Deadpool is now known as Deadp00l
+T 1378764400 18<gastr>	i toldja walt wasn't so bad
+T 1378764479 18<gastr>	it's the moral absolutists on the show that are the true assholes
+T 1378764520 18<gastr>	hank has the book "dutch" on his shelf (hint)
+T 1378764523 18<CantOutRunADuck>	yeah he did show some humanity in that ep
+T 1378764542 18<gastr>	jesse is pure trash
+T 1378764548 18<CantOutRunADuck>	i was trying to see if they had under the dome on his shelf cause he had a bunch of king
+T 1378764564 18<gastr>	i didn't notice that
+T 1378764579 18<CantOutRunADuck>	that was previous ep is that what you were talkin about
+T 1378764603 18<gastr>	the one where jesse picks up the book
+T 1378764615 18<gastr>	when he's first invited to the house
+T 1378764623 18<CantOutRunADuck>	yeah 
+T 1378764660 18<gastr>	i noticed some history books about the west too i think
+T 1378764806 18<CantOutRunADuck>	i wonder how many eps are left
+T 1378764861 19*	19Gorganus (austin@3eb8f587.4b89d8f.2d34f077.11813a15X) has joined #comics-anonymous
+T 1378764877 18<gastr>	3
+T 1378764886 18<CantOutRunADuck>	:(
+T 1378764911 18<gastr>	it might be the greatest half season of tv ever
+T 1378764951 18<CantOutRunADuck>	i hope it keeps the quality up i'd love to have a series that has an ending im completely happy with 
+T 1378764951 18<gastr>	and the first time a show that promised a lot actually delivered
+T 1378764957 18<CantOutRunADuck>	that almost never (if ever) happens
+T 1378765094 18<gastr>	sopranos...cough cough
+T 1378765164 18<Frankie>	Batman: The Brave And The Bold?
+T 1378765182 18<CantOutRunADuck>	Lost took the bold tactice of promising everything and the kitchen sink and delivered on none of it
+T 1378765330 18<CantOutRunADuck>	tactic
+T 1378765435 18<gastr>	i wish i could get all the time back i wasted on lost
+T 1378765448 18<Gorganus>	glad I never wasted my time on that
+T 1378765449 18<gastr>	and it wasn't even that much compared to some
+T 1378765481 18<gastr>	maybe if you binge watch it wouldn't be so bad
+T 1378765560 18<gastr>	the dishonest hackery designed solely to spark internet discussion was the main problem
+T 1378765570 18<gastr>	the writers became a slave to it
+T 1378765624 18<gastr>	how the still get work is beyond belief
+T 1378765627 18<CantOutRunADuck>	they basically threw every crazy idea they could think of in a script and thought "we'll explain that shit later or maybe people will just forget about it"
+T 1378765629 18<Gorganus>	did they ever explain how the polar bear got there?
+T 1378765636 18<Frankie>	There was a zoo
+T 1378765639 18<CantOutRunADuck>	a zoo on the island
+T 1378765641 18<Gorganus>	ah ty
+T 1378765658 18<Frankie>	Or an animal research centre I guess
+T 1378765678 18<Frankie>	It was where they were locked up in season 2 (?)
+T 1378765695 18<CantOutRunADuck>	was it that early?
+T 1378765711 18<CantOutRunADuck>	they had some half assed explainations
+T 1378765717 18<CantOutRunADuck>	most didnt make much sense
+T 1378765741 18<Frankie>	It was pretty early I think. The first few seasons were over 20 episodes and the last 3/4 were shorter so it's hard to place some of them
+T 1378765817 18<Frankie>	I haven't gone back rewatched it, because off the ending
+T 1378765826 18<gastr>	that silly ep in s1 where kate breaks in to a bank to steal a toy plane still pissed me off
+T 1378765833 18<gastr>	*pisses
+T 1378765836 18<Frankie>	Really not just the ending, the whole last half of the final season
+T 1378765858 18<gastr>	i would have known the show was pure shit after that
+T 1378765872 18<gastr>	*should
+T 1378765874 18<gastr>	argh!
+T 1378765875 18<Frankie>	Well yeah, in hindsight
+T 1378765952 18<Frankie>	It was basically a TV series made by marketers. It was bad, but sold to us very well
+T 1378765973 18<Gorganus>	well said
+T 1378766031 18<gastr>	the first season i think actually won the emmy for "best drama"
+T 1378766057 18<gastr>	and then was never even nominated again after that
+T 1378766067 18<Gorganus>	heh
+T 1378766072 18<gastr>	so some people figured it out i guess
+T 1378766142 18<Frankie>	I remember around the first season or so one of the fake websites had details about people who were on the plane. There were scientists, politicians, etc. It really gave the impression there was going to be some explanation for the weirdness
+T 1378766147 18<Frankie>	Nope. Magic cave.
+T 1378766296 18<Gorganus>	fringe had some cool faux websites
+T 1378766331 18<Gorganus>	I never did manage to decipher the various pictograms
+T 1378766341 18<Gorganus>	except one
+T 1378766364 18<Gorganus>	the one that had embroyos instead of seeds inside the apple
+T 1378766383 18<Gorganus>	it symbolized man being born into chaos
+T 1378766625 18<gastr>	http://badassdigest.com/2013/09/09/more-light-shed-on-j.j.-abrams-new-mystery-project/
+T 1378766666 18<gastr>	more junk
+T 1378766685 18<gastr>	"and dozens of pieces of ephemera between the pages like newspaper clippings and a napkin with a map drawn on it. (S. will come shrink-wrapped so none of this extra material falls out.)"
+T 1378766763 18<Gorganus>	has he started working on star wars yet?
+T 1378766831 18<gastr>	yes
+T 1378766843 18<Gorganus>	phew
+T 1378766903 18<Gorganus>	I'll know  it sucks if I see a kid in the trailer
+T 1378766938 18<Gorganus>	want to see something a little less aimed at the kids
+T 1378767008 18<gastr>	it'll be a pure nostalgic imitation of the original trilogy
+T 1378767021 18<gastr>	that's all abrams does
+T 1378767026 18<gastr>	copy others
+T 1378768720 18<Frankie>	!list
+T 1378769826 19*	19m33p (~xm33px@355d5b65.1599c5.21b52b10.cc59707X) has joined #comics-anonymous
+T 1378769838 19*	19Rich (~xm33px@355d5b65.1599c5.ca.comcast.net) has joined #comics-anonymous
+T 1378769948 23*	23m33p has quit (23Quit: 23)
+T 1378771762 23*	23Rejected has quit (23Quit: 23)
+T 1378773148 23*	23BenGrimm has quit (23Read error: Connection reset by peer23)
+T 1378773170 19*	19BenGrimm (UPP@2470642c.3223f75b.res.rr.com) has joined #comics-anonymous
+T 1378773177 22*	26e4 gives voice to26 BenGrimm
+T 1378774353 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378774353 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378774353 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378774355 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378774363 22*	Deadpool is now known as Deadp00l
+T 1378779520 18<Frankie>	!list
+T 1378781505 23*	23Gorganus has quit (23Quit: peace to you and all things in the universe23)
+T 1378784897 19*	19scarlet_centurian (austin@3eb8f587.4b89d8f.2d34f077.11813a15X) has joined #comics-anonymous
+T 1378784911 18<scarlet_centurian>	@find ghost castle
+T 1378785769 23*	23tinman_ has quit (23Client closed connection23)
+T 1378788136 23*	23Rich has quit (23Quit: 23)
+T 1378788753 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378788753 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378788753 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378788755 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378788763 22*	Deadpool is now known as Deadp00l
+T 1378790320 18<Frankie>	!list
+T 1378795312 19*	19TripleH (TripleH@124-170-23-108.dyn.iinet.net.au) has joined #comics-anonymous
+T 1378795693 23*	23gastr (23UPP@763458a.20db5883.1e706c24.252137eX) has left #comics-anonymous
+T 1378795811 23*	23mordath has quit (23Ping timeout: 360 seconds23)
+T 1378797391 23*	23ChairMan (23~UPP@307e4d48.4b89d8f.1a9e3c85.141bd0a1X) has left #comics-anonymous
+T 1378799225 19*	19Now talking on #comics-anonymous
+T 1378799225 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1 | #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1378799225 29*	29Topic for #comics-anonymous 29set by coondawg 29at Fri Aug 23 04:45:23 2013
+T 1378799225 28-29Global28-	[Logon News - Apr 04 2004] Attention: Please do NOT click on URLs that unknown people send you and remember to report all spammers to #abuse.
+T 1378799225 28-29Global28-	[Logon News - Mar 18 2005] Your host is being checked for open proxies. Please disregard connections to ports like 8080 or 3128.
+T 1378799225 28-29Global28-	[Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1378799225 22*	Received a CTCP LAG from LagServ
+T 1378799225 22*	Received a CTCP PING BottlerTest PleaseIgnore from PingServ
+T 1378799351 19*	19Now talking on #comics-anonymous
+T 1378799351 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1 | #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1378799351 29*	29Topic for #comics-anonymous 29set by coondawg 29at Fri Aug 23 04:45:23 2013
+T 1378799351 28-29Global28-	[Logon News - Apr 04 2004] Attention: Please do NOT click on URLs that unknown people send you and remember to report all spammers to #abuse.
+T 1378799351 28-29Global28-	[Logon News - Mar 18 2005] Your host is being checked for open proxies. Please disregard connections to ports like 8080 or 3128.
+T 1378799351 28-29Global28-	[Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1378799351 22*	Received a CTCP LAG from LagServ
+T 1378799351 22*	Received a CTCP PING BottlerTest PleaseIgnore from PingServ
+T 1378800038 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378800038 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378800038 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378800040 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378800048 22*	Deadpool is now known as Deadp00l
+T 1378801120 18<Frankie>	!list
+T 1378801146 19*	19mordath (~mordath@cd7f79a.1e624c7d.siw.siwnet.net) has joined #comics-anonymous
+T 1378801219 23*	23CantOutRunADuck has quit (23Quit: 23)
+T 1378802345 23*	23scarlet_centurian has quit (23Quit: peace to you and all things in the universe23)
+T 1378802407 19*	19Rejected (~r0x@d0a9903.2d8b4caa.cpe.netcabo.pt) has joined #comics-anonymous
+T 1378808277 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378808324 19*	19Deadp00l (~serpico@76b3cfb.28a85a1b.6a63aef.35556308X) has joined #comics-anonymous
+T 1378808324 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378808324 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378808718 23*	23Deadp00l has quit (23Read error: Connection reset by peer23)
+T 1378808747 19*	19Deadp00l (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378808747 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1378808747 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1378810273 18<coondawg>	I will be offline changing modems. temporary? i hope!
+T 1378810277 18<coondawg>	tee heee
+T 1378810550 23*	23Pudgy has quit (23Quit: "Our character is what we do when we think no one is looking." - H. Jackson Brown, Jr.23)
+T 1378810884 19*	19Pudgy (~Pudgy@pudgy.scans.comics) has joined #comics-anonymous
+T 1378810884 22*	26ChanServ gives channel operator status to26 Pudgy
+T 1378811904 19*	19ChairMan (~UPP@307e4d48.4b89d8f.1a9e3c85.141bd0a1X) has joined #comics-anonymous
+T 1378811919 18<Frankie>	!list
+T 1378811923 22*	26Frankie gives voice to26 ChairMan
+T 1378812049 23*	23coondawg has quit (23Ping timeout: 360 seconds23)
+T 1378812612 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378812612 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378812612 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378812614 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378812622 22*	Deadpool is now known as Deadp00l
+T 1378815401 19*	19Chib (~Chib@1e624c7d.3d7ab5b6.internode.on.net) has joined #comics-anonymous
+T 1378815401 22*	ChanServ sets mode +a #comics-anonymous Chib
+T 1378815401 22*	26ChanServ gives channel operator status to26 Chib
+T 1378815401 18<Frankie>	.•«WB (Chib) WB»•. - <!Chib> i sometimes wish i didn't grow up in a brothel
+T 1378815489 23*	23Chibby has quit (23Ping timeout: 360 seconds23)
+T 1378816286 19*	19Kraut (~kraut@33b18cfd.137f4c4b.adsl.alicedsl.de) has joined #comics-anonymous
+T 1378816286 22*	26ChanServ gives channel half-operator status to26 Kraut
+T 1378818366 19*	19coondawg (~coon@1c2d962f.19108886.ct.comcast.net) has joined #comics-anonymous
+T 1378818366 22*	ChanServ sets mode +a #comics-anonymous coondawg
+T 1378818366 22*	26ChanServ gives channel operator status to26 coondawg
+T 1378818575 23*	23mordath has quit (23Read error: Connection reset by peer23)
+T 1378822720 18<Frankie>	!list
+T 1378822901 19*	19mordath (~mordath@cd7f79a.1e624c7d.siw.siwnet.net) has joined #comics-anonymous
+T 1378823259 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378823259 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378823259 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378823261 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378823269 22*	Deadpool is now known as Deadp00l
+T 1378823397 19*	19Durian_Puaka (~Durian_Pu@31a16b5d.89a6ad6.385a42df.231e202bX) has joined #comics-anonymous
+T 1378823501 23*	23Durian_Puaka (23~Durian_Pu@31a16b5d.89a6ad6.385a42df.231e202bX) has left #comics-anonymous
+T 1378824192 23*	23Chib has quit (23Ping timeout: 360 seconds23)
+T 1378829631 23*	23Jean_Clau (23~jean_clau@831ef56.14fd58ce.ca.charter.com) has left #comics-anonymous
+T 1378832319 19*	19mimoza (mimoza@231698ba.25ea667f.fbx.proxad.net) has joined #comics-anonymous
+T 1378832890 23*	23TripleH has quit (23Quit: 23)
+T 1378832935 19*	19Jean_Clau (~jean_clau@831ef56.14fd58ce.ca.charter.com) has joined #comics-anonymous
+T 1378833521 18<Frankie>	!list
+T 1378834312 18<coondawg>	http://www.youtube.com/watch?feature=player_embedded&v=z-sdO6pwVHQ
+T 1378834315 18<coondawg>	that shit is funny
+T 1378834454 18<Deadp00l>	So's yer face!
+T 1378837068 19*	19Gorganus (austin@3eb8f587.4b89d8f.2d34f077.11813a15X) has joined #comics-anonymous
+T 1378837624 19*	19Deadpool (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1378837624 22*	ChanServ sets mode +a #comics-anonymous Deadpool
+T 1378837624 22*	26ChanServ gives channel operator status to26 Deadpool
+T 1378837626 23*	23Deadp00l has quit (23SVSKilled: GHOST command used by Deadpool23)
+T 1378837634 22*	Deadpool is now known as Deadp00l
+T 1378839600 23*	23mordath has quit (23Quit: 23)
+T 1378841123 23*	23Pudgy has quit (23Ping timeout: 360 seconds23)
+T 1378841484 19*	19Pudgy (~Pudgy@pudgy.scans.comics) has joined #comics-anonymous
+T 1378841484 22*	26ChanServ gives channel operator status to26 Pudgy
+T 1378841859 23*	23Omega has quit (23Ping timeout: 360 seconds23)
+T 1378842392 23*	23mimoza has quit (23Quit: 23)
+T 1378842605 19*	19Omega (~cable@d022162.3d8d9d00.dynamic.mundo-r.com) has joined #comics-anonymous
+T 1378844321 18<Frankie>	!list
+T 1378844641 23*	23Kraut has quit (23Ping timeout: 360 seconds23)
+T 1378846504 18<coondawg>	i just upgraded my modem with stupid comcast and my speed is like half what it was
+T 1378846711 19*	19CantOutRunADuck (duck@18c3868a.25b55acd.xirvik.com) has joined #comics-anonymous
+T 1378846846 19*	19coondawg_ (~coon@1c2d962f.19108886.ct.comcast.net) has joined #comics-anonymous
+T 1378847034 23*	23coondawg has quit (23Ping timeout: 360 seconds23)
+T 1378847034 22*	coondawg_ is now known as coondawg
+T 1378847094 22*	coondawg is now known as Guest6558592
+T 1378847186 18<Guest6558592>	A Pennsylvania high school football player is facing potential criminal charges after he ripped the helmet off of an opponent and beat him with it during an on-field altercation.
+T 1378847419 18<CantOutRunADuck>	wait something violent happened in football? Whodathunkit?!
+T 1378849036 18<Frankie>	That kid who was being beaten up should have had a gun, so he could defend himself
+T 1378849072 18<CantOutRunADuck>	you hear about that 107 year old guy who was killed in a shoot out with cops?
+T 1378849096 18<CantOutRunADuck>	(i didn't mean to word that like a joke set up)
+T 1378849104 18<Frankie>	Well the cops should have been carrying guns to defened....
+T 1378849206 18<CantOutRunADuck>	a guy shot his 17 year old friend when she jumped out of a closet trying to scare him (ok thats more relavent to current convo)
+T 1378849279 18<Frankie>	Well coondawg is definitely in favour of shooting all over teenaged boys who come out of the closet
+T 1378849343 18<CantOutRunADuck>	it was a girl. she must not have been hot or else would have been ok coming out of the closet
+T 1378849449 18<Frankie>	Along the same lines, South African paralympian Oscar Pistorius shot his own girlfriend through a door thinking it was a burglar
+T 1378850022 18<CantOutRunADuck>	a parapalegic shot his girlfriend by accident that'll never stand up in court
+T 1378850037 18<CantOutRunADuck>	he wont i mean the argument sounds sound
+T 1378850059 18*	CantOutRunADuck strikes a comedic pose

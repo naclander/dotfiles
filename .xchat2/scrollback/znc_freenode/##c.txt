@@ -1,0 +1,503 @@
+T 1389312477 18<sheboya>	okay will try vim
+T 1389312483 18<Chris>	Unfortunately it fails by default.
+T 1389312487 18<sheboya>	why?
+T 1389312495 18<Chris>	It doesn't know which section.
+T 1389312501 18<sheboya>	ah
+T 1389312507 18<Chris>	For example, write a C program with a .c extension in C mode in vim and do K under printf.
+T 1389312511 18<Chris>	You'll get printf(1) instead of printf(3)
+T 1389312518 18<fisted>	then you do 3K
+T 1389312524 18<Chris>	Sure, but it should know :)
+T 1389312540 18<sheboya>	that would make things harder because i don't know the difference between the 1 and the 3
+T 1389312541 18<fisted>	nah, that's not vim's concern IMO
+T 1389312544 23*	23libertas has quit (23Ping timeout: 261 seconds23)
+T 1389312554 19*	19araujo (~araujo@gentoo/developer/araujo) has joined ##c
+T 1389312564 23*	23Black_Phoenix has quit (23Quit: Leaving23)
+T 1389312566 18<sheboya>	i tried looking for alternatives to turboc but it only displays things like DevCpp and complex IDEs
+T 1389312567 18<fisted>	with no numeric prefix, it will display whatever man would show if not given a section number
+T 1389312592 18<sheboya>	i need something that would show me the help from the commands on the libraries of C
+T 1389312598 18<Chris>	sheboya: man man
+T 1389312603 18<sheboya>	what
+T 1389312620 18<Chris>	man man explains manpage section numbers.
+T 1389312632 18<vhann>	$ man man
+T 1389312634 18<Chris>	But you seem to live in Microsoft land.
+T 1389312637 18<sheboya>	ahhh
+T 1389312638 18<Chris>	So maybe you don't use man.
+T 1389312643 18<sheboya>	no Chris i do use man
+T 1389312651 18<Chris>	Okay.
+T 1389312651 18<sheboya>	i use linux but in my early years i had DOS
+T 1389312657 18<Chris>	Same.
+T 1389312664 18<Chris>	And I remember Turbo C well.
+T 1389312665 18<sheboya>	i wish i had a unix OS
+T 1389312677 18<sheboya>	my life would be better today
+T 1389312694 18<sheboya>	it's not bad, but not as good as it could have been if i started right on linux
+T 1389312711 23*	23elvis4526 has quit (23Remote host closed the connection23)
+T 1389312719 18<Chris>	I wouldn't mind a unix too but I'll settle for Linux instead.
+T 1389312736 18<vhann>	Does anyone have a link to the C89/C90 standard?
+T 1389312754 18<Chris>	vhann: see the topic home page
+T 1389312776 18<Chris>	(which ultimately links to http://iso-9899.info/wiki/The_Standard#C89_.2F_C90_.2F_C95 )
+T 1389312807 18<vhann>	I have to take this "advanced" C programming course and of course it's ANSI C only. I'm sure I'll get bit with things like __VA_ARGS__ not being defined or what not
+T 1389312823 18<sheboya>	i am not used to the way vim operates
+T 1389312830 18<sheboya>	it will be a tough way
+T 1389312837 18<Chris>	vhann: ANSI C is a loaded term. ANSI have adopted C11.
+T 1389312849 18<Chris>	sheboya: who is forcing you to use vim?
+T 1389312861 18<sheboya>	i need a editor and i don't like gedit
+T 1389312867 18<sheboya>	emacs neither
+T 1389312873 18<Chris>	Oh well.
+T 1389312877 18<sheboya>	and i don't like IDEs like eclipse
+T 1389312879 18<Chris>	vhann: You can always just get by with K&R 2nd edition.
+T 1389312896 18<Chris>	vhann: or look at the C99 draft and note the "changes" section at the start.
+T 1389312919 18<edk>	Chris: Oh, did they finally get round to that?
+T 1389312926 18<Chris>	edk: to what?
+T 1389312935 18<edk>	Adopting C11.
+T 1389312944 18<Chris>	edk: I don't think it took long.
+T 1389312956 18<mhi^>	I believe they haven't.
+T 1389312969 18<Chris>	well, they sell it
+T 1389312970 18*	Chris shrugs.
+T 1389312978 18<Chris>	You can't buy C99 or C89 from ANSI
+T 1389312982 18<Chris>	You can buy C11 from ANSI
+T 1389313001 18<Chris>	So either that or they've disowned C entirely.
+T 1389313028 18<edk>	My internet is too busy being shit to let me look
+T 1389313036 18<Chris>	http://webstore.ansi.org/RecordDetail.aspx?sku=INCITS%2FISO%2FIEC+9899-2012
+T 1389313037 18<candide>	Title of Chris's link: INCITS/ISO/IEC 9899-2012 Information technology -Programming languages - C
+T 1389313040 18<sheboya>	Chris: do you consider K&R the right book for begginers?
+T 1389313046 18<Chris>	sheboya: yes, definitely.
+T 1389313070 18<sheboya>	thanks
+T 1389313079 18<kate`>	i keep misreading your name as sheboys
+T 1389313099 18<sheboya>	:P
+T 1389313101 18<sheboya>	how so kate` ?
+T 1389313116 18<kate`>	it's only a few pixels between 's' and 'a'
+T 1389313120 18<sheboya>	it is sheboya
+T 1389313139 18<sheboya>	it is not "she-boy-a"
+T 1389313150 18<kate`>	yes, i realise that :)
+T 1389313151 18<sheboya>	it is "sh-eboya"
+T 1389313167 18<edk>	how do you pronounce "sh"?
+T 1389313176 18<sheboya>	edk: when you want silence in the room
+T 1389313181 18<sheboya>	and you put your index finger on your lips
+T 1389313182 18<kate`>	edk, "sh"
+T 1389313183 18<sheboya>	and say "shhhh"
+T 1389313202 18<sheboya>	it is the same in english
+T 1389313220 18<Chris>	what language does it come from?
+T 1389313253 18<sheboya>	it is a derivated of "ceboya" which is in spanish
+T 1389313265 18<edk>	mm, i thought maybe it'd be different because i can't really imagine sh as a syllable on its own
+T 1389313288 18<Chris>	I still have no idea how to pronounce it
+T 1389313295 18<kate`>	i'd transliterate that as shboya, for english
+T 1389313296 18<sheboya>	:P
+T 1389313312 18<sheboya>	that won't warn me of new messages kate`
+T 1389313316 18<Chris>	sh-eboya makes me think that it's shh followed by a stop then "eh boya"
+T 1389313321 18<sheboya>	jajajajaja
+T 1389313325 18<sheboya>	eh boya is funny
+T 1389313361 19*	19yrdz (~p_adams@unaffiliated/p-adams/x-7117614) has joined ##c
+T 1389313369 18<edk>	gah. fuck BT with pieces of slightly undercooked vegetable matter
+T 1389313382 18<vhann>	Chris: Oh, I didn't know ANSI adopted C11. Well, from what I've heard the teacher doesn't like to be told he's wrong, so I guess I won't mention he's using ANSI C incorrectly either
+T 1389313396 18<Chris>	I might be wrong anyway.
+T 1389313403 18<Chris>	I just assumed as C11 is the only thing they sell.
+T 1389313411 18<edk>	few teachers like to be told they're wrong
+T 1389313411 18<kate`>	edk, sorry. british food only has vegetables overboiled until they're transparent
+T 1389313414 18<Chris>	In any case, read K&R and look at C99 and subtract.
+T 1389313425 23*	23jdoles has quit (23Ping timeout: 245 seconds23)
+T 1389313427 19*	19Ali3nat0r (~Ali@host86-174-162-115.range86-174.btcentralplus.com) has joined ##c
+T 1389313437 18<sheboya>	do you want me to send you a copy of that part of the book vhann ?
+T 1389313462 18<Chris>	nothing worse than soft cauliflour
+T 1389313462 18<vhann>	Chris: Yeah, I already have the 2nd edition, I'm just used to using the ISO drafts. I'll keep the book handy (I guess a reread wouldn't hurt either)
+T 1389313473 18<dozn>	sheboya: You could always edit your code using nano.
+T 1389313488 18<sheboya>	ahhh
+T 1389313500 18<sheboya>	does it have any plugin for C development dozn ?
+T 1389313507 18<sheboya>	like help on functions
+T 1389313509 18<kate`>	Chris: my mother cooks green beans until they are actually transparent
+T 1389313513 18<sheboya>	the F1 from turboc
+T 1389313515 23*	23hunt3r has quit (23Remote host closed the connection23)
+T 1389313517 18<dozn>	sheboya: I believe it does have some sort of syntax highlighting, would have to Google it, though.
+T 1389313519 18<Chris>	Aside from library differences, C99 is just C89 with VLAs, compound literals, designated initializers, declarations anywhere a statement can be, and a view other minutiae
+T 1389313531 18<Chris>	kate`: yuck
+T 1389313537 18<Chris>	boil the taste out of them
+T 1389313549 18<sheboya>	when you speak so technically i get scared of the C language
+T 1389313553 19*	19hunt3r (~hunt3r@host217-43-136-83.range217-43.btcentralplus.com) has joined ##c
+T 1389313557 18<dozn>	sheboya: There's of course other _graphical_ editors as well, but you only named the CLI ones, so I figured...
+T 1389313562 18<Chris>	technically?
+T 1389313564 18<edk>	i do know some british people who cook things sensibly
+T 1389313566 19*	19alamar (alamar@oops.kernel.de) has joined ##c
+T 1389313574 18<dozn>	edk: I don't >_>
+T 1389313577 18<sheboya>	i feel more comfortable on CLOI dozn
+T 1389313592 18<Ali3nat0r>	Hi, just a quick question here, I've written a bunch of functions in C (PIC Microcontroller C) for an LCD driver, how do I go about putting these into an include so I can just go #include <lcd.h> at the top? Bearing in mind there does also need to be a few #defines to set the IO pins used. Thanks
+T 1389313602 18<dozn>	sheboya: Fair enough
+T 1389313608 18<vhann>	Chris: Also, isn't there a C95 or something like that? Wouldn't C99's changes section be relative to that?
+T 1389313627 18<Chris>	Ali3nat0r: you don't. Put declarations in a header and definitions in a source file and link appropriately.
+T 1389313628 18<kate`>	Ali3nat0r, okay. what are you unsure about?
+T 1389313629 18<sheboya>	"VLAs" "__VA_ARGS__" etc Chris
+T 1389313648 18<Chris>	vhann: yeah, AMD1, minor shit
+T 1389313680 18<Ali3nat0r>	Yeah I tried putting the declarations in a .h and the code in a .c but it wouldn't compile, and the #defined vars threw it off
+T 1389313714 18<Ali3nat0r>	There is for example #define LCD_DATA PORTA in the code, you can set PORTA to any of the IO ports on the uC
+T 1389313727 23*	23dysoco has quit (23Quit: bye bye miss american pie23)
+T 1389313739 18<Chris>	Not much use to us unless you can provide an example with the compilation error.
+T 1389313763 23*	23hunt3r has quit (23Read error: Operation timed out23)
+T 1389313768 18<sheboya>	i am a newbie but as far as i know you can use include "yourlib.h" and if it's on the same directory of the main it should read it
+T 1389313777 18<sheboya>	you have to link it
+T 1389313786 18<Chris>	you link translation units, not headers
+T 1389313793 18<sheboya>	ahh
+T 1389313800 18<Chris>	or rather the object files that they produce
+T 1389313809 18<sheboya>	the object with the source?
+T 1389313816 18<sheboya>	or the object with the headers
+T 1389313828 18<sheboya>	translation units*-
+T 1389313834 23*	23dozn has quit (23Quit: WeeChat 0.4.223)
+T 1389313835 18<Chris>	source file + all its included stuff = translation unit.
+T 1389313862 19*	19Lusitanian (~123@251.55.136.95.rev.vodafone.pt) has joined ##c
+T 1389313888 18<sheboya>	ahh
+T 1389314020 23*	23arexus has quit (23Quit: arexus23)
+T 1389314105 23*	23mhi^ has quit (23Quit: Lost terminal23)
+T 1389314158 23*	23zhost has quit (23Ping timeout: 246 seconds23)
+T 1389314184 18<sheboya>	let me give you this as a token of my grattitude for your help
+T 1389314185 18<sheboya>	http://www.youtube.com/watch?v=72RqpItxd8M
+T 1389314186 18<candide>	Title of sheboya's link: KUNG FURY Official Trailer [HD] - YouTube
+T 1389314196 18<sheboya>	it took a great smile from my face and i hope it does the same for you
+T 1389314211 18<Chris>	I don't want to watch something that removes a smile from my face.
+T 1389314219 18<sheboya>	oh right
+T 1389314222 18<sheboya>	it will put*
+T 1389314237 18<sheboya>	one like the one that the titans have
+T 1389314263 18<kate`>	i think they misunderstand physics
+T 1389314273 18<Chris>	physics is hard
+T 1389314286 18<sheboya>	i think we are the ones that misunderstand physics after watching that
+T 1389314317 19*	19shikhin_ (~Shikhin@unaffiliated/shikhin) has joined ##c
+T 1389314421 18<Ali3nat0r>	Error is "lcd_main.c:19: warning: (111) redefining preprocessor macro "LCD_DATA" (lcd.h: 20)", presumably because I had to define that macro in the header file and then redefined it in main.c
+T 1389314473 18<Chris>	since main.c is including lcd.h, why redefine it in main.c?
+T 1389314477 23*	23shikhin has quit (23Ping timeout: 252 seconds23)
+T 1389314506 19*	19ajunior (~textual@c-71-229-96-99.hsd1.fl.comcast.net) has joined ##c
+T 1389314541 18<Ali3nat0r>	Because I want to make a portable library I can use in other projects that might need different definitions for it, if that's possible
+T 1389314594 18<sheboya>	can't you use a #if platform A #endif ?
+T 1389314610 18<sheboya>	and define all of it in the header
+T 1389314615 18<Chris>	you can always #undef LCD_DATA then #define LCD_DATA something else
+T 1389314658 18<Chris>	and in your header you can use #ifndef LCD_DATA #define LCD_DATA ... #endif
+T 1389314673 18<Chris>	So it will only define it if it's not already defined.
+T 1389314694 18<sheboya>	do you work programming in C Chris ?
+T 1389314699 18<Chris>	sheboya: no
+T 1389314703 18<kessel>	or pass the port into your function(s) ..
+T 1389314709 18<sheboya>	what do you do in C that you know so much?
+T 1389314722 18<Chris>	sheboya: I use C from time to time.
+T 1389314731 23*	23plasma (23plasma@dubtech.no) has left ##c
+T 1389314738 19*	19plasma (plasma@dubtech.no) has joined ##c
+T 1389314794 18<Chris>	I haven't done C programming for work for about 8 years.
+T 1389314815 18<sheboya>	what do you do in C then?
+T 1389314824 18<Chris>	Nothing currently.
+T 1389314830 18<kate`>	he's a suit
+T 1389314834 18<kate`>	FED
+T 1389314863 18<sheboya>	fed?
+T 1389314871 18<Chris>	kate` is being silly for some reason.
+T 1389314940 19*	19dark_splinter (~dark_spli@a95-92-16-88.cpe.netcabo.pt) has joined ##c
+T 1389314954 18<kate`>	no sillyness is allowed here. C is very serious business
+T 1389314981 18<sheboya>	:P
+T 1389314997 18*	kate` uses the return value from strcpy for once
+T 1389314999 18<zid`>	kate`: African or European silliness?
+T 1389315031 18<kate`>	zid`: i think less of you for reguritating humour
+T 1389315052 18<zid`>	I think less of you for thinking less of me, it's a vicious cycle
+T 1389315066 18<kate`>	eventually we will both be at maximum awesome
+T 1389315184 18<sheboya>	i am working on this example: http://pastebin.com/fi7K4Mxw
+T 1389315187 18<zid`>	eventually!
+T 1389315189 19*	19w3pm (~w3pm@rrcs-24-43-59-146.west.biz.rr.com) has joined ##c
+T 1389315191 18<kate`>	node->u.s  = strcpy((char *) node + sizeof *node, s, z + 1);
+T 1389315193 18<kate`>	there you go
+T 1389315198 18<sheboya>	i don't understand why it is "for (i=0; i < lim-1 && (c=getchar())!=EOF && c!='\n'; ++i)"
+T 1389315200 18<Chris>	sheboya: please learn how to indent
+T 1389315207 18<sheboya>	sorry Chris will do next time
+T 1389315214 19*	19EvilPenguin (~EvilPengu@50.193.235.235) has joined ##c
+T 1389315220 18<kate`>	do it this time
+T 1389315245 18<sheboya>	why i < lim-1 has a && instead of a ||
+T 1389315262 18<sheboya>	if it doesn't reaches the limit but it has a EOF it should be a OR
+T 1389315266 18<kate`>	i don't know. indent it, and we might be able to see
+T 1389315269 18<sheboya>	ok kate`
+T 1389315276 18<sheboya>	ok
+T 1389315307 18<Chris>	the loop only continues if all those conditions remain true
+T 1389315322 18<Chris>	if it was ||, then it would continue if any of those conditions are true, which is not what you want.
+T 1389315338 19*	19james41382_ (~james@unaffiliated/james41382) has joined ##c
+T 1389315349 18<Chris>	you want the loop to end if either i reaches the limit, or getchar() returns EOF, or a newline is found.
+T 1389315401 22*	james41382_ is now known as james41382
+T 1389315404 18<sheboya>	right
+T 1389315408 18<sheboya>	you said it, "or"
+T 1389315435 18<Chris>	So what?
+T 1389315452 18<sheboya>	those 3 conditions will never happen at the same time
+T 1389315458 18<Chris>	Of course they will.
+T 1389315460 18<sheboya>	it is a "and"
+T 1389315472 18<Chris>	c is often not a newline
+T 1389315474 18<Chris>	c is often not EOF
+T 1389315478 18<Chris>	and i is often less than lim-1
+T 1389315516 18<Chris>	When all these conditions are true, you want the loop to continue
+T 1389315527 18<sheboya>	here it is indentated http://pastebin.com/bbRhB2Tw
+T 1389315529 18<Chris>	when any of those conditions are false, you want the loop to end.
+T 1389315540 18<Chris>	anyway, you've been answered, read carefully.
+T 1389315541 23*	23riotz has quit (23Remote host closed the connection23)
+T 1389315598 18<sheboya>	shouldn't it be "for (i=0; i < lim-1 || (c=getchar())!=EOF && c!='\n'; ++i)" ?
+T 1389315601 23*	23fisted has quit (23Remote host closed the connection23)
+T 1389315637 19*	19riotz (riotz@gateway/shell/sh3lls.net/x-egehnlhoruvrepak) has joined ##c
+T 1389315637 19*	19fisted (~fisted@unaffiliated/fisted) has joined ##c
+T 1389315644 18<sheboya>	but when i do that the loop never ends
+T 1389315709 18<sheboya>	i mean c can either be EOF or '\n', not both as the loop says
+T 1389315733 18<kessel>	it does not say that
+T 1389315742 18<sheboya>	(c=getchar())!=EOF && c!='\n'
+T 1389315766 18<kessel>	it says "c IS NOT EOF" and "c is not NL"
+T 1389315781 18<sheboya>	if it is not EOF and not NL keep looping
+T 1389315795 18<sheboya>	it can never be both to make the loop stop
+T 1389315847 19*	19asandweech (~whichsand@64.126.34.156) has joined ##c
+T 1389315852 23*	23asandweech (23~whichsand@64.126.34.156) has left ##c (23"can't take it no more"23)
+T 1389315987 18<kessel>	sheboya: it does not say c is EOF and NL at the same time ..
+T 1389316006 18<kessel>	that's why there is an != in there and not an ==
+T 1389316032 18<sheboya>	"not EOF and not NL" i said kate`
+T 1389316078 19*	19bengoodman (~bengoodma@nc-76-5-182-52.dhcp.embarqhsd.net) has joined ##c
+T 1389316079 18<kate`>	huh what? WHO"S TALKING TO ME *mutter mutter*
+T 1389316091 18<sheboya>	:(
+T 1389316094 19*	19dozn (~dozn@24-207-52-240.eastlink.ca) has joined ##c
+T 1389316097 18<sheboya>	i don't understand that piece of code
+T 1389316138 18<kate`>	try rewriting it as an infinite loop, with if statements inside to break; it conditionally
+T 1389316152 18<sheboya>	okay
+T 1389316191 23*	23james41382 has quit (23Ping timeout: 272 seconds23)
+T 1389316216 18<Ali3nat0r>	@Chris, that #ifndef thing worked, thanks for that :)
+T 1389316269 23*	23ajunior has quit (23Quit: My MacBook Pro has gone to sleep. ZZZzzz…23)
+T 1389316322 23*	23unreal has quit (23Ping timeout: 272 seconds23)
+T 1389316370 23*	23x_root has quit (23Ping timeout: 264 seconds23)
+T 1389316530 19*	19kailas (~kailas@75-119-226-139.dsl.teksavvy.com) has joined ##c
+T 1389316552 18<kailas>	hey guys, are there any flags that I need to use while compilation to overcome the security solutions. I know I have to use "-z execstack" so that I can overwrite the eip.  Are there any other flags. I am on a Ubuntu 12.04, 64bit
+T 1389316566 18<kailas>	I need it for a security project
+T 1389316611 18<sheboya>	kate`: http://pastebin.com/YWjVeieh
+T 1389316622 18<sheboya>	i cannot make it detect my EOF yet
+T 1389316642 23*	23Ali3nat0r has quit (23Quit: Leaving23)
+T 1389316681 18<kate`>	sheboya, show me all the code please
+T 1389316691 18<sheboya>	okay
+T 1389316726 18<sheboya>	kate`: http://pastebin.com/qmG1NcZv
+T 1389316799 18<kate`>	sheboya, okay. so what makes you think this isn't detecting when c is EOF?
+T 1389316818 18<sheboya>	when i press CTRL -D it doesn't stops
+T 1389316827 19*	19nisstyre (~yours@oftn/member/Nisstyre) has joined ##c
+T 1389316833 18<sheboya>	as the original code
+T 1389316849 18<kate`>	sheboya, print the value of c within your loop, and see
+T 1389316854 18<sheboya>	okay
+T 1389316888 18<kate`>	and for the love of goodness, learn how to indent your code :)
+T 1389316912 23*	23Kakera has quit (23Ping timeout: 260 seconds23)
+T 1389316915 19*	19Stanley00 (~Stanley00@unaffiliated/stanley00) has joined ##c
+T 1389316932 19*	19yrdz_ (~p_adams@unaffiliated/p-adams/x-7117614) has joined ##c
+T 1389316933 18<sheboya>	okay
+T 1389316941 18<sheboya>	the output is: "the value of c is �"
+T 1389316942 18<twkm>	kailas: you don't seem to have a c question.
+T 1389316948 18<sheboya>	this is the output printf("\n *--****** **** the value of c is %c *-*****-*", c);
+T 1389316951 23*	23yrdz has quit (23Read error: Connection reset by peer23)
+T 1389316957 18<kate`>	sheboya, use %d
+T 1389316963 22*	yrdz_ is now known as yrdz
+T 1389316979 18<kailas>	twkm: well I was assuming if gcc takes a flag, that would qualify as a C question
+T 1389316990 18<ozette>	kailas: there's a gcc channel
+T 1389316997 18<sheboya>	kate`: it prints "-1"
+T 1389317006 18<kate`>	sheboya, okay. and what is the value of EOF for your system?
+T 1389317047 22*	drkchiloll is now known as SamWomack
+T 1389317077 18<sheboya>	-1 kate`
+T 1389317093 23*	23Plazma has quit (23Remote host closed the connection23)
+T 1389317093 18<kailas>	ozette: Thanks
+T 1389317094 23*	23jack_rabbit has quit (23Quit: Leaving23)
+T 1389317097 23*	23kailas (23~kailas@75-119-226-139.dsl.teksavvy.com) has left ##c
+T 1389317117 19*	19jack_rabbit (~jack_rabb@c-50-148-124-212.hsd1.il.comcast.net) has joined ##c
+T 1389317127 22*	SamWomack is now known as drkchiloll
+T 1389317133 19*	19unreal (~unreal@unaffiliated/unreal) has joined ##c
+T 1389317143 18<kate`>	sheboya, so there's no reason your if (c == EOF) condition would fail. that leaves me to conclude that your if () statement isn't being executed at all
+T 1389317291 23*	23w3pm has quit (23Quit: This computer has gone to sleep23)
+T 1389317303 18<sheboya>	then i have to take a break
+T 1389317312 18<sheboya>	thanks for the help so far kate` Chris
+T 1389317325 23*	23sheboya has quit (23Quit: Leaving23)
+T 1389317333 18<kate`>	you're welcome
+T 1389317351 19*	19yayachiken (~yayachike@cl-5796.cgn-01.de.sixxs.net) has joined ##c
+T 1389317623 19*	19bigbadben (~bigbadben@24-176-0-64.dhcp.klmz.mi.charter.com) has joined ##c
+T 1389317624 23*	23bigbadben has quit (23Max SendQ exceeded23)
+T 1389317638 19*	19zanoni (~quassel@187.2.153.214) has joined ##c
+T 1389317650 19*	19bigbadben (~bigbadben@24-176-0-64.dhcp.klmz.mi.charter.com) has joined ##c
+T 1389317655 18<kessel>	.. "I don't know why the sacrifice didn't work. The science seemed so solid."
+T 1389317710 23*	23neurodrone has quit (23Quit: No route to host.23)
+T 1389317768 19*	19jamesf (~user@jef.me.uk) has joined ##c
+T 1389317835 23*	23jamesf has quit (23Client Quit23)
+T 1389317900 19*	19Schroeder (1000@unaffiliated/unclejimbob) has joined ##c
+T 1389318093 23*	23yayachiken has quit (23Read error: Connection reset by peer23)
+T 1389318124 19*	19yayachiken (~yayachike@cl-5796.cgn-01.de.sixxs.net) has joined ##c
+T 1389318155 23*	23yayachiken has quit (23Read error: Connection reset by peer23)
+T 1389318181 19*	19kcj (~casey@unaffiliated/kcj) has joined ##c
+T 1389318185 19*	19yayachiken (~yayachike@cl-5796.cgn-01.de.sixxs.net) has joined ##c
+T 1389318234 23*	23amizraa has quit (23Remote host closed the connection23)
+T 1389318335 23*	23yayachiken has quit (23Read error: Connection reset by peer23)
+T 1389318336 19*	19amizraa (~amizraa@gateway/tor-sasl/amizraa) has joined ##c
+T 1389318362 19*	19yayachiken (~yayachike@cl-5796.cgn-01.de.sixxs.net) has joined ##c
+T 1389318363 22*	26ChanServ gives channel operator status to26 candide
+T 1389318364 22*	candide sets ban on *!~yayachike@*.sixxs.net$##stop_join_flood
+T 1389318369 19*	19agorecki (~agorecki@S0106b8a38657b866.ok.shawcable.net) has joined ##c
+T 1389318394 23*	23yayachiken has quit (23Read error: Connection reset by peer23)
+T 1389318416 18<Zhivago>	You need to sacrifice predictive models by falsification to appease science.
+T 1389318450 23*	23EvilPenguin has quit (23Ping timeout: 272 seconds23)
+T 1389318477 19*	19yayachiken (~yayachike@host-115-67.kawo1.rwth-aachen.de) has joined ##c
+T 1389318535 18<jack_rabbit>	indeed.
+T 1389318540 18*	jack_rabbit smiles convincingly.
+T 1389318589 19*	19EvilPenguin (~EvilPengu@50.193.235.235) has joined ##c
+T 1389318607 23*	23gaffa has quit (23Ping timeout: 245 seconds23)
+T 1389318670 22*	26ChanServ removes channel operator status from26 candide
+T 1389318694 23*	23EvilPenguin has quit (23Client Quit23)
+T 1389318957 19*	19lemonade` (~lemonade`@pool-108-28-100-56.washdc.fios.verizon.net) has joined ##c
+T 1389318970 23*	23unixist has quit (23Quit: unixist23)
+T 1389319141 23*	23riotz has quit (23Remote host closed the connection23)
+T 1389319231 19*	19riotz (riotz@gateway/shell/sh3lls.net/x-fcsvvutbthrfkxxh) has joined ##c
+T 1389319311 19*	19elvora (~waterlae@c-24-8-156-40.hsd1.co.comcast.net) has joined ##c
+T 1389319352 19*	19krisbulman (~krisbulma@47.54.24.201) has joined ##c
+T 1389319357 23*	23krisbulman (23~krisbulma@47.54.24.201) has left ##c (23"Textual IRC Client: www.textualapp.com"23)
+T 1389319408 23*	23tblamer has quit (23Ping timeout: 260 seconds23)
+T 1389319435 23*	23jlf has quit (23Ping timeout: 260 seconds23)
+T 1389319527 23*	23Lusitanian has quit (23Quit: Leaving23)
+T 1389319732 23*	23ltbarcly has quit (23Ping timeout: 245 seconds23)
+T 1389319741 19*	19Goplat (~goplat@reactos/developer/Goplat) has joined ##c
+T 1389319842 19*	19aberrant (~aberrant@unaffiliated/aberrant) has joined ##c
+T 1389319850 23*	23dardevelin has quit (23Quit: Leaving23)
+T 1389319862 22*	freestyl3r is now known as trolol
+T 1389319873 22*	trolol is now known as charkost
+T 1389319888 22*	charkost is now known as freestyl3r
+T 1389319998 23*	23Vivekananda has quit (23Quit: Ex-Chat23)
+T 1389320023 18<aberrant>	man
+T 1389320033 18<aberrant>	this hash lib is causing problems
+T 1389320051 18<Zhivago>	Please think of an intelligent question to ask.
+T 1389320119 19*	19jlf (~user@pdpc/supporter/active/jlf) has joined ##c
+T 1389320283 19*	19armyriad (~armyriad@cpe-108-185-101-0.socal.res.rr.com) has joined ##c
+T 1389320364 18<aberrant>	there's no question, Zhivago
+T 1389320367 18<aberrant>	I don't need assistance
+T 1389320628 18<Zhivago>	aberrant: Ah, you were just indulging in a spontaneous display of helplessness.
+T 1389320643 18<aberrant>	pretty much.
+T 1389320645 18<aberrant>	I'm figuring it out.
+T 1389320661 18<aberrant>	the good news is that I'm able to reproduce it.
+T 1389320694 18*	ozette wishes you all luck and goes to bed
+T 1389320703 23*	23ozette has quit (23Quit: WeeChat 0.4.223)
+T 1389321061 19*	19diegoviola (~diego@unaffiliated/diegoviola) has joined ##c
+T 1389321095 18<kate`>	i wish switch () gave a value
+T 1389321100 19*	19propheticsquiddy (~Proph@unaffiliated/propheticsquiddy) has joined ##c
+T 1389321115 23*	23percopal has quit (23Quit: percopal23)
+T 1389321122 19*	19arexus (~arexus@pool-108-21-101-199.nycmny.fios.verizon.net) has joined ##c
+T 1389321124 23*	23aberrant has quit (23Quit: aberrant23)
+T 1389321138 18<Zhivago>	There's always lisp. :)
+T 1389321143 18<kate`>	quiet you
+T 1389321148 19*	19aberrant (~aberrant@unaffiliated/aberrant) has joined ##c
+T 1389321226 18<aberrant>	ah - I figured it out
+T 1389321228 18<aberrant>	the problem now is that I don't think there's a good solution.
+T 1389321237 18<CaZe>	Why don't places offer croutons as a pizza topping?
+T 1389321250 18<kate`>	because that's disgusting
+T 1389321257 18<aberrant>	kate`: +1
+T 1389321294 18<CaZe>	Well, I just made one, and it's not.
+T 1389321335 18<cjh`>	cruotons are awesome in/on most things, hadn't considered pizza though.
+T 1389321338 18<aberrant>	so -architectural question for you guys. You have to keep track of source and destination ip addresses, and keep counters for two values associated with traffic from a src to a dst. The counters are incremented using an event loop (libevent) so normal hashing won't work very well. How do you do this?
+T 1389321344 18<Zhivago>	Caze: Have you tried potato and bacon pizza?
+T 1389321348 18<dozn>	Bread as a topping? Ehh?
+T 1389321367 18<CaZe>	Zhivago: Yes. Extremely filling.
+T 1389321379 18<Zhivago>	abberant: What does "event loop" and "normal hashing" have to do with one another?
+T 1389321383 18<Schroeder>	dozn: bread's a bottom, not a top
+T 1389321383 18<CaZe>	Too much starch for my taste, though.
+T 1389321387 18<kate`>	that's like having a bread sandwich
+T 1389321388 18<tzanger>	aberrant: sounds like something I'd pass off to rrd or even sqlite and not worry about it architecturally beyond that
+T 1389321388 18<Schroeder>	ba-dum TING!
+T 1389321408 18<dozn>	Schroeder: I take it you've never eaten a sandwich before
+T 1389321412 18<cjh`>	Schroeder: I take it you have never had a sandwich
+T 1389321414 18<propheticsquiddy>	just get a deep dish pizza topped w/ lasagna, should be enough.
+T 1389321416 18<cjh`>	dozn: wow.
+T 1389321451 18<dozn>	cjh`: No comment.
+T 1389321455 18<aberrant>	Zhivago: when you add an element to a hash, you have to figure out first whether the key is already there. The problem is that given the asynchronous event loop, you might have two checks happening at the same time, which means you'll get two "this is a new key" results, which is problematic.
+T 1389321458 18<kate`>	aberrant, IPs work rather nicely as a trie
+T 1389321482 18<Zhivago>	aberrant: I think that you're confused about how libevent works.
+T 1389321499 18<aberrant>	Zhivago: I'm seeing it happen before my eyes. I'm able to reproduce the issue.
+T 1389321501 18<Zhivago>	aberrant: However, even if you are stupid enough to be running parallel events in different threads, you could solve that trivially using a lock.
+T 1389321536 18<aberrant>	it's possible the keys are being duplicated some other way, but I can't find it.
+T 1389321539 23*	23frostschutz has quit (23Remote host closed the connection23)
+T 1389321557 18<Zhivago>	Howeve, libevent does not use multiple threads unless you go out of your way to do so.
+T 1389321563 18<Zhivago>	So your diagnosis is probably wrong.
+T 1389335999 22*	Disconnected (Remote host closed socket).
+T 1389336010 19*	19Now talking on ##c
+T 1389336010 29*	29Topic for ##c 29is: The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil
+T 1389336010 29*	29Topic for ##c 29set by twkm 29at Fri Feb  8 02:28:14 2013
+T 1389336010 18<***>	Buffer Playback...
+T 1389336010 18<flu77er>	[22:11:16] sounds like something stoners would  watch
+T 1389336010 18<Zhivago>	[22:11:32] nitrix: So, what is consciousness?
+T 1389336010 18<nitrix>	[22:11:44] Like I know...
+T 1389336010 18<Zhivago>	[22:12:10] So, they didn't manage to explain anything?
+T 1389336010 18<nitrix>	[22:12:46] I'm hardly manipulable, I'm always sceptic about everything. But that talk; I'm speechless. Maybe they said what I wanted to hear?
+T 1389336010 18<nitrix>	[22:12:58] It just seems... so logical.
+T 1389336010 18<flu77er>	[22:13:11] captian
+T 1389336010 18<Zhivago>	[22:13:32] So, what is consciousness?
+T 1389336010 18<nitrix>	[22:14:01] They didn't try to define what consciousness is.
+T 1389336010 18<Zhivago>	[22:14:02] If the substance of the universe is consciousness, and you don't know what consciousness is ... did you understand any of it?
+T 1389336010 18<flu77er>	[22:14:03]  being self aware
+T 1389336010 18<pragma->	[22:14:20] I think his name is supposed to be flutter rather than fluffer.
+T 1389336010 18<pragma->	[22:14:29] But fluffer does seem more apt.
+T 1389336010 18<flu77er>	[22:14:42] what? lmao
+T 1389336010 18<flu77er>	[22:14:57] its flutter
+T 1389336010 18<Zhivago>	[22:15:12] What's flutter?
+T 1389336010 18<flu77er>	[22:15:28] and why do u assume  im a guy?
+T 1389336010 18<lemonade`>	[22:15:51] optimism
+T 1389336010 18<lemonade`>	[22:16:46] err I read that wrong heh
+T 1389336010 18<Zhivago>	[22:17:13] Usually males have more difficulty with basic tasks such as spelling "you" and "it's".
+T 1389336010 18<flu77er>	[22:17:21] a flutter is the sound a pair of lips make  when flapping
+T 1389336010 18<flu77er>	[22:18:04] ie  yours....
+T 1389336010 18<pragma->	[22:18:52] I've never heard of flutter being applied to lips.
+T 1389336010 18<pragma->	[22:18:59] Eyelids, sure.
+T 1389336010 18<lemonade`>	[22:19:03] me neither
+T 1389336010 18<kate`>	[22:19:15] eyelashes morso than eyelids
+T 1389336010 18<pragma->	[22:19:32] the eyelashes are connected to the eyelids!
+T 1389336010 18<lemonade`>	[22:19:36] birds and butterflys flutter their wings
+T 1389336010 18<flu77er>	[22:19:37] i have a unique perspective
+T 1389336010 18<Zhivago>	[22:19:45] Fluffers can use their lips like that.
+T 1389336010 18*	pragma- [22:19:53] smirks.
+T 1389336010 18<lemonade`>	[22:19:57] heh
+T 1389336010 18<flu77er>	[22:20:15] <Zhivago> gets it...
+T 1389336010 18<pragma->	[22:21:26] http://sprunge.us/CSEQ -- I like the synonyms for 3)
+T 1389336010 18<Zhivago>	[22:22:13] fluffer: http://i.imgur.com/w6eyEGM.jpg <- here you go.
+T 1389336010 18<pragma->	[22:22:50] Those horses were made in China, I bet.
+T 1389336010 18<flu77er>	[22:22:52] omg
+T 1389336010 18<flu77er>	[22:23:05] lol
+T 1389336010 18<pragma->	[22:23:05] Or rather, Japan.
+T 1389336010 18*	kerfluffle [22:25:37] likes this one better.
+T 1389336010 18<pragma->	[22:25:47] too bad you didn't spell it correctly
+T 1389336010 18<kerfuffle>	[22:26:22] oops
+T 1389336010 18<kerfuffle>	[22:28:18] if (nick=="kerfuffle") {*person="gay";}
+T 1389336010 18<kate`>	[22:28:57] if only you knew how to compare strings
+T 1389336010 18<kerfuffle>	[22:29:52] too tired to care but you get the gist.
+T 1389336010 18<Zhivago>	[22:30:28] Is the gist incompetence?
+T 1389336010 18<kerfuffle>	[22:30:43] ouch...
+T 1389336010 18<flu77er>	[22:35:45] changed back because kerfuffle is registered....
+T 1389336010 18<flu77er>	[22:37:16] pragma...
+T 1389336010 18<flu77er>	[22:37:45] do you dabble in os-dev?
+T 1389336010 18<***>	Playback Complete.
+T 1389336093 18<flu77er>	pragma-?
+T 1389336156 18<twkm>	surely you would find more responses in #osdev.
+T 1389336158 23*	23flu77er has quit (23Quit: .......................................................................................................................................................................................................23)
+T 1389336198 19*	19vishesh (~vishesh@122.177.176.76) has joined ##c
+T 1389336317 19*	19yealinozph (~yorelog@118.239.50.224) has joined ##c
+T 1389336375 23*	23maciuszek has quit (23Ping timeout: 260 seconds23)
+T 1389336535 23*	23pnbeast has quit (23Quit: leaving23)
+T 1389336705 19*	19flu77er (~androirc@cpe-70-94-116-106.kc.res.rr.com) has joined ##c
+T 1389336769 23*	23phipes has quit (23Remote host closed the connection23)
+T 1389336772 23*	23bengoodman has quit (23Quit: Nettalk6 - www.ntalk.de23)
+T 1389336993 19*	19Ge (~Ge@unaffiliated/ge) has joined ##c
+T 1389337013 -10-11>	You are now talking on 11##c
+T 1389337013 -10-11-	Topic for 11##c is 11The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil
+T 1389337013 -10-11-	Topic for 11##c set by 11twkm at 11Fri Feb  8 02:28:14 2013
+T 1389337106 <10-11-	kerrick has quit 14(Ping timeout: 245 seconds14)
+T 1389337127 <10-11-	Betal has quit 14(Remote host closed the connection14)
+T 1389337153 <10-11-	apeiros has quit 14(Remote host closed the connection14)
+T 1389337177 2<flu77er2>	Can i have two pointers assigned to the same memory location in a program by accident?
+T 1389337186 25»19»	19Now talking on ##c
+T 1389337186 29»22»	22Topic for ##c is: The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil
+T 1389337186 29»22»	22Topic for ##c set by twkm at Fri Feb  8 02:28:14 2013
+T 1389337249 31-25-19-19»	19fluter (~fluter@fedora/fluter19) has Joined ##c
+T 1389337267 26«18-11-31-	26fluter (~fluter@fedora/fluter26) has Quit (Max SendQ exceeded26)
+T 1389337277 28.:1924squ28:.	you want to assign them by accident?
+T 1389337296 28.:1924squ28:.	or you want to know if that can happen
+T 1389337315 31-25-19-19»	19fluter (~fluter@fedora/fluter19) has Joined ##c
+T 1389337317 28.:1924flu77er28:.	Can it happen? And no i don't want to.
+T 1389337332 25»19»	19Now talking on ##c
+T 1389337332 29»22»	22Topic for ##c is: The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil
+T 1389337332 29»22»	22Topic for ##c set by twkm at Fri Feb  8 02:28:14 2013
+T 1389337338 31-25-19-19»	19ioanel (~Thunderbi@188.25.9.8019) has Joined ##c
+T 1389337371 25»19»	19Now talking on ##c
+T 1389337371 29»22»	22Topic for ##c is: The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil
+T 1389337371 29»22»	22Topic for ##c set by twkm at Fri Feb  8 02:28:14 2013
+T 1389337415 25»19»	19Now talking on ##c
+T 1389337415 29»22»	22Topic for ##c is: The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil
+T 1389337415 29»22»	22Topic for ##c set by twkm at Fri Feb  8 02:28:14 2013
+T 1389337729 25»19»	19Now talking on ##c
+T 1389337729 29»22»	22Topic for ##c is: The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil
+T 1389337729 29»22»	22Topic for ##c set by twkm at Fri Feb  8 02:28:14 2013
+T 1389337747 28.:1924twkm28:.	but free(p1 = malloc(n)); free(p2 = malloc(m)); might produce p1 == p2.
+T 1389337769 28.:1924twkm28:.	(and not even explode!)
+T 1389337782 25»19»	19Now talking on ##c
+T 1389337782 29»22»	22Topic for ##c is: The C Programming Language || C11 is the current C Standard || PASTE (>3 lines) here: http://ideone.com/ || HOME page: http://www.iso-9899.info/ (to edit you need an account, see an wiki/channel admin if you need one) || BOOKS here: http://www.iso-9899.info/wiki/Books || Be civil
+T 1389337782 29»22»	22Topic for ##c set by twkm at Fri Feb  8 02:28:14 2013
+T 1389337823 28.:1924flu77er28:.	And i can see the use within a specific function. But the software in working on is returning the wrong value for the expected pointer...  just trying to figure out where they are mixed up..

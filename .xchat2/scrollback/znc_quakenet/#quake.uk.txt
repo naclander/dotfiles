@@ -1,0 +1,502 @@
+T 1388612312 18<***>	Buffer Playback...
+T 1388612312 18<VENTURE>	[22:28:12] http://www.twitch.tv/kneecoleslaw
+T 1388612312 18<VENTURE>	[22:28:15] DEM TITTTTTTTTTTIES
+T 1388612312 18<sKuLks>	[08:45:03] HELLLLLLO WORLD Happy New Years
+T 1388612312 18<sKuLks>	[08:52:15] Hello Mongo
+T 1388612312 18<Absolum>	[08:52:16] Hello sKuLks
+T 1388612312 18<Mongo>	[08:52:52] moo
+T 1388612312 18<sKuLks>	[08:56:21] cow ? i always thought you were more of a mango :)
+T 1388612312 18<sKuLks>	[08:59:54] VENTURE, i see the links you keep posting... does your mom know you are up this late ?
+T 1388612312 18<sKuLks>	[09:01:22] !seen norules
+T 1388612312 18<Absolum>	[09:01:23] norules (~cba@host217-39-9-117.in-addr.btopenworld.com) was last seen quitting from #quake.uk 1 hour, 30 minutes ago stating (Signed off).
+T 1388612312 18<^deke>	[09:01:23] norules (~cba@host217-39-9-117.in-addr.btopenworld.com) was last seen quitting from #qwca 1 hour, 30 minutes ago stating (Signed off).
+T 1388612312 18<VENTURE>	[09:03:17] SHOWMATCH???
+T 1388612312 18<sKuLks>	[09:13:31] showmatch? what are you talking about ? have you ever played an game of qw in your life ?
+T 1388612312 18<jogi_>	[09:14:56] lol
+T 1388612312 18<sKuLks>	[09:16:17] i never see you on the servers.. anyway
+T 1388612312 18<sKuLks>	[09:16:46] i play duels AFTER midnight.
+T 1388612312 18<sKuLks>	[09:17:19] maybe ill play him before if the ping is good.
+T 1388612312 18<pain>	[09:17:49] evening
+T 1388612312 18<pain>	[09:17:52] fucking WORK tomorrow
+T 1388612312 18<pain>	[09:17:54] cunts
+T 1388612312 18<pain>	[09:17:56] already pissed
+T 1388612312 18<sKuLks>	[09:18:08] evning
+T 1388612312 18<sKuLks>	[09:18:20] stop complaining like a cunt then lol
+T 1388612312 18<pain>	[09:18:54] excuse me?
+T 1388612312 18<sKuLks>	[09:19:00] you are excused lol
+T 1388612312 18<sKuLks>	[09:19:13] no offense jk
+T 1388612312 18<sKuLks>	[09:19:20] you alright m8 ?
+T 1388612312 18<sKuLks>	[09:19:47] get out of the wrong side of the bed this morning ?
+T 1388612312 18<sKuLks>	[09:20:17] we all have work, just has to be done 
+T 1388612312 18<***>	Playback Complete.
+T 1388613396 23*	23norules has quit (23Signed off23)
+T 1388614299 19*	19fatolaalotaf (~NEWBRO@cpc5-aztw26-2-0-cust670.18-1.cable.virginm.net) has joined #quake.uk
+T 1388616157 23*	23VENTURE has quit (23Quit23)
+T 1388616318 19*	19VENTURE (~lol@dslb-084-061-147-169.pools.arcor-ip.net) has joined #quake.uk
+T 1388618777 23*	23fatolaalotaf has quit (23Signed off23)
+T 1388619309 23*	23Mongo has quit (23Quit23)
+T 1388628825 19*	19SkiNNeR (~SkiNNeR_@SkiNNeR.users.quakenet.org) has joined #quake.uk
+T 1388631738 23*	23jogi_ has quit (23Read error: Operation timed out23)
+T 1388631934 19*	19jogi (~jogi@jogihoogi.users.quakenet.org) has joined #quake.uk
+T 1388641470 19*	19doser (~doser@Doser.users.quakenet.org) has joined #quake.uk
+T 1388644333 23*	23SkiNNeR has quit (23Ping timeout23)
+T 1388653587 19*	19ookij (~spoo@5.44.248.59) has joined #quake.uk
+T 1388653921 23*	23spookij has quit (23Ping timeout23)
+T 1388657858 19*	19norules (~cba@217.39.7.252) has joined #quake.uk
+T 1388660911 22*	Disconnected (Remote host closed socket).
+T 1388705707 19*	19Now talking on #quake.uk
+T 1388705707 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388705707 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388705707 18<***>	Buffer Playback...
+T 1388705707 18<VENTURE>	[14:47:08] !wz paderborn de
+T 1388705707 18<Absolum>	[14:47:11]  Paderborn, Germany -- Last Updated on January 2, 9:20 PM CET
+T 1388705707 18<Absolum>	[14:47:13]  Temp:  45°F/7°C       Wind Chill:  39°F/4°C       Humidity: 76%
+T 1388705707 18<Absolum>	[14:47:15]  Conditions: Scattered Clouds with wind From the South at 10 MPH 
+T 1388705707 18<***>	Playback Complete.
+T 1388705833 23*	23Mongo has quit (23Quit23)
+T 1388707014 23*	23Eoa-Swam has quit (23Signed off23)
+T 1388707236 23*	23kenzeh has quit (23Ping timeout23)
+T 1388707250 19*	19kenzeh (~kenzeh@kenzeh.users.quakenet.org) has joined #quake.uk
+T 1388709424 23*	23jogi_ has quit (23*.net *.split23)
+T 1388710720 19*	19jogi_ (~jogi@jogihoogi.users.quakenet.org) has joined #quake.uk
+T 1388714609 22*	jogi_ is now known as jogi
+T 1388729391 19*	19doser (~doser@87.113.139.174) has joined #quake.uk
+T 1388729407 23*	23doser has quit (23Registered23)
+T 1388729407 19*	19doser (~doser@Doser.users.quakenet.org) has joined #quake.uk
+T 1388735703 19*	19swoop (~dsf@124-169-100-43.dyn.iinet.net.au) has joined #quake.uk
+T 1388784293 22*	Disconnected (Remote host closed socket).
+T 1388784314 19*	19Now talking on #quake.uk
+T 1388784314 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388784314 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388784314 18<***>	Buffer Playback...
+T 1388784314 18<sKuLks>	[01:41:26] hello.
+T 1388784314 18*	sKuLks [01:41:37] is dl sunshine
+T 1388784314 18<sKuLks>	[01:41:40] ty.
+T 1388784314 18<sKuLks>	[01:43:40] how is everyone here?
+T 1388784314 18<VENTURE>	[01:52:41] OH HAI TROLLDODGEDOGE FROM THE NORTH
+T 1388784314 18<sKuLks>	[01:57:03] lo friend that does not play quakeworld ATALL lol :)
+T 1388784314 18<jogi>	[01:59:10] lol
+T 1388784314 18<jogi>	[01:59:25] he used to be one of the best
+T 1388784314 18<jogi>	[01:59:50] and u probably just troll ffa all day
+T 1388784314 18<sKuLks>	[02:00:42] what that's wrong i havn't played ffa in months
+T 1388784314 18<sKuLks>	[02:00:55] that one week i did play i was got second place
+T 1388784314 18<sKuLks>	[02:01:05] -was
+T 1388784314 18<sKuLks>	[02:01:16] so i am one of the best ffa here hehe
+T 1388784314 18<sKuLks>	[02:01:40] and i had broken config at the time sure i could do even better now
+T 1388784314 18<sKuLks>	[02:02:26] also, u and vent are notorious trolls with bf4 and saying what you just said because ur both wrong :)
+T 1388784314 18<sKuLks>	[02:02:39] come at me!
+T 1388784314 18<sKuLks>	[02:02:57] any more dumb stuff you want to try and offend me with ? hmmmmm ?
+T 1388784314 18<sKuLks>	[02:03:40] k
+T 1388784314 18<jogi>	[02:05:00] tl;dr
+T 1388784314 18<sKuLks>	[02:06:05] he used to be the best, whilst I AM THE BEST FFA.
+T 1388784314 18<sKuLks>	[02:06:16] and you two are both trollage.
+T 1388784314 18<sKuLks>	[02:06:19] k
+T 1388784314 18<sKuLks>	[02:07:48] the only player that scares me here is not here.
+T 1388784314 18<sKuLks>	[02:08:36] all the rest of you i could probable beat (but some hidden players here so i dunno) :::>>>
+T 1388784314 18<jogi>	[02:09:19] woman, stop talking...
+T 1388784314 18<sKuLks>	[02:09:51] lol
+T 1388784314 18<sKuLks>	[02:09:58] is that the best you can do :)
+T 1388784314 18<jogi>	[02:10:18] the best that is needed for you
+T 1388784314 18<sKuLks>	[02:10:20] troll fail tbh
+T 1388784314 18<sKuLks>	[02:10:27] haha
+T 1388784314 18<sKuLks>	[02:11:56] man this place is fairly dead
+T 1388784314 18<sKuLks>	[02:12:07] and all you say is "stop talking..." cool story bro
+T 1388784314 18<sKuLks>	[02:12:20] btw who are you? do you even know what qw is?
+T 1388784314 18<sKuLks>	[02:12:51] don't think i remember you playing qw
+T 1388784314 18<sKuLks>	[02:13:06] what is with all these NON-QW LEEEEECHEEEESSSS ??!!?!?
+T 1388784314 18<sKuLks>	[02:13:19] telling us all to "stop talking..."
+T 1388784314 18<VENTURE>	[02:13:20] löl
+T 1388784314 18<sKuLks>	[02:13:21] hmmm...
+T 1388784314 18<sKuLks>	[02:13:44] :) haha
+T 1388784314 18<sKuLks>	[02:15:07] i think fer is a very good dueler
+T 1388784314 18<VENTURE>	[08:20:38] jogi: schon 12 years a slave gesehen?
+T 1388784314 18<jogi>	[09:13:31] nop
+T 1388784314 18<VENTURE>	[11:48:15] jogi: schon 12 years a slave gesehen?
+T 1388784314 18<achi>	[12:25:47] http://www.youtube.com/watch?v=9Bku7gXlkoo
+T 1388784314 18<achi>	[12:25:49] sean
+T 1388784314 18<achi>	[12:25:50] :>>
+T 1388784314 18<***>	Playback Complete.
+T 1388788144 18<jogi>	nope!
+T 1388798772 22*	Disconnected (Remote host closed socket).
+T 1388798783 19*	19Now talking on #quake.uk
+T 1388798783 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388798783 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388800154 23*	23fatolaalotaf has quit (23Signed off23)
+T 1388804025 19*	19Now talking on #quake.uk
+T 1388804025 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388804025 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388804188 19*	19Turbo (~Turbo@205.185.121.186) has joined #quake.uk
+T 1388805340 23*	23ookij has quit (23Ping timeout23)
+T 1388806044 23*	23SkiNNeR has quit (23Ping timeout23)
+T 1388808443 23*	23driz has quit (23EOF from client23)
+T 1388808447 19*	19driz (matt@mattlantis.net) has joined #quake.uk
+T 1388819619 19*	19SkiNNeR (~SkiNNeR_@SkiNNeR.users.quakenet.org) has joined #quake.uk
+T 1388823154 23*	23darff has quit (23Signed off23)
+T 1388827715 23*	23SkiNNeR has quit (23Ping timeout23)
+T 1388835655 23*	23swoop has quit (23Ping timeout23)
+T 1388836220 23*	23VENTURE has quit (23Read error: Connection reset by peer23)
+T 1388836455 19*	19norules (~cba@109.144.193.247) has joined #quake.uk
+T 1388836485 19*	19jogi_ (~jogi@jogihoogi.users.quakenet.org) has joined #quake.uk
+T 1388836641 19*	19swoop (~dsf@124.149.107.100) has joined #quake.uk
+T 1388836657 23*	23jogi has quit (23Read error: Operation timed out23)
+T 1388843953 19*	19Mongo (yourmumma@90.218.236.166) has joined #quake.uk
+T 1388844328 19*	19VENTURE (~lol@dslb-084-061-147-169.pools.arcor-ip.net) has joined #quake.uk
+T 1388856507 19*	19norules_ (~cba@host86-136-40-200.range86-136.btcentralplus.com) has joined #quake.uk
+T 1388856649 23*	23norules has quit (23Ping timeout23)
+T 1388856649 22*	norules_ is now known as norules
+T 1388858560 22*	Disconnected (Remote host closed socket).
+T 1388874917 19*	19Now talking on #quake.uk
+T 1388874917 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388874917 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388874917 18<***>	Buffer Playback...
+T 1388874917 18<ewdafa>	[14:08:41] deal with it
+T 1388874917 18<zKuLks>	[14:09:07] why
+T 1388874917 18<zKuLks>	[14:09:26] its not my problem is it
+T 1388874917 18<zKuLks>	[14:09:33] that you're a retarded
+T 1388874917 18<ewdafa>	[14:10:14] it is
+T 1388874917 18<ewdafa>	[14:10:17] your genetics
+T 1388874917 18<zKuLks>	[14:10:18] yeah go 'privae'
+T 1388874917 18<ewdafa>	[14:10:41] why don't you just relax, skulker?
+T 1388874917 18<zKuLks>	[14:10:58] because i am already?
+T 1388874917 18<ewdafa>	[14:11:05] no.
+T 1388874917 18<ewdafa>	[14:11:12] i said to relax, not rage
+T 1388874917 18<zKuLks>	[14:11:17] and wtf are you talking about genetics and you and norules going privae?
+T 1388874917 18<zKuLks>	[14:11:23] ur full of shit mate
+T 1388874917 18<zKuLks>	[14:11:33] just go back to whatever closet you came from man
+T 1388874917 18<ewdafa>	[14:12:01] no ty
+T 1388874917 18<zKuLks>	[14:12:35] yeah 
+T 1388874917 18<ewdafa>	[14:12:46] no ty
+T 1388874917 18<zKuLks>	[14:13:23] no? explain wtf you are going on about then
+T 1388874917 18<zKuLks>	[14:13:31] norules acting like a tard again 
+T 1388874917 18*	zKuLks [14:14:16] slaps norules around a bit with a large trout
+T 1388874917 18*	zKuLks [14:17:53] slaps norules around a bit with a large trout
+T 1388874917 18*	zKuLks [14:17:57] slaps norules around a bit with a large trout
+T 1388874917 18*	zKuLks [14:17:59] slaps norules around a bit with a large trout
+T 1388874917 18*	zKuLks [14:18:03] slaps norules around a bit with a large trout
+T 1388874917 18*	zKuLks [14:18:08] slaps norules around a bit with a large trout
+T 1388874917 18<zKuLks>	[14:20:36] getting bored now
+T 1388874917 18<zKuLks>	[14:20:41] wtf 
+T 1388874917 18<norules>	[14:22:08] :P
+T 1388874917 18<zKuLks>	[14:22:54] this is boring you are boring norules
+T 1388874917 18<zKuLks>	[14:23:09] i deserve better
+T 1388874917 18<zKuLks>	[14:23:24] hm
+T 1388874917 18<zKuLks>	[14:23:46] people deserve better
+T 1388874917 18<zKuLks>	[14:23:51] than norules faggots
+T 1388874917 18<zKuLks>	[14:23:57] gtfo norules u fag
+T 1388874917 18<zKuLks>	[14:24:05] you're annoying
+T 1388874917 18<zKuLks>	[14:24:28] and whats so funny anyway all you do is sit there like porky pig
+T 1388874917 18<zKuLks>	[14:25:11] fuck this if there is homos in this channel, that is something i didn't know before
+T 1388874917 18<zKuLks>	[14:25:20] and if that is true im going to leave and not come back here
+T 1388874917 18<zKuLks>	[14:25:21] yeah
+T 1388874917 18<zKuLks>	[14:25:34] now i know when i feel sick sometimes
+T 1388874917 18<zKuLks>	[14:25:55] when im here and didn't really know what it was
+T 1388874917 18<ewdafa>	[14:27:31] 50% of us are gay
+T 1388874917 18<ewdafa>	[14:27:57] pain is the ringleader. he's a submissive, likes getting tied up
+T 1388874917 18<zKuLks>	[14:28:55] what is this suppose to mean : <norules> ewdafa: 
+T 1388874917 18<zKuLks>	[14:28:55] <norules> privae
+T 1388874917 18<zKuLks>	[14:28:55] <norules> private
+T 1388874917 18<zKuLks>	[14:30:05] yeah i hate gays actually
+T 1388874917 18<zKuLks>	[14:30:12] might murder afew of them if they keep it up
+T 1388874917 18<zKuLks>	[14:30:38] you know as practice to killing a real person because noone would give a fuck
+T 1388874917 18<ewdafa>	[14:32:51] hehe
+T 1388874917 18<***>	Playback Complete.
+T 1388874950 18<zKuLks>	they should be wiped out - off the face of the planet
+T 1388875163 18<zKuLks>	"<ewdafa> 50% of us are gay" no wonder you dumb cities got bombed you low lifes
+T 1388875167 18<zKuLks>	your
+T 1388875228 18<zKuLks>	pity they didn't turn finish the job so to speak
+T 1388875268 18<zKuLks>	-turn
+T 1388883526 18<zKuLks>	and i know all the dumb low lifes you country harbours
+T 1388883733 22*	Disconnected (Remote host closed socket).
+T 1388883743 19*	19Now talking on #quake.uk
+T 1388883743 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388883743 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388883743 18<***>	Buffer Playback...
+T 1388883743 18*	zKuLks [14:50:25] slaps norules around a bit with a large trout
+T 1388883743 18*	zKuLks [14:50:30] slaps norules around a bit with a large trout
+T 1388883743 18<zKuLks>	[14:52:56] atlast..
+T 1388883743 18<zKuLks>	[14:53:10] hate that little bastard
+T 1388883743 18<zKuLks>	[14:53:18] just sits there getting slapped
+T 1388883743 18<zKuLks>	[14:53:26] what a fool
+T 1388883743 18<zKuLks>	[14:54:37] AWWW
+T 1388883743 18<zKuLks>	[14:54:45] why don't you fuck off norules?
+T 1388883743 18<zKuLks>	[14:55:11] i don't like you
+T 1388883743 18<norules>	[14:55:18] <3 zKuLks 
+T 1388883743 18<norules>	[14:55:22] u do
+T 1388883743 18<zKuLks>	[14:55:24] no
+T 1388883743 18<zKuLks>	[14:56:04] go away you're not wanted
+T 1388883743 18<zKuLks>	[14:57:25] what have you contributed to this channel?
+T 1388883743 18<zKuLks>	[14:59:07] you are a waste of space
+T 1388883743 18<VENTURE>	[15:01:06] lol
+T 1388883743 18<norules>	[15:08:39] zKuLks: qw?
+T 1388883743 18<zKuLks>	[15:09:50] go away you are not wanted
+T 1388883743 18<zKuLks>	[15:09:57] you're an annoying little bastard
+T 1388883743 18<VENTURE>	[15:10:39] anyone wanna go to a selena gomez concert
+T 1388883743 18<zKuLks>	[15:12:10] i would if i could maybe
+T 1388883743 18<***>	Playback Complete.
+T 1388883854 19*	19swoop (~dsf@124.149.107.100) has joined #quake.uk
+T 1388885438 23*	23fatola has quit (23Signed off23)
+T 1388888614 23*	23doser has quit (23Signed off23)
+T 1388892176 23*	23swoop has quit (23Ping timeout23)
+T 1388892232 19*	19swoop (~dsf@106-69-32-171.dyn.iinet.net.au) has joined #quake.uk
+T 1388893526 19*	19doser (~doser@230.181.125.91.dyn.plus.net) has joined #quake.uk
+T 1388893546 23*	23doser has quit (23Registered23)
+T 1388893546 19*	19doser (~doser@Doser.users.quakenet.org) has joined #quake.uk
+T 1388900278 22*	Disconnected (Remote host closed socket).
+T 1388901179 19*	19Now talking on #quake.uk
+T 1388901179 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388901179 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388904477 23*	23swoop has quit (23Signed off23)
+T 1388914548 22*	Disconnected (Remote host closed socket).
+T 1388948957 19*	19Now talking on #quake.uk
+T 1388948957 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388948957 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388948957 18<***>	Buffer Playback...
+T 1388948957 18<sKuLks>	[08:46:52] HELLO
+T 1388948957 18<Absolum>	[08:46:53] Hello sKuLks
+T 1388948957 18<sKuLks>	[08:47:49] anyone know a good movie i should watched next?
+T 1388948957 18*	sKuLks [08:56:16] slaps norules around a bit with a large trout
+T 1388948957 18<sKuLks>	[09:01:03] !google norules
+T 1388948957 18<sKuLks>	[09:01:13] !wz fu
+T 1388948957 18<Absolum>	[09:01:15]  Error: Location not found
+T 1388948957 18<sKuLks>	[09:07:44] zzz
+T 1388948957 18<VENTURE>	[09:14:00] trollville
+T 1388948957 18<VENTURE>	[09:14:06] 12 years a slave is good
+T 1388948957 18<VENTURE>	[09:14:10] pretty good
+T 1388948957 18<sKuLks>	[09:30:38] ok ty
+T 1388948957 18<kenzeh>	[10:52:20] !seen spud
+T 1388948957 18<^deke>	[10:52:21] spud (~androirc@33.152.9.46.customer.cdi.no) was last seen quitting from #quakeworld 25 days, 2 hours, 3 minutes ago stating (EOF from client).
+T 1388948957 18<Absolum>	[10:52:22] I found 13 matches to your query. Here are the 5 most recent (sorted): absolum absolum_ Spud SkiN|pub SkiN|PARTYON. Absolum (spud@maelstrom.lchost.co.uk) was last seen joining #spud 5 days, 16 hours, 16 minutes ago. Absolum is still on #spud.
+T 1388948957 18<***>	Playback Complete.
+T 1388949214 18<sKuLks>	more slaves init  than django
+T 1388949234 18<VENTURE>	jep
+T 1388949258 18<sKuLks>	ait
+T 1388949583 23*	23swoop has quit (23Read error: Connection reset by peer23)
+T 1388949925 19*	19fatola (~NEWBRO@cpc5-aztw26-2-0-cust670.18-1.cable.virginm.net) has joined #quake.uk
+T 1388950593 23*	23sKuLks has quit (23Signed off23)
+T 1388952450 18<norules>	http://i.imgur.com/qL5AcdD.jpg
+T 1388952452 18<norules>	:E
+T 1388952455 18<norules>	current state
+T 1388952826 18<VENTURE>	?
+T 1388953547 18<norules>	xD
+T 1388953556 18<norules>	my setup
+T 1388953559 18<norules>	fodquake
+T 1388953587 18<jogi_>	u know the new drawflat?
+T 1388953850 18<VENTURE>	what do you mean your setup?
+T 1388953861 18<VENTURE>	its quake with ugly hud and no sky/water textures :D
+T 1388953875 18<VENTURE>	and ugly item textures
+T 1388953887 18<VENTURE>	AS NEVER SEEN BEFORE :D
+T 1388954093 18<norules>	jogi_ yeap i know
+T 1388954099 18<norules>	prefer like this
+T 1388954100 18<norules>	;>
+T 1388955225 22*	mushi_away is now known as mushis
+T 1388955391 22*	Disconnected (Remote host closed socket).
+T 1388955693 19*	19Now talking on #quake.uk
+T 1388955693 29*	29Topic for #quake.uk 29is: Game at 8
+T 1388955693 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1388956109 18<mushis>	happy 2014 to all qw'ers!
+T 1388956716 23*	23Mongo has quit (23Quit23)
+T 1388959436 19*	19swoop (~dsf@106-69-32-171.dyn.iinet.net.au) has joined #quake.uk
+T 1388964440 23*	23norules has quit (23Signed off23)
+T 1388965910 22*	jogi_ is now known as jogi
+T 1388966310 22*	mushis is now known as mushi_away
+T 1388970608 23*	23fatola has quit (23Read error: Connection reset by peer23)
+T 1388970636 19*	19fatola (~NEWBRO@cpc5-aztw26-2-0-cust670.18-1.cable.virginm.net) has joined #quake.uk
+T 1388972135 23*	23fatola has quit (23Signed off23)
+T 1388972335 19*	19sKuLks (~email@Skulker.users.quakenet.org) has joined #quake.uk
+T 1388973455 19*	19_sKuLks_ (~email@213.17.134.178) has joined #quake.uk
+T 1388973509 23*	23sKuLks has quit (23Ping timeout23)
+T 1388992016 22*	Disconnected (Remote host closed socket).
+T 1389032833 19*	19Now talking on #quake.uk
+T 1389032833 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389032833 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389033783 22*	mushis is now known as mushi_away
+T 1389034636 23*	23sKuLks has quit (23Read error: Connection reset by peer23)
+T 1389034647 19*	19sKuLks (~email@Skulker.users.quakenet.org) has joined #quake.uk
+T 1389034747 18<sKuLks>	HELLO
+T 1389034749 18<Absolum>	Hello sKuLks
+T 1389034889 18<VENTURE>	jogi_: 
+T 1389034892 18<VENTURE>	338-recon 
+T 1389034914 18<VENTURE>	http://battlelog.battlefield.com/bf4/battlereport/show/1/420245467470811712/798039007/
+T 1389034926 18<VENTURE>	sniper rifle mit bullpup design bonus :>>
+T 1389034941 18<VENTURE>	total ignoriert bisher das teil, is aber absolute imba
+T 1389034969 18<sKuLks>	nien
+T 1389036972 19*	19SkiNNeR- (~SkiNNeR_@cpc6-sgyl32-2-0-cust314.sgyl.cable.virginm.net) has joined #quake.uk
+T 1389039275 22*	Disconnected (Remote host closed socket).
+T 1389039295 19*	19Now talking on #quake.uk
+T 1389039295 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389039295 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389039398 18<Mongo>	see the title of this channel
+T 1389039400 18<Mongo>	its .uk
+T 1389039571 18<VENTURE>	9 out of 16 are in english
+T 1389039577 18<VENTURE>	(words)
+T 1389039584 18<VENTURE>	ISNT THAT ENOUGH????
+T 1389039651 18<jogi_>	ja fick dich alta
+T 1389039653 18<jogi_>	reg disch ab ei
+T 1389039681 18<sKuLks>	nien.
+T 1389039687 18<jogi_>	NEIN NEIN NEIN
+T 1389039872 22*	jogi_ is now known as jogi
+T 1389039994 18<Mongo>	listen el cuntos
+T 1389040073 18<sKuLks>	norules duel
+T 1389040078 18<sKuLks>	quakeworld.co.uk
+T 1389041412 18<norules>	cant
+T 1389041413 18<norules>	sorry, another day
+T 1389043773 18<sKuLks>	anyone have sky broadband and tv?
+T 1389043820 18<sKuLks>	im in the middle of nowhere, what's the best broadband upgrade?
+T 1389044973 22*	Disconnected (Remote host closed socket).
+T 1389053547 19*	19Now talking on #quake.uk
+T 1389053547 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389053547 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389058090 19*	19swoop (~dsf@203-59-250-177.dyn.iinet.net.au) has joined #quake.uk
+T 1389058175 23*	23fatola has quit (23Signed off23)
+T 1389060201 22*	Disconnected (Remote host closed socket).
+T 1389061892 19*	19Now talking on #quake.uk
+T 1389061892 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389061892 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389065923 23*	23darff has quit (23Signed off23)
+T 1389081635 22*	Disconnected (Remote host closed socket).
+T 1389081646 19*	19Now talking on #quake.uk
+T 1389081646 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389081646 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389116158 22*	Disconnected (Remote host closed socket).
+T 1389116169 19*	19Now talking on #quake.uk
+T 1389116169 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389116169 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389116169 18<***>	Buffer Playback...
+T 1389116169 18<xeno_>	[01:00:21] blargh!
+T 1389116169 18<sKuLks>	[06:00:10] This is an internet message. Thank you for reading it.
+T 1389116169 18<VENTURE>	[07:18:02] thanks for providing it
+T 1389116169 18<***>	Playback Complete.
+T 1389155445 22*	Disconnected (Remote host closed socket).
+T 1389159200 19*	19Now talking on #quake.uk
+T 1389159200 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389159200 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389159200 18<***>	Buffer Playback...
+T 1389159200 18<darff>	[14:33:50] ?
+T 1389159200 18<Turb>	[14:35:40] ?
+T 1389159200 18<Turb>	[14:35:43] ca!!!
+T 1389159200 18<darff>	[14:42:00] !?!?!?!
+T 1389159200 18<***>	Playback Complete.
+T 1389160567 22*	Disconnected (Remote host closed socket).
+T 1389162379 19*	19Now talking on #quake.uk
+T 1389162379 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389162379 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389164169 22*	hearthstone is now known as onm
+T 1389211570 22*	Disconnected (Remote host closed socket).
+T 1389227142 19*	19Now talking on #quake.uk
+T 1389227142 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389227142 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389227142 18<***>	Buffer Playback...
+T 1389227142 18<Turb>	[13:02:25] its not even cold
+T 1389227142 18<zsKuLkzs>	[13:04:26] half a heater
+T 1389227142 18<zsKuLkzs>	[13:04:56] have* and i turned it on just now
+T 1389227142 18<zsKuLkzs>	[13:05:02] getting chilli
+T 1389227142 18<zsKuLkzs>	[13:09:01] look norules, basically you were the rudest player ive played. considering my pl and you laughing every frag you get when i lag/spike. then after going on about how you won 100000x100 games and other bs.
+T 1389227142 18<zsKuLkzs>	[13:09:30] and i beat you anyway
+T 1389227142 18<zsKuLkzs>	[13:09:54] you should just be cool about it
+T 1389227142 18<zsKuLkzs>	[13:10:07] and stop acting like a dumb fag about your little wins
+T 1389227142 18<zsKuLkzs>	[13:11:06] think the only reason you won those extra games was because my pl got worse
+T 1389227142 18<zsKuLkzs>	[13:11:31] as you wanted to play at worse times for me on this radio wire packet cak
+T 1389227142 18<zsKuLkzs>	[13:11:48] WAN network or whatever it is 
+T 1389227142 18<zsKuLkzs>	[13:12:08] storms effect it
+T 1389227142 18<zsKuLkzs>	[13:14:07] ive lost afew games recently with the storm effecting the connection
+T 1389227142 18<zsKuLkzs>	[13:14:16] that's why im pissed
+T 1389227142 18<zsKuLkzs>	[13:17:18] hello? :)
+T 1389227142 18<zsKuLkzs>	[13:18:02] do you know scene infront of the mirror in doom3? that is how i wake up sometimes... and im not happy about it wtf
+T 1389227142 18<zsKuLkzs>	[13:18:38] i dont even play that game recently
+T 1389227142 18<zsKuLkzs>	[13:19:44] lol anyone here?
+T 1389227142 18<zsKuLkzs>	[13:20:14] <insert random mid-night skulker rant here>
+T 1389227142 18<zsKuLkzs>	[13:23:12] lol id love to have a t-shirt that says 'GG' on the back. so you can walk away from people with it
+T 1389227142 18<zsKuLkzs>	[13:23:42] 'GG NOOBRULES'
+T 1389227142 18<zsKuLkzs>	[13:23:44] lol
+T 1389227142 18<zsKuLkzs>	[13:26:48] or just gg noobs
+T 1389227142 18<zsKuLkzs>	[13:29:07] i just got condensed stuff smoking it up now
+T 1389227142 18<zsKuLkzs>	[13:30:43] anyone have zsnes here?
+T 1389227142 18<zsKuLkzs>	[13:38:19] ...
+T 1389227142 18<zsKuLkzs>	[13:38:43] turb..
+T 1389227142 18<zsKuLkzs>	[13:38:49] what the hell?
+T 1389227142 18<zsKuLkzs>	[13:39:18] hello? turb?
+T 1389227142 18*	zsKuLkzs [13:39:42] slaps Turb around a bit with a large trout
+T 1389227142 18<norules>	[14:19:09] is Z gone
+T 1389227142 18<norules>	[14:19:14] oh no
+T 1389227142 18<sKuLks>	[14:32:42] haha i just multiplied myself 
+T 1389227142 18<jogi>	[14:42:51] 0 * 2 = 0
+T 1389227142 18<sKuLks>	[14:50:22] realistically
+T 1389227142 18<sKuLks>	[14:55:05] isz anyone going to say anything in here ?
+T 1389227142 18*	sKuLks [15:24:04] been listening to the same mp3 dir for about 8hrs
+T 1389227142 18<sKuLks>	[15:24:16] then realized what was going on
+T 1389227142 18<sKuLks>	[15:24:50] 2gb drive
+T 1389227142 18<sKuLks>	[15:25:19] about 10 folders
+T 1389227142 18<Turb>	[15:28:12] qw!
+T 1389227142 18<sKuLks>	[15:30:54] ok im ready
+T 1389227142 18<sKuLks>	[15:31:02] server ?
+T 1389227142 18<sKuLks>	[15:34:14] 212.71.233.122:27500 
+T 1389227142 18<Turb>	[15:35:04] am on quakeworld.co.uk
+T 1389227142 18<Turb>	[15:35:07] with mr diehuman
+T 1389227142 18<sKuLks>	[15:37:56] that's not even a ca server
+T 1389227142 18<Turb>	[15:45:16] ?
+T 1389227142 18<Turb>	[15:45:17] what
+T 1389227142 18<sKuLks>	[15:53:24] thought you wanted to play ca
+T 1389227142 18<***>	Playback Complete.
+T 1389232892 22*	Disconnected (Remote host closed socket).
+T 1389232903 19*	19Now talking on #quake.uk
+T 1389232903 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389232903 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389232903 18<***>	Buffer Playback...
+T 1389232903 18<xeno_>	[17:56:54] :D
+T 1389232903 18<xeno_>	[17:57:35] gone are the days of late night idling!
+T 1389232903 18<***>	Playback Complete.
+T 1389256182 22*	Disconnected (Remote host closed socket).
+T 1389256209 19*	19Now talking on #quake.uk
+T 1389256209 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389256209 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389258157 22*	mushi_away is now known as mushis
+T 1389261998 19*	19spookij (~spoo@5.44.248.59) has joined #quake.uk
+T 1389262075 23*	23ookij has quit (23Read error: Operation timed out23)
+T 1389268492 19*	19jogi_ (~jogi@jogihoogi.users.quakenet.org) has joined #quake.uk
+T 1389268779 23*	23jogi has quit (23Ping timeout23)
+T 1389268876 22*	jogi_ is now known as jogi
+T 1389268902 19*	19quadwrath (~quadwrath@HSI-KBW-217-008-059-207.hsi.kabelbw.de) has joined #quake.uk
+T 1389268906 23*	23quadwrath (23~quadwrath@HSI-KBW-217-008-059-207.hsi.kabelbw.de) has left #quake.uk
+T 1389271512 19*	19swoop (~dsf@124-169-97-222.dyn.iinet.net.au) has joined #quake.uk
+T 1389284621 19*	19sadist (webchat@host86-147-214-126.range86-147.btcentralplus.com) has joined #quake.uk
+T 1389284631 23*	23sadist (23webchat@host86-147-214-126.range86-147.btcentralplus.com) has left #quake.uk
+T 1389293340 22*	mushis is now known as mushi_away
+T 1389297590 19*	19norules (~cba@host31-52-35-207.range31-52.btcentralplus.com) has joined #quake.uk
+T 1389297639 19*	19^MWDaniel- (~mwdaniel@dynn162.osnanet.de) has joined #quake.uk
+T 1389300957 23*	23^MWDaniel- has quit (23Quit: 12( www.nnscript.de 12:: NoNameScript 3.81 12:: www.XLhost.de 12)23)
+T 1389303173 19*	19Mongo (yourmumma@94.1.195.125) has joined #quake.uk
+T 1389305548 23*	23norules has quit (23Signed off23)
+T 1389306796 19*	19norules (~cba@host31-52-35-207.range31-52.btcentralplus.com) has joined #quake.uk
+T 1389307049 23*	23norules has quit (23Signed off23)
+T 1389308325 19*	19norules (~cba@host31-52-35-207.range31-52.btcentralplus.com) has joined #quake.uk
+T 1389308714 23*	23Mongo has quit (23Quit23)
+T 1389308786 23*	23norules has quit (23Signed off23)
+T 1389309521 23*	23SkiNNeR- has quit (23*.net *.split23)
+T 1389309678 19*	19SkiNNeR- (~SkiNNeR_@cpc6-sgyl32-2-0-cust314.sgyl.cable.virginm.net) has joined #quake.uk
+T 1389312876 19*	19fatola (~NEWBRO@cpc5-aztw26-2-0-cust670.18-1.cable.virginm.net) has joined #quake.uk
+T 1389315655 23*	23fatola has quit (23Signed off23)
+T 1389335999 22*	Disconnected (Remote host closed socket).
+T 1389336011 19*	19Now talking on #quake.uk
+T 1389336011 29*	29Topic for #quake.uk 29is: Game at 8
+T 1389336011 29*	29Topic for #quake.uk 29set by Eoa-Swam 29at Fri Oct 11 03:34:23 2013
+T 1389337013 -10-11>	You are now talking on 11#quake.uk
+T 1389337013 -10-11-	Topic for 11#quake.uk is 11Game at 8
+T 1389337013 -10-11-	Topic for 11#quake.uk set by 11Eoa-Swam at 11Fri Oct 11 03:34:23 2013
+T 1389337187 25»19»	19Now talking on #quake.uk
+T 1389337187 29»22»	22Topic for #quake.uk is: Game at 8
+T 1389337187 29»22»	22Topic for #quake.uk set by Eoa-Swam at Fri Oct 11 03:34:23 2013
+T 1389337332 25»19»	19Now talking on #quake.uk
+T 1389337332 29»22»	22Topic for #quake.uk is: Game at 8
+T 1389337332 29»22»	22Topic for #quake.uk set by Eoa-Swam at Fri Oct 11 03:34:23 2013
+T 1389337371 25»19»	19Now talking on #quake.uk
+T 1389337371 29»22»	22Topic for #quake.uk is: Game at 8
+T 1389337371 29»22»	22Topic for #quake.uk set by Eoa-Swam at Fri Oct 11 03:34:23 2013
+T 1389337415 25»19»	19Now talking on #quake.uk
+T 1389337415 29»22»	22Topic for #quake.uk is: Game at 8
+T 1389337415 29»22»	22Topic for #quake.uk set by Eoa-Swam at Fri Oct 11 03:34:23 2013
+T 1389337729 25»19»	19Now talking on #quake.uk
+T 1389337729 29»22»	22Topic for #quake.uk is: Game at 8
+T 1389337729 29»22»	22Topic for #quake.uk set by Eoa-Swam at Fri Oct 11 03:34:23 2013
+T 1389337782 25»19»	19Now talking on #quake.uk
+T 1389337782 29»22»	22Topic for #quake.uk is: Game at 8
+T 1389337782 29»22»	22Topic for #quake.uk set by Eoa-Swam at Fri Oct 11 03:34:23 2013

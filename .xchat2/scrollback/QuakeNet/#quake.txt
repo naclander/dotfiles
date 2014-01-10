@@ -1,0 +1,18 @@
+T 1384678565 19*	19Now talking on #quake
+T 1384678565 28-29Q28-	[#quake] 9,2...ooO(7 In this world gone mad, we will not spank the monkey, the monkey will spank us!!! 9)Ooo...
+T 1384684486 22*	Disconnected (Connection timed out).
+T 1384684506 19*	19Now talking on #quake
+T 1384698874 19*	19sqrcas (~qwerty@dslb-084-062-058-115.pools.arcor-ip.net) has joined #quake
+T 1384700030 19*	19Neurosis (~nnscript@58-6-224-221.dyn.iinet.net.au) has joined #quake
+T 1384703643 23*	23sqrcas has quit (23Read error: Connection reset by peer23)
+T 1384704525 19*	19OSN|Razvan`afk (mana@linuxpla.net) has joined #quake
+T 1384704535 23*	23Neurosis has quit (23Signed off23)
+T 1384704587 19*	19Neurosis (~nnscript@58-6-224-221.dyn.iinet.net.au) has joined #quake
+T 1384705430 23*	23OSN|Razvan`afk has quit (23Ping timeout23)
+T 1384707279 19*	19OSN|Razvan`afk (mana@linuxpla.net) has joined #quake
+T 1384707651 23*	23OSN|Razvan`afk has quit (23Ping timeout23)
+T 1384712247 19*	19nikoasd (~niko.raat@89-166-104-105.bb.dnainternet.fi) has joined #quake
+T 1384713811 19*	19ldnmdl (~qwerty@dslb-084-062-058-115.pools.arcor-ip.net) has joined #quake
+T 1384716073 23*	23ldnmdl has quit (23Read error: Connection reset by peer23)
+T 1384716371 22*	_kayjay is now known as kayjay
+T 1384718639 23*	23nikoasd (23~niko.raat@89-166-104-105.bb.dnainternet.fi) has left #quake

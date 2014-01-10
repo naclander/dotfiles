@@ -1,0 +1,596 @@
+T 1378845754 19*	19Ducky^ (~Ducky^@95.47.141.68) has joined #archlinux
+T 1378845755 18<Earnestly>	course "heuristic" is an ancient african word meaning "maybe bonghits
+T 1378845755 23*	23Moguri has quit (23Read error: Connection reset by peer23)
+T 1378845757 18<Earnestly>	will make this problem more tractable".
+T 1378845760 19*	19digztytwo (~dgz@89-168-70-172.dynamic.dsl.as9105.com) has joined #archlinux
+T 1378845766 19*	19Sambler (~OKASO@unaffiliated/sambler) has joined #archlinux
+T 1378845785 18<trusktr>	Do you guys know how to print to an IPP network printer? (I have libcups installed)
+T 1378845804 23*	23asch has quit (23Ping timeout: 276 seconds23)
+T 1378845806 23*	23frankly_mr_shank (23~mfsmoosh@208.180.6.116) has left #archlinux
+T 1378845808 19*	19wise-one (~mattias@94-225-44-35.access.telenet.be) has joined #archlinux
+T 1378845808 18<Gremble>	Being an ancient african, I can vouch for Earnestly
+T 1378845815 18<josuebc>	Hi there, I am having a Kernel Panic on my laptop. It reads: Kernel panic - not syncing: Fatal exception in interrupt. I think it has something to do with some IRQ call going wrong. This only happens when I fire up my wireless card.
+T 1378845818 18<demonicmaniac3>	Earnestly: if you accept the axioms
+T 1378845822 18<Earnestly>	numeral: You should also really poke MrElendig, he’s much better as well.
+T 1378845834 18<Earnestly>	demonicmaniac3: Everything is axiomatic
+T 1378845838 19*	19Moguri (~quassel@c-67-171-58-212.hsd1.wa.comcast.net) has joined #archlinux
+T 1378845843 18<josuebc>	And theres also some messages on the dump about brcms_c_* which I think its my wireless because its a broadcom. Any ideas how to try and fix this?
+T 1378845848 19*	19NNerch (~non@213-65-28-132-no21.tbcn.telia.com) has joined #archlinux
+T 1378845850 18<josuebc>	I'm really out of ideas here...
+T 1378845852 19*	19manizzle (~manizzle@dsl081-053-082.sfo1.dsl.speakeasy.net) has joined #archlinux
+T 1378845858 19*	19FreezingCold (~FreezingC@198-91-168-144.cpe.distributel.net) has joined #archlinux
+T 1378845859 19*	19dylix (~dylix@unaffiliated/dylix) has joined #archlinux
+T 1378845861 18<Earnestly>	demonicmaniac3: :
+T 1378845861 19*	19Riley (~Riley@h38.45.18.98.dynamic.ip.windstream.net) has joined #archlinux
+T 1378845863 18<Earnestly>	p
+T 1378845864 23*	23Shadikka has quit (23Ping timeout: 260 seconds23)
+T 1378845869 18<Nahiyan>	fuck prey
+T 1378845871 18<demonicmaniac3>	Earnestly: i found it very enlightening when i spoke to one of my old colleagues who's a chemist now
+T 1378845873 18<FreezingCold>	grawity: the fucking thing still won't fucking work
+T 1378845876 23*	23jheretic has quit (23Quit: Ex-Chat23)
+T 1378845892 23*	23Fregtux has quit (23Quit: Konversation terminated!23)
+T 1378845893 18<demonicmaniac3>	Earnestly: "uh yeah...well...sometimes we get results which are what they should be. if not...well...we miscount"
+T 1378845904 19*	19Shadikka (shadikka@gateway/shell/freebnc/x-joznmfgyrxrsdsnz) has joined #archlinux
+T 1378845907 23*	23NNerch has quit (23Client Quit23)
+T 1378845909 18<tb01110100>	My keyboard manufacturer decided to be a jerk and make it impossible to pop out the keys without breaking some of them.
+T 1378845915 18<FreezingCold>	grawity: it works as root
+T 1378845919 18<tb01110100>	I want dvorak. :(
+T 1378845931 19*	19NNerch (~non@213-65-28-132-no21.tbcn.telia.com) has joined #archlinux
+T 1378845931 18<FreezingCold>	grawity: sorry, pk2cmd works as root. haven't tried mplab x
+T 1378845963 19*	19^DDS (~^DDS@212.112.59.230) has joined #archlinux
+T 1378845981 18<Earnestly>	demonicmaniac3: Of course, and then, if we don’t like the results, it’s okay to lie about, oh, I don’t know, linking vaccines with autism.  Butching scientific rigor because our ego is more important, yeah!
+T 1378845997 23*	23NNerch has quit (23Client Quit23)
+T 1378846000 22*	Companion is now known as companion
+T 1378846008 18<demonicmaniac3>	Earnestly: yeah he told some horror stories about his prof
+T 1378846014 19*	19braisarias (~braisaria@112.32.117.91.dynamic.mundo-r.com) has joined #archlinux
+T 1378846014 19*	19burchettm (~themattbe@24-107-112-63.dhcp.stls.mo.charter.com) has joined #archlinux
+T 1378846034 18<Earnestly>	:\, at least thanks to the scientific method, the truth will—eventually—out.
+T 1378846048 23*	23Etzos has quit (23Remote host closed the connection23)
+T 1378846048 18<demonicmaniac3>	Earnestly: ars had another fun article about texas today
+T 1378846062 18<demonicmaniac3>	and in the comments there even were some creationist fucktards
+T 1378846110 23*	23themattbeballin has quit (23Ping timeout: 256 seconds23)
+T 1378846114 18<numeral>	Earnestly: I will
+T 1378846117 23*	23Gremble has quit (23Ping timeout: 240 seconds23)
+T 1378846119 18<numeral>	I just need a basic crappy tv
+T 1378846122 18<numeral>	I honestly don't give a fuck that much
+T 1378846126 23*	23capeta has quit (23Read error: Connection reset by peer23)
+T 1378846126 23*	23FreezingCold has quit (23Client Quit23)
+T 1378846133 18<numeral>	if I can play shadowrun on it and watch movies, I'll be happy
+T 1378846141 18<numeral>	40" preferably, but 36" is fine too
+T 1378846142 18<demonicmaniac3>	numeral: shadowrun is too short :/
+T 1378846143 19*	19imark (~mark@unaffiliated/imark) has joined #archlinux
+T 1378846144 18<Earnestly>	It’s kind of sad.  Iirc we had nearly eliminated rubella globally (or was it mumps) but then all that mess happened ¬_¬
+T 1378846146 18<demonicmaniac3>	and they butchered the rules
+T 1378846153 18<Earnestly>	And DRM \o/
+T 1378846169 23*	23giricz81 has quit (23Quit: Leaving23)
+T 1378846170 18<Earnestly>	It still looks okay compared to the other recent stuff
+T 1378846205 18<demonicmaniac3>	it is kind of ok but very unbalanced and short and the rules...
+T 1378846208 18<demonicmaniac3>	:/
+T 1378846211 18<numeral>	demonicmaniac3: dude, it comes with a builder
+T 1378846211 19*	19dedair (~fuckface@pool-108-50-221-170.nwrknj.fios.verizon.net) has joined #archlinux
+T 1378846219 18<numeral>	there's like 50000000000000000 quests on steam now
+T 1378846223 18<demonicmaniac3>	numeral: i know but steamworks shit only works with steam version
+T 1378846232 18<numeral>	really?
+T 1378846233 18<demonicmaniac3>	numeral: not the drm free backer version
+T 1378846235 18<demonicmaniac3>	yes
+T 1378846241 18<numeral>	I thought they changed it so you could take your copy and attach it to steam
+T 1378846245 18<demonicmaniac3>	berlin campaign will work with drm free yet
+T 1378846252 18<demonicmaniac3>	other things only work with steamworks
+T 1378846259 18<numeral>	well I've got steamworks so blah
+T 1378846264 18<demonicmaniac3>	i don't do DRM shit
+T 1378846264 18<numeral>	I'm happy
+T 1378846269 18<numeral>	who cares?
+T 1378846278 18<numeral>	I honestly don't care that much
+T 1378846283 19*	19Cahu (~Babedibab@cust-seco11pa2-46-193-1-153.wb.wifirst.net) has joined #archlinux
+T 1378846295 23*	23dedair has quit (23Client Quit23)
+T 1378846308 23*	23qwc has quit (23Remote host closed the connection23)
+T 1378846311 23*	23jmta94_ has quit (23Ping timeout: 276 seconds23)
+T 1378846311 18<Earnestly>	Fair enough, some of us do.  I don’t really mind what others do but I can personally live without DRM
+T 1378846345 18<numeral>	I prefer less DRM obviously
+T 1378846348 18<Earnestly>	Plenty of other stuff out there which is usually far better, a lot of the old console games (nes/snes/gen/etc)
+T 1378846351 18<numeral>	but steam is really one of the more milder versions
+T 1378846365 23*	23ryon_sherman has quit (23Read error: Connection reset by peer23)
+T 1378846366 23*	23svaante has quit (23Write error: Connection reset by peer23)
+T 1378846378 18<Earnestly>	numeral: Apart from the fact you don’t own any of the games?  I find that a little hard to swollow.
+T 1378846379 18<holomorph>	does steam enable offline play by default?
+T 1378846385 23*	23sertsa has quit (23Quit: Konversation terminated!23)
+T 1378846406 18<sri>	okay, guys I really need some help...
+T 1378846411 19*	19Known_problems (~Known_pro@189.42.110.196) has joined #archlinux
+T 1378846416 19*	19evil-work (~noident@77.119.133.51.wireless.dyn.drei.com) has joined #archlinux
+T 1378846418 18<sri>	I haven't been ablet o update any software on arch for like 4-5 days now
+T 1378846433 18<Earnestly>	sri: Details, errors, logs, etc.
+T 1378846436 23*	23driti has quit (23Quit: pz.23)
+T 1378846444 19*	19darnir (~sauron@111.93.5.194) has joined #archlinux
+T 1378846450 18<numeral>	holomorph: yes
+T 1378846459 18<numeral>	holomorph: unless of course it's an online game...
+T 1378846473 18<numeral>	I'm pretty sure I was playing shadowrun while my switch was acting like a bitch
+T 1378846475 23*	23hobbily has quit (23Ping timeout: 245 seconds23)
+T 1378846479 23*	23darnir has quit (23Client Quit23)
+T 1378846479 19*	19_p0g0_ (~jason@172-3-140-140.lightspeed.sntcca.sbcglobal.net) has joined #archlinux
+T 1378846488 18<sri>	Earnestly: sure, I do a pacman -Suyy and it fails because it could not satisfy dependencies basically catalyst requires linux <3.11
+T 1378846489 19*	19_p0g0__ (~jason@172-3-140-140.lightspeed.sntcca.sbcglobal.net) has joined #archlinux
+T 1378846495 19*	19darnir (~sauron@111.93.5.194) has joined #archlinux
+T 1378846519 18<Earnestly>	sri: Oh, you’re a catalyst user.  Unfortunately I don’t know jack about that stuff anymore.
+T 1378846520 18<holomorph>	i guess the game i tried to play counted as an 'online' game. :| that was annoying
+T 1378846527 18<sri>	I have the catalyst driver, it initially had linux 3.11, but it didn't work well, and I downgraded it back to 3.10-3-1-ARCH
+T 1378846532 18<numeral>	holomorph: which game?
+T 1378846533 18<Earnestly>	sri: You could, btw, simply ignore the kernel and update everything else.
+T 1378846542 18<holomorph>	numeral: dark souls (it has on- and offline modes.)
+T 1378846548 18<sri>	Earnestly: I would do that, but it fails after the catalyst requirement
+T 1378846548 18<numeral>	weird...
+T 1378846555 18<numeral>	holomorph: I'll try and disconnect from the internet and try playing
+T 1378846565 18<sri>	Earnestly: so there is no new packages to install.. it's blocked by catalyst dependencies
+T 1378846569 18<Earnestly>	sri: So ignore both?
+T 1378846579 23*	23wise-one has quit (23Quit: leaving23)
+T 1378846579 18<sri>	it's like it wants > linux 3.11 in order to proceed
+T 1378846583 18<sri>	Earnestly: how do I do that?
+T 1378846603 18<Earnestly>	sri: man pacman, see pacman -Sh
+T 1378846604 19*	19asmyers (~quassel@c-68-48-207-151.hsd1.md.comcast.net) has joined #archlinux
+T 1378846624 18<sri>	okay, thanks for hte pointer!
+T 1378846625 18<holomorph>	numeral: basically it was 'oh, can't connect to steam network. lolbye' [client exits]
+T 1378846641 18<numeral>	there is no pacman -Sh :/
+T 1378846643 18<numeral>	that's help
+T 1378846654 18<numeral>	holomorph: hrm, you're right, that's true
+T 1378846654 18<Earnestly>	Also, I hate this.  Apparently 'A Machine for Pigs' redirects you to bloody Steam.  I was hoping one could purchase it /directly/ from them and not have to use steam at all.
+T 1378846664 23*	23skate_forever has quit (23Quit: home \o/23)
+T 1378846666 18<numeral>	holomorph: I wonder if there's a way to set it up somewhere with no netlol
+T 1378846676 18<numeral>	Earnestly: there are a ton of games like that
+T 1378846677 18<Earnestly>	numeral: -Sh presents a very nice quick summary of the options pertaining to that 'major'(?) command.
+T 1378846683 23*	23MindlessDrone has quit (23Quit: MindlessDrone23)
+T 1378846697 18<numeral>	Earnestly: no I know, I'm just saying it sounded like you were saying -Sh for ignoring
+T 1378846698 23*	23GJdan has quit (23Ping timeout: 264 seconds23)
+T 1378846701 18<Earnestly>	numeral: It never used to redirect you :|
+T 1378846707 18<numeral>	you said look at the man page, and then look at -Sh
+T 1378846718 19*	19driti (~driti@50-78-11-97-static.hfc.comcastbusiness.net) has joined #archlinux
+T 1378846721 18<Earnestly>	numeral: Yes, --ignore is listed in the output of -Sh.  That was my intention anyway
+T 1378846747 18<numeral>	Earnestly: no I mean it sounded like you said check for the -h flag in sync options in the man page
+T 1378846755 18<numeral>	Earnestly: I know what you meant, you just phrased it wrong :/
+T 1378846764 18<numeral>	<3
+T 1378846766 23*	23echos has quit (23Ping timeout: 240 seconds23)
+T 1378846767 23*	23lVathan has quit (23Read error: Connection reset by peer23)
+T 1378846769 18<numeral>	ilu still
+T 1378846780 19*	19lVathan (~lVathan@173-25-162-151.client.mchsi.com) has joined #archlinux
+T 1378846781 23*	23demantik has quit (23Read error: Operation timed out23)
+T 1378846858 19*	19neuromancer_ (~cyberpunk@gateway/tor-sasl/neuromancer/x-53533279) has joined #archlinux
+T 1378846859 23*	23lVathan has quit (23Read error: Connection reset by peer23)
+T 1378846863 19*	19f0rk (~lVathan@173-25-162-151.client.mchsi.com) has joined #archlinux
+T 1378846874 19*	19NNerch (~non@213-65-28-132-no21.tbcn.telia.com) has joined #archlinux
+T 1378846894 23*	23f0rk has quit (23Read error: Connection reset by peer23)
+T 1378846895 23*	23driti has quit (23Client Quit23)
+T 1378846896 19*	19onny (~onny@krlh-5f71cffe.pool.mediaWays.net) has joined #archlinux
+T 1378846910 19*	19lVathan (~lVathan@173-25-162-151.client.mchsi.com) has joined #archlinux
+T 1378846924 23*	23CTtechguy has quit (23Read error: Operation timed out23)
+T 1378846925 19*	19dmi3y (~dmi3y@143-30-135-95.pool.ukrtel.net) has joined #archlinux
+T 1378846925 19*	19sri_ (~sri@static-50-53-12-185.bvtn.or.frontiernet.net) has joined #archlinux
+T 1378846938 23*	23c4rc4s has quit (23Ping timeout: 240 seconds23)
+T 1378846947 23*	23beancurd has quit (23Ping timeout: 260 seconds23)
+T 1378846948 23*	23Imrael has quit (23Read error: Connection reset by peer23)
+T 1378846949 23*	23sri has quit (23Ping timeout: 248 seconds23)
+T 1378846960 23*	23peper has quit (23Ping timeout: 256 seconds23)
+T 1378846971 23*	23vhost- has quit (23Ping timeout: 268 seconds23)
+T 1378846989 18<demonicmaniac3>	Earnestly: 20:53 < bl1nk> soapsurfer: https://twitter.com/bl1nk/status/377504091108159488/photo/1
+T 1378846990 18<phrik>	Title: Twitter / bl1nk: ;_; http://t.co/Z1Bp7uQx7L (at twitter.com)
+T 1378847000 18<holomorph>	lol https://support.steampowered.com/kb_article.php?ref=3160-agcb-2555
+T 1378847002 18<phrik>	Title: Offline Mode - How To's - Knowledge Base - Steam Support (at support.steampowered.com)
+T 1378847003 23*	23subliminal has quit (23Ping timeout: 260 seconds23)
+T 1378847006 19*	19sri (~sri@li160-162.members.linode.com) has joined #archlinux
+T 1378847009 19*	19demantik (~motoko@li456-140.members.linode.com) has joined #archlinux
+T 1378847015 23*	23blk has quit (23Read error: Operation timed out23)
+T 1378847016 19*	19whoami (~whoami@pdpc/supporter/student/kart0ffelsack) has joined #archlinux
+T 1378847017 19*	19sertsa (~sertsa@248.223.118.66.brainstorminternet.net) has joined #archlinux
+T 1378847022 19*	19peper (~peper@gentoo/developer/peper) has joined #archlinux
+T 1378847029 19*	19exciton_ (chuck-the-@89.208.169.104) has joined #archlinux
+T 1378847030 22*	sri is now known as Guest91650
+T 1378847038 19*	19GJdan (~greg@cpe-66-75-113-241.hawaii.res.rr.com) has joined #archlinux
+T 1378847041 18<sri_>	hmm... I seemed to have lost networko on my isp.
+T 1378847042 18<Earnestly>	demonicmaniac3: Wonderful
+T 1378847051 23*	23renegade8164 has quit (23Ping timeout: 245 seconds23)
+T 1378847056 23*	23olegfusion has quit (23Read error: Connection reset by peer23)
+T 1378847059 19*	19echos (echos@2600:3c01::f03c:91ff:fe96:51a2) has joined #archlinux
+T 1378847065 19*	19FreezingCold (~FreezingC@198-91-168-144.cpe.distributel.net) has joined #archlinux
+T 1378847075 19*	19BonSequitur (~nein@201.87.44.6) has joined #archlinux
+T 1378847080 23*	23hydrauligsepp (23~bumpemacv@194.105.101.218.dynamic.cablesurf.de) has left #archlinux
+T 1378847083 19*	19olegfusion (~olegfusio@46.191.226.49) has joined #archlinux
+T 1378847118 18<Earnestly>	demonicmaniac3: I imagine that’s due to the queues on the steam servers and not due to the game not been installed
+T 1378847126 23*	23sri_ has quit (23Client Quit23)
+T 1378847159 23*	23BonSequitur (23~nein@201.87.44.6) has left #archlinux
+T 1378847173 18<holomorph>	oh cool. 'game content conversion' completely locks up the client
+T 1378847184 23*	23lVathan has quit (23Read error: Connection reset by peer23)
+T 1378847188 18<Earnestly>	Steam is such a hassle, meh.
+T 1378847193 19*	19lVathan (~lVathan@173-25-162-151.client.mchsi.com) has joined #archlinux
+T 1378847195 19*	19akurei (~akurei@dslb-084-056-121-029.pools.arcor-ip.net) has joined #archlinux
+T 1378847199 19*	19pks (~pks@g225038239.adsl.alicedsl.de) has joined #archlinux
+T 1378847214 19*	19sl33v3_ (~sl33v3@1-164-208-45.dynamic.hinet.net) has joined #archlinux
+T 1378847215 18<holomorph>	it's always been a piece of shit, now it's fancier
+T 1378847229 23*	23axd (23~user@zuzu.xs4all.nl) has left #archlinux
+T 1378847235 23*	23XAVeRY has quit (23Ping timeout: 260 seconds23)
+T 1378847239 23*	23garrik has quit (23Quit: Coyote finally caught me23)
+T 1378847243 23*	23exciton has quit (23Ping timeout: 240 seconds23)
+T 1378847263 23*	23nsf has quit (23Quit: WeeChat 0.4.123)
+T 1378847298 23*	23sl33v3 has quit (23Ping timeout: 240 seconds23)
+T 1378847306 19*	19Voter101 (~Voter101@89-70-185-149.dynamic.chello.pl) has joined #archlinux
+T 1378847307 22*	sl33v3_ is now known as sl33v3
+T 1378847309 23*	23LordShiva has quit (23Ping timeout: 240 seconds23)
+T 1378847312 18<holomorph>	i3 has made me realize i never bothered with window titles at all
+T 1378847316 19*	19c4rc4s (~c4rc4s@unaffiliated/c4rc4s) has joined #archlinux
+T 1378847348 23*	23taar779 has quit (23Quit: taar77923)
+T 1378847349 18<Earnestly>	Oh right, i3 has title bars by default.
+T 1378847355 23*	23rmetric has quit (23Quit: ZNC - http://znc.in23)
+T 1378847357 18<Earnestly>	I wonder what Notion is like…
+T 1378847365 23*	23pks_ has quit (23Ping timeout: 248 seconds23)
+T 1378847376 23*	23nyshtyak has quit (23Ping timeout: 260 seconds23)
+T 1378847385 23*	23maroloccio has quit (23Quit: WeeChat 0.4.023)
+T 1378847386 23*	23digztytwo has quit (23Quit: WeeChat 0.4.123)
+T 1378847401 23*	23dmi3y has quit (2323)
+T 1378847403 19*	19raininja (~raijin@unaffiliated/raijin) has joined #archlinux
+T 1378847410 18<jater>	I need to configure my iptables somehow
+T 1378847421 23*	23spider-mario has quit (23Read error: Connection reset by peer23)
+T 1378847421 18<Earnestly>	They have a LaTeX documentation :Ð
+T 1378847427 18<holomorph>	what is notion
+T 1378847432 23*	23raijin has quit (23Ping timeout: 260 seconds23)
+T 1378847443 23*	23GJdan has quit (23Ping timeout: 264 seconds23)
+T 1378847462 23*	23desulator has quit (23Ping timeout: 240 seconds23)
+T 1378847462 19*	19d_garbage (~free@unaffiliated/dgarbage/x-348756) has joined #archlinux
+T 1378847470 18<Earnestly>	holomorph: An old window manager
+T 1378847490 19*	19NauTiluS1 (~NauTiluS1@unaffiliated/nautilus1) has joined #archlinux
+T 1378847494 18<Earnestly>	(A fork of Ion)
+T 1378847535 23*	23CCfan has quit (23Ping timeout: 260 seconds23)
+T 1378847540 18<holomorph>	Earnestly: haha. (Not)ion
+T 1378847540 23*	23nous has quit (23Quit: everything is connected23)
+T 1378847562 23*	23[HeX] has quit (23Remote host closed the connection23)
+T 1378847566 18<Earnestly>	:p
+T 1378847589 19*	19svaante (svaante@gateway/shell/bnc4free/x-pdymlybxkzmheika) has joined #archlinux
+T 1378847600 18<Earnestly>	Notion is known for it’s fairly comprehensive configuration system
+T 1378847606 23*	23awidegreen has quit (23Ping timeout: 256 seconds23)
+T 1378847622 18<Nahra>	I need every .log files in /tmp to be removed daily using logrotate. Is https://gist.github.com/anonymous/6515772 OK for that?
+T 1378847623 18<phrik>	Title: gist:6515772 (at gist.github.com)
+T 1378847632 19*	19awidegreen (~awidegree@46.165.210.17) has joined #archlinux
+T 1378847638 23*	23ernetas has quit (23Quit: Leaving23)
+T 1378847644 19*	19Kingsy (~chris@unaffiliated/kingsy101) has joined #archlinux
+T 1378847652 23*	23_D_ has quit (23Quit: leaving23)
+T 1378847660 18<Earnestly>	holomorph: Where the tiling is actually a module
+T 1378847675 18<wgosling>	is there something I can do so I don't have to edit every PKGBUILD to change 'make' to 'make -j6'?
+T 1378847679 23*	23Blub\w has quit (23Quit: night23)
+T 1378847685 19*	19FxMr (~m5l@2001:7c0:409:4217:8a53:2eff:feb5:c8d1) has joined #archlinux
+T 1378847689 19*	19ryukafalz_ (~quassel@ryou-1-pt.tunnel.tserv13.ash1.ipv6.he.net) has joined #archlinux
+T 1378847695 19*	19raijin (~raijin@unaffiliated/raijin) has joined #archlinux
+T 1378847698 18<Apsu>	wgosling: /etc/makepkg.conf MAKEFLAGS
+T 1378847708 18<Earnestly>	wgosling: Two things come to mind.  1) Yes, see man makepkg.conf 2) why -j6?
+T 1378847714 23*	23raininja has quit (23Ping timeout: 264 seconds23)
+T 1378847720 18<Kingsy>	I am trying to build exfalso from the AUR here --> https://aur.archlinux.org/packages/exfalso/ <-- the package is out of date but according to the comments you can still build it by changing pygtk package version and MD5SUM but I don't know what to change the version and MD5SUM to, can someone offer some advice?
+T 1378847722 18<phrik>	Title: AUR (en) - exfalso (at aur.archlinux.org)
+T 1378847722 18<wgosling>	Apsu: thank you :)
+T 1378847731 18<Apsu>	wgosling: Also man makepkg, man makepkg.conf
+T 1378847756 19*	19bananagram (~bot@c-76-30-158-226.hsd1.tx.comcast.net) has joined #archlinux
+T 1378847761 18<Namarrgon>	Nahra: /tmp is a tmpfs so it gets 'cleaned' on every shutdown
+T 1378847763 18<Apsu>	Kingsy: You can either put SKIP, or updpkgsums
+T 1378847766 23*	23Voter101 has quit (23Ping timeout: 264 seconds23)
+T 1378847771 18<Earnestly>	Kingsy: man makepkg, see what -g does.  Although you're better off getting the md5sum from upsteeam if it's provided
+T 1378847786 19*	19GJdan (~greg@cpe-66-75-113-241.hawaii.res.rr.com) has joined #archlinux
+T 1378847790 18<Kingsy>	hmm not sure how to do this..
+T 1378847794 18<wgosling>	Earnestly: I find -j8 can cause the system to be unresponsive during the build, I found -j6 to be a decent comprimise
+T 1378847804 18<holomorph>	hmph. been marked out of date since june :<
+T 1378847808 18<Kingsy>	yup
+T 1378847816 18<Kingsy>	which is annoying, I LVOE this program
+T 1378847817 19*	19hoverbear (~andrew@unaffiliated/hoverbear) has joined #archlinux
+T 1378847822 23*	23BossKonaSegwaY has quit (23Read error: No route to host23)
+T 1378847823 18<Earnestly>	wgosling: Okay.  I was worried there might be a few people around who think the flags are -j CPUs + 1.
+T 1378847833 18<Nahra>	Namarrgon: sure, but I do not not to be entirely cleaned up; only .log files need to be removed. All the more not at shutdown but every day...
+T 1378847835 18<Earnestly>	wgosling: (Because the +1 is nonsense :P)
+T 1378847849 19*	19blk (~blk@66.114.129.162) has joined #archlinux
+T 1378847855 18<Namarrgon>	Nahra: ah, i misread
+T 1378847868 19*	19matanya (~matanya@wikimedia/matanya) has joined #archlinux
+T 1378847874 19*	19Falcons_roost (nX2k@ip68-3-188-41.ph.ph.cox.net) has joined #archlinux
+T 1378847875 19*	19OnlyMax (~onlymax@187-126-192-230.user.veloxzone.com.br) has joined #archlinux
+T 1378847875 23*	23Pengoo has quit (23Ping timeout: 264 seconds23)
+T 1378847876 18<Nahiyan>	is there a site where I can paste a HTTP link to a site and makes a torrent out of it and hosts/seeds it?
+T 1378847881 18<Nahiyan>	file8
+T 1378847884 18<Nahiyan>	file*
+T 1378847901 23*	23marshal0505 has quit (23Ping timeout: 245 seconds23)
+T 1378847910 23*	23liudas has quit (23Quit: Konversation terminated!23)
+T 1378847931 23*	23FreezingCold has quit (23Quit: Out23)
+T 1378847941 18<Nahiyan>	or maybe makes a torrent file with the original link as the webseed
+T 1378847944 23*	23lVathan has quit (23Read error: Connection reset by peer23)
+T 1378847946 23*	23konqoro has quit (23Ping timeout: 256 seconds23)
+T 1378847957 18<holomorph>	Kingsy: the AUR wiki article and the PKGBUILD man pages should help
+T 1378847958 19*	19lVathan (~lVathan@173-25-162-151.client.mchsi.com) has joined #archlinux
+T 1378847961 18<Apsu>	Nahiyan: You can make a .torrent yourself and send it to a tracker that will accept it, then seed the blocks from your torrent client.
+T 1378847965 18<holomorph>	man page*
+T 1378847971 23*	23FxMr has quit (23Read error: Connection reset by peer23)
+T 1378847971 23*	23KimTjik has quit (23Quit: WeeChat 0.4.123)
+T 1378847973 19*	19Bastian82 (~grzempek@eot89.neoplus.adsl.tpnet.pl) has joined #archlinux
+T 1378847986 19*	19LysergicDreams (~Lysergia@208-46-125-96.dia.static.qwest.net) has joined #archlinux
+T 1378848005 18<Nahra>	Any idea?
+T 1378848007 23*	23Fireblasto has quit (23Read error: Connection reset by peer23)
+T 1378848011 19*	19FxMr (~m5l@2001:7c0:409:4217:8a53:2eff:feb5:c8d1) has joined #archlinux
+T 1378848013 23*	23Spliffer has quit (23Quit: leaving23)
+T 1378848019 19*	19Nahlidge (~Nahlidge@unaffiliated/nahlidge) has joined #archlinux
+T 1378848028 23*	23mycookie has quit (23Quit: Konversation terminated!23)
+T 1378848029 19*	19faemir (~dan@cpc3-shep11-2-0-cust907.8-3.cable.virginmedia.com) has joined #archlinux
+T 1378848029 18<Earnestly>	Nahra: /var/tmp
+T 1378848030 23*	23normalra has quit (23Ping timeout: 264 seconds23)
+T 1378848037 19*	19FreezingCold (~FreezingC@198-91-168-144.cpe.distributel.net) has joined #archlinux
+T 1378848040 18<Namarrgon>	Nahra: have you tried it?
+T 1378848047 18<Nahiyan>	Apsu, I know, but I wanted the fault-tolerance..
+T 1378848061 18<Nahra>	Namarrgon: yes but it does not work :(
+T 1378848073 18<Nahra>	Namarrgon: I still see files in /tmp
+T 1378848076 18<Nahra>	Earnestly: ?
+T 1378848078 18<Apsu>	Nahiyan: Once you seed a block, you have it.
+T 1378848081 18<Nahiyan>	Apsu, I don't have the files with me and I need to download them, and I thought, "Could I download them as a torrent?"
+T 1378848085 18<Namarrgon>	Nahra: you jut run it with 'logrotate -d <pathtoconf>' and it will spit out errors
+T 1378848091 18<Namarrgon>	Nahiyan: maybe add -f
+T 1378848094 18<Apsu>	Nahiyan: Doesn't work that way.
+T 1378848094 18<Kingsy>	Earnestly: thanks!!! -g worked great.
+T 1378848103 18<Nahiyan>	Apsu, I know, because torrents need the hashes
+T 1378848104 18<Kingsy>	holomorph: thanks! I got it :)
+T 1378848107 18<LucidAnonymity>	anyone got any insight as to why my wireless would cut in and out its usb
+T 1378848114 18<Nahra>	Namarrgon: -f for me?
+T 1378848116 18<Apsu>	Nahiyan: No, they're seeded by individual clients.
+T 1378848121 18<Nahiyan>	Apsu, but I thought there might be a site that makes a file for me..
+T 1378848123 18<Namarrgon>	Nahra: for logrotate, yes
+T 1378848124 18<grawity>	well, there *are* HTTP seeds...
+T 1378848125 19*	19mycookie (~mycookie@75.158.143.243) has joined #archlinux
+T 1378848132 18<Nahiyan>	Apsu, torrents can have webseeds
+T 1378848134 19*	19titanmech (~titanmech@gateway/tor-sasl/titanmech) has joined #archlinux
+T 1378848140 18<Namarrgon>	tabfail
+T 1378848145 23*	23yorick has quit (23Remote host closed the connection23)
+T 1378848159 18<grawity>	but you *still* need to have the files locally, and create a .torrent file out of them, so that clients could verify stuff they downloaded from a webseed
+T 1378848179 18<Nahra>	Namarrgon: OK. But snippet (https://gist.github.com/anonymous/6515772) be OK what what I need?
+T 1378848180 18<phrik>	Title: gist:6515772 (at gist.github.com)
+T 1378848185 18<Apsu>	Nahiyan: http://burnbit.com/
+T 1378848187 18<phrik>	Title: Burnbit - BitTorrent for every file (at burnbit.com)
+T 1378848190 18<Nahiyan>	AHH
+T 1378848194 19*	19Dreki (~dreki@216.96.225.91) has joined #archlinux
+T 1378848204 19*	19Best_ (~JanM@cm-84.215.73.48.getinternet.no) has joined #archlinux
+T 1378848208 18<LucidAnonymity>	wireless mouse that is
+T 1378848208 18<Nahiyan>	Apsu, I FORGOT THE NAME OF THAT SITE
+T 1378848210 18<Nahiyan>	THANK YOU
+T 1378848211 23*	23jnials has quit (23Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/23)
+T 1378848212 18<Apsu>	lolz, sure
+T 1378848214 23*	23ethail has quit (23Quit: = "Now you see me. Now you don't"23)
+T 1378848221 19*	19LordShiva (~shiva@gateway/tor-sasl/lordshiva) has joined #archlinux
+T 1378848247 18<Namarrgon>	Nahra: looks ok to me but i'm not that well versed in logratate usage
+T 1378848256 23*	23KindOne has quit (23Quit: www.adiirc.com - Free mIRC alternative23)
+T 1378848277 19*	19emecks (~mxtm@c-24-128-77-229.hsd1.ma.comcast.net) has joined #archlinux
+T 1378848297 23*	23Shinryuu has quit (23Quit: pantsu time23)
+T 1378848311 23*	23iccanobif has quit (2323)
+T 1378848345 18<Nahra>	Namarrgon: where are logrotate logs put?
+T 1378848362 18<grawity>	Same place, just a numeric suffix.
+T 1378848379 18<Namarrgon>	you mean the rotated logs or the logs of logrotate?
+T 1378848381 19*	19Funkin-Stoopid (~Funkin_St@66.162.113.78.rev.sfr.net) has joined #archlinux
+T 1378848391 18<Namarrgon>	log overkill
+T 1378848414 18<holomorph>	hmmm. weird terminal behavior in i3 as well :/
+T 1378848416 18<FreezingCold>	Is HumbleSpoon around?
+T 1378848419 18<FreezingCold>	joat?
+T 1378848429 23*	23olegfusion has quit (23Remote host closed the connection23)
+T 1378848453 19*	19hugo8899 (~hugo@bl13-242-49.dsl.telepac.pt) has joined #archlinux
+T 1378848468 18<Earnestly>	holomorph: Such as?
+T 1378848473 18<esdf2>	any app that automatically downloads subtitles for everything in folder?
+T 1378848474 23*	23tokomer has quit (23Remote host closed the connection23)
+T 1378848479 23*	23mjacob has quit (23Read error: Operation timed out23)
+T 1378848480 18<Nahra>	Namarrgon: yes logrotate outputs
+T 1378848520 23*	23Dapsol has quit (23Ping timeout: 264 seconds23)
+T 1378848526 19*	19daaku (~daaku__@mpk-nat-3.thefacebook.com) has joined #archlinux
+T 1378848546 18<Namarrgon>	everything cron goes into the journal
+T 1378848553 23*	23imark has quit (23Quit: Leaving23)
+T 1378848559 19*	19garrik (~garrik@cavil.garrik.info) has joined #archlinux
+T 1378848564 23*	23Kacktus has quit (23Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130817191046]23)
+T 1378848565 18<Namarrgon>	i guess that's where logrotate logs go to aswell
+T 1378848566 18<holomorph>	Earnestly: for example: 1) right after opening vim http://a.pomf.se/3Bz0.png 2) after moving the cursor http://a.pomf.se/9Aw7.png
+T 1378848598 19*	19crespo (~crespo@227.Red-83-43-230.dynamicIP.rima-tde.net) has joined #archlinux
+T 1378848624 23*	23FxMr has quit (23Quit: Konversation terminated!23)
+T 1378848627 18<Earnestly>	holomorph: Huh, I don’t get that
+T 1378848632 18<Nahra>	Namarrgon: looks like yes
+T 1378848633 19*	19Kurisu (~Kurisu@gateway/tor-sasl/kurisu) has joined #archlinux
+T 1378848639 18<holomorph>	well, perhaps it's vim behavior. i'll try with no vimrc
+T 1378848642 19*	19FxMr (~m5l@2001:7c0:409:4217:8a53:2eff:feb5:c8d1) has joined #archlinux
+T 1378848642 23*	23FxMr has quit (23Remote host closed the connection23)
+T 1378848647 18<Nahra>	Thanks Namarrgon for your help :)
+T 1378848649 18<holomorph>	but it didn't happen in dwm
+T 1378848654 18<Earnestly>	holomorph: Or a plugin that remembers cursor position?
+T 1378848665 23*	23awidegreen has quit (23Read error: Operation timed out23)
+T 1378848666 18<Namarrgon>	Nahra: do you get any output/errors  if you run it manually on that conf?
+T 1378848667 18<holomorph>	Earnestly: i do have that autocmd
+T 1378848675 19*	19killown (~killown@pdpc/supporter/student/killown) has joined #archlinux
+T 1378848678 23*	23raijin has quit (23Ping timeout: 264 seconds23)
+T 1378848715 18<Earnestly>	holomorph: Hm.  I can’t seem to replicate the disappearing status thing
+T 1378848715 18<holomorph>	Earnestly: how'd you know that!?
+T 1378848733 18<Earnestly>	holomorph: Most vim people have it :P
+T 1378848737 19*	19zyklon (~zyklon@116.90.137.122) has joined #archlinux
+T 1378848737 19*	19gnubien (~e@unaffiliated/gnubien) has joined #archlinux
+T 1378848753 18<Earnestly>	Except me, because I’m not a vim power-user :<
+T 1378848759 23*	23garrik has quit (23Client Quit23)
+T 1378848781 18<holomorph>	well, i wouldn't call myself a power user...
+T 1378848807 19*	19garrik (~garrik@cavil.garrik.info) has joined #archlinux
+T 1378848823 23*	23ntiy has quit (23Remote host closed the connection23)
+T 1378848828 23*	23NauTiluS1 has quit (23Read error: Connection reset by peer23)
+T 1378848853 19*	19NauTiluS1 (~NauTiluS1@unaffiliated/nautilus1) has joined #archlinux
+T 1378848858 23*	23hugo8899 has quit (23Ping timeout: 264 seconds23)
+T 1378848861 19*	19awidegreen (~awidegree@h-16-118.a212.priv.bahnhof.se) has joined #archlinux
+T 1378848894 23*	23cifvts has quit (23Quit: Ex-Chat23)
+T 1378848895 18<Nahiyan>	holomorph, are you on the vim leaderboards?
+T 1378848898 23*	23v0n has quit (23Ping timeout: 256 seconds23)
+T 1378848901 18<Earnestly>	holomorph: Usually the sort who like to spend hours thinking about how to reorder something with a few keystrokes then they don’t realise you can just hold down hjkl and the cursor will continue to move ಠ_ಠ (although I don’t know where I’d be without macros ❤)
+T 1378848901 18<Nahra>	Namarrgon: well. Files are rotated but not removed :(
+T 1378848905 18<Nahiyan>	hmm.. are there leaderboards?
+T 1378848910 18<Nahiyan>	!g vim leaderboards
+T 1378848911 18<phrik>	Nahiyan: Leaderboard - VimGolf - real Vim ninjas count every keystroke!: <http://vimgolf.com/top>
+T 1378848916 23*	23NauTiluS1 has quit (23Remote host closed the connection23)
+T 1378848920 18<Nahra>	Namarrgon: what I really need is to remove it
+T 1378848920 18<Nahiyan>	lol
+T 1378848923 18<Earnestly>	Nahiyan: There’s vimgolf, which is really stupid.
+T 1378848927 18<holomorph>	Earnestly: ah. vimgolf
+T 1378848930 19*	19NauTiluS1 (~NauTiluS1@unaffiliated/nautilus1) has joined #archlinux
+T 1378848939 18<Nahiyan>	Earnestly, .. what is it?
+T 1378848942 18<Earnestly>	And not because the idea is silly, but because all of the /real/ results are hidden even if you have an account.
+T 1378848942 18<Nahiyan>	Me too lazy
+T 1378848952 23*	23sertsa has quit (23Remote host closed the connection23)
+T 1378848954 18<Nahiyan>	Earnestly, holy shit
+T 1378848961 19*	19sertsa (~sertsa@248.223.118.66.brainstorminternet.net) has joined #archlinux
+T 1378848962 18<holomorph>	what
+T 1378848977 18<zendeavor>	it's like a paywall
+T 1378848979 18<zendeavor>	so dumb
+T 1378848987 18<Earnestly>	They expect you to actually waste your time doing stupid little vim puzzles as if you have time for that just so you can "work" your way up to seeing the "winners".
+T 1378849009 23*	23ekeih has quit (23Changing host23)
+T 1378849009 19*	19ekeih (~ekeih@unaffiliated/ekeih) has joined #archlinux
+T 1378849013 18<Earnestly>	Nice concept, horrifically executed and basically a meaningless 'cow-clicker'
+T 1378849025 23*	23sputnikus has quit (23Ping timeout: 245 seconds23)
+T 1378849031 18<Nahiyan>	that's like forums hiding links or replies until people register.. which is stupid, because that means they'll most likely just abandon the account after using it once
+T 1378849032 18<Earnestly>	(since you can’t actually use it as an educational tool)
+T 1378849032 19*	19jfenton (~jfenton@static-50-53-99-219.bvtn.or.frontiernet.net) has joined #archlinux
+T 1378849037 19*	19hugo8899 (~hugo@bl13-242-49.dsl.telepac.pt) has joined #archlinux
+T 1378849052 18<willybilly0101>	i'm trying to install amd catalyst proprietary driver. I added the repo for xorg113 but what should I install from there? I mean, downgrade
+T 1378849053 18<holomorph>	then there are the emacs rocks screencasts where he does vimgolf :p
+T 1378849054 18<zendeavor>	Nahiyan: but then the site gets to count registered users and claim popularity
+T 1378849093 18<zendeavor>	Nahiyan: just like the big 3 game companies talk about their sales numbers and installed base, but never bring up any concept of a user-retention rate
+T 1378849111 18<Earnestly>	Nahiyan: This is worse than being forced to register.  This is registering and then realising still not allowed to view the content unless you spend hours of your time working to see it.
+T 1378849112 19*	19jasonwryan (~jasonwrya@46.19.141.158) has joined #archlinux
+T 1378849112 23*	23jasonwryan has quit (23Changing host23)
+T 1378849112 19*	19jasonwryan (~jasonwrya@fsf/member/jasonwryan) has joined #archlinux
+T 1378849130 18<Nahiyan>	Earnestly, man..
+T 1378849137 18<zendeavor>	Nahiyan: as it turns out, most console owners only ever buy less than 15 or so games new, and rely on the used game industry to jockey discs
+T 1378849138 18<Earnestly>	zendeavor: That sounds like any major corporation ¬_¬
+T 1378849141 18<Nahra>	Namarrgon: below is what -d outputs:
+T 1378849142 18<Nahra>	after 1 days (no old logs will be kept)
+T 1378849142 18<Nahra>	empty log files are not rotated, old logs are removed
+T 1378849149 18<zendeavor>	Earnestly: narrow example for demonstration
+T 1378849168 18<Nahra>	Namarrgon: but nothing is deleted :(
+T 1378849184 23*	23pandeiro has quit (23Remote host closed the connection23)
+T 1378849202 18<zendeavor>	Earnestly: i could have used download counters as the example instead
+T 1378849203 19*	19tiger717 (~tiger717@unaffiliated/tiger717) has joined #archlinux
+T 1378849212 18<willybilly0101>	actually I should force the packages to be downgraded according with the new repo, but I have no ideea how
+T 1378849226 18<Nahra>	Namarrgon: ?
+T 1378849238 18<zendeavor>	Earnestly: our software suite has had over one million downloads! we're huge!
+T 1378849241 18<Earnestly>	zendeavor: Just commenting on what a lot of places feel like.  Getting new customers is better than retaining loyal ones.
+T 1378849247 23*	23tiger717 has quit (23Client Quit23)
+T 1378849250 23*	23graphitemaster (23~graphitem@unaffiliated/graphitemaster) has left #archlinux
+T 1378849250 18<Earnestly>	zendeavor: Usually at the latters expense
+T 1378849300 19*	19KimTjik (~KimTjik@c83-249-85-151.bredband.comhem.se) has joined #archlinux
+T 1378849303 18<willybilly0101>	nevermind, pacman -Suu
+T 1378849313 19*	19melodie (~melodie@unaffiliated/melodie) has joined #archlinux
+T 1378849315 23*	23yano has quit (23Ping timeout: 624 seconds23)
+T 1378849322 19*	19andreas (~andreas@dslb-084-062-072-119.pools.arcor-ip.net) has joined #archlinux
+T 1378849336 18<Earnestly>	zendeavor: Does emacs have anything like vimgolf, essentially a place to learn about common and clever operations/techniques?
+T 1378849340 18<zendeavor>	no
+T 1378849355 18<zendeavor>	some people do vimgolf in emacs
+T 1378849360 23*	23Tryst_ has quit (23Read error: Operation timed out23)
+T 1378849363 18<Namarrgon>	Nahra: did you run it with -f?
+T 1378849381 18<zendeavor>	http://emacsrocks.com/e02.html
+T 1378849383 18<phrik>	Title: Emacs Rocks! (at emacsrocks.com)
+T 1378849384 18<Earnestly>	I know, but I was wondering if there was a place, outside of random tutorials, which demonstrated anything
+T 1378849386 18<Nahra>	Namarrgon: yes
+T 1378849395 18<zendeavor>	no, there's no emacsgolf community
+T 1378849395 18<Nahra>	Namarrgon: the same: files are still there
+T 1378849397 23*	23FreezingCold has quit (23Quit: Out23)
+T 1378849408 23*	23hugo8899 has quit (23Remote host closed the connection23)
+T 1378849419 18<Earnestly>	zendeavor: Not exactly "golfing"
+T 1378849437 18<zendeavor>	that's all vimgolf is
+T 1378849440 18<zendeavor>	mental masturbation
+T 1378849451 23*	23Dreki has quit (23Ping timeout: 245 seconds23)
+T 1378849475 18<Earnestly>	It’s a shame it’s not shared
+T 1378849479 18<zendeavor>	emacs apparently lacks a community of people interested in mental masturbatory adventures
+T 1378849501 23*	23NauTiluS1 has quit (23Remote host closed the connection23)
+T 1378849509 19*	19FreezingCold (~FreezingC@198-91-168-144.cpe.distributel.net) has joined #archlinux
+T 1378849517 18<Earnestly>	zendeavor: I’m sure emacs has many people who’ve crafted their own elisp functions to complete repeatitve tasks...
+T 1378849519 23*	23crespo has quit (23Quit: Konversation terminated!23)
+T 1378849520 23*	23Mysterytrain has quit (23Quit: You can't make me quit! YOu can't!23)
+T 1378849533 18<zendeavor>	emacswiki has loads
+T 1378849544 18<zendeavor>	same as the vim wikia
+T 1378849551 23*	23hoverbear has quit (23Ping timeout: 260 seconds23)
+T 1378849553 19*	19jmta94 (~joe@79-67-245-25.dynamic.dsl.as9105.com) has joined #archlinux
+T 1378849563 23*	23kelnoky has quit (23Quit: WeeChat 0.4.2-dev23)
+T 1378849563 23*	23jmta94 has quit (23Read error: Connection reset by peer23)
+T 1378849568 18<zendeavor>	it's not very discoverable
+T 1378849573 18<zendeavor>	same as the vim wikia
+T 1378849575 18<Earnestly>	That it does.  It seems to be one of the biggest differences, vim relies on macros and dot, while emacs lets you essentially script it yourself
+T 1378849590 19*	19ZombB (~zombi@p2003006244827D01021B21FFFE716904.dip0.t-ipconnect.de) has joined #archlinux
+T 1378849593 18<zendeavor>	emacs has keyboard macros
+T 1378849593 18<Earnestly>	(In a sane language)
+T 1378849608 18<Namarrgon>	Nahra: how many rotated logs do you end up with after you run it?
+T 1378849611 19*	19NauTiluS1 (~NauTiluS1@unaffiliated/nautilus1) has joined #archlinux
+T 1378849616 23*	23andreas (23~andreas@dslb-084-062-072-119.pools.arcor-ip.net) has left #archlinux
+T 1378849617 18<Earnestly>	It does, but from what I can tell, they usually get turned into a function
+T 1378849625 18<Thermi>	How can I concatenate the output of two functions in a bash script?
+T 1378849625 18<zendeavor>	so do good vim macros
+T 1378849636 18<Thermi>	cat $(f1();) $(f2();) ?
+T 1378849637 18<Earnestly>	That’s true, hm, yeah
+T 1378849650 19*	19hoverbear (~andrew@unaffiliated/hoverbear) has joined #archlinux
+T 1378849654 18<Earnestly>	!uuoc2
+T 1378849655 18<phrik>	http://www.in-ulm.de/~mascheck/various/uuoc/
+T 1378849660 18<zendeavor>	emacs also has a prefix command for repeat
+T 1378849665 18<grawity>	Thermi: the output itself?
+T 1378849671 18<grawity>	Thermi: just run f1 and f2 ...
+T 1378849673 18<Nahra>	Namarrgon: at the moment I have some log.10 files
+T 1378849676 18<Thermi>	ah, ty.
+T 1378849679 18<Earnestly>	lol
+T 1378849687 18<grawity>	Thermi: { f1; f2; } > file, or (f1; f2) > file, if you're redirecting them
+T 1378849690 23*	23TheBeast has quit (23Quit: WeeChat 0.4.123)
+T 1378849694 18<Thermi>	Ty, grawity. <3
+T 1378849706 23*	23meltingw1x (23~meltingwa@meltingwax.xen.prgmr.com) has left #archlinux
+T 1378849708 23*	23Bastian82 has quit (23Quit: Konversation terminated!23)
+T 1378849709 18<Namarrgon>	Nahra: are these old logs or do you get log.11 if you run it again?
+T 1378849722 23*	23pitelpan has quit (23Ping timeout: 264 seconds23)
+T 1378849750 18<zendeavor>	not analagous to dot, i think
+T 1378849752 18<Nahra>	Namarrgon: I do not get .11 logs
+T 1378849765 23*	23sidus has quit (23Quit: ChatZilla 0.9.87 [Iceape 2.7.12/20130119095535]23)
+T 1378849771 18<Namarrgon>	Nahra: so remove all old logs by hand and see what happens
+T 1378849794 18<Earnestly>	zendeavor: Yeah not quite although there are plugin-thingies which replicate vim’s dot
+T 1378849798 19*	19luksow (~luke@apn-31-2-47-89.dynamic.gprs.plus.pl) has joined #archlinux
+T 1378849805 18<Earnestly>	Like evil
+T 1378849809 18<holomorph>	Earnestly: do you have 'set title' in your vimrc?
+T 1378849819 19*	19raxbg (~raxbg@client-6-35.speedy-net.bg) has joined #archlinux
+T 1378849821 18<Earnestly>	holomorph: Nope
+T 1378849824 23*	23braisarias has quit (23Read error: No route to host23)
+T 1378849828 18<raxbg>	Hi
+T 1378849829 18<Thermi>	(header(); { body(); file(); } | gpg -sear thermi@thermi.thermi )  > sendmail -i -t
+T 1378849833 18<Thermi>	correct syntax?
+T 1378849838 18<Thermi>	or a pipe instead of > =
+T 1378849842 18<FreezingCold>	god damn it, my window manager started doing something weird
+T 1378849843 19*	19braisarias (~braisaria@112.32.117.91.dynamic.mundo-r.com) has joined #archlinux
+T 1378849849 18<raxbg>	I have a problem with removable hard drive
+T 1378849850 23*	23z1lt0id (23~z1lt0id@ppp59-167-184-183.static.internode.on.net) has left #archlinux (23"WeeChat 0.4.1"23)
+T 1378849852 18<Thermi>	yeah, pipe.
+T 1378849861 18<raxbg>	I cannot access it anymore :D
+T 1378849867 18<raxbg>	Any idea why?
+T 1378849882 18<Namarrgon>	raxbg: look at the dmesg output after you plug it in
+T 1378849882 19*	19chron (~chron@cl-877.cgn-01.de.sixxs.net) has joined #archlinux
+T 1378849886 18<Ketsuban>	raxbg: is it still there, or did someone steal it?
+T 1378849887 18<zendeavor>	Thermi: no, you're completely off
+T 1378849889 18<grawity>	Thermi: bash does not use () for function calls
+T 1378849911 18<Nahra>	Namarrgon: o_0 you ask me to do what logrotate is supposed to do and the to check if it works!
+T 1378849913 18<raxbg>	it sais it is recognized and has the /dev/sdb assigned to it
+T 1378849914 18<zendeavor>	you don't need to combine () and {}
+T 1378849919 18<Namarrgon>	Nahra: yes
+T 1378849920 18<raxbg>	but there is no /dev/sdb file
+T 1378849920 18<Earnestly>	grawity: Which makes me really sad.  I wish the() parens actually meant something :(
+T 1378849921 18<Thermi>	Okay. :(
+T 1378849929 18<zendeavor>	!bg
+T 1378849930 18<Thermi>	I'll paste all I just pieed together
+T 1378849933 18<zendeavor>	!bashguide
+T 1378849934 18<Nahra>	Namarrgon: srange idea...
+T 1378849935 18<phrik>	http://mywiki.wooledge.org/BashGuide
+T 1378849943 18<zendeavor>	Thermi: ^^^
+T 1378849945 18<raxbg>	Ketsuban: it is still there and I hear it spinning
+T 1378849946 23*	23darnir has quit (23Quit: leaving23)
+T 1378849950 18<Earnestly>	BashGuide should come as a book with every copy of Linux
+T 1378849950 18<Namarrgon>	Nahra: i don't know if logrotate will retroactively remove logs
+T 1378849957 18<Thermi>	Sorry, I'm only coding C and Java. :/
+T 1378849959 23*	23Silmarilion has quit (23Read error: Connection reset by peer23)
+T 1378849964 18<zendeavor>	Earnestly: no, people should just stop writing bash
+T 1378849974 18<Earnestly>	zendeavor: lol, fair point
+T 1378849976 18<Nahra>	Namarrgon: why?
+T 1378849976 23*	23beatrice has quit (23Ping timeout: 245 seconds23)
+T 1378849986 23*	23OnlyMax has quit (23Remote host closed the connection23)
+T 1378849991 18<Nahra>	Namarrgon: I need to delete all logs older than 1 day...
+T 1378849996 19*	19longshot902 (~longshot9@ip98-161-37-139.om.om.cox.net) has joined #archlinux
+T 1378850006 19*	19OnlyMax (~onlymax@187-126-192-230.user.veloxzone.com.br) has joined #archlinux
+T 1378850010 18<zendeavor>	Earnestly: the only point in bash's favour is it doesn't have to spin up a vm to interpret commands and do work
+T 1378850012 18<Namarrgon>	Nahra: safety precautions?
+T 1378850018 18<zendeavor>	everythine else, blegh.
+T 1378850041 18<Nahra>	sanity precautions
+T 1378850048 18<Namarrgon>	Nahra: do it
+T 1378850057 18<Nahra>	no
+T 1378850064 18<Earnestly>	zendeavor: That and calling programs is ever so slightly easier
+T 1378850064 18<zendeavor>	what
+T 1378850064 18<Namarrgon>	...
+T 1378850074 18<Nahra>	Namarrgon: if at the moment it is not able to remove those logs

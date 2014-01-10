@@ -1,0 +1,499 @@
+T 1368577656 29*	29Topic for #comics-anonymous 29set by |mattica| 29at Fri May 10 17:55:53 2013
+T 1368577656 28-29Global28-	[Logon News - Apr 04 2004] Attention: Please do NOT click on URLs that unknown people send you and remember to report all spammers to #abuse.
+T 1368577656 28-29Global28-	[Logon News - Mar 18 2005] Your host is being checked for open proxies. Please disregard connections to ports like 8080 or 3128.
+T 1368577656 28-29Global28-	[Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1368577656 22*	Received a CTCP LAG from LagServ
+T 1368577656 22*	Received a CTCP PING BottlerTest PleaseIgnore from PingServ
+T 1368577884 18<Gorganus>	one of 007's cooler rigs: http://toyotaw.com/wp-content/uploads/2011/11/toyota-2000gt-1967-1967.jpg
+T 1368577935 23*	23WoidsMan has quit (23Ping timeout: 360 seconds23)
+T 1368577950 19*	19WoidsMan (bigwoids@24.206.27.194) has joined #comics-anonymous
+T 1368578737 23*	23BenGrimm has quit (23Read error: Connection reset by peer23)
+T 1368579142 19*	19LastChild (~lastchild@21b52b10.35474391.3d344119.17dc4bf9X) has joined #comics-anonymous
+T 1368579717 19*	19m33p (~m33p@355d5b65.1599c5.ca.comcast.net) has joined #comics-anonymous
+T 1368580275 18<Frankie>	!list
+T 1368580293 23*	23Sola has quit (23Ping timeout: 360 seconds23)
+T 1368580897 19*	19Woids (bigwoids@a9a2d23.15ce2659.37148937.cc59707X) has joined #comics-anonymous
+T 1368581011 23*	23WoidsMan has quit (23Ping timeout: 360 seconds23)
+T 1368581638 19*	19pitchan|mobile (~androirc@8d7465b.a6c6559.322bbfaa.1dad8cc8X) has joined #comics-anonymous
+T 1368581845 23*	23Gorganus has quit (23Quit: meanwhile... in another part of the galaxy, later that same day...23)
+T 1368582039 23*	23Wolf636201 has quit (23Ping timeout: 360 seconds23)
+T 1368582088 23*	23pitchan|mobile has quit (23Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )23)
+T 1368582317 19*	19pitchan (~see-saw@1de2983b.12daef3.range86-176.btcentralplus.com) has joined #comics-anonymous
+T 1368583009 19*	19WoidsMan (bigwoids@24.206.27.194) has joined #comics-anonymous
+T 1368583169 23*	23pitchan has quit (23Read error: Connection reset by peer23)
+T 1368583341 23*	23Woids has quit (23Ping timeout: 360 seconds23)
+T 1368583456 19*	19pitchan (~see-saw@1de2983b.12daef3.range86-176.btcentralplus.com) has joined #comics-anonymous
+T 1368584936 19*	19Sola (~WinNT@1328406c.1df4f87e.nap.wideopenwest.com) has joined #comics-anonymous
+T 1368585070 23*	23WoidsMan has quit (23Ping timeout: 360 seconds23)
+T 1368585090 19*	19WoidsMan (bigwoids@24.206.27.194) has joined #comics-anonymous
+T 1368585278 23*	23pitchan has quit (23Read error: Connection reset by peer23)
+T 1368585407 19*	19pitchan (~see-saw@1de2983b.12daef3.range86-176.btcentralplus.com) has joined #comics-anonymous
+T 1368585528 23*	23pitchan (23~see-saw@1de2983b.12daef3.range86-176.btcentralplus.com) has left #comics-anonymous
+T 1368585720 18<e4>	the fuck is going on with the spam
+T 1368585769 18<e4>	and I'm not going to accept cat sleeping on the keyboard as an explanation
+T 1368586190 19*	19nexstar (~Nexstar@1c3781d3.2fc699fc.kcls.org) has joined #comics-anonymous
+T 1368586205 19*	19BenGrimm (~lol@2470642c.3223f75b.res.rr.com) has joined #comics-anonymous
+T 1368586212 22*	26e4 gives voice to26 BenGrimm
+T 1368586255 23*	23WoidsMan has quit (23Read error: Connection reset by peer23)
+T 1368586272 19*	19WoidsMan (bigwoids@24.206.27.194) has joined #comics-anonymous
+T 1368586732 23*	23nexstar (23~Nexstar@1c3781d3.2fc699fc.kcls.org) has left #comics-anonymous
+T 1368587367 19*	19Cybernexus (~goober@4b89d8f.d14813f.mi.charter.com) has joined #comics-anonymous
+T 1368587472 19*	19Woids (bigwoids@a9a2d23.15ce2659.37148937.cc59707X) has joined #comics-anonymous
+T 1368587573 23*	23BenGrimm (23~lol@2470642c.3223f75b.res.rr.com) has left #comics-anonymous
+T 1368587646 23*	23WoidsMan has quit (23Ping timeout: 360 seconds23)
+T 1368588333 18<scarlet_centurion>	sorry about spam. keyboard fell over while taking a nap
+T 1368588957 23*	23CrAzYmOfO has quit (23Read error: Connection reset by peer23)
+T 1368591075 18<Frankie>	!list
+T 1368591079 22*	26Frankie gives voice to26 Woids
+T 1368591377 18<gastr>	http://www.nypost.com/p/entertainment/movies/lost_in_space_xoqlzpJ1zWW4E9uKZsJpfN
+T 1368591542 19*	19TripleH (TripleH@124-148-128-40.dyn.iinet.net.au) has joined #comics-anonymous
+T 1368592869 23*	23m33p has quit (23Quit: 23)
+T 1368593535 18<gastr>	"Then there’s the case of The Sixth Gun, based on a popular comic book, which NBC passed on because the network “felt it played too much like a geeky Syfy show and not enough like a big broadcast network show.” This despite the number one drama on TV being about zombies."
+T 1368593537 18<gastr>	http://www.avclub.com/articles/networks-reasoning-for-passing-on-various-pilots-w,97745/
+T 1368593559 18<gastr>	i'm still waiting to see the locke and key pilot
+T 1368593901 19*	19Deadp00l (~serpico@we.are.mattica) has joined #comics-anonymous
+T 1368593902 22*	ChanServ sets mode +a #comics-anonymous Deadp00l
+T 1368593902 22*	26ChanServ gives channel operator status to26 Deadp00l
+T 1368594057 18<gastr>	deadpool, where's the locke and key pilot?
+T 1368594092 18<Deadp00l>	What? Why're you asking me?
+T 1368594102 22*	26Deadp00l gives channel operator status to26 CantOutRunADuck
+T 1368594110 22*	26Deadp00l gives voice to26 TripleH
+T 1368594116 18<gastr>	i was just talking to the channel about it
+T 1368594122 18<gastr>	i mean myself
+T 1368594164 18<Deadp00l>	Not on BTn already? That'd be a surprise.
+T 1368594175 18<gastr>	nbc passed on the sixth gun like they passed on the walking dead
+T 1368594235 18<Deadp00l>	Are you watching Zombieland and Graceland?
+T 1368594236 18<gastr>	no, no one has ever seen it
+T 1368594245 18<gastr>	no should i?
+T 1368594261 18<gastr>	i hated the movie zombieland so...
+T 1368594276 18<gastr>	i don't know what graceland is
+T 1368594306 18<gastr>	there's a new gillian anderson BBC show that duck says is meh
+T 1368594319 18<gastr>	i'm looking forward to that tonight
+T 1368594335 18<Deadp00l>	It's effectively 21 Jump Street + 90210 + Melrose Place.
+T 1368594351 18<Deadp00l>	I saw Gillian Anderson in something...
+T 1368594351 18<gastr>	what channel is that on?
+T 1368594353 18<Deadp00l>	Oh, Hannibal.
+T 1368594366 18<gastr>	i think i bailed on that
+T 1368594383 18<Deadp00l>	I dunno, gastr. Without logos I just watch shit without network-based judgment.
+T 1368594403 18<Deadp00l>	Also, I think it was an early-release pilot.
+T 1368594457 18<gastr>	it's USA
+T 1368594461 18<gastr>	good god
+T 1368594488 18<Deadp00l>	So, they'll all be dressed spiffily.
+T 1368594536 18<gastr>	the premise sounds entertaining
+T 1368594564 18<gastr>	and it has serinda swan
+T 1368594577 18<Deadp00l>	Yes. Her.
+T 1368594584 18<Deadp00l>	No appearance in the pilot though.
+T 1368594593 18<gastr>	are you watching rectify
+T 1368594600 18<Deadp00l>	Yes, I am.
+T 1368594604 18<gastr>	i quite like it
+T 1368594608 18<Deadp00l>	As did I.
+T 1368594619 18<Deadp00l>	Duck still hasn't watched it.
+T 1368594629 18<gastr>	he has
+T 1368594632 18<gastr>	we talked
+T 1368594653 18<gastr>	i've only seen 4 eps
+T 1368594680 18<Deadp00l>	I only watched the pilot.
+T 1368594682 18<TripleH>	does anyone watch Vikings?
+T 1368594687 18<gastr>	yes, love it
+T 1368594699 18<gastr>	too short a season
+T 1368594707 18<TripleH>	9 eps?
+T 1368594713 18<gastr>	ya
+T 1368594720 18<TripleH>	OK I have them all
+T 1368594728 18<TripleH>	never heard anyone chatting about it
+T 1368594737 18<gastr>	we've talked about it
+T 1368594748 18<TripleH>	but I love the idea of such a show if its done right
+T 1368594763 18<gastr>	it's pretty badass
+T 1368594763 18<Deadp00l>	Are there sea-monsters yet?
+T 1368594770 18<gastr>	a kraken!
+T 1368594788 18<Deadp00l>	The Almighty Johnsons will be back soon. Can't wait.
+T 1368594791 18<gastr>	there's a kraken in GoT actually
+T 1368594796 18<gastr>	eh
+T 1368594807 18<Deadp00l>	Stop spoiling.
+T 1368594810 18<scarlet_centurion>	rad
+T 1368594825 18<gastr>	well, it was mentioned in the book
+T 1368594833 18<Deadp00l>	Goddammit!
+T 1368594834 18<scarlet_centurion>	20,000 leagues under the sea
+T 1368594840 18<TripleH>	GoT doesnt show enough of the Iron Islands
+T 1368594853 18<TripleH>	they have some interesting stuff going on there
+T 1368594854 18<Deadp00l>	GoT eps aren't long enough.
+T 1368594855 18<scarlet_centurion>	"we do not sow"
+T 1368594878 18<Deadp00l>	HBO dumbkopfs shouldn't have tried to stick to a traditional hour-long format.
+T 1368594880 18<gastr>	there not cutting out much of anything this season
+T 1368594887 18<gastr>	as opposed to last season
+T 1368594892 18<gastr>	*they
+T 1368594896 18<gastr>	are
+T 1368594909 18<TripleH>	"What is dead may never die, but rises again, harder and stronger."
+T 1368594927 18<Deadp00l>	This last ep was a bit stupid, what with the giving of sex tips.
+T 1368594927 18<TripleH>	if that line was intro'd in the series it would rock
+T 1368594931 18<scarlet_centurion>	sounds sort of like a lovecraft phrase
+T 1368594942 18<gastr>	i've read half the 3rd book now and im behind on just about everything on the show
+T 1368594967 18<gastr>	except tyrion and sansa
+T 1368594996 18<Deadp00l>	(TripleH): http://i.imgur.com/fW0i44S.jpg
+T 1368595003 18<TripleH>	stay behind ... the next few eps will go crazy as the plotlines will come to a head
+T 1368595021 18<scarlet_centurion>	ex-cellent
+T 1368595031 18<TripleH>	Deadp00l ... Steve Irwins long lost brother?
+T 1368595037 18<gastr>	i'm betting the marriage never takes place
+T 1368595051 18<TripleH>	there are quite a few marriages this season
+T 1368595078 18*	scarlet_centurion sips a ale in a house lanister stein
+T 1368595081 18<gastr>	well the one between tyrion and sansa
+T 1368595086 18<Deadp00l>	What did Sansa mean in this last ep where she says she's not scared of intercourse, and something about Joffrey?
+T 1368595108 18<gastr>	she was just being emo
+T 1368595120 18<gastr>	"i can deal with pain"
+T 1368595121 18<Cybernexus>	!list
+T 1368595136 18<TripleH>	its girl talk for medievel times
+T 1368595141 18<scarlet_centurion>	heh
+T 1368595153 18<TripleH>	its girl talk for medieval times
+T 1368595172 18<gastr>	highgarden chicks move fast
+T 1368595182 18<scarlet_centurion>	well said
+T 1368595185 18<TripleH>	the books dont always use all the characters so scenes that use the actors have to be created each ep
+T 1368595202 18<Deadp00l>	"I'm not afraid of the pain. Not after what Joffrey's done to me."
+T 1368595203 18<TripleH>	like all the stuff going on with Theon atm
+T 1368595213 18<Deadp00l>	Damn that Joffrey!
+T 1368595222 18<Deadp00l>	Killed the redhead.
+T 1368595223 18<gastr>	he had that dude beat and strip her
+T 1368595232 18<gastr>	yes, roz
+T 1368595235 18<scarlet_centurion>	off to watch some episodes now. late
+T 1368595235 18<gastr>	good
+T 1368595240 18<TripleH>	Joffreys also ready to finally walk down the isle!
+T 1368595244 18<Deadp00l>	A show creation, if I'm not mistaken.
+T 1368595252 18<gastr>	she was
+T 1368595270 18<gastr>	it surprised me how quickly they discarded her
+T 1368595274 18<Deadp00l>	So, who's the guy snipping off Theon's dagger?
+T 1368595281 18<gastr>	no clue
+T 1368595290 18<TripleH>	Deadp00l it might be a spoiler if I say
+T 1368595296 18<Deadp00l>	Who was the hornblower in the books?
+T 1368595304 18<Deadp00l>	Fine, don't tell me!
+T 1368595310 18<Deadp00l>	No, I mean really don't tell me.
+T 1368595311 18<gastr>	theon's not in the 3rd book at all
+T 1368595312 18<TripleH>	I can tell you in PM?
+T 1368595316 18<Deadp00l>	NO!
+T 1368595321 18*	Deadp00l bans TripleH
+T 1368595329 18<gastr>	hornblower?
+T 1368595353 18<Deadp00l>	It's clearly the same guy that annoyed the shit out of Theon on his last night as Lord of Winterfell.
+T 1368595355 18<gastr>	that's ser loras
+T 1368595362 18<Deadp00l>	Funny.
+T 1368595379 18<TripleH>	Theon disappears at the end of Book 2 and doesnt appear again until Book 5 ... he then recalls whats been happening to him all this time .... the show have shown some of it but are creating a lot of it to give the actor stuff to do each ep
+T 1368595403 18<gastr>	i was think it's the guy from the second book
+T 1368595408 18<gastr>	*thinking
+T 1368595409 18<Deadp00l>	Tell me this much, TripleH: does he get snipped or not.
+T 1368595417 18<gastr>	who turns on him
+T 1368595423 18<TripleH>	gastr do you remember Reek from Book 2?
+T 1368595427 18<gastr>	yes!
+T 1368595429 18<Cybernexus>	The whole SHEBANG!
+T 1368595434 18<gastr>	that's his name
+T 1368595440 18<TripleH>	Deadp00l it didnt happen that way in the book ... he doesnt recall it
+T 1368595443 18<gastr>	so i was right...
+T 1368595457 18<TripleH>	gatr I will PM you
+T 1368595458 18<scarlet_centurion>	watching GOts on my new 24 inch monitor rocks
+T 1368595469 18<gastr>	that's ok i don't want to know for sure
+T 1368595481 18<gastr>	fuck too late
+T 1368595485 18<gastr>	gotta click
+T 1368595508 18*	scarlet_centurion crasnks the theme song
+T 1368595698 18<scarlet_centurion>	dang. not enough processing speed. can't play a MKV file without jitters
+T 1368595720 18<scarlet_centurion>	need a new PC
+T 1368595838 18<scarlet_centurion>	see what somebody said about the armor with scalesd earlier
+T 1368595850 18<scarlet_centurion>	house tully armor
+T 1368596096 19*	19|mattica| (~mattica0@free.call.pol.box) has joined #comics-anonymous
+T 1368596096 22*	ChanServ sets mode +a #comics-anonymous |mattica|
+T 1368596096 22*	26ChanServ gives channel operator status to26 |mattica|
+T 1368596117 18<|mattica|>	as if anyone could sleep
+T 1368596123 18<|mattica|>	hi
+T 1368596126 18<scarlet_centurion>	heh
+T 1368596133 18<|mattica|>	where have I been?
+T 1368596134 18<scarlet_centurion>	g'day
+T 1368596143 18<|mattica|>	they think im RUSSIAN
+T 1368596169 18<|mattica|>	I'm going to have to do something dramatica
+T 1368596297 18<gastr>	mattica, did you hear about the next arkham game?
+T 1368596439 18*	scarlet_centurion grins at hotpie's direwolf shaped bread
+T 1368596460 18<scarlet_centurion>	was that in the book?
+T 1368596507 18<TripleH>	I remember he stays at the inn at this point
+T 1368596527 18<gastr>	yeah
+T 1368596541 18<gastr>	the bread wolf joke i think was added
+T 1368596548 18<scarlet_centurion>	thought so
+T 1368596553 18<scarlet_centurion>	nice touch
+T 1368596617 18<|mattica|>	do u get news there?
+T 1368596632 18<|mattica|>	any news would be good right now
+T 1368596638 18<|mattica|>	let me let u in a secret
+T 1368596693 18<|mattica|>	http://youtu.be/S6Tly9dzMvE
+T 1368596804 18<scarlet_centurion>	link won't work on a PC using windows ME
+T 1368596816 18<|mattica|>	what the HELL
+T 1368596824 18<|mattica|>	security?
+T 1368596839 18<scarlet_centurion>	web browser is too old
+T 1368596843 18<|mattica|>	why aren't you using handler mode?
+T 1368596867 18<|mattica|>	theres wild animals in here
+T 1368596875 18<|mattica|>	:)
+T 1368596884 18<scarlet_centurion>	heh
+T 1368596889 18<|mattica|>	someone flashed the LARRY
+T 1368596896 18<scarlet_centurion>	yow
+T 1368596916 18<|mattica|>	Issues a disclaimer:
+T 1368596922 18<|mattica|>	This mine is protectected.
+T 1368596952 18<|mattica|>	but only in my imagination
+T 1368596963 18<|mattica|>	as if anyone can stop a rapist once he's arroused
+T 1368596965 18<|mattica|>	rite
+T 1368597029 18<|mattica|>	email your waiver
+T 1368597179 18<|mattica|>	right email recieved
+T 1368597181 18<|mattica|>	whoops
+T 1368597184 18<|mattica|>	deleted it
+T 1368597241 18<|mattica|>	try this trope
+T 1368597245 18<|mattica|>	http://youtu.be/_4Xw8zJIvTc
+T 1368597336 18<|mattica|>	quick tell me whats gonna happen
+T 1368597340 18<|mattica|>	because I know
+T 1368597499 18<|mattica|>	The pirates say, ah ha hah
+T 1368597573 18<|mattica|>	and the psyclos says man-animal eats rat
+T 1368597589 18<|mattica|>	see you have to start
+T 1368597593 18<|mattica|>	mashing them together
+T 1368597601 18<|mattica|>	wait i have an idea
+T 1368597666 18<|mattica|>	http://www.youtube.com/watch?v=9gAfJCFxwrI
+T 1368598035 18<|mattica|>	aw
+T 1368598050 18<|mattica|>	that guy spoiled it for me, now that I recall the relevence
+T 1368598051 18<|mattica|>	http://uncyclopedia.wikia.com/wiki/Martian
+T 1369090224 22*	hemite sets mode +x hemite
+T 1369090224 28-29Global28-	[Logon News - Apr 04 2004] Attention: Please do NOT click on URLs that unknown people send you and remember to report all spammers to #abuse.
+T 1369090224 28-29Global28-	[Logon News - Mar 18 2005] Your host is being checked for open proxies. Please disregard connections to ports like 8080 or 3128.
+T 1369090224 28-29Global28-	[Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1369090224 22*	Received a CTCP LAG from LagServ
+T 1369090224 22*	Received a CTCP PING BottlerTest PleaseIgnore from PingServ
+T 1369090224 19*	19Now talking on #comics-anonymous
+T 1369090224 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1World Class Chat - MEMBERSHIP IS OPEN | Ask about #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1369090224 29*	29Topic for #comics-anonymous 29set by |mattica| 29at Fri May 10 17:55:53 2013
+T 1369091053 23*	23Frankie has quit (23Ping timeout: 360 seconds23)
+T 1369091080 23*	23IrcLink has quit (23Ping timeout: 360 seconds23)
+T 1369091527 19*	19FrankiesBot (FrankiesBo@28ba3a9e.1b4962bd.12ed360d.642f304X) has joined #comics-anonymous
+T 1369091531 22*	FrankiesBot is now known as IrcLink
+T 1369091534 22*	26ChanServ gives channel operator status to26 IrcLink
+T 1369091536 19*	19Frankie (~Frankie@81.108.117.77) has joined #comics-anonymous
+T 1369091536 22*	ChanServ sets mode +a #comics-anonymous Frankie
+T 1369091536 22*	26ChanServ gives channel operator status to26 Frankie
+T 1369091806 23*	23WoidsMan has quit (23Ping timeout: 360 seconds23)
+T 1369091984 19*	19WoidsMan (bigwoids@24.206.27.194) has joined #comics-anonymous
+T 1369092159 23*	23Rejected has quit (23Quit: 23)
+T 1369092413 23*	23|mattica| has quit (23Ping timeout: 360 seconds23)
+T 1369093672 19*	19BigRon (~BigRon@1a358005.1e706c24.fios.verizon.net) has joined #comics-anonymous
+T 1369094369 19*	19|mattica| (~mattica0@free.call.pol.box) has joined #comics-anonymous
+T 1369094369 22*	ChanServ sets mode +a #comics-anonymous |mattica|
+T 1369094369 22*	26ChanServ gives channel operator status to26 |mattica|
+T 1369094372 18<|mattica|>	wait
+T 1369094375 18<|mattica|>	what if they meant
+T 1369094380 18<|mattica|>	think outside the box
+T 1369094387 18<|mattica|>	we're trapped in the oval office
+T 1369094391 18<|mattica|>	hows that work
+T 1369094392 18<|mattica|>	!
+T 1369094415 18*	|mattica| saw a driveby in the neighborhood
+T 1369094675 18<|mattica|>	http://uncyclopedia.wikia.com/wiki/The_DaVinci_Code
+T 1369094684 19*	19m33p (~m33p@355d5b65.1599c5.ca.comcast.net) has joined #comics-anonymous
+T 1369095745 19*	19Chib (~Chib@3d7ab5b6.34823d30.internode.on.net) has joined #comics-anonymous
+T 1369095746 22*	ChanServ sets mode +a #comics-anonymous Chib
+T 1369095746 22*	26ChanServ gives channel operator status to26 Chib
+T 1369095746 18<Frankie>	.•«WB (Chib) WB»•. - <!Chib> i sometimes wish i didn't grow up in a brothel
+T 1369095875 23*	23ravenel has quit (23Quit: -=SysReset 2.55=-23)
+T 1369096059 19*	19ravenel (~WinNT@f4f1334.1383ffec.res.rr.com) has joined #comics-anonymous
+T 1369096059 22*	ChanServ sets mode +a #comics-anonymous ravenel
+T 1369096059 22*	26ChanServ gives channel operator status to26 ravenel
+T 1369096064 18<|mattica|>	hi
+T 1369097309 23*	23Chib has quit (23Ping timeout: 360 seconds23)
+T 1369097800 23*	23arisboch has quit (23Quit: Leaving23)
+T 1369097940 18<coondawg>	http://uncyclopedia.wikia.com/wiki/Tornado
+T 1369097953 19*	19xm33px (~m33p@355d5b65.1599c5.ca.comcast.net) has joined #comics-anonymous
+T 1369097983 18<|mattica|>	looks at you shrugging
+T 1369097991 18<|mattica|>	the wizard does live in OZ
+T 1369098001 18<|mattica|>	you are on a yellow brick gold
+T 1369098004 18<|mattica|>	hey
+T 1369098015 18<|mattica|>	pakastan said they dont want to wear socks!!
+T 1369098057 18<|mattica|>	oh look there was one other thing
+T 1369098066 18<|mattica|>	staring at me the whole time
+T 1369098087 18<|mattica|>	it was the most obvii
+T 1369098088 18<|mattica|>	sorry
+T 1369098122 18<|mattica|>	no really
+T 1369098123 18<|mattica|>	sorry
+T 1369098126 18<|mattica|>	its obvious
+T 1369098129 18<|mattica|>	http://youtu.be/OtRnpC7ddv8
+T 1369098161 23*	23m33p has quit (23Ping timeout: 360 seconds23)
+T 1369098385 18<|mattica|>	its a game
+T 1369098386 18<|mattica|>	dur
+T 1369098387 18<|mattica|>	:)
+T 1369098388 18<|mattica|>	hi
+T 1369098401 18<|mattica|>	so have i failed the simulator yet?
+T 1369098479 18<Gorganus>	you passed and go straight to the danger room now
+T 1369098565 18<Gorganus>	*shuts off failsafe*
+T 1369098601 18<coondawg>	if i ate cereal for dinner you'd have a case
+T 1369098605 18<coondawg>	of ceral
+T 1369098651 18<|mattica|>	im glad we even have a failsafe
+T 1369098658 18<Gorganus>	;)
+T 1369098670 18<|mattica|>	but
+T 1369098675 18<|mattica|>	theres still a problem
+T 1369098678 18<|mattica|>	very tiny
+T 1369098679 18<|mattica|>	but
+T 1369098689 18<|mattica|>	they were in here constructing a plan
+T 1369098695 18<|mattica|>	and we saw it
+T 1369098698 18<|mattica|>	so
+T 1369098713 18<|mattica|>	Coach
+T 1369098720 18<|mattica|>	all the bases are loaded
+T 1369098725 18<|mattica|>	but i throw like a girl
+T 1369098731 18<Gorganus>	heh
+T 1369098735 18<|mattica|>	i cant get the ball past the curb
+T 1369098746 18<|mattica|>	i am forever kissing the gutter here
+T 1369098806 18*	Gorganus dccs matti some listerine
+T 1369098925 18<coondawg>	sounds like american history
+T 1369098928 18<coondawg>	prof X
+T 1369098929 18<coondawg>	hi
+T 1369099045 18<|mattica|>	knowing theres a battle is 50% of the mandate right
+T 1369099078 18<|mattica|>	and then we need red and blue laser user percentages
+T 1369099085 18<|mattica|>	dig a big pit
+T 1369099088 18<|mattica|>	yeo
+T 1369099097 18<|mattica|>	its the NEW UNIVERSE comic book plan
+T 1369099101 18<|mattica|>	star brands
+T 1369099102 18<|mattica|>	dp7s
+T 1369099105 18<|mattica|>	all that jazz
+T 1369099109 18<|mattica|>	seen this movie.
+T 1369099142 18<|mattica|>	its the most obvious things
+T 1369099150 18<|mattica|>	anything that didnt "sell"
+T 1369099156 18<|mattica|>	the less popular
+T 1369099157 18<|mattica|>	see
+T 1369099169 18<|mattica|>	thats where im getting my answers from
+T 1369099235 18<|mattica|>	you can pretty much call this
+T 1369099244 18<|mattica|>	the spoil of all spoils
+T 1369099252 18<|mattica|>	sorry, its the spoils of war even
+T 1369099263 18<|mattica|>	with a happy ending
+T 1369099264 18<|mattica|>	!!!
+T 1369099266 18<|mattica|>	http://youtu.be/QeIQ08j9uVI
+T 1369099273 18*	|mattica| hides from rotten tomatos
+T 1369099323 18<|mattica|>	and
+T 1369099334 18<|mattica|>	the only way to hide from rotten tomatos is to sell them!!
+T 1369099335 18<|mattica|>	http://youtu.be/v31CZOGZCwY
+T 1369099620 18<Gorganus>	heh. graphics look so outdated
+T 1369099661 18<|mattica|>	out dated?
+T 1369099665 18<|mattica|>	scruffy looking?
+T 1369099675 18<|mattica|>	gorganus shot the potion
+T 1369099676 18<|mattica|>	http://youtu.be/10jy3LOWmcA
+T 1369099967 18<Gorganus>	cool beard
+T 1369100062 18<|mattica|>	guys
+T 1369100063 18<|mattica|>	http://youtu.be/OmMaQ67pdN8
+T 1369100210 18<|mattica|>	check out #7
+T 1369100650 18<Gorganus>	Colony 5 - I Know
+T 1369101170 23*	23|mattica| has quit (23Ping timeout: 360 seconds23)
+T 1369101578 19*	19|mattica| (~mattica0@free.call.pol.box) has joined #comics-anonymous
+T 1369101578 22*	ChanServ sets mode +a #comics-anonymous |mattica|
+T 1369101578 22*	26ChanServ gives channel operator status to26 |mattica|
+T 1369102268 18*	|mattica| trots over to the food trough
+T 1369102274 18<|mattica|>	http://youtu.be/Fce5uG18ZTI
+T 1369102513 18<Frankie>	!list
+T 1369102777 19*	19Woids (bigwoids@a9a2d23.15ce2659.37148937.cc59707X) has joined #comics-anonymous
+T 1369102813 23*	23WoidsMan has quit (23Ping timeout: 360 seconds23)
+T 1369103317 18<|mattica|>	(coondawg): http://www.youtube.com/watch?v=iMX670-lR4o
+T 1369103856 18<|mattica|>	http://youtu.be/E4mx2P3kLv4
+T 1369104135 18<gastr>	why does god hate oklahoma?
+T 1369104158 18<gastr>	did they repeal a sodomy law or something
+T 1369104202 19*	19LastChild (~lastchild@21b52b10.35474391.3d344119.17dc4bf9X) has joined #comics-anonymous
+T 1369104236 23*	23BigRon has quit (23Ping timeout: 360 seconds23)
+T 1369104498 18<|mattica|>	no
+T 1369104500 18<|mattica|>	its this
+T 1369104539 18<|mattica|>	http://youtu.be/_C6J9gij5SQ
+T 1369104544 18<|mattica|>	gods want their fire back
+T 1369104605 18<gastr>	i won't click
+T 1369104620 18<gastr>	i'm done with your links
+T 1369104708 18*	|mattica| has no links to terror
+T 1369104988 18<gastr>	well what can you blow up of value in australia?
+T 1369105019 18<|mattica|>	:( our values
+T 1369105092 18<|mattica|>	please dont
+T 1369105107 18<|mattica|>	we learn them, sometime, from you
+T 1369105433 18*	Gorganus goes for a evening cruise to the japanese friendship park at kelley park in his jetmobile
+T 1369105442 18<Gorganus>	late
+T 1369105446 23*	23Gorganus has quit (23Quit: meanwhile... in another part of the galaxy, later that same day...23)
+T 1369105606 18<gastr>	sounds like someone is getting laid...
+T 1369105837 18<|mattica|>	how can I work with that
+T 1369105839 18<|mattica|>	how about
+T 1369105851 18<|mattica|>	i hope he dont go to the cupboard and see its bare
+T 1369106912 22*	Disconnected (Connection timed out).
+T 1369106923 22*	hemite sets mode +i hemite
+T 1369106923 22*	hemite sets mode +x hemite
+T 1369106923 28-29Global28-	[Logon News - Apr 04 2004] Attention: Please do NOT click on URLs that unknown people send you and remember to report all spammers to #abuse.
+T 1369106923 28-29Global28-	[Logon News - Mar 18 2005] Your host is being checked for open proxies. Please disregard connections to ports like 8080 or 3128.
+T 1369106923 28-29Global28-	[Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1369106923 22*	Received a CTCP LAG from LagServ
+T 1369106923 22*	Received a CTCP PING BottlerTest PleaseIgnore from PingServ
+T 1369106923 19*	19Now talking on #comics-anonymous
+T 1369106923 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1World Class Chat - MEMBERSHIP IS OPEN | Ask about #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1369106923 29*	29Topic for #comics-anonymous 29set by |mattica| 29at Fri May 10 17:55:53 2013
+T 1369108227 22*	Disconnected (Connection timed out).
+T 1369108807 22*	hemite sets mode +i hemite
+T 1369108807 22*	hemite sets mode +x hemite
+T 1369108807 28-29Global28-	[Logon News - Apr 04 2004] Attention: Please do NOT click on URLs that unknown people send you and remember to report all spammers to #abuse.
+T 1369108807 28-29Global28-	[Logon News - Mar 18 2005] Your host is being checked for open proxies. Please disregard connections to ports like 8080 or 3128.
+T 1369108807 28-29Global28-	[Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1369108807 22*	Received a CTCP LAG from LagServ
+T 1369108807 22*	Received a CTCP PING BottlerTest PleaseIgnore from PingServ
+T 1369108807 19*	19Now talking on #comics-anonymous
+T 1369108807 29*	29Topic for #comics-anonymous 29is: 8,0|0,8|7,8|8,7|4,7|7,4|5,4|4,5|1,5|5,1| 9,1World Class Chat - MEMBERSHIP IS OPEN | Ask about #comics-anonymous fast 0-day access! | | !list | @find <book title> | !Trivia | Best Comicbook/TV/Movie/SciFi Chat on IRC| >> 5,1 |1,5|4,5|5,4|7,4|4,7|8,7|7,8|12'
+T 1369108807 29*	29Topic for #comics-anonymous 29set by |mattica| 29at Fri May 10 17:55:53 2013
+T 1369110115 19*	19joh (~Joh@3155232f.35474391.reverse.softlayer.com) has joined #comics-anonymous
+T 1369110171 18<joh>	ok, I am finally going to ask about #comics-anonymous fast 0-day access! (notice excalmation point at the end of the sentence this time)
+T 1369110183 18<joh>	!list
+T 1369110199 18<|mattica|>	to answer your first question"
+T 1369110206 18<|mattica|>	it isnt that fast
+T 1369110207 18<|mattica|>	:)
+T 1369110208 18<|mattica|>	hi
+T 1369110212 18<joh>	Hi
+T 1369110236 18<|mattica|>	see u /waves
+T 1369110238 18<|mattica|>	how are things?
+T 1369110243 18<joh>	not too bad
+T 1369110246 18<gastr>	you want dropbox access?
+T 1369110252 18<gastr>	pm e4
+T 1369110254 18<joh>	that would be very cool
+T 1369110258 18<|mattica|>	is e4 here ever
+T 1369110265 18<gastr>	and idle, because we're shallow
+T 1369110268 18<gastr>	yes
+T 1369110270 18<e4>	I'm never here
+T 1369110272 18<|mattica|>	we need to watch each others backs!
+T 1369110273 18<gastr>	he's ominpresent
+T 1369110274 18<e4>	BOO
+T 1369110278 18<gastr>	see
+T 1369110280 18<joh>	according to my wife I am pretty shallow too
+T 1369110289 18<|mattica|>	:(
+T 1369110290 18<joh>	but I think I am pretty funny and deep
+T 1369110291 18<e4>	gastr, I upgraded to foobar 1.2.6, no issues
+T 1369110294 18<|mattica|>	everybody is married
+T 1369110301 18<|mattica|>	i am groomed for to much
+T 1369110303 18<|mattica|>	waaaaaaaah
+T 1369110308 18<gastr>	does that improve anything?
+T 1369110318 18<joh>	no, I am still married
+T 1369110321 18<e4>	some stability and fring features
+T 1369110328 18<joh>	see, I think I am funny
+T 1369110329 18<|mattica|>	fring
+T 1369110337 18<|mattica|>	the fring is the key
+T 1369110341 18<e4>	joh, pm me your dropbox id
+T 1369110342 18<joh>	my wife on the otherhand would not see the humor in that
+T 1369110358 18<e4>	rules are simple: 1. don't move files, only copy. 2. idle in the channel whenever you can
+T 1369110364 18<|mattica|>	where would we be without our wives
+T 1369110369 18<|mattica|>	lost i imagine
+T 1369110378 18<|mattica|>	3.
+T 1369110388 18<|mattica|>	its all free
+T 1369110419 18<|mattica|>	are you an hour behind joh?
+T 1369110466 18<joh>	I am in california time
+T 1369110468 18<|mattica|>	do u all know whats really exciting
+T 1369110477 18<|mattica|>	surprises
+T 1369110483 18<|mattica|>	so theres no excitement here, OK
+T 1369110500 18<|mattica|>	this is just the... most obvious solution
+T 1369110504 18<joh>	my favorite saying is single men don't live as long as married men, but married men are more willing to die
+T 1369110555 18<|mattica|>	my favorite saying is
+T 1369110558 18<|mattica|>	be a ball
+T 1369110565 18<joh>	lol
+T 1369110569 18<joh>	litterally
+T 1369110571 18<|mattica|>	all those married guys play sport on sunday at the club
+T 1369110591 18<|mattica|>	best part:
+T 1369110594 18<joh>	oh, I thought we were just supposed to be kicked a lot
+T 1369110595 18<|mattica|>	a ball only has one face
+T 1369110606 18<|mattica|>	the horse does the kicking!
+T 1369110622 18<joh>	I would never call my wife a horse
+T 1369110629 18<joh>	see, again, I think I am funny
+T 1369110630 18<|mattica|>	no no
+T 1369110631 18<|mattica|>	http://youtu.be/y_PZPpWTRTU
+T 1369110635 18<|mattica|>	be a ball tht can kick!!!!!
+T 1369110643 23*	23xm33px has quit (23Quit: 23)
+T 1369110720 18<joh>	I loved that show when I was young...it was alway on the golden age of Television time
+T 1369110798 18<|mattica|>	http://youtu.be/lpmxYkFITYI
+T 1369110872 18<joh>	I am sure this topic must have been covered before, but how do most of you read digital comics, on a tablet? or is computer better?
+T 1369110888 18<joh>	I use an iPad and Comiczeal myself
+T 1369110930 18<joh>	unless it is Injustice - Gods Among us...because I cant wait for the transfer to the ipad
+T 1369110986 18<e4>	I read on the ipad
+T 1369110993 18<e4>	(when I do, which is rare these days)
+T 1369110996 18<e4>	comiczeal <3
+T 1369111001 18<e4>	which ipad do you have

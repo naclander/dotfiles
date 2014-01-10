@@ -1,0 +1,37 @@
+T 1378850441 19*	19Now talking on #gs3-sprint
+T 1378850441 29*	29Topic for #gs3-sprint 29is: move to #verizons3
+T 1378850441 29*	29Topic for #gs3-sprint 29set by noobnl!~shareefal@cyanogenmod/maintainer/noobnl 29at Sat Aug 24 06:53:00 2013
+T 1378851889 23*	23Orion__ has quit (23Quit: ~ Trillian Astra - www.trillian.im ~23)
+T 1378853831 22*	Disconnected (Remote host closed socket).
+T 1378853841 22*	Disconnected (Remote host closed socket).
+T 1378853852 22*	Disconnected (Remote host closed socket).
+T 1378853862 22*	Disconnected (Remote host closed socket).
+T 1378853872 22*	Disconnected (Remote host closed socket).
+T 1378853882 22*	Disconnected (Remote host closed socket).
+T 1378853893 22*	Disconnected (Remote host closed socket).
+T 1378853903 22*	Disconnected (Remote host closed socket).
+T 1378853914 22*	Disconnected (Remote host closed socket).
+T 1378853924 22*	Disconnected (Remote host closed socket).
+T 1378853934 22*	Disconnected (Remote host closed socket).
+T 1378853944 22*	Disconnected (Remote host closed socket).
+T 1378853954 22*	Disconnected (Remote host closed socket).
+T 1378853964 22*	Disconnected (Remote host closed socket).
+T 1378853974 22*	Disconnected (Remote host closed socket).
+T 1378853985 22*	Disconnected (Remote host closed socket).
+T 1378854668 19*	19Now talking on #gs3-sprint
+T 1378854668 29*	29Topic for #gs3-sprint 29is: move to #verizons3
+T 1378854668 29*	29Topic for #gs3-sprint 29set by noobnl!~shareefal@cyanogenmod/maintainer/noobnl 29at Sat Aug 24 06:53:00 2013
+T 1378855500 22*	Disconnected (Remote host closed socket).
+T 1378855535 19*	19Now talking on #gs3-sprint
+T 1378855535 29*	29Topic for #gs3-sprint 29is: move to #verizons3
+T 1378855535 29*	29Topic for #gs3-sprint 29set by noobnl!~shareefal@cyanogenmod/maintainer/noobnl 29at Sat Aug 24 06:53:00 2013
+T 1378855569 22*	Disconnected (Remote host closed socket).
+T 1379015795 19*	19Now talking on #gs3-sprint
+T 1379015795 29*	29Topic for #gs3-sprint 29is: move to #verizons3
+T 1379015795 29*	29Topic for #gs3-sprint 29set by noobnl!~shareefal@cyanogenmod/maintainer/noobnl 29at Sat Aug 24 06:53:00 2013
+T 1379015947 19*	19Now talking on #gs3-sprint
+T 1379015947 29*	29Topic for #gs3-sprint 29is: move to #verizons3
+T 1379015947 29*	29Topic for #gs3-sprint 29set by noobnl!~shareefal@cyanogenmod/maintainer/noobnl 29at Sat Aug 24 06:53:00 2013
+T 1379016073 19*	19Now talking on #gs3-sprint
+T 1379016073 29*	29Topic for #gs3-sprint 29is: move to #verizons3
+T 1379016073 29*	29Topic for #gs3-sprint 29set by noobnl!~shareefal@cyanogenmod/maintainer/noobnl 29at Sat Aug 24 06:53:00 2013

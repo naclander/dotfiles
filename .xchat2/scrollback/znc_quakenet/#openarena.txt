@@ -1,0 +1,500 @@
+T 1387921540 18<barbi>	[06:00:38] i dont have
+T 1387921540 18<barbi>	[06:00:39] ..
+T 1387921540 18<pet>	[06:02:52] u checked other folders too ?
+T 1387921540 18<pet>	[06:02:55] i tried it now
+T 1387921540 18<pet>	[06:03:10] it doesnt create to the baseoa folder, its in my CTF folder
+T 1387921540 18<pet>	[06:04:22] btw barbi, your french? :)
+T 1387921540 18<barbi>	[06:04:49] yeah
+T 1387921540 18<barbi>	[06:04:56] yes i checked ofc
+T 1387921540 18<barbi>	[06:05:02] 0 file with "videos.."
+T 1387921540 18<barbi>	[06:05:32] ctf?
+T 1387921540 18<pet>	[06:05:40] yeah
+T 1387921540 18<pet>	[06:05:44] Openarena/CTF
+T 1387921540 18<pet>	[06:05:53] there are demos and videos
+T 1387921540 18<barbi>	[06:07:13] dont have ctf file
+T 1387921540 18<pet>	[06:07:42] it depends on the mod ur playing on
+T 1387921540 18<pet>	[06:08:18] so in freezytag it saves to the FT folder i guess
+T 1387921540 18<pet>	[06:08:31] maybe u dont have permissions to create a file there ?
+T 1387921540 18<barbi>	[06:08:37] i have macosx - baseoa - mission pack O - OA 0.0.app - oa APP AND OTHER PK"
+T 1387921540 18<barbi>	[06:08:42] IN MY oa FILE
+T 1387921540 18<barbi>	[06:11:36] :((
+T 1387921540 18<pet>	[07:08:12] barbi, dunno where the configuration file on MAC
+T 1387921540 18<pet>	[07:08:28] but on linux and windows its in a separate folder from the game's location
+T 1387921540 18<pet>	[07:08:33] oa wiki says /Users/youruser/Library/Application Support/OpenArena/
+T 1387921540 18<barbi>	[07:11:53] i founded
+T 1387921540 18<barbi>	[07:11:56] :)
+T 1387921540 18<***>	Playback Complete.
+T 1387930217 23*	23zummy has quit (23Read error: EOF from client23)
+T 1387938606 23*	23barbioff has quit (23Quit: Quitte23)
+T 1387945563 23*	23_Zd_ci-dev_ has quit (23Read error: Operation timed out23)
+T 1387945681 19*	19_Zd_ci-dev_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1387945682 22*	26Q gives voice to26 _Zd_ci-dev_
+T 1387948341 19*	19[JJ]Albert (~quassel@c-68-58-90-223.hsd1.in.comcast.net) has joined #openarena
+T 1387948341 22*	26Q gives voice to26 [JJ]Albert
+T 1387957604 19*	19zemmy (~zammy@ppp-147-182.98-62.inwind.it) has joined #openarena
+T 1387957604 22*	26Q gives channel operator status to26 zemmy
+T 1387963124 23*	23zemmy has quit (23EOF from client23)
+T 1388008046 22*	Disconnected (Remote host closed socket).
+T 1388008056 19*	19Now talking on #openarena
+T 1388008463 19*	19barbii (~barbiiii@APuteaux-651-1-282-185.w90-44.abo.wanadoo.fr) has joined #openarena
+T 1388008463 22*	26Q gives voice to26 barbii
+T 1388008745 23*	23barbi has quit (23Ping timeout23)
+T 1388009198 23*	23zemmy has quit (23EOF from client23)
+T 1388011905 22*	nvb is now known as NVB
+T 1388019114 22*	barbii is now known as barbi
+T 1388027863 23*	23barbi has quit (23Read error: Connection reset by peer23)
+T 1388031884 23*	23_Zd_ci-dev_ has quit (23Read error: Operation timed out23)
+T 1388032002 19*	19_Zd_ci-dev_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388032003 22*	26Q gives voice to26 _Zd_ci-dev_
+T 1388041008 19*	19Now talking on #openarena
+T 1388051574 22*	NVB is now known as nvb
+T 1388052203 19*	19zemmy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388052203 22*	26Q gives channel operator status to26 zemmy
+T 1388081095 22*	Disconnected (Remote host closed socket).
+T 1388082036 19*	19Now talking on #openarena
+T 1388082036 18<***>	Buffer Playback...
+T 1388082036 18<xm4n>	[03:09:33] hi
+T 1388082036 18<***>	Playback Complete.
+T 1388082700 19*	19Zimmermint (~Zimmy@90.215.240.123) has joined #openarena
+T 1388082700 22*	26Q gives channel operator status to26 Zimmermint
+T 1388083870 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388083920 19*	19Zimmermint (~Zimmy@90.215.240.123) has joined #openarena
+T 1388083920 22*	26Q gives channel operator status to26 Zimmermint
+T 1388084210 23*	23zemmy has quit (23EOF from client23)
+T 1388084577 19*	19zemmy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388084577 22*	26Q gives channel operator status to26 zemmy
+T 1388085456 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388086143 19*	19Zimmermint (~Zimmy@90.215.240.123) has joined #openarena
+T 1388086143 22*	26Q gives channel operator status to26 Zimmermint
+T 1388087680 19*	19zummy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388087680 22*	26Q gives channel operator status to26 zummy
+T 1388087791 23*	23zemmy has quit (23Read error: EOF from client23)
+T 1388090689 19*	19BST|vilain_ (~vilain@31.37.142.129) has joined #openarena
+T 1388090689 22*	26Q gives voice to26 BST|vilain_
+T 1388091078 23*	23BST|vilain_afk has quit (23Signed off23)
+T 1388093496 23*	23zummy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388094519 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388094957 22*	BST|vilain_ is now known as vil[A]
+T 1388094957 18*	vil[A] is now away - Reason : I do a break
+T 1388095001 22*	vil[A] is now known as BST|vilain[A]
+T 1388095485 19*	19Zimmermint (~Zimmy@90.215.240.123) has joined #openarena
+T 1388095485 22*	26Q gives channel operator status to26 Zimmermint
+T 1388097692 22*	BST|vilain[A] is now known as BST|vilain_
+T 1388097692 18*	BST|vilain_ is no longer away : Gone for 45 minutes 34 seconds
+T 1388097700 22*	BST|vilain_ is now known as BST|vilain_tv
+T 1388097948 22*	BST|vilain_tv is now known as vil[A]
+T 1388097948 18*	vil[A] is now away - Reason : TV-Mode
+T 1388097957 22*	vil[A] is now known as BST|vilain_tv
+T 1388097957 18*	BST|vilain_tv is no longer away : Gone for 8 seconds
+T 1388102355 23*	23likevinyl has quit (23Read error: Connection reset by peer23)
+T 1388102456 19*	19likevinyl (~likevinyl@181.46.63.192) has joined #openarena
+T 1388102457 22*	26Q gives voice to26 likevinyl
+T 1388102988 23*	23BST|vilain_tv has quit (23Signed off23)
+T 1388103410 22*	nvb is now known as NVB
+T 1388118208 23*	23_Zd_ci-dev_ has quit (23Read error: Operation timed out23)
+T 1388118326 19*	19_Zd_ci-dev_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388118326 22*	26Q gives voice to26 _Zd_ci-dev_
+T 1388122183 23*	23ZIPY has quit (23Buffer allocation error23)
+T 1388122187 23*	23Zimmer106 has quit (23*.net *.split23)
+T 1388122192 19*	19ZIPY (~ZIPY@dslb-092-073-138-002.pools.arcor-ip.net) has joined #openarena
+T 1388122192 23*	23ZIPY has quit (23Registered23)
+T 1388122192 19*	19ZIPY (~ZIPY@zipy.users.quakenet.org) has joined #openarena
+T 1388122192 22*	26Q gives voice to26 ZIPY
+T 1388132812 19*	19zemmy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388132812 22*	26Q gives channel operator status to26 zemmy
+T 1388134465 19*	19BST|vilain_afk (~vilain2@31.37.142.129) has joined #openarena
+T 1388134465 22*	26Q gives voice to26 BST|vilain_afk
+T 1388134568 22*	BST|vilain_afk is now known as BST|vilain_
+T 1388137464 22*	BST|vilain_ is now known as BST|vilain_afk
+T 1388138502 22*	NVB is now known as nvb
+T 1388138644 19*	19zummy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388138644 22*	26Q gives channel operator status to26 zummy
+T 1388138822 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388174706 22*	Disconnected (Remote host closed socket).
+T 1388174716 19*	19Now talking on #openarena
+T 1388177168 19*	19apitta (~apitta@C3E46F41.dsl.pool.telekom.hu) has joined #openarena
+T 1388177168 22*	26Q gives voice to26 apitta
+T 1388178487 19*	19zammy (~goldenbot@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388178488 22*	26Q gives channel operator status to26 zammy
+T 1388179205 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388179289 19*	19zammy (~goldenbot@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388179289 22*	26Q gives channel operator status to26 zammy
+T 1388179369 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388180935 19*	19On3`_ (webchat@bl6-23-179.dsl.telepac.pt) has joined #openarena
+T 1388180935 22*	26Q gives voice to26 On3`_
+T 1388180954 23*	23On3`_ (23webchat@bl6-23-179.dsl.telepac.pt) has left #openarena
+T 1388181752 22*	26Q gives channel operator status to26 Zimmer106
+T 1388181961 22*	Disconnected (Remote host closed socket).
+T 1388182091 19*	19Now talking on #openarena
+T 1388182236 19*	19BST|vilain_ (~vilain2@31.37.142.129) has joined #openarena
+T 1388182236 22*	26Q gives voice to26 BST|vilain_
+T 1388185066 22*	nvb is now known as NVB
+T 1388189535 23*	23BST|vilain_ has quit (23Signed off23)
+T 1388190141 23*	23apitta has quit (23Quit: Leaving23)
+T 1388190917 23*	23zemmy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388197298 22*	_Zd_ci-dev_ is now known as _Zd_Ci-Dev_
+T 1388202286 19*	19[JJ]Albert (~quassel@c-68-58-90-223.hsd1.in.comcast.net) has joined #openarena
+T 1388202286 22*	26Q gives voice to26 [JJ]Albert
+T 1388204347 19*	19_Zd_Ci-D1v_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388204347 22*	26Q gives voice to26 _Zd_Ci-D1v_
+T 1388204630 23*	23_Zd_Ci-Dev_ has quit (23Ping timeout23)
+T 1388206146 22*	_Zd_Ci-D1v_ is now known as _Zd_Ci-Dev_
+T 1388207775 23*	23[JJ]Albert has quit (23Read error: EOF from client23)
+T 1388215931 19*	19zammy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388215931 22*	26Q gives channel operator status to26 zammy
+T 1388216037 22*	Disconnected (Remote host closed socket).
+T 1388216048 19*	19Now talking on #openarena
+T 1388217453 23*	23zammy has quit (23EOF from client23)
+T 1388221138 19*	19zammy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388221138 22*	26Q gives channel operator status to26 zammy
+T 1388221838 22*	NVB is now known as nvb
+T 1388269334 22*	Disconnected (Remote host closed socket).
+T 1388269344 19*	19Now talking on #openarena
+T 1388269344 18<***>	Buffer Playback...
+T 1388269344 18<dominik>	[05:26:03] hi ppl
+T 1388269344 18<pet>	[05:26:17] hey dominiko
+T 1388269344 18<pet>	[05:26:22] -o
+T 1388269344 18<dominik>	[05:26:45] i was wondering if any oa community lives here :)
+T 1388269344 18<pet>	[05:27:15] we are half-dead bouncers, but there are some. D:
+T 1388269344 18<dominik>	[05:27:35] i very much like this game, but every time i back
+T 1388269344 18<dominik>	[05:28:00] it seams there is less and less ppl
+T 1388269344 18<pet>	[05:28:13] yup
+T 1388269344 18<dominik>	[05:30:30] and thats a pity, becouse for me oa > ql
+T 1388269344 18<***>	Playback Complete.
+T 1388269636 23*	23Catoptromancy has quit (23EOF from client23)
+T 1388270646 22*	BST|vilain_afk is now known as BST|vilain_TV
+T 1388270951 22*	BST|vilain_TV is now known as BST|vilain_afk
+T 1388272040 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388273883 22*	nvb is now known as NVB
+T 1388274813 23*	23BST|vilain_afk has quit (23Signed off23)
+T 1388281578 23*	23dominik has quit (23Read error: Operation timed out23)
+T 1388283605 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388296942 22*	Disconnected (Remote host closed socket).
+T 1388296952 19*	19Now talking on #openarena
+T 1388304652 19*	19zammy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarena
+T 1388304652 22*	26Q gives channel operator status to26 zammy
+T 1388353539 22*	Disconnected (Remote host closed socket).
+T 1388353549 19*	19Now talking on #openarena
+T 1388354990 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388355823 23*	23nvb has quit (23Ping timeout23)
+T 1388355914 19*	19nvb (~nvb@mail.intri.be) has joined #openarena
+T 1388355914 22*	26Q gives voice to26 nvb
+T 1388356530 23*	23Zimmermint has quit (23Read error: Operation timed out23)
+T 1388356578 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388356578 22*	26Q gives channel operator status to26 Zimmermint
+T 1388358925 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388359773 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388359774 22*	26Q gives channel operator status to26 Zimmermint
+T 1388360102 23*	23BST|vilain_afk has quit (23Signed off23)
+T 1388361102 22*	nvb is now known as NVB
+T 1388367539 19*	19BlankBruno (~BlankBrun@68-119-96-149.static.jcsn.tn.charter.com) has joined #openarena
+T 1388367539 22*	26Q gives voice to26 BlankBruno
+T 1388367968 19*	19likevinyl (~likevinyl@181.46.63.192) has joined #openarena
+T 1388367968 22*	26Q gives voice to26 likevinyl
+T 1388368109 23*	23BlankBruno (23~BlankBrun@68-119-96-149.static.jcsn.tn.charter.com) has left #openarena (23Leaving23)
+T 1388373250 23*	23likevinyl has quit (23Ping timeout23)
+T 1388374202 22*	_Zd_ci-dev_ is now known as _Zd_Ci-Dev_
+T 1388377004 19*	19_Zd_Ci-D1v_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388377004 22*	26Q gives voice to26 _Zd_Ci-D1v_
+T 1388377093 23*	23_Zd_Ci-Dev_ has quit (23Read error: Operation timed out23)
+T 1388379305 22*	_Zd_Ci-D1v_ is now known as _Zd_Ci-Dev_
+T 1388382811 22*	_Zd_Ci-Dev_ is now known as _Zd_ci-dev_
+T 1388382968 19*	19Now talking on #openarena
+T 1388439542 22*	Disconnected (Remote host closed socket).
+T 1388442275 19*	19Now talking on #openarena
+T 1388443016 23*	23zammy has quit (23Read error: EOF from client23)
+T 1388443150 19*	19zammy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarena
+T 1388443150 22*	26Q gives channel operator status to26 zammy
+T 1388443577 23*	23zammy has quit (23EOF from client23)
+T 1388443710 19*	19zammy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarena
+T 1388443710 22*	26Q gives channel operator status to26 zammy
+T 1388444014 19*	19zemmy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarena
+T 1388444014 22*	26Q gives channel operator status to26 zemmy
+T 1388444152 23*	23zemmy has quit (23EOF from client23)
+T 1388444180 23*	23zammy has quit (23Ping timeout23)
+T 1388444285 19*	19zammy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarena
+T 1388444285 22*	26Q gives channel operator status to26 zammy
+T 1388448057 23*	23zammy has quit (23EOF from client23)
+T 1388448639 22*	nvb is now known as NVB
+T 1388449175 23*	23zummy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388450042 23*	23BST|vilain_ has quit (23Signed off23)
+T 1388450407 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388450447 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388450447 22*	26Q gives channel operator status to26 Zimmermint
+T 1388451690 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388452163 19*	19likevinyl (~likevinyl@186.19.235.183) has joined #openarena
+T 1388452164 22*	26Q gives voice to26 likevinyl
+T 1388452330 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388452438 22*	26Q gives channel operator status to26 Zimmermint
+T 1388453017 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388453047 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388453047 22*	26Q gives channel operator status to26 Zimmermint
+T 1388454389 23*	23ZIPY has quit (23Read error: Operation timed out23)
+T 1388454499 19*	19ZIPY (~ZIPY@dslb-092-073-139-183.pools.arcor-ip.net) has joined #openarena
+T 1388454501 23*	23ZIPY has quit (23Registered23)
+T 1388454501 19*	19ZIPY (~ZIPY@zipy.users.quakenet.org) has joined #openarena
+T 1388454501 22*	26Q gives voice to26 ZIPY
+T 1388459541 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388459574 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388459574 22*	26Q gives channel operator status to26 Zimmermint
+T 1388461571 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388461603 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388461603 22*	26Q gives channel operator status to26 Zimmermint
+T 1388463394 19*	19_Zd_ci-d1v_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388463394 22*	26Q gives voice to26 _Zd_ci-d1v_
+T 1388463420 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388463453 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388463453 22*	26Q gives channel operator status to26 Zimmermint
+T 1388463674 23*	23_Zd_ci-dev_ has quit (23Ping timeout23)
+T 1388465439 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388466652 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388466652 22*	26Q gives channel operator status to26 Zimmermint
+T 1388467255 23*	23likevinyl has quit (23Ping timeout23)
+T 1388467950 19*	19[JJ]Albert (~quassel@c-68-58-90-223.hsd1.in.comcast.net) has joined #openarena
+T 1388467950 22*	26Q gives voice to26 [JJ]Albert
+T 1388468488 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388468518 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388468518 22*	26Q gives channel operator status to26 Zimmermint
+T 1388469480 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388469510 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388469510 22*	26Q gives channel operator status to26 Zimmermint
+T 1388469930 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388471355 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388471355 22*	26Q gives channel operator status to26 Zimmermint
+T 1388472444 19*	19dominik (~dominik@178-36-236-38.adsl.inetia.pl) has joined #openarena
+T 1388472444 22*	26Q gives voice to26 dominik
+T 1388472584 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388480562 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388480562 22*	26Q gives channel operator status to26 Zimmermint
+T 1388481997 22*	NVB is now known as nvb
+T 1388485196 19*	19zammy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarena
+T 1388485196 22*	26Q gives channel operator status to26 zammy
+T 1388485237 23*	23zammy has quit (23Read error: EOF from client23)
+T 1388527670 22*	Disconnected (Remote host closed socket).
+T 1388527680 19*	19Now talking on #openarena
+T 1388534245 23*	23likevinyl has quit (23Quit: big brother is watching you ;)23)
+T 1388544320 23*	23zammy has quit (23Read error: EOF from client23)
+T 1388612301 22*	Disconnected (Remote host closed socket).
+T 1388612311 19*	19Now talking on #openarena
+T 1388613001 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388613881 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarena
+T 1388613881 22*	26Q gives channel operator status to26 Zimmermint
+T 1388614382 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388615005 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarena
+T 1388615005 22*	26Q gives channel operator status to26 Zimmermint
+T 1388616566 22*	BST|vilain_afk is now known as BST|vilain_
+T 1388618771 22*	BST|vilain_ is now known as BST|vilain_tdm
+T 1388621837 22*	BST|vilain_tdm is now known as BST|vilain_
+T 1388624425 23*	23BST|vilain_ has quit (23Signed off23)
+T 1388635987 19*	19_Zd_ci-d1v_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388635987 22*	26Q gives voice to26 _Zd_ci-d1v_
+T 1388636076 23*	23_Zd_ci-dev_ has quit (23Read error: Operation timed out23)
+T 1388644146 23*	23ZIPY has quit (23Ping timeout23)
+T 1388647965 19*	19ws2k33 (~yctn@541BC969.cm-5-4d.dynamic.ziggo.nl) has joined #openarena
+T 1388647965 22*	26Q gives voice to26 ws2k33
+T 1388647965 19*	19ZIPY (~ZIPY@dslb-188-109-031-129.pools.arcor-ip.net) has joined #openarena
+T 1388647965 23*	23ZIPY has quit (23Registered23)
+T 1388647965 19*	19ZIPY (~ZIPY@zipy.users.quakenet.org) has joined #openarena
+T 1388647965 22*	26Q gives voice to26 ZIPY
+T 1388648680 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388649604 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarena
+T 1388649604 22*	26Q gives channel operator status to26 Zimmermint
+T 1388653509 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388654083 19*	19zammy (~sammy@ppp-105-144.98-62.inwind.it) has joined #openarena
+T 1388654083 22*	26Q gives channel operator status to26 zammy
+T 1388654750 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarena
+T 1388654751 22*	26Q gives channel operator status to26 Zimmermint
+T 1388654920 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388655220 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarena
+T 1388655220 22*	26Q gives channel operator status to26 Zimmermint
+T 1388655848 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388656829 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarena
+T 1388656829 22*	26Q gives channel operator status to26 Zimmermint
+T 1388656871 19*	19BST|vilain_ (~vilain2@31.37.142.129) has joined #openarena
+T 1388656871 22*	26Q gives voice to26 BST|vilain_
+T 1388658936 19*	19zemmy (~zammy@ppp-105-144.98-62.inwind.it) has joined #openarena
+T 1388658936 22*	26Q gives channel operator status to26 zemmy
+T 1388660911 22*	Disconnected (Remote host closed socket).
+T 1388705707 19*	19Now talking on #openarena
+T 1388705795 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388708691 22*	BST|vilain_TDM is now known as BST|vilain_
+T 1388708807 23*	23BST|vilain_ has quit (23Signed off23)
+T 1388709368 23*	23pet1 has quit (23Read error: Operation timed out23)
+T 1388709407 19*	19pet_ (uid12763@ealing.irccloud.com) has joined #openarena
+T 1388709407 22*	26Q gives voice to26 pet_
+T 1388709424 23*	23Zimmer106 has quit (23*.net *.split23)
+T 1388710547 23*	23ws2k33 has quit (23Ping timeout23)
+T 1388710720 19*	19Zimmer106 (uid15314@uxbridge.irccloud.com) has joined #openarena
+T 1388710720 22*	26*.quakenet.org gives channel operator status to26 Zimmer106
+T 1388710720 22*	26*.quakenet.org gives voice to26 Zimmer106
+T 1388717882 19*	19likevinyl (~likevinyl@186.19.235.183) has joined #openarena
+T 1388717883 22*	26Q gives voice to26 likevinyl
+T 1388722496 23*	23_Zd_ci-d1v_ has quit (23Read error: Operation timed out23)
+T 1388722615 19*	19_Zd_ci-dev_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388722615 22*	26Q gives voice to26 _Zd_ci-dev_
+T 1388727991 23*	23NVB has quit (23Ping timeout23)
+T 1388728047 19*	19NVB (~nvb@mail.intri.be) has joined #openarena
+T 1388728047 22*	26Q gives voice to26 NVB
+T 1388732456 19*	19dominik (~dominik@37-128-49-216.adsl.inetia.pl) has joined #openarena
+T 1388732456 22*	26Q gives voice to26 dominik
+T 1388738260 19*	19ws2k33 (yctn@541BC969.cm-5-4d.dynamic.ziggo.nl) has joined #openarena
+T 1388738261 22*	26Q gives voice to26 ws2k33
+T 1388739654 23*	23Zimmermint has quit (23Read error: Operation timed out23)
+T 1388784293 22*	Disconnected (Remote host closed socket).
+T 1388784313 19*	19Now talking on #openarena
+T 1388784487 19*	19[uM]Cyberdemon (~cyd@p57A9F09A.dip0.t-ipconnect.de) has joined #openarena
+T 1388784487 22*	26Q gives voice to26 [uM]Cyberdemon
+T 1388787424 22*	BST|vilain_afk is now known as BST|vilain_
+T 1388787775 22*	BST|vilain_ is now known as BST|vilain_TDM
+T 1388788879 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388788914 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarena
+T 1388788914 22*	26Q gives channel operator status to26 Zimmermint
+T 1388789414 22*	nvb is now known as NVB
+T 1388791024 23*	23dominik has quit (23Ping timeout23)
+T 1388791731 23*	23[uM]Cyberdemon has quit (23Ping timeout23)
+T 1388798772 22*	Disconnected (Remote host closed socket).
+T 1388798783 19*	19Now talking on #openarena
+T 1388804022 19*	19Now talking on #openarena
+T 1388808702 19*	19_Zd_Ci-D1v_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388808702 22*	26Q gives voice to26 _Zd_Ci-D1v_
+T 1388808979 23*	23_Zd_Ci-Dev_ has quit (23Ping timeout23)
+T 1388812365 22*	_Zd_Ci-D1v_ is now known as _Zd_Ci-Dev_
+T 1388821107 19*	19dominik (~dominik@37-128-49-216.adsl.inetia.pl) has joined #openarena
+T 1388821107 22*	26Q gives voice to26 dominik
+T 1388824631 19*	19ws2k33 (yctn@541BC969.cm-5-4d.dynamic.ziggo.nl) has joined #openarena
+T 1388824631 22*	26Q gives voice to26 ws2k33
+T 1388826211 23*	23ZIPY has quit (23Ping timeout23)
+T 1388826944 19*	19zammy (~zammy@ppp-88-222.98-62.inwind.it) has joined #openarena
+T 1388826944 22*	26Q gives channel operator status to26 zammy
+T 1388829732 19*	19zemmy (~sammy@ppp-88-222.98-62.inwind.it) has joined #openarena
+T 1388829732 22*	26Q gives channel operator status to26 zemmy
+T 1388829807 23*	23zammy has quit (23Read error: EOF from client23)
+T 1388831401 22*	NVB is now known as nvb
+T 1388831436 22*	nvb is now known as NVB
+T 1388831651 19*	19BST|vilain_ (~vilain2@31.37.142.129) has joined #openarena
+T 1388831651 22*	26Q gives voice to26 BST|vilain_
+T 1388832419 23*	23zemmy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388844182 22*	_Zd_Ci-Dev_ is now known as _Zd_ci-dev_
+T 1388845190 22*	BST|vilain_ is now known as BST|vilain_TDM
+T 1388846307 19*	19zammy (~sammy@ppp-88-222.98-62.inwind.it) has joined #openarena
+T 1388846307 22*	26Q gives channel operator status to26 zammy
+T 1388849007 19*	19Catoptromancy (~Cato@c-68-62-246-249.hsd1.fl.comcast.net) has joined #openarena
+T 1388849007 22*	26Q gives voice to26 Catoptromancy
+T 1388849763 23*	23zammy has quit (23Read error: Operation timed out23)
+T 1388850495 19*	19zammy (~sammy@ppp-179-19.98-62.inwind.it) has joined #openarena
+T 1388850495 22*	26Q gives channel operator status to26 zammy
+T 1388858560 22*	Disconnected (Remote host closed socket).
+T 1388874917 19*	19Now talking on #openarena
+T 1388883733 22*	Disconnected (Remote host closed socket).
+T 1388883743 19*	19Now talking on #openarena
+T 1388884485 19*	19ZIPY (~ZIPY@dslb-188-109-031-129.pools.arcor-ip.net) has joined #openarena
+T 1388884486 23*	23ZIPY has quit (23Registered23)
+T 1388884486 19*	19ZIPY (~ZIPY@zipy.users.quakenet.org) has joined #openarena
+T 1388884486 22*	26Q gives voice to26 ZIPY
+T 1388889356 23*	23ws2k33 has quit (23Ping timeout23)
+T 1388894970 19*	19_Zd_ci-d1v_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388894970 22*	26Q gives voice to26 _Zd_ci-d1v_
+T 1388895094 23*	23_Zd_ci-dev_ has quit (23Read error: Operation timed out23)
+T 1388900278 22*	Disconnected (Remote host closed socket).
+T 1388901179 19*	19Now talking on #openarena
+T 1388910164 19*	19ws2k33 (yctn@541BC969.cm-5-4d.dynamic.ziggo.nl) has joined #openarena
+T 1388910165 22*	26Q gives voice to26 ws2k33
+T 1388914548 22*	Disconnected (Remote host closed socket).
+T 1388948957 19*	19Now talking on #openarena
+T 1388949316 23*	23BST|vilain_afk has quit (23Signed off23)
+T 1388950917 23*	23_Zd_ci-d1v_ has quit (23Read error: Operation timed out23)
+T 1388951035 19*	19_Zd_ci-dev_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1388951035 22*	26Q gives voice to26 _Zd_ci-dev_
+T 1388954645 22*	BST|vilain_ is now known as BST|vilain_afk
+T 1388955391 22*	Disconnected (Remote host closed socket).
+T 1388955693 19*	19Now talking on #openarena
+T 1388959043 23*	23dominik has quit (23Ping timeout23)
+T 1388960715 22*	BST|vilain_afk is now known as BST|vilain_
+T 1388961046 23*	23BST|vilain_ has quit (23Signed off23)
+T 1388961445 22*	nvb is now known as NVB
+T 1388962583 19*	19SmellyCat (~sc@planets.xs4all.nl) has joined #openarena
+T 1388962583 22*	26Q gives voice to26 SmellyCat
+T 1388962588 23*	23SmellyCat has quit (23Registered23)
+T 1388962588 19*	19SmellyCat (~sc@SmellyCat.users.quakenet.org) has joined #openarena
+T 1388962588 22*	26*.quakenet.org gives voice to26 SmellyCat
+T 1388964012 23*	23SmellyCat has quit (23Signed off23)
+T 1388964406 19*	19[uM]cyberdem0n (~cyd@p5DD72497.dip0.t-ipconnect.de) has joined #openarena
+T 1388964406 22*	26Q gives voice to26 [uM]cyberdem0n
+T 1388964631 23*	23[uM]Cyberdemon has quit (23Ping timeout23)
+T 1388965510 23*	23[uM]cyberdem0n has quit (23Signed off23)
+T 1388992016 22*	Disconnected (Remote host closed socket).
+T 1389032833 19*	19Now talking on #openarena
+T 1389034663 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1389039275 22*	Disconnected (Remote host closed socket).
+T 1389039295 19*	19Now talking on #openarena
+T 1389040431 22*	BST|vilain_eat is now known as BST|vilain_
+T 1389040523 23*	23dominik has quit (23Ping timeout23)
+T 1389042639 22*	BST|vilain_ is now known as BST|vilain_foru
+T 1389044973 22*	Disconnected (Remote host closed socket).
+T 1389053547 19*	19Now talking on #openarena
+T 1389060201 22*	Disconnected (Remote host closed socket).
+T 1389061892 19*	19Now talking on #openarena
+T 1389070554 19*	19_Zd_ci-d1v_ (~ci-dev@Ci-Dev.users.quakenet.org) has joined #openarena
+T 1389070554 22*	26Q gives voice to26 _Zd_ci-d1v_
+T 1389070833 23*	23_Zd_ci-dev_ has quit (23Ping timeout23)
+T 1389081635 22*	Disconnected (Remote host closed socket).
+T 1389081646 19*	19Now talking on #openarena
+T 1389116158 22*	Disconnected (Remote host closed socket).
+T 1389116169 19*	19Now talking on #openarena
+T 1389116578 22*	NVB is now known as nvb
+T 1389155445 22*	Disconnected (Remote host closed socket).
+T 1389159200 19*	19Now talking on #openarena
+T 1389160567 22*	Disconnected (Remote host closed socket).
+T 1389162379 19*	19Now talking on #openarena
+T 1389211570 22*	Disconnected (Remote host closed socket).
+T 1389227142 19*	19Now talking on #openarena
+T 1389232892 22*	Disconnected (Remote host closed socket).
+T 1389232903 19*	19Now talking on #openarena
+T 1389256182 22*	Disconnected (Remote host closed socket).
+T 1389256209 19*	19Now talking on #openarena
+T 1389264011 19*	19zammy (~zammy@ppp-247-65.98-62.inwind.it) has joined #openarena
+T 1389264011 22*	26Q gives channel operator status to26 zammy
+T 1389264767 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1389265490 19*	19BST|vilain_afk (~vilain2@31.37.142.129) has joined #openarena
+T 1389265490 22*	26Q gives voice to26 BST|vilain_afk
+T 1389265794 22*	BST|vilain_afk is now known as BST|vilain_
+T 1389269749 23*	23BST|vilain_ has quit (23Signed off23)
+T 1389285393 23*	23SmellyCat has quit (23Signed off23)
+T 1389288006 19*	19BST|vilain_ (~vilain2@31.37.142.129) has joined #openarena
+T 1389288006 22*	26Q gives voice to26 BST|vilain_
+T 1389289924 22*	NVB is now known as nvb
+T 1389291862 23*	23BST|vilain_ has quit (23Signed off23)
+T 1389293773 19*	19BST|vilain_ (~vilain2@31.37.142.129) has joined #openarena
+T 1389293773 22*	26Q gives voice to26 BST|vilain_
+T 1389294901 19*	19zammy (~zammy@ppp-247-65.98-62.inwind.it) has joined #openarena
+T 1389294901 22*	26Q gives channel operator status to26 zammy
+T 1389297254 23*	23dominik has quit (23Read error: Operation timed out23)
+T 1389297963 23*	23zammy has quit (23Read error: EOF from client23)
+T 1389298520 23*	23likevinyl has quit (23Quit23)
+T 1389299597 19*	19likevinyl (~likevinyl@186.19.235.183) has joined #openarena
+T 1389299597 22*	26Q gives voice to26 likevinyl
+T 1389300574 22*	BST|vilain_ is now known as BST|vilain_afk
+T 1389304159 19*	19[uM]Cyberdemon (~cyd@p54A9D56C.dip0.t-ipconnect.de) has joined #openarena
+T 1389304159 22*	26Q gives voice to26 [uM]Cyberdemon
+T 1389306591 22*	nvb is now known as NVB
+T 1389308767 19*	19zrth (~zrth@dslb-178-000-004-120.pools.arcor-ip.net) has joined #openarena
+T 1389308767 22*	26Q gives voice to26 zrth
+T 1389308798 18<zrth>	Hi all!
+T 1389308814 18<zrth>	anyone up for some CA ?
+T 1389309155 23*	23[uM]Cyberdemon has quit (23Signed off23)
+T 1389309178 22*	BST|vilain_afk is now known as BST|vilain_
+T 1389309180 23*	23BST|vilain_ has quit (23Signed off23)
+T 1389309340 23*	23zrth has quit (23Quit: leaving23)
+T 1389309520 23*	23Zimmer106 has quit (23*.net *.split23)
+T 1389309679 19*	19Zimmer106 (uid15314@uxbridge.irccloud.com) has joined #openarena
+T 1389309679 22*	26*.quakenet.org gives channel operator status to26 Zimmer106
+T 1389309679 22*	26*.quakenet.org gives voice to26 Zimmer106
+T 1389335999 22*	Disconnected (Remote host closed socket).
+T 1389336011 19*	19Now talking on #openarena
+T 1389337013 -10-11>	You are now talking on 11#openarena
+T 1389337185 25»19»	19Now talking on #openarena
+T 1389337332 25»19»	19Now talking on #openarena
+T 1389337371 25»19»	19Now talking on #openarena
+T 1389337415 25»19»	19Now talking on #openarena
+T 1389337729 25»19»	19Now talking on #openarena
+T 1389337782 25»19»	19Now talking on #openarena

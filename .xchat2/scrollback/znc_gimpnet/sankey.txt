@@ -1,0 +1,247 @@
+T 1385098763 18<sankey>	boo
+T 1385098781 18<sankey>	er
+T 1385098784 18<sankey>	SYN
+T 1385098858 31<hemite>30	BAD AUTHENTICATION
+T 1385098861 31<hemite>30	END COMMUNICATION
+T 1385100127 22*	Disconnected (Remote host closed socket).
+T 1385106291 22*	hemite sets mode +i hemite
+T 1385106311 22*	Ping reply from sankey: 0.63 second(s)
+T 1385106328 31<hemite>30	Oh cool I can send you files via IRC
+T 1385106337 31<hemite>30	oh but they'll go to your home server =\
+T 1385106623 18<sankey>	i would not tolerate it anyway
+T 1385106652 18<sankey>	keep working on that file sharing web application
+T 1385106709 31<hemite>30	why wouldn't you tolerate it?
+T 1385106769 18<sankey>	it just doesn't make any sense, irc is for text
+T 1385106840 18<sankey>	does XChat support OTR?
+T 1385106978 31<hemite>30	We are not using IRC to file share, we are using the client.
+T 1385106984 31<hemite>30	It would be over DCC not IRC.
+T 1385106988 31<hemite>30	I don't know what OTR is
+T 1385107048 18<sankey>	https://en.wikipedia.org/wiki/Off-the-Record_Messaging
+T 1385107065 31<hemite>30	Then no, not naively
+T 1385107065 31<hemite>30	https://en.wikipedia.org/wiki/Off-the-Record_Messaging#cite_ref-13
+T 1385440601 18<sankey>	maybe should have tried this first
+T 1385440664 31<hemite>30	yea probably
+T 1385440668 31<hemite>30	look how fast I responded
+T 1385440680 31<hemite>30	Then again I only answered because my laptop is at work
+T 1385440685 31<hemite>30	I havn't set up IRC on my phone yet
+T 1385440701 31<hemite>30	so if I didn't have my laptop I wouldn't have responded to this until I got home
+T 1385448539 22*	Disconnected (Remote host closed socket).
+T 1385457910 31<hemite>30	http://arstechnica.com/business/2013/11/half-an-operating-system-the-triumph-and-tragedy-of-os2/
+T 1385458653 22*	Disconnected (Remote host closed socket).
+T 1385458687 22*	hemite sets mode +i hemite
+T 1385460430 22*	Disconnected (Remote host closed socket).
+T 1385508354 22*	hemite sets mode +i hemite
+T 1385516140 23*	23sankey has quit (23Ping timeout: 600 seconds23)
+T 1385536338 22*	Disconnected (Remote host closed socket).
+T 1385540990 22*	hemite sets mode +i hemite
+T 1385540990 18<sankey>	[00:23:28] http://jbaumy.com/files/screens/2013-11-26_23-57-22.png
+T 1385541599 18<sankey>	https://www.facebook.com/pages/The-Kinky-Bruins-at-UCLA/148071885357535
+T 1385543181 22*	Offering26 EE115AProject.pdf to26 sankey
+T 1385543220 22*	DCC SEND26 EE115AProject.pdf to26 sankey aborted.
+T 1385546292 22*	Disconnected (Remote host closed socket).
+T 1385612129 31<hemite>30	Do I need to do anything to run my CGI perl script?
+T 1385612136 31<hemite>30	putting it in the action= place doesn't seem to work
+T 1385612142 31<hemite>30	do I need something like an apache server?
+T 1385612351 31<hemite>30	nvm you need apache
+T 1385612355 31<hemite>30	thanks for the duck
+T 1385677952 22*	Disconnected (Remote host closed socket).
+T 1385847162 18<sankey>	have you ever heard of vim snippets?
+T 1385847167 18<sankey>	https://github.com/honza/vim-snippets
+T 1385847273 31<hemite>30	Is it the same as this
+T 1385847274 31<hemite>30	http://www.vim.org/scripts/script.php?script_id=2540
+T 1385847727 18<sankey>	the think i linked you is only a snippet library
+T 1385847730 18<sankey>	i think
+T 1385847786 18<sankey>	and i think it comes with default vim
+T 1385848265 18<sankey>	oh, that one is also called snipmate
+T 1385848404 18<sankey>	ah, got it
+T 1385848414 18<sankey>	snipMate does not come with any snippets
+T 1385848425 18<sankey>	the think i linked was the snippet repository
+T 1385857738 31<hemite>30	either way I don't know what snipMate or snippet is
+T 1385857884 18<sankey>	i have no idea how to use them, and i've never used snippets before
+T 1385857945 18<sankey>	but i know people that use snippets all the time
+T 1385857955 18<sankey>	apparently it's very efficient
+T 1385857961 18<sankey>	i have no plans to adopt them
+T 1385858010 31<hemite>30	I suppose it could be convenient
+T 1385858019 31<hemite>30	or it could be a lot of setup for something that's not so often used
+T 1385869131 18<sankey>	fixed the display bug on the media page
+T 1385869133 18<sankey>	https://linux.ucla.edu/media/index.php?page=3
+T 1385869219 18<sankey>	just commented out line 266 of this css file:
+T 1385869221 18<sankey>	https://linux.ucla.edu/media/themes/uclalug/styles/light.css
+T 1385869344 31<hemite>30	yup works on my browser
+T 1385869353 31<hemite>30	check if it works on IE
+T 1385869471 18<sankey>	me?
+T 1385869489 31<hemite>30	well I don't have ie
+T 1385869492 31<hemite>30	so I can't check it atm
+T 1385869496 18<sankey>	i'll check the next time i go to a computer lab
+T 1385869506 18<sankey>	it isn't super critical
+T 1386120633 18<sankey>	[16:27:37] this avocado is chewy as fuck
+T 1386121250 31<hemite>30	is that good or bad
+T 1386128149 22*	Disconnected (Remote host closed socket).
+T 1386131371 22*	hemite sets mode +i hemite
+T 1386134717 22*	Disconnected (Remote host closed socket).
+T 1386136148 22*	hemite sets mode +i hemite
+T 1386136645 22*	hemite sets mode -i hemite
+T 1386136645 22*	Disconnected (Remote host closed socket).
+T 1386136656 22*	hemite sets mode +i hemite
+T 1386207201 22*	Disconnected (Remote host closed socket).
+T 1386225320 22*	hemite sets mode +i hemite
+T 1386271775 22*	Disconnected (Remote host closed socket).
+T 1386290047 18<sankey>	i'm going to try to finish one more 103 problem
+T 1386290050 18<sankey>	then i'll come home
+T 1386290055 31<hemite>30	ok
+T 1386290106 18<sankey>	also, next time you can just type the pad name into the new pad page
+T 1386290123 18<sankey>	it will just bring up the existing pad
+T 1386290298 31<hemite>30	the problem was that I was going to linux.ucla.edu/etherpad/ee115a
+T 1386290306 31<hemite>30	I didn't know there needed to be a /p/ in there
+T 1386291931 22*	Disconnected (Remote host closed socket).
+T 1386296553 22*	hemite sets mode +i hemite
+T 1386296976 31<hemite>30	what time were you gonna come back?
+T 1386302428 22*	Disconnected (Remote host closed socket).
+T 1386365644 22*	hemite sets mode +i hemite
+T 1386458520 18<sankey>	https://web.archive.org/web/20100614000106/http://www.physics.ucla.edu/~monteiro/
+T 1386641296 18<sankey>	[15:33:29] sent the shirt to mccoy
+T 1386661299 18<sankey>	https://office.microsoft.com/en-us/outlook-help/print-emails-showing-names-on-the-bcc-line-HA102919777.aspx
+T 1386663067 22*	Disconnected (Remote host closed socket).
+T 1386667680 22*	hemite sets mode +i hemite
+T 1387191243 31<hemite>30	When you google my name your face shows up
+T 1387191246 31<hemite>30	I feel honored
+T 1387221129 18<sankey>	heh
+T 1387221132 18<sankey>	basically all of lug
+T 1387221389 18<sankey>	so i just got a new router a put openwrt on it
+T 1387221480 18<sankey>	it's pretty cool because it's basically a lightweight gnu/linux distro with a package manager,  iptables, ssh, bash/zsh all that good stuff
+T 1387221521 18<sankey>	and it just *happens* to have a web interface, that they don't even make themselves
+T 1387221554 18<sankey>	the interface is called LuCI
+T 1387221683 18<sankey>	well, they probably work very closely with LuCI developers, but it's really pitched as being a generic web interface for all types of embedded devices:
+T 1387221686 18<sankey>	http://luci.subsignal.org/trac
+T 1387225467 31<hemite>30	so its basically a computer with a small storage device on it
+T 1387229782 18<sankey>	the router? yea
+T 1387229806 18<sankey>	but instead of BIOS or UEFI, it uses U-Boot
+T 1387229814 18<sankey>	which is open source!!!
+T 1387511138 18<sankey>	ever since installing the wiki spam blocker, over 7000 spam attempts were blocked
+T 1387512935 31<hemite>30	from different IPs?
+T 1387512941 31<hemite>30	I wonder why we were getting spammed at all
+T 1387512953 31<hemite>30	AFAIK nothing important links to LUG
+T 1387512960 31<hemite>30	well, maybe that one reddit post
+T 1387516589 18<sankey>	they are all from different IPs, each adding up to 100 links to blog posts 
+T 1387516628 31<hemite>30	yea that happened once on my wordpress blog
+T 1387516638 31<hemite>30	comment spam with links to other blogs
+T 1387516674 18<sankey>	and that's not even counting the spammers that got caught not knowing the mascot of UCLA
+T 1387516757 18<sankey>	apparently page rank for search engines is really heavily influenced by # of references
+T 1387516777 31<hemite>30	yea that would make sense why they would populate other sites with links
+T 1387778095 18<sankey>	do you have a link to that page with a bunch of quotes from poor russians
+T 1387778106 18<sankey>	with potatoes
+T 1387779677 31<hemite>30	from /r/jokes second to top post of all time
+T 1387779677 31<hemite>30	http://www.reddit.com/r/Jokes/comments/14q1lq/collection_of_my_favorite_latvian_jokes/
+T 1387791853 31<hemite>30	So eggert used to work for this company called twin suns
+T 1387791858 31<hemite>30	I think you already know this
+T 1387791863 31<hemite>30	anyway the current git maintainer
+T 1387791867 31<hemite>30	who works at google
+T 1387791871 31<hemite>30	also worked at twin suns
+T 1387791905 31<hemite>30	basically eggert is pretty smart
+T 1387792618 18<sankey>	because he worked at twin suns?
+T 1387792643 31<hemite>30	well I thought it was just some random company
+T 1387792653 31<hemite>30	but I guess it outputed a lot of smart people
+T 1387792670 31<hemite>30	eh s/outputed/employed/
+T 1387792829 18<sankey>	so apparently eggert wrote this
+T 1387792831 18<sankey>	http://www.twinsun.com/tz/timeapi.html
+T 1387792863 18<sankey>	which makes sense, he did mention (in 131) that he is/was on the decision-making board for the direction of the C standard
+T 1387792883 31<hemite>30	and he admitted to me that he is a "time nerd"
+T 1387792885 31<hemite>30	it all makes sense
+T 1387792898 31<hemite>30	lol
+T 1387792902 31<hemite>30	time manipulation functions
+T 1387792909 31<hemite>30	as if you're manipulating time
+T 1387793113 18<sankey>	i finally understand what the time zone database actually is
+T 1387793114 18<sankey>	http://www.twinsun.com/tz/tz-link.htm
+T 1387793155 18<sankey>	there are a lot of operating systems mentioned there
+T 1387793159 18<sankey>	there's just one mission
+T 1387793163 18<sankey>	missing
+T 1387793233 18<sankey>	i like how the links to wget/gzip/tar conveniently point to the GNU versions, as opposed to the BSD ones :)
+T 1387793282 31<hemite>30	yea even ms is goign to use the database now
+T 1387793365 18<sankey>	really?
+T 1387793874 31<hemite>30	that's what he told me when I talked to him last qurter
+T 1387830888 22*	Disconnected (Remote host closed socket).
+T 1387830899 22*	hemite sets mode +i hemite
+T 1388218439 31<hemite>30	Can you make some pictures pretty for me?
+T 1388219343 23*	23sankey has quit (23Ping timeout: 600 seconds23)
+T 1388269344 18<sankey>	[10:35:16] sure
+T 1388271721 31<hemite>30	http://owncloud.linux.ucla.edu/public.php?service=files&t=4f78920f79d41269daa153c0acb52a0a
+T 1388271729 31<hemite>30	http://owncloud.linux.ucla.edu/public.php?service=files&t=838a12825f119e3a07451c5f2a37391e
+T 1388271738 31<hemite>30	http://owncloud.linux.ucla.edu/public.php?service=files&t=9bf9b1303de14ef1196469edc98e7dbd
+T 1388271741 31<hemite>30	there you go
+T 1388276006 18<sankey>	damn, these are only 8 bit
+T 1388276015 18<sankey>	oh well
+T 1388276030 18<sankey>	feels dirty
+T 1388276213 18<sankey>	(2) has a really bad merging artifact on the lower right
+T 1388277137 31<hemite>30	I used hugin to merge them
+T 1388277147 31<hemite>30	they were originally jpegs so not much you can do with the quality
+T 1388277153 31<hemite>30	my parents don't shoot raw
+T 1388277540 18<sankey>	your parents scuk at photohsop
+T 1388277614 31<hemite>30	That's expected from someone who doesn't use it
+T 1388277801 18<sankey>	http://sank.sytes.net/tmp/processed/
+T 1388277808 18<sankey>	not sure what to do about (2)
+T 1388277826 18<sankey>	it's not possible to re-merge the pictures with different settings?
+T 1388278403 18<sankey>	where were these pictures taken?
+T 1388278866 31<hemite>30	well I can give you the pics before they were merged, but I figured it would just be easier to  edit if I merged them for you
+T 1388284769 31<hemite>30	Hey do you still have that headshot you took of me last year?
+T 1388284861 31<hemite>30	actually nevermind
+T 1388284875 31<hemite>30	what I really want is that picture on the lug contact page
+T 1388284881 31<hemite>30	but with david's face photoshoped out
+T 1388284899 31<hemite>30	Do you have that picture?
+T 1388296942 22*	Disconnected (Remote host closed socket).
+T 1388296952 22*	hemite sets mode +i hemite
+T 1388353539 22*	Disconnected (Remote host closed socket).
+T 1388353550 18<sankey>	[03:30:16] please, take it: http://sank.sytes.net/tmp/D80-0003.NEF
+T 1388353550 18<sankey>	[03:31:33] just re-merge (2) without the rightmost frame
+T 1388353550 18<sankey>	[03:31:43] it's too wide anyway
+T 1388355929 31<hemite>30	So apparently there is an std:array template in C++
+T 1388355931 31<hemite>30	http://www.cplusplus.com/reference/array/array/
+T 1388356182 31<hemite>30	eh, std::array
+T 1388356236 31<hemite>30	And its apparently recommended to use std::array in practice
+T 1388356325 31<hemite>30	I think that's going to make cs31 more interesting, when smallberg is explaining about arrays vs std::arrays
+T 1388357435 18<sankey>	array vs std::array vs std::vector vs std::list
+T 1388357454 18<sankey>	normal pointer vs smart pointer
+T 1388359323 31<hemite>30	well, at least vector makes sense
+T 1388359326 31<hemite>30	its like a smart array
+T 1388359345 31<hemite>30	but std::array seems like overkill
+T 1388359362 31<hemite>30	I guess the reasoning is just standarization of stl so things are easier to debug
+T 1388705708 18<sankey>	[13:25:17] are 115A/C required classes for us?
+T 1388705708 18<sankey>	[13:26:02] is this not our curriculum? http://www.seasoasa.ucla.edu/curric-13-14/26curcompscieng13.html
+T 1388705708 18<sankey>	[13:34:54] must be wrong catalog, DARS is telling me that i need them
+T 1388705754 31<hemite>30	DARS is telling you that you need them because they are required
+T 1388705778 31<hemite>30	it does look like the wrong curriculum
+T 1388739819 18<sankey>	out of all the people that i recieve emails from
+T 1388739850 18<sankey>	it WOULD be aamoy that i have a hard time reading emails from
+T 1388739853 18<sankey>	http://sankey.info/tmp/mail.png
+T 1388740146 31<hemite>30	"Sent from my HP Touchpad"
+T 1388740149 31<hemite>30	I assume that is the problem
+T 1388740158 31<hemite>30	whatever weird mail appthe HP touchpad is using
+T 1388740169 31<hemite>30	then again, I have no problems seeing his email
+T 1388740180 31<hemite>30	and at least it doesn't have the aweful "do or do not" signature
+T 1388874917 18<sankey>	[13:01:56] kalvin isn't living there anymore?
+T 1388874929 31<hemite>30	no he moved out
+T 1388874941 31<hemite>30	since he got a job in pasadena
+T 1388883830 31<hemite>30	when are you coming back?
+T 1388887312 18<sankey>	tomorrow around 4 ish, then going straight to lug to meet matthew
+T 1388887392 31<hemite>30	k
+T 1388891275 31<hemite>30	I like raw the rapee's pre-made profiles for editing
+T 1388891285 31<hemite>30	idk if photoshop had that too but I've been using the pre made ones a lot
+T 1388891308 31<hemite>30	I think that's a good beginner freidnly feature.
+T 1388897971 31<hemite>30	also
+T 1388897981 31<hemite>30	apperently Linus uses GOTOs in his code
+T 1388897981 31<hemite>30	https://github.com/torvalds/subsurface/commit/c49d3885f51a9f2ae3fec9252b75fe4b5d7ee503
+T 1388897986 31<hemite>30	why
+T 1388900278 22*	Disconnected (Remote host closed socket).
+T 1388914548 22*	Disconnected (Remote host closed socket).
+T 1388992016 22*	Disconnected (Remote host closed socket).
+T 1389039275 22*	Disconnected (Remote host closed socket).
+T 1389044973 22*	Disconnected (Remote host closed socket).
+T 1389060201 22*	Disconnected (Remote host closed socket).
+T 1389081635 22*	Disconnected (Remote host closed socket).
+T 1389116158 22*	Disconnected (Remote host closed socket).
+T 1389155445 22*	Disconnected (Remote host closed socket).
+T 1389160567 22*	Disconnected (Remote host closed socket).
+T 1389211570 22*	Disconnected (Remote host closed socket).
+T 1389232892 22*	Disconnected (Remote host closed socket).
+T 1389256182 22*	Disconnected (Remote host closed socket).
+T 1389335999 22*	Disconnected (Remote host closed socket).
+T 1389337238 28.:sankey28:.	sdfsdfsdf

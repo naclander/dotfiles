@@ -1,0 +1,5 @@
+T 1379032594 19*	19Now talking on #test
+T 1379032594 28-29Global28-	[17:35:39] [Logon News - Apr 04 2004] Attention: Please do NOT click on URLs that unknown people send you and remember to report all spammers to #abuse.
+T 1379032594 28-29Global28-	[17:35:39] [Logon News - Mar 18 2005] Your host is being checked for open proxies. Please disregard connections to ports like 8080 or 3128.
+T 1379032594 28-29Global28-	[17:35:39] [Logon News - Sep 28 2010] IRCHighWay will be switching ircd in the not so distant future and we have chosen to go for inspircd. We therefore encourage all channel staff to try this on our testnet so you will be familiar with the new features. You can find connection details and support for this new ircd in #irchdev
+T 1379032595 28-29NickServ28-	Your nick isn't registered.

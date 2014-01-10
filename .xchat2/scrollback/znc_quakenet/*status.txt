@@ -1,0 +1,2 @@
+T 1386136665 18<*status>	Connected!
+T 1386207201 22*	Disconnected (Remote host closed socket).

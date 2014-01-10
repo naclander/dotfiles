@@ -1,0 +1,122 @@
+T 1384721619 19*	19Now talking on #openspades
+T 1384721619 29*	29Topic for #openspades 29is: New version is out! | Openspades website: http://goo.gl/XuRdfM | Official version: 0.0.9 | Github: http://goo.gl/Dz2ZsC | Discussion thread: http://goo.gl/MZgGu5 | Unofficial build by learn_more: http://ge.tt/8PoB07u/v/0?c
+T 1384721619 29*	29Topic for #openspades 29set by aem 29at Fri Nov  1 11:16:05 2013
+T 1384721638 31<hemite>30	So I've succesfully built openspades on Linux. Succesfully copied the pak files
+T 1384721645 31<hemite>30	but I'm getting the error: File not found: Killfeed/a-Rifle.png
+T 1384721664 18<learn_more>	put from the resources folder in the source tree
+T 1384721675 18<learn_more>	the folder killfeed in the same dir as you placed the pak files
+T 1384721747 31<hemite>30	 By "Resources folder in the source tree" do you mean the Resources folder containing CMakeFiles/ etc.?
+T 1384721760 18<learn_more>	yeah
+T 1384721780 18<learn_more>	where the shaders and shit are
+T 1384721818 31<hemite>30	Ah, actually I think you mean the Resources folder in /openspaes/Resources, not /openspades/openspades.mk/Resources
+T 1384721820 31<hemite>30	yea ok
+T 1384721825 31<hemite>30	Thanks
+T 1384721837 31<hemite>30	Maybe that should be added to the Readme on github
+T 1384721840 18<learn_more>	yeah sorry bout that
+T 1384721850 18<learn_more>	i added the icons but didnt update the readme
+T 1384721851 31<hemite>30	Haha, maybe I'll make a pull request
+T 1384722137 31<hemite>30	Hey learn_more did you ever manage to build this on none debian/windows systems?
+T 1384722146 18<learn_more>	didnt try tbfh
+T 1384722152 18<learn_more>	i used ubuntu and windows
+T 1384722153 31<hemite>30	I'm core dumping on arch linux and I think it might be a dependency issue
+T 1384722156 31<hemite>30	hm ok
+T 1384722159 18<learn_more>	my branch?
+T 1384722166 31<hemite>30	https://github.com/yvt/openspades
+T 1384722166 18<learn_more>	or yvt
+T 1384722169 31<hemite>30	yvt
+T 1384722170 18<learn_more>	k
+T 1384722177 18<learn_more>	mine was unstable this weekend
+T 1384722179 31<hemite>30	Aren't they the same?
+T 1384722181 18<learn_more>	half fixed reference counting problems
+T 1384722183 31<hemite>30	oh ok
+T 1384722192 18<learn_more>	yvt fixed it properly, i didnt have time to investigate
+T 1384722383 31<hemite>30	Here is the error output if you wanted to look at it
+T 1384722384 31<hemite>30	http://ix.io/93E
+T 1384722396 31<hemite>30	"Attempted to use an invalid image"
+T 1384722400 18<learn_more>	heh
+T 1384722401 31<hemite>30	Not sure what that means
+T 1384722415 18<learn_more>	https://github.com/yvt/openspades/issues/87
+T 1384722417 18<learn_more>	;)
+T 1384722462 31<hemite>30	Is that the same error though?
+T 1384722487 31<hemite>30	"this is due to an image not being found / loaded." Haha, seems like a simple fix =\
+T 1384722897 31<hemite>30	Yea your source tree is giving me the same error
+T 1384723266 31<hemite>30	Maybe I have a buggy Resources folder
+T 1384723280 31<hemite>30	Is there an online repo of a *known* working Resources/ folder?
+T 1384723388 19*	19ei8htx (~8x@ei8htx.users.quakenet.org) has joined #openspades
+T 1384723588 22*	tung is now known as tung|away
+T 1384723980 18<learn_more>	wait yeah
+T 1384723987 18<learn_more>	there is a development packages thing
+T 1384724002 21<learn_more>21	hemite, in the resource folder is a txt file with it's location
+T 1384724174 19*	19Dany0 (~user0@242.35.broadband7.iol.cz) has joined #openspades
+T 1384724254 23*	23Pawatwoopa has quit (23Signed off23)
+T 1384724360 23*	23MuffinTastic has quit (23Read error: Connection reset by peer23)
+T 1384724426 18<Dany0>	https://github.com/yvt/openspades/pull/94
+T 1384724440 18<Dany0>	learn_more choo choo goes the OS train
+T 1384724462 18<Dany0>	night
+T 1384724463 23*	23Dany0 has quit (23Quit: Please support my work :)23)
+T 1384724480 18<learn_more>	lol
+T 1384724490 18<JoJoeStinky>	wat was that?
+T 1384724492 18<JoJoeStinky>	lol
+T 1384724519 18<learn_more>	pull request from me
+T 1384724799 31<hemite>30	learn_more, hm I assumed the issue wasn't with the packs..well lets see
+T 1384724821 18<learn_more>	if he added a new image in the packs
+T 1384724823 18<learn_more>	it could be that
+T 1384724882 31<hemite>30	learn_more, Yes! that was the problem
+T 1384724899 18<JoJoeStinky>	yay!
+T 1384724902 31<hemite>30	Yes me thinks the readme on github should be updated to reflect these changes
+T 1384724911 18<JoJoeStinky>	We have linuxes versions.
+T 1384724913 18<learn_more>	cool
+T 1384724921 21<learn_more>21	hemite, what os do you build on?
+T 1384724923 18<learn_more>	what compiler
+T 1384724929 18<learn_more>	maybe we should create a list confirmed working
+T 1384724934 18<JoJoeStinky>	Arch?
+T 1384724935 31<hemite>30	Arch linux gcc 4.8.2
+T 1384725102 31<hemite>30	Hm, is there a key combo to untrap my mouse?
+T 1384725124 18<JoJoeStinky>	try tab
+T 1384725129 18<JoJoeStinky>	I am not sure
+T 1384725168 31<hemite>30	no tab or alt tab don't do it
+T 1384725172 31<hemite>30	a list of confirmed working would be cool
+T 1384725188 31<hemite>30	I know arch has different libraries too than the ones mentioned on the readme
+T 1384725199 31<hemite>30	for example, libjpeg-dev is actually libjpeg-turbo
+T 1384725206 18<learn_more>	alt+tab on windows
+T 1384725211 18<learn_more>	but it's a bit of a bitch tbfh
+T 1384725215 18<learn_more>	can get stuck and all
+T 1384725243 31<hemite>30	yea I suppose a built in mouse untrap thing would be convenient
+T 1384725258 18<learn_more>	probably sdl has something for that
+T 1384725266 31<hemite>30	So its really weird, last time I played this game was like 0.4
+T 1384725271 31<hemite>30	and now its in opengl
+T 1384725274 31<hemite>30	oh how times have changed
+T 1384725288 18<learn_more>	openspades is not the official client
+T 1384725294 18<learn_more>	official client is discontinued
+T 1384725310 31<hemite>30	right right
+T 1384725312 31<hemite>30	by jagex
+T 1384725316 18<learn_more>	yea
+T 1384725317 31<hemite>30	but still, its a nice evolution
+T 1384725324 18<learn_more>	yeah
+T 1384725333 18<learn_more>	UnrealIncident has started on an extension of the network protocol
+T 1384725342 18<JoJoeStinky>	Oh, cool
+T 1384725358 18<JoJoeStinky>	So now new features can be added?
+T 1384725366 18<learn_more>	yeah
+T 1384725370 18<JoJoeStinky>	yay!
+T 1384725372 31<hemite>30	I thought all the network protocol was done by iamgreaser
+T 1384725374 31<hemite>30	for iceball
+T 1384725385 18<learn_more>	iceball is entirely different
+T 1384725389 18<learn_more>	diff protocol, diff client
+T 1384725416 31<hemite>30	hm, yea for a long time I thought iceball would be the next aceofspades clone
+T 1384725432 31<hemite>30	but I guess you guys won out, mostly because of compatability..well and I guess you actually have a working game
+T 1384725475 18<learn_more>	and we dont try to piss of people who can't compile
+T 1384725489 18<JoJoeStinky>	:D
+T 1384725493 18<JoJoeStinky>	Thank you
+T 1384725502 18<JoJoeStinky>	I will be able to soon
+T 1384725537 31<hemite>30	ha
+T 1384725544 31<hemite>30	I do remember he didn't support windows for a long time
+T 1384725557 31<hemite>30	unfortunatly supporting windows gets you users fairly quickly
+T 1384725683 31<hemite>30	Since the only proprietary stuff is the sound and textures, there is a pretty good chance of this game being completly opensource
+T 1384725709 18<JoJoeStinky>	Yeah, the playermodel is iconic too
+T 1384725726 18<JoJoeStinky>	I think they own the character rights too.
+T 1384725748 31<hemite>30	Probably...so yea it might get tricky creating something that looks similiar without breaking copyright
+T 1384725847 18<JoJoeStinky>	The graphics are really easy to change. I am a CG artist and we have lots of other talented people too.
+T 1384725862 31<hemite>30	that would be pretty awesome
+T 1384725872 18<JoJoeStinky>	The file formats are all owned by Ken Silverman and are Open IIRC
+T 1384725879 18<JoJoeStinky>	well, teh voxel ones
+T 1384725898 18<JoJoeStinky>	KVX KV6 VXL

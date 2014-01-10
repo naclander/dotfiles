@@ -1,0 +1,502 @@
+T 1387921540 18<N-i-K>	[06:17:59] type %appdata%/OpenArena/
+T 1387921540 18<N-i-K>	[06:18:09] the openarena folder should open
+T 1387921540 18<barbi>	[06:18:32] k wait
+T 1387921540 18<N-i-K>	[06:18:54] there find baseoa folder, in baseoa folder will be demo folder
+T 1387921540 18<N-i-K>	[06:19:18] OR find CTF folder, instead of baseoa, find demo folder inside ctf
+T 1387921540 18<barbi>	[06:19:27] oh yea
+T 1387921540 18<barbi>	[06:19:31] thanks <3
+T 1387921540 18<N-i-K>	[06:19:37] your welcome :)
+T 1387921540 18<barbi>	[06:19:44]   <3 <3
+T 1387921540 18<barbi>	[06:20:07] btw
+T 1387921540 18<barbi>	[06:20:10] the game is dead?
+T 1387921540 18<N-i-K>	[06:20:23] lol no
+T 1387921540 18<N-i-K>	[06:20:32] but the users playing have decreased
+T 1387921540 18<barbi>	[06:20:39] i lov this game^
+T 1387921540 18<N-i-K>	[06:20:43] there are all new players now .. 
+T 1387921540 18<barbi>	[06:20:45] u know urban terror?
+T 1387921540 18<N-i-K>	[06:21:04] I hardly remember anyone except people who hang around on this channel
+T 1387921540 18<barbi>	[06:21:10]  http://www.youtube.com/watch?v=8dnigA8C6QQ
+T 1387921540 18<N-i-K>	[06:21:10] and the other channel
+T 1387921540 18<barbi>	[06:21:13] (its me :D)
+T 1387921540 18<***>	Playback Complete.
+T 1387930217 23*	23zummy has quit (23Read error: EOF from client23)
+T 1387938606 23*	23barbioff has quit (23Quit: Quitte23)
+T 1387957604 19*	19zemmy (~zammy@ppp-147-182.98-62.inwind.it) has joined #openarenahelp
+T 1387957604 22*	26Q gives voice to26 zemmy
+T 1387963124 23*	23zemmy has quit (23EOF from client23)
+T 1388008046 22*	Disconnected (Remote host closed socket).
+T 1388008056 19*	19Now talking on #openarenahelp
+T 1388008056 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388008056 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388008056 18<***>	Buffer Playback...
+T 1388008056 18<`gb`>	[07:41:43] merry xmas everyone
+T 1388008056 18<***>	Playback Complete.
+T 1388008460 19*	19barbii (~barbiiii@APuteaux-651-1-282-185.w90-44.abo.wanadoo.fr) has joined #openarenahelp
+T 1388008460 22*	26Q gives voice to26 barbii
+T 1388008745 23*	23barbi has quit (23Ping timeout23)
+T 1388009198 23*	23zemmy has quit (23EOF from client23)
+T 1388011905 22*	nvb is now known as NVB
+T 1388019114 22*	barbii is now known as barbi
+T 1388020168 23*	23`gb` has quit (23Signed off23)
+T 1388027863 23*	23barbi has quit (23Read error: Connection reset by peer23)
+T 1388041012 19*	19Now talking on #openarenahelp
+T 1388041012 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388041012 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388043857 22*	Omicr0n is now known as omicr0n
+T 1388044729 22*	omicr0n is now known as Omicr0n
+T 1388051574 22*	NVB is now known as nvb
+T 1388052203 19*	19zemmy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388052203 22*	26Q gives voice to26 zemmy
+T 1388081095 22*	Disconnected (Remote host closed socket).
+T 1388082036 19*	19Now talking on #openarenahelp
+T 1388082036 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388082036 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388082036 18<***>	Buffer Playback...
+T 1388082036 18<xm4n>	[03:09:36] hi
+T 1388082036 18<***>	Playback Complete.
+T 1388082698 19*	19Zimmermint (~Zimmy@90.215.240.123) has joined #openarenahelp
+T 1388082698 22*	26Q gives channel operator status to26 Zimmermint
+T 1388083870 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388083918 19*	19Zimmermint (~Zimmy@90.215.240.123) has joined #openarenahelp
+T 1388083918 22*	26Q gives channel operator status to26 Zimmermint
+T 1388084210 23*	23zemmy has quit (23EOF from client23)
+T 1388084577 19*	19zemmy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388084577 22*	26Q gives voice to26 zemmy
+T 1388085456 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388086141 19*	19Zimmermint (~Zimmy@90.215.240.123) has joined #openarenahelp
+T 1388086141 22*	26Q gives channel operator status to26 Zimmermint
+T 1388087680 19*	19zummy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388087680 22*	26Q gives voice to26 zummy
+T 1388087791 23*	23zemmy has quit (23Read error: EOF from client23)
+T 1388093496 23*	23zummy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388094519 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388095483 19*	19Zimmermint (~Zimmy@90.215.240.123) has joined #openarenahelp
+T 1388095483 22*	26Q gives channel operator status to26 Zimmermint
+T 1388103410 22*	nvb is now known as NVB
+T 1388122183 23*	23ZIPY has quit (23Buffer allocation error23)
+T 1388122187 23*	23capo has quit (23*.net *.split23)
+T 1388122187 23*	23Zimmer106 has quit (23*.net *.split23)
+T 1388122192 19*	19ZIPY (~ZIPY@dslb-092-073-138-002.pools.arcor-ip.net) has joined #openarenahelp
+T 1388122192 23*	23ZIPY has quit (23Registered23)
+T 1388122192 19*	19ZIPY (~ZIPY@zipy.users.quakenet.org) has joined #openarenahelp
+T 1388122192 22*	26Q gives voice to26 ZIPY
+T 1388132812 19*	19zemmy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388132812 22*	26Q gives voice to26 zemmy
+T 1388138502 22*	NVB is now known as nvb
+T 1388138644 19*	19zummy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388138644 22*	26Q gives voice to26 zummy
+T 1388138822 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388174706 22*	Disconnected (Remote host closed socket).
+T 1388174716 19*	19Now talking on #openarenahelp
+T 1388174716 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388174716 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388174730 19*	19`gb` (~gb@78-62-150-25.static.zebra.lt) has joined #openarenahelp
+T 1388174730 22*	26Q gives voice to26 `gb`
+T 1388177348 19*	19apitta (~apitta@C3E46F41.dsl.pool.telekom.hu) has joined #openarenahelp
+T 1388177348 22*	26Q gives voice to26 apitta
+T 1388178487 19*	19zammy (~goldenbot@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388178488 22*	26Q gives voice to26 zammy
+T 1388179158 23*	23L0neStarr has quit (23Read error: Operation timed out23)
+T 1388179205 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388179213 19*	19L0neStarr (~proute@pD9EC3D03.dip0.t-ipconnect.de) has joined #openarenahelp
+T 1388179213 23*	23L0neStarr has quit (23Registered23)
+T 1388179213 19*	19L0neStarr (~proute@SpeedC0re.users.quakenet.org) has joined #openarenahelp
+T 1388179213 22*	26Q gives voice to26 L0neStarr
+T 1388179289 19*	19zammy (~goldenbot@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388179289 22*	26Q gives voice to26 zammy
+T 1388179369 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388181752 22*	26Q gives channel operator status to26 Zimmer106
+T 1388181961 22*	Disconnected (Remote host closed socket).
+T 1388182091 19*	19Now talking on #openarenahelp
+T 1388182091 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388182091 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388185066 22*	nvb is now known as NVB
+T 1388190141 23*	23apitta has quit (23Quit: Leaving23)
+T 1388190917 23*	23zemmy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388194395 23*	23`gb` has quit (23Signed off23)
+T 1388215931 19*	19zammy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388215931 22*	26Q gives voice to26 zammy
+T 1388216037 22*	Disconnected (Remote host closed socket).
+T 1388216048 19*	19Now talking on #openarenahelp
+T 1388216048 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388216048 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388217453 23*	23zammy has quit (23EOF from client23)
+T 1388221138 19*	19zammy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388221138 22*	26Q gives voice to26 zammy
+T 1388221838 22*	NVB is now known as nvb
+T 1388269334 22*	Disconnected (Remote host closed socket).
+T 1388269344 19*	19Now talking on #openarenahelp
+T 1388269344 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388269344 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388272040 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388273883 22*	nvb is now known as NVB
+T 1388283605 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388296942 22*	Disconnected (Remote host closed socket).
+T 1388296952 19*	19Now talking on #openarenahelp
+T 1388296952 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388296952 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388304652 19*	19zammy (~zammy@ppp-117-22.98-62.inwind.it) has joined #openarenahelp
+T 1388304652 22*	26Q gives voice to26 zammy
+T 1388353539 22*	Disconnected (Remote host closed socket).
+T 1388353549 19*	19Now talking on #openarenahelp
+T 1388353549 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388353549 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388354990 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388355823 23*	23nvb has quit (23Ping timeout23)
+T 1388355914 19*	19nvb (~nvb@mail.intri.be) has joined #openarenahelp
+T 1388355914 22*	26Q gives voice to26 nvb
+T 1388356530 23*	23Zimmermint has quit (23Read error: Operation timed out23)
+T 1388356574 19*	19dots2 (~dots2@192.3.17.166) has joined #openarenahelp
+T 1388356574 22*	26Q gives voice to26 dots2
+T 1388356576 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388356576 22*	26Q gives channel operator status to26 Zimmermint
+T 1388356660 23*	23dots has quit (23*.net *.split23)
+T 1388358925 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388359772 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388359772 22*	26Q gives channel operator status to26 Zimmermint
+T 1388361102 22*	nvb is now known as NVB
+T 1388374743 22*	dots2 is now known as dots
+T 1388382968 19*	19Now talking on #openarenahelp
+T 1388382968 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388382968 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388439542 22*	Disconnected (Remote host closed socket).
+T 1388442275 19*	19Now talking on #openarenahelp
+T 1388442275 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388442275 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388443016 23*	23zammy has quit (23Read error: EOF from client23)
+T 1388443150 19*	19zammy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarenahelp
+T 1388443150 22*	26Q gives voice to26 zammy
+T 1388443577 23*	23zammy has quit (23EOF from client23)
+T 1388443710 19*	19zammy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarenahelp
+T 1388443710 22*	26Q gives voice to26 zammy
+T 1388444014 19*	19zemmy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarenahelp
+T 1388444014 22*	26Q gives voice to26 zemmy
+T 1388444152 23*	23zemmy has quit (23EOF from client23)
+T 1388444180 23*	23zammy has quit (23Ping timeout23)
+T 1388444285 19*	19zammy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarenahelp
+T 1388444285 22*	26Q gives voice to26 zammy
+T 1388444465 23*	23`gb` has quit (23Signed off23)
+T 1388444610 19*	19`gb` (~gb@78-62-150-25.static.zebra.lt) has joined #openarenahelp
+T 1388444611 22*	26Q gives voice to26 `gb`
+T 1388448057 23*	23zammy has quit (23EOF from client23)
+T 1388448639 22*	nvb is now known as NVB
+T 1388449175 23*	23zummy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388450407 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388450445 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388450445 22*	26Q gives channel operator status to26 Zimmermint
+T 1388451690 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388452329 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388452438 22*	26Q gives channel operator status to26 Zimmermint
+T 1388452688 23*	23`gb` has quit (23Signed off23)
+T 1388453017 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388453046 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388453046 22*	26Q gives channel operator status to26 Zimmermint
+T 1388454389 23*	23ZIPY has quit (23Read error: Operation timed out23)
+T 1388454499 19*	19ZIPY (~ZIPY@dslb-092-073-139-183.pools.arcor-ip.net) has joined #openarenahelp
+T 1388454501 23*	23ZIPY has quit (23Registered23)
+T 1388454501 19*	19ZIPY (~ZIPY@zipy.users.quakenet.org) has joined #openarenahelp
+T 1388454501 22*	26Q gives voice to26 ZIPY
+T 1388459541 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388459572 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388459572 22*	26Q gives channel operator status to26 Zimmermint
+T 1388461571 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388461601 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388461601 22*	26Q gives channel operator status to26 Zimmermint
+T 1388463420 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388463452 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388463452 22*	26Q gives channel operator status to26 Zimmermint
+T 1388465439 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388466652 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388466653 22*	26Q gives channel operator status to26 Zimmermint
+T 1388468488 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388468515 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388468516 22*	26Q gives channel operator status to26 Zimmermint
+T 1388469480 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388469509 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388469510 22*	26Q gives channel operator status to26 Zimmermint
+T 1388469930 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388471355 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388471355 22*	26Q gives channel operator status to26 Zimmermint
+T 1388472584 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388479380 19*	19N-i-K (PCdoc@123.236.190.205) has joined #openarenahelp
+T 1388479380 22*	26Q gives voice to26 N-i-K
+T 1388480562 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388480562 22*	26Q gives channel operator status to26 Zimmermint
+T 1388480868 23*	23N-i-K has quit (23Signed off23)
+T 1388481997 22*	NVB is now known as nvb
+T 1388485196 19*	19zammy (~zammy@ppp-145-195.98-62.inwind.it) has joined #openarenahelp
+T 1388485196 22*	26Q gives voice to26 zammy
+T 1388485237 23*	23zammy has quit (23Read error: EOF from client23)
+T 1388527670 22*	Disconnected (Remote host closed socket).
+T 1388527680 19*	19Now talking on #openarenahelp
+T 1388527680 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388527680 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388544177 23*	23`gb` has quit (23Signed off23)
+T 1388544320 23*	23zammy has quit (23Read error: EOF from client23)
+T 1388612301 22*	Disconnected (Remote host closed socket).
+T 1388612311 19*	19Now talking on #openarenahelp
+T 1388612311 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388612311 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388613001 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388613879 19*	19Zimmermint (~Zimmy@90.208.208.9) has joined #openarenahelp
+T 1388613879 22*	26Q gives channel operator status to26 Zimmermint
+T 1388614382 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388615003 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarenahelp
+T 1388615003 22*	26Q gives channel operator status to26 Zimmermint
+T 1388643168 19*	19N-i-K (PCdoc@123.236.190.205) has joined #openarenahelp
+T 1388643168 22*	26Q gives voice to26 N-i-K
+T 1388644146 23*	23ZIPY has quit (23Ping timeout23)
+T 1388644302 23*	23N-i-K has quit (23Signed off23)
+T 1388647965 19*	19ZIPY (~ZIPY@dslb-188-109-031-129.pools.arcor-ip.net) has joined #openarenahelp
+T 1388647965 23*	23ZIPY has quit (23Registered23)
+T 1388647965 19*	19ZIPY (~ZIPY@zipy.users.quakenet.org) has joined #openarenahelp
+T 1388647965 22*	26Q gives voice to26 ZIPY
+T 1388648680 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388649601 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarenahelp
+T 1388649601 22*	26Q gives channel operator status to26 Zimmermint
+T 1388653509 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388654083 19*	19zammy (~sammy@ppp-105-144.98-62.inwind.it) has joined #openarenahelp
+T 1388654083 22*	26Q gives voice to26 zammy
+T 1388654750 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarenahelp
+T 1388654751 22*	26Q gives channel operator status to26 Zimmermint
+T 1388654920 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388655218 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarenahelp
+T 1388655218 22*	26Q gives channel operator status to26 Zimmermint
+T 1388655848 23*	23Zimmermint has quit (23Ping timeout23)
+T 1388656828 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarenahelp
+T 1388656828 22*	26Q gives channel operator status to26 Zimmermint
+T 1388658936 19*	19zemmy (~zammy@ppp-105-144.98-62.inwind.it) has joined #openarenahelp
+T 1388658936 22*	26Q gives voice to26 zemmy
+T 1388660911 22*	Disconnected (Remote host closed socket).
+T 1388705707 19*	19Now talking on #openarenahelp
+T 1388705707 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388705707 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388705795 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388707912 23*	23dots has quit (23Read error: Operation timed out23)
+T 1388707915 19*	19dots2 (~dots2@192.3.17.166) has joined #openarenahelp
+T 1388707915 22*	26Q gives voice to26 dots2
+T 1388707980 23*	23Soulbinder has quit (23Read error: Connection reset by peer23)
+T 1388708233 19*	19Soulbinder (uid14075@Legacy.users.quakenet.org) has joined #openarenahelp
+T 1388708233 22*	26Q gives voice to26 Soulbinder
+T 1388709368 23*	23pet1 has quit (23Read error: Operation timed out23)
+T 1388709407 19*	19pet_ (uid12763@ealing.irccloud.com) has joined #openarenahelp
+T 1388709407 22*	26Q gives voice to26 pet_
+T 1388709424 23*	23capo has quit (23*.net *.split23)
+T 1388709424 23*	23Zimmer106 has quit (23*.net *.split23)
+T 1388709424 23*	23Soulbinder has quit (23*.net *.split23)
+T 1388710720 19*	19Soulbinder (uid14075@Legacy.users.quakenet.org) has joined #openarenahelp
+T 1388710720 19*	19capo (sid15384@highgate.irccloud.com) has joined #openarenahelp
+T 1388710720 19*	19Zimmer106 (uid15314@uxbridge.irccloud.com) has joined #openarenahelp
+T 1388710720 22*	26*.quakenet.org gives channel operator status to26 Zimmer106
+T 1388710720 22*	26*.quakenet.org gives voice to26 Zimmer106 capo Soulbinder
+T 1388711990 23*	23`gb` has quit (23Signed off23)
+T 1388714225 22*	dots2 is now known as dots
+T 1388727991 23*	23NVB has quit (23Ping timeout23)
+T 1388728047 19*	19NVB (~nvb@mail.intri.be) has joined #openarenahelp
+T 1388728047 22*	26Q gives voice to26 NVB
+T 1388739654 23*	23Zimmermint has quit (23Read error: Operation timed out23)
+T 1388784293 22*	Disconnected (Remote host closed socket).
+T 1388784313 19*	19Now talking on #openarenahelp
+T 1388784313 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388784313 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388788879 23*	23Zimmermint has quit (23Excess Flood23)
+T 1388788912 19*	19Zimmermint (~Zimmy@05428391.skybroadband.com) has joined #openarenahelp
+T 1388788912 22*	26Q gives channel operator status to26 Zimmermint
+T 1388789414 22*	nvb is now known as NVB
+T 1388798772 22*	Disconnected (Remote host closed socket).
+T 1388798783 19*	19Now talking on #openarenahelp
+T 1388798783 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388798783 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388804022 19*	19Now talking on #openarenahelp
+T 1388804023 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388804023 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388826211 23*	23ZIPY has quit (23Ping timeout23)
+T 1388826944 19*	19zammy (~zammy@ppp-88-222.98-62.inwind.it) has joined #openarenahelp
+T 1388826944 22*	26Q gives voice to26 zammy
+T 1388829732 19*	19zemmy (~sammy@ppp-88-222.98-62.inwind.it) has joined #openarenahelp
+T 1388829732 22*	26Q gives voice to26 zemmy
+T 1388829807 23*	23zammy has quit (23Read error: EOF from client23)
+T 1388831401 22*	NVB is now known as nvb
+T 1388831429 18<zemmy>	O4bot is dead for ever guys
+T 1388831436 22*	nvb is now known as NVB
+T 1388831439 18<zemmy>	ferewell
+T 1388832419 23*	23zemmy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1388832568 22*	Omicr0n is now known as omicr0n
+T 1388832691 22*	omicr0n is now known as Omicr0n
+T 1388846307 19*	19zammy (~sammy@ppp-88-222.98-62.inwind.it) has joined #openarenahelp
+T 1388846307 22*	26Q gives voice to26 zammy
+T 1388849763 23*	23zammy has quit (23Read error: Operation timed out23)
+T 1388850320 19*	19L0neStar1 (~proute@pD9EC25D2.dip0.t-ipconnect.de) has joined #openarenahelp
+T 1388850320 23*	23L0neStar1 has quit (23Registered23)
+T 1388850320 19*	19L0neStar1 (~proute@SpeedC0re.users.quakenet.org) has joined #openarenahelp
+T 1388850320 22*	26Q gives voice to26 L0neStar1
+T 1388850495 19*	19zammy (~sammy@ppp-179-19.98-62.inwind.it) has joined #openarenahelp
+T 1388850495 22*	26Q gives voice to26 zammy
+T 1388850545 23*	23L0neStarr has quit (23Read error: Operation timed out23)
+T 1388858560 22*	Disconnected (Remote host closed socket).
+T 1388874917 19*	19Now talking on #openarenahelp
+T 1388874917 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388874917 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388883733 22*	Disconnected (Remote host closed socket).
+T 1388883743 19*	19Now talking on #openarenahelp
+T 1388883743 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388883743 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388884485 19*	19ZIPY (~ZIPY@dslb-188-109-031-129.pools.arcor-ip.net) has joined #openarenahelp
+T 1388884486 23*	23ZIPY has quit (23Registered23)
+T 1388884486 19*	19ZIPY (~ZIPY@zipy.users.quakenet.org) has joined #openarenahelp
+T 1388884486 22*	26Q gives voice to26 ZIPY
+T 1388900278 22*	Disconnected (Remote host closed socket).
+T 1388901179 19*	19Now talking on #openarenahelp
+T 1388901179 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388901179 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388914548 22*	Disconnected (Remote host closed socket).
+T 1388948957 19*	19Now talking on #openarenahelp
+T 1388948957 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388948957 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388955391 22*	Disconnected (Remote host closed socket).
+T 1388955693 19*	19Now talking on #openarenahelp
+T 1388955693 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1388955693 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1388961445 22*	nvb is now known as NVB
+T 1388962583 19*	19SmellyCat (~sc@planets.xs4all.nl) has joined #openarenahelp
+T 1388962583 22*	26Q gives voice to26 SmellyCat
+T 1388962588 23*	23SmellyCat has quit (23Registered23)
+T 1388962588 19*	19SmellyCat (~sc@SmellyCat.users.quakenet.org) has joined #openarenahelp
+T 1388962588 22*	26*.quakenet.org gives voice to26 SmellyCat
+T 1388962588 22*	26Q gives channel operator status to26 SmellyCat
+T 1388964012 23*	23SmellyCat has quit (23Signed off23)
+T 1388992016 22*	Disconnected (Remote host closed socket).
+T 1389032833 19*	19Now talking on #openarenahelp
+T 1389032833 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389032833 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389034663 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1389039275 22*	Disconnected (Remote host closed socket).
+T 1389039295 19*	19Now talking on #openarenahelp
+T 1389039295 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389039295 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389044973 22*	Disconnected (Remote host closed socket).
+T 1389053547 19*	19Now talking on #openarenahelp
+T 1389053547 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389053547 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389060201 22*	Disconnected (Remote host closed socket).
+T 1389061892 19*	19Now talking on #openarenahelp
+T 1389061892 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389061892 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389073045 19*	19N-i-K (N-i-K@123.236.190.205) has joined #openarenahelp
+T 1389073045 22*	26Q gives voice to26 N-i-K
+T 1389081635 22*	Disconnected (Remote host closed socket).
+T 1389081646 19*	19Now talking on #openarenahelp
+T 1389081646 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389081646 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389116158 22*	Disconnected (Remote host closed socket).
+T 1389116169 19*	19Now talking on #openarenahelp
+T 1389116169 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389116169 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389116578 22*	NVB is now known as nvb
+T 1389155445 22*	Disconnected (Remote host closed socket).
+T 1389159200 19*	19Now talking on #openarenahelp
+T 1389159200 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389159200 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389160567 22*	Disconnected (Remote host closed socket).
+T 1389162379 19*	19Now talking on #openarenahelp
+T 1389162379 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389162379 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389167272 23*	23Omicr0n has quit (23Ping timeout23)
+T 1389211570 22*	Disconnected (Remote host closed socket).
+T 1389227142 19*	19Now talking on #openarenahelp
+T 1389227142 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389227142 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389227142 18<***>	Buffer Playback...
+T 1389227142 18<Noob14>	[06:08:26] hi all!
+T 1389227142 18<pet>	[06:08:32] hey N-i-K
+T 1389227142 18<pet>	[06:08:34] fug
+T 1389227142 18<pet>	[06:08:36] Noob14
+T 1389227142 18<Noob14>	[06:08:42] :)
+T 1389227142 18<Noob14>	[06:09:08] can you help me? :)
+T 1389227142 18<pet>	[06:16:59] whats your problem ?
+T 1389227142 18<pet>	[06:17:06] write down, maybe someone can
+T 1389227142 18<Noob14>	[06:25:29] ok...Which cmd can show buttons in defrag?...
+T 1389227142 18<Noob14>	[06:25:33] is difficult to explain...
+T 1389227142 18<pet>	[06:25:43] u mean the bars ?
+T 1389227142 18<Noob14>	[06:25:56] yes
+T 1389227142 18<pet>	[06:28:07] ah i see
+T 1389227142 18<pet>	[06:28:11] i cant remember the commands
+T 1389227142 18<Noob14>	[06:28:26] :(
+T 1389227142 18<Noob14>	[06:28:32] ok, thnx :)
+T 1389227142 18<Noob14>	[06:28:57] I will wait :)
+T 1389227142 18<Noob14>	[10:09:58] hi all
+T 1389227142 18<Noob14>	[10:10:44] how can I creat a server to play with a friend?
+T 1389227142 18<Phantoman>	[14:03:11] hello
+T 1389227142 18<Phantoman>	[14:03:21] help
+T 1389227142 18<Zimmermint>	[14:12:04] how
+T 1389227142 18<Zimmermint>	[14:12:09] what do you need?
+T 1389227142 18<Phantoman>	[14:22:46] help
+T 1389227142 18<pet>	[14:43:09] lol
+T 1389227142 18<***>	Playback Complete.
+T 1389227394 19*	19Noob14 (~Ivan@e181233136.adsl.alicedsl.de) has joined #openarenahelp
+T 1389227394 22*	26Q gives voice to26 Noob14
+T 1389227401 18<Noob14>	hi all
+T 1389232892 22*	Disconnected (Remote host closed socket).
+T 1389232903 19*	19Now talking on #openarenahelp
+T 1389232903 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389232903 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389256182 22*	Disconnected (Remote host closed socket).
+T 1389256209 19*	19Now talking on #openarenahelp
+T 1389256209 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389256209 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389264011 19*	19zammy (~zammy@ppp-247-65.98-62.inwind.it) has joined #openarenahelp
+T 1389264011 22*	26Q gives voice to26 zammy
+T 1389264767 23*	23zammy has quit (23Quit: Byez...SeeSoon!EnjoyTheSilence23)
+T 1389265951 19*	19Noob14 (~Ivan@e181233136.adsl.alicedsl.de) has joined #openarenahelp
+T 1389265951 22*	26Q gives voice to26 Noob14
+T 1389266012 18<Noob14>	hi all
+T 1389270737 23*	23Noob14 has quit (23Ping timeout23)
+T 1389270838 19*	19Noob14 (~Ivan@e181230037.adsl.alicedsl.de) has joined #openarenahelp
+T 1389270838 22*	26Q gives voice to26 Noob14
+T 1389282365 19*	19L0neStarr (~proute@SpeedC0re.users.quakenet.org) has joined #openarenahelp
+T 1389282365 22*	26Q gives voice to26 L0neStarr
+T 1389282653 23*	23L0neStar1 has quit (23Ping timeout23)
+T 1389285393 23*	23SmellyCat has quit (23Signed off23)
+T 1389286286 23*	23N-i-K has quit (23Signed off23)
+T 1389286577 23*	23Noob14 has quit (23Ping timeout23)
+T 1389286688 19*	19Noob14 (~Ivan@g224174161.adsl.alicedsl.de) has joined #openarenahelp
+T 1389286688 22*	26Q gives voice to26 Noob14
+T 1389288090 23*	23Noob14 has quit (23Signed off23)
+T 1389289924 22*	NVB is now known as nvb
+T 1389294901 19*	19zammy (~zammy@ppp-247-65.98-62.inwind.it) has joined #openarenahelp
+T 1389294901 22*	26Q gives voice to26 zammy
+T 1389297963 23*	23zammy has quit (23Read error: EOF from client23)
+T 1389306591 22*	nvb is now known as NVB
+T 1389309520 23*	23capodecima has quit (23*.net *.split23)
+T 1389309520 23*	23Zimmer106 has quit (23*.net *.split23)
+T 1389309521 23*	23Soulbinder has quit (23*.net *.split23)
+T 1389309679 19*	19capodecima (sid15384@highgate.irccloud.com) has joined #openarenahelp
+T 1389309679 19*	19Soulbinder (uid14075@Legacy.users.quakenet.org) has joined #openarenahelp
+T 1389309679 19*	19Zimmer106 (uid15314@uxbridge.irccloud.com) has joined #openarenahelp
+T 1389309679 22*	26*.quakenet.org gives channel operator status to26 Zimmer106
+T 1389309679 22*	26*.quakenet.org gives voice to26 Zimmer106 Soulbinder capodecima
+T 1389335999 22*	Disconnected (Remote host closed socket).
+T 1389336011 19*	19Now talking on #openarenahelp
+T 1389336011 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389336011 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1389337013 -10-11>	You are now talking on 11#openarenahelp
+T 1389337013 -10-11-	Topic for 11#openarenahelp is 11Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389337013 -10-11-	Topic for 11#openarenahelp set by 11pet at 11Thu Oct  3 09:16:13 2013
+T 1389337185 25»19»	19Now talking on #openarenahelp
+T 1389337185 29»22»	22Topic for #openarenahelp is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389337185 29»22»	22Topic for #openarenahelp set by pet at Thu Oct  3 09:16:13 2013
+T 1389337332 25»19»	19Now talking on #openarenahelp
+T 1389337332 29»22»	22Topic for #openarenahelp is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389337332 29»22»	22Topic for #openarenahelp set by pet at Thu Oct  3 09:16:13 2013
+T 1389337371 25»19»	19Now talking on #openarenahelp
+T 1389337371 29»22»	22Topic for #openarenahelp is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389337371 29»22»	22Topic for #openarenahelp set by pet at Thu Oct  3 09:16:13 2013
+T 1389337415 25»19»	19Now talking on #openarenahelp
+T 1389337415 29»22»	22Topic for #openarenahelp is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389337415 29»22»	22Topic for #openarenahelp set by pet at Thu Oct  3 09:16:13 2013
+T 1389337729 25»19»	19Now talking on #openarenahelp
+T 1389337729 29»22»	22Topic for #openarenahelp is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389337729 29»22»	22Topic for #openarenahelp set by pet at Thu Oct  3 09:16:13 2013
+T 1389337782 25»19»	19Now talking on #openarenahelp
+T 1389337782 29»22»	22Topic for #openarenahelp is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1389337782 29»22»	22Topic for #openarenahelp set by pet at Thu Oct  3 09:16:13 2013

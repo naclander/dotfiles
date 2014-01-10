@@ -1,0 +1,678 @@
+T 1378842208 19*	19Caemyr (~Caemyr@reactos/tester/Caemyr) has joined #reactos
+T 1378842208 22*	26ChanServ gives channel operator status to26 Caemyr
+T 1378842642 23*	23dardevelin has quit (23Ping timeout: 256 seconds23)
+T 1378842800 19*	19Colin_Finck (~cfinck@cable-89-0-194-185.netcologne.de) has joined #reactos
+T 1378842856 23*	23Colin_Finck has quit (23Changing host23)
+T 1378842856 19*	19Colin_Finck (~cfinck@reactos/developer/ColinFinck) has joined #reactos
+T 1378842856 22*	26ChanServ gives channel operator status to26 Colin_Finck
+T 1378843370 19*	19dardevelin (~dardeveli@a95-95-31-88.cpe.netcabo.pt) has joined #reactos
+T 1378843466 23*	23Stefan100 has quit (2323)
+T 1378843566 18<RosKGB>	03tfaber r60010 10trunk/reactos/cmake/CMakeMacros.cmake * 14http://svn.reactos.org/svn/reactos?view=revision&revision=60010
+T 1378843566 18<RosKGB>	[CMAKE]
+T 1378843566 18<RosKGB>	- Correctly escape error message. Spotted & tested by David Quintana
+T 1378843669 22*	Exio4 is now known as hacker
+T 1378843687 18<Sepultura>	gigaherz: you have problems with Internet?
+T 1378843714 22*	hacker is now known as Exio4
+T 1378843787 18<gigaherz>	with my router
+T 1378843816 23*	23martin-_- has quit (23Remote host closed the connection23)
+T 1378843818 18<gigaherz>	it sucks at NAT
+T 1378843823 18<gigaherz>	the tables fill up quickly
+T 1378843827 18<gigaherz>	and it has troubles cleaning them up
+T 1378843832 18<gigaherz>	so after some hours/days
+T 1378843838 18<gigaherz>	it will stop connecting to new websites
+T 1378843839 18<gigaherz>	and such
+T 1378843860 18<Sepultura>	how much OS/2 was in NT3.1?
+T 1378843914 18<gigaherz>	no clue
+T 1378843959 18<hbelusca>	maybe... 0.0001%
+T 1378843962 18<hbelusca>	?
+T 1378843971 18<hbelusca>	Because, remember that Cutler hated OS/2
+T 1378843976 18<gigaherz>	well
+T 1378843981 18<gigaherz>	it's NEW TECHNOLOGY
+T 1378843988 18<gigaherz>	so I'd be assuming they didn't base it on existing stuff ;P
+T 1378843990 18<hbelusca>	the 0.0001% is of course the os/2 subsystem
+T 1378843997 18<hbelusca>	gigaherz - it is.
+T 1378844009 18<hbelusca>	(at least it's what they say in "Showstopper!")
+T 1378844012 18<hbelusca>	(the book)
+T 1378844016 18<gigaherz>	heh
+T 1378844020 18<Sepultura>	OS/2 was the predecessor of NT3.1
+T 1378844027 18<hbelusca>	yes ofc
+T 1378844028 18<gigaherz>	yes
+T 1378844041 18<gigaherz>	but ibm ragequit
+T 1378844045 18<gigaherz>	so microsoft did it on their own
+T 1378844046 18<Sepultura>	they built up a new Windows kernel?
+T 1378844048 18<gigaherz>	;P
+T 1378844057 18<Sepultura>	IBM made OS/2 Warp
+T 1378844060 18<gigaherz>	it was going to be OS/2 3.0 originally
+T 1378844061 18<gigaherz>	IIRC
+T 1378844074 18<gigaherz>	but the ibm-microsoft collab broke
+T 1378844092 18<Sepultura>	I have OS/2 but can't install it on Virtual Box :(
+T 1378844105 18<hbelusca>	which version Sepultura ?
+T 1378844115 18<hbelusca>	Can you test it on vpc ?
+T 1378844121 18<hbelusca>	(unless you don't have windows)
+T 1378844129 18<Sepultura>	I think 1 to some Warp Version
+T 1378844132 18<gigaherz>	Iwas going to quote wikipedia but
+T 1378844133 18<gigaherz>	you know what
+T 1378844133 18<gigaherz>	http://en.wikipedia.org/wiki/Windows_NT#Development
+T 1378844136 18<gigaherz>	you can read it yourself
+T 1378844136 18<Sepultura>	I have Windows 7
+T 1378844137 18<gigaherz>	;P
+T 1378844139 18<hbelusca>	ok
+T 1378844141 18<gigaherz>	then you will know as much as I do ;p
+T 1378844159 18<hbelusca>	Sepultura - I successfully achieved in installing OS/2 2.1 (ok, it's not warp) on vpc.
+T 1378844172 18<Sepultura>	I will try this weekend
+T 1378844218 22*	Colin_Finck is now known as Colin_Finck|afk
+T 1378844247 18<Sepultura>	there is a Project call OSFree
+T 1378844249 18<Sepultura>	#OSFree
+T 1378844272 23*	23Collibri has quit (23Ping timeout: 264 seconds23)
+T 1378844277 19*	19Collibri_ (~maku@tmo-100-122.customers.d1-online.com) has joined #reactos
+T 1378844278 18<Sepultura>	http://www.osfree.org/
+T 1378844284 23*	23Collibri_ has quit (23Changing host23)
+T 1378844284 19*	19Collibri_ (~maku@reactos/developer/mkupfer) has joined #reactos
+T 1378844284 22*	26ChanServ gives channel operator status to26 Collibri_
+T 1378844315 18<hbelusca>	yeah some people talk about it on our forums :)
+T 1378844317 18<Sepultura>	their channel is on EFnet
+T 1378844345 18<Sepultura>	gigaherz: shouldn't OS/2 be compatible to Windows?
+T 1378844417 18<lewellyn>	their channel is highly-russian. be forwarned ;)
+T 1378844421 18<lewellyn>	Sepultura: no.
+T 1378844458 18<gigaherz>	no Sepultura
+T 1378844475 18<gigaherz>	after IBM and Microsoft separated
+T 1378844483 18<gigaherz>	microsoft decided to make the Win32 API the main one
+T 1378844516 18<Sepultura>	gigaherz: what was the point for OS/2 to fail?
+T 1378844521 18<lewellyn>	2000 still had support for hpfs and os/2 2.1 binaries.
+T 1378844534 18<Sepultura>	I mean why did not IBM accomplished to make OS/2 as Alternative?
+T 1378844535 18<lewellyn>	Sepultura: pretty much. ibm didn't help matters.
+T 1378844538 18<gigaherz>	http://technet.microsoft.com/en-us/library/cc767964.aspx
+T 1378844540 18<gigaherz>	look there
+T 1378844542 18<lewellyn>	and windows was the alternative.
+T 1378844549 18<gigaherz>	it explains the OS/2 API that was supported in NT
+T 1378844561 18<hbelusca>	lewellyn - os/2 2.1 , sure ? not 1.2 or something like that instead ?
+T 1378844565 18<lewellyn>	ibm never really realized that they weren't mainstream :P
+T 1378844569 18<lewellyn>	hbelusca: pretty sure 2.1.
+T 1378844577 18<hbelusca>	maybe but only the char apps.
+T 1378844581 18<lewellyn>	probably.
+T 1378844588 18<lewellyn>	PM was almost certainly unsupported.
+T 1378844591 18<hbelusca>	(unless you're thinking about the Presentation Manager Add-on for NT)
+T 1378844593 18<Sepultura>	lewellyn: I mean as third Kerneltype. There are only Unix-like and Windows
+T 1378844598 18<Sepultura>	No other OS survived!
+T 1378844622 18<lewellyn>	Sepultura: posix is gone in nt 6.3. only one subsystem remains.
+T 1378844636 18<gigaherz>	Sepultura: most other OSes never had a proper modern, safe, kernel
+T 1378844642 18<lewellyn>	the os/2 subsystem disappearing wasn't a huge loss. posix is more of a loss.
+T 1378844650 18<gigaherz>	and yet
+T 1378844653 18<gigaherz>	there's more than you think
+T 1378844703 18<lewellyn>	gigaherz: i don't count WoW as a full-fledged subsystem ;)
+T 1378844748 18<gigaherz>	Linux, *-BSD (multiple of them), the one used in MacOS X, Mach-derived (OS X, GNU Hurd), ...
+T 1378844758 18<gigaherz>	lewellyn: I meant kernels ;P
+T 1378844786 18<Sepultura>	gigaherz: that are unix-like
+T 1378844799 18<gigaherz>	yes
+T 1378844803 18<gigaherz>	but NOT the same kernel
+T 1378844813 18<lewellyn>	i'd call qnx a modern, safe, kernel. maybe a different sort of safe than you had in mind ;)
+T 1378844824 18<hbelusca>	btw there's a free open-source posix subsystem for nt.
+T 1378844825 18<gigaherz>	mostly
+T 1378844830 18<gigaherz>	the kernels we use at the moment
+T 1378844832 18<lewellyn>	hbelusca: url?
+T 1378844833 18<irgendwer4711>	L4!
+T 1378844837 18<hbelusca>	let me refind it
+T 1378844842 18<Sepultura>	gigaherz: Windows 2000 and 7 have also different Kernels
+T 1378844848 18<gigaherz>	no
+T 1378844848 18<Sepultura>	so Windows 7 is not Windows?
+T 1378844851 18<irgendwer4711>	really??11
+T 1378844854 18<gigaherz>	they have different versions of the SAME kernel
+T 1378844858 18<gigaherz>	it's still NT
+T 1378844859 18<Sepultura>	yes
+T 1378844859 18<gigaherz>	but
+T 1378844864 18<gigaherz>	Windows 7 and Windows Phone 7
+T 1378844864 18<Sepultura>	but different Versions
+T 1378844867 18<gigaherz>	DO have different kernels
+T 1378844871 18<gigaherz>	since one is NT
+T 1378844873 18<gigaherz>	and the other is CE
+T 1378844879 18<lewellyn>	hbelusca: there are a few of us in the world already mourning the loss of interix :(
+T 1378844884 18<Sepultura>	Windows Phone 8 is CE?
+T 1378844886 18<gigaherz>	Sepultura: I'm talking about different code bases
+T 1378844887 18<gigaherz>	no
+T 1378844887 18<lewellyn>	RIP CE
+T 1378844889 18<gigaherz>	WP8 is NT
+T 1378844890 18<irgendwer4711>	gigaherz: you cut the hair ^^
+T 1378844914 18<gigaherz>	WP8 is "WindowsRT Lite"
+T 1378844914 18<gigaherz>	;P
+T 1378844935 18<gigaherz>	(with the UI tweaked to fit a phone better)
+T 1378844942 18<Sepultura>	gigaherz: so Linus Tovalds did not take any code from UNIX?
+T 1378844949 18<gigaherz>	exactly
+T 1378844956 18<gigaherz>	linus is as much unix
+T 1378844957 18<irgendwer4711>	Sepultura: oh come on
+T 1378844959 18<gigaherz>	as reactos is windows
+T 1378844968 18<lewellyn>	well, he did. bsd is everywhere :)
+T 1378844976 18<irgendwer4711>	gigaherz: which unix? ;-)
+T 1378844981 18<lewellyn>	even windows had bsd code for quite some time.
+T 1378844983 19*	19cgutman (~cgutman@casewireless01.CWRU.Edu) has joined #reactos
+T 1378844990 18<irgendwer4711>	apple too
+T 1378844991 18<gigaherz>	irgendwer4711: doesn't matter which, since he didn't "take" from any of them ;P
+T 1378844993 18<lewellyn>	probably still has a bit here and there, but no way to know.
+T 1378845007 18<gigaherz>	lewellyn: well the winsock stuff
+T 1378845014 18<gigaherz>	is a port of BSD sockets so...
+T 1378845015 18<gigaherz>	at least THAT part
+T 1378845016 18<gigaherz>	;P
+T 1378845019 18<irgendwer4711>	winnuke95 ^^
+T 1378845022 18<lewellyn>	gigaherz: once bsd was freed properly, linus took some bsd code.
+T 1378845023 18<gigaherz>	how much of it remains......
+T 1378845033 18<lewellyn>	gigaherz: windows doesn't actually have any bsd code left in winsock, aiui.
+T 1378845069 18<lewellyn>	it's been rewritten enough times that anything left is probably unrewriteable any other way. "trivial and obvious implementations" don't count :P
+T 1378845104 18<irgendwer4711>	MS is always stealing
+T 1378845117 18<hbelusca>	ahh this link is extremely hard to find
+T 1378845125 18<lewellyn>	um. bsd is licensed for everyone to use.
+T 1378845134 18<lewellyn>	it's not stealing when the license says "do it"
+T 1378845141 18<irgendwer4711>	naaa
+T 1378845156 18<[TheFlash]>	true, and that's why i never release anything as BSD
+T 1378845162 18<Sepultura>	brb
+T 1378845163 18<Vampyre>	mornin
+T 1378845163 23*	23Sepultura has quit (23Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812]23)
+T 1378845181 18<[TheFlash]>	i even release libraries as GPL (NOT LGPL)
+T 1378845190 18<irgendwer4711>	bsl licence sux
+T 1378845194 18<gigaherz>	I like to release code in BSD/MIT licenses because I like USING code with BSD/MIT licenses
+T 1378845199 18<Vampyre>	I release stuff in the public domain!
+T 1378845204 18<gigaherz>	without worrying about the terms
+T 1378845214 18<[TheFlash]>	i don't like using others' code
+T 1378845217 18<[TheFlash]>	and that can be bad sometimes
+T 1378845221 18<irgendwer4711>	good for the world, bad for the project
+T 1378845229 19*	19Sepultura (~chatzilla@unaffiliated/sepultura) has joined #reactos
+T 1378845236 18<irgendwer4711>	panasonic is using bsd stuff too
+T 1378845264 18<Sepultura>	it makes BSD bad :P
+T 1378845270 18<Vampyre>	a little known fact, but openbsd is also using bsd stuff at times!
+T 1378845283 18<irgendwer4711>	maybe, they encrypted TV recordings
+T 1378845286 18<[TheFlash]>	Vampyre: you know about OpenBSD?
+T 1378845286 18<gigaherz>	if BSD had a license closer to GPL, there wouldn't be half the BSD-based projects that exist nowadays
+T 1378845287 18<gigaherz>	;P
+T 1378845298 18<Sepultura>	:P
+T 1378845306 18<Sepultura>	MacOSX would not exist XD
+T 1378845308 18<Vampyre>	[TheFlash], tah! that is that special security port of windows nt 4
+T 1378845327 18<[TheFlash]>	Vampyre: i had a theory that you're actually Theo de Raadt
+T 1378845337 18<Vampyre>	heh
+T 1378845353 18<Vampyre>	well... in regard of obnoxiousness and hardheadedness, you arn't far off at times ;-)
+T 1378845356 18<hbelusca>	ah in fact it's easy : http://winntposix.sourceforge.net/
+T 1378845359 18<hbelusca>	http://www.reactos.org/wiki/POSIX_Subsystem
+T 1378845366 18<gigaherz>	eh isn't openbsd ... based on bsd? or was that the joke?
+T 1378845369 18*	gigaherz is tired
+T 1378845376 18*	irgendwer4711 hungery
+T 1378845388 18<[TheFlash]>	gigaherz: openbsd is BSD, yes, though 386BSD was the first free one
+T 1378845390 18<Vampyre>	openbsd is proprietary closed source code used by the NSA
+T 1378845394 18<Sepultura>	NT included UNIX API :O
+T 1378845451 18<[TheFlash]>	gigaherz: OpenBSD releases a song with each copy of the OS! :D
+T 1378845451 18<hbelusca>	Vampyre - you're Theo ?
+T 1378845476 18<[TheFlash]>	gigaherz: see http://openbsd.org/lyrics.html
+T 1378845485 23*	23Collibri_ has quit (23Remote host closed the connection23)
+T 1378845497 18<Vampyre>	hbelusca, sure, if you want me to be ;-)
+T 1378845527 19*	19szczur_ (~szczur@aece166.neoplus.adsl.tpnet.pl) has joined #reactos
+T 1378845542 18<hbelusca>	haha
+T 1378845546 23*	23szczur has quit (23Ping timeout: 264 seconds23)
+T 1378845557 18<Vampyre>	oh, hbelusca, you pinged me?
+T 1378845577 18<hbelusca>	I "pinged" you when asking the question, but otherwise no...
+T 1378845580 18<Sepultura>	hbelusca: http://www.youtube.com/watch?v=0STc959JuSg
+T 1378845584 18<hbelusca>	well I don't think so...
+T 1378845604 18<hbelusca>	Sepultura - I already know that video :)
+T 1378845621 18<Vampyre>	[19:46:42] <hbm|wrk> Vampyre - ping
+T 1378845625 18<Vampyre>	wasn't you?
+T 1378845647 18<hbelusca>	ah yes it was me, well, I don't remember what I wanted to ask to you :P
+T 1378845652 18<Vampyre>	ah
+T 1378845654 18<Vampyre>	ok :-)
+T 1378845664 18<Vampyre>	wasn't sure if it was you
+T 1378845676 18<Vampyre>	oh, and i see we reached 60k!
+T 1378845703 18<RosKGB>	03aandrejevic 05branches r60011 06ntvdm 10lib/soft386/ 10opcodes.h 10opcodes.c * 14http://svn.reactos.org/svn/reactos?view=revision&revision=60011
+T 1378845703 18<RosKGB>	[SOFT386]
+T 1378845704 18<RosKGB>	Implement many instructions (including ADC, SUB, CDQ, CWDE, ...), and "stubplement" even more of them.
+T 1378845710 18<irgendwer4711>	bye for today
+T 1378845716 18<hbelusca>	Ah yes Sepultura: http://www.reactos.org/forum/viewtopic.php?f=2&t=12488#p100678
+T 1378845717 18<hbelusca>	:D
+T 1378845751 18<lewellyn>	hbelusca: it looks like that posix thing requires the os to still support interix :P
+T 1378845754 23*	23irgendwer4711 (23~irgendwer@reactos/tester/irgendwer4711) has left #reactos
+T 1378845759 18<lewellyn>	i'll have to set up an 8.1 vm to see if it works.
+T 1378845787 18<hbelusca>	supporting subsystems, yes, and maybe (unsigned?) drivers
+T 1378845833 18<[TheFlash]>	hbelusca: now the whole master opcode table is at least stubplemented
+T 1378845843 18<hbelusca>	I see :)
+T 1378845877 18<[TheFlash]>	except for the string instructions
+T 1378845881 18<[TheFlash]>	those are waiting for paging
+T 1378845953 18<RosKGB>	03hbelusca r60012 10trunk/reactos/subsystems/win/basesrv/ 10basesrv.h 10init.c * 14http://svn.reactos.org/svn/reactos?view=revision&revision=60012
+T 1378845953 18<RosKGB>	[BASESRV]
+T 1378845953 18<RosKGB>	- Fix header formatting plus windows headers inclusion.
+T 1378845953 18<RosKGB>	- RtlCreateUnicodeString returns booleans, not ntstatuses, so fix the code appropriately.
+T 1378845967 18<Vampyre>	[TheFlash]. have you implemented stmps?
+T 1378845989 18<Sepultura>	hbelusca: maybe we should rename WINE Wordpad
+T 1378846006 18<hbelusca>	^ it's not urgent :)
+T 1378846013 18<Sepultura>	but later ;)
+T 1378846022 18<hbelusca>	yes, later and after *many* fixes.
+T 1378846114 18<[TheFlash]>	unfortunately soft386 will take a while before it becomes usable :(
+T 1378846194 18<[TheFlash]>	hbelusca: if you have time, can you try to see if the code can be simplified with some preprocessor stuff?
+T 1378846195 18<Sepultura>	hbelusca: ReactOS made it better than Windows 8 Firsttimer :P but I think it was not the same person who made the video for Windows 8 ;)
+T 1378846222 18<Sepultura>	http://www.youtube.com/watch?v=v4boTbv9_nU
+T 1378846277 23*	23cgutman has quit (23Ping timeout: 248 seconds23)
+T 1378846336 18<hbelusca>	[TheFlash] - I will have a look at that, but after everything gets implemented :)
+T 1378846355 18<[TheFlash]>	btw, my OS has a livecd now!
+T 1378846364 18<hbelusca>	wow :)
+T 1378846401 18<[TheFlash]>	still no working FS layer though
+T 1378846408 18<[TheFlash]>	and the cache is a disaster
+T 1378846439 18<Sepultura>	gigaherz: did you try Windows Hate.One?
+T 1378846472 22*	Colin_Finck|afk is now known as Colin_Finck
+T 1378846473 18<[TheFlash]>	so far, there have been 3 windows releases i have never used in my entire life!
+T 1378846498 18<[TheFlash]>	7, 8 and 8.1
+T 1378846499 18<Sepultura>	which ?
+T 1378846501 18<Sepultura>	ah ok
+T 1378846529 19*	19cgutman (~cgutman@casewireless01.CWRU.Edu) has joined #reactos
+T 1378846573 18<[TheFlash]>	i mean, three in a row
+T 1378846589 18<[TheFlash]>	and i hope that streak never ends
+T 1378846598 18<gigaherz>	you used VISTA, but NOT 7?!
+T 1378846602 18<Sepultura>	I will never use Windows 8 that's for sure
+T 1378846611 18<[TheFlash]>	gigaherz: yes
+T 1378846616 18<[TheFlash]>	gigaherz: vista is the last one i used
+T 1378846632 18<Sepultura>	gigaherz: there are people who likes vista more than 7
+T 1378846680 18<[TheFlash]>	i had no problem with vista, except that it's proprietary
+T 1378846694 18<[TheFlash]>	so i replaced it with a free operating system
+T 1378846727 18<gigaherz>	Sepultura: why? :/
+T 1378846732 18<gigaherz>	why would anyone like vista more than 7?
+T 1378846744 18<[TheFlash]>	gigaherz: what is the issue you had with vista?
+T 1378846745 18<gigaherz>	7 can do everythign vista does -- better
+T 1378846746 18<hbelusca>	http://fr.cdn.v5.futura-sciences.com/sources/images/actu/rte/LHC20083.JPG
+T 1378846750 18<gigaherz>	[TheFlash]: none!
+T 1378846753 18<gigaherz>	but 7 is better
+T 1378846755 18<gigaherz>	:/
+T 1378846761 18<Sepultura>	gigaherz: do you know Win7Elevate?
+T 1378846765 18<gigaherz>	no
+T 1378846776 18<[TheFlash]>	gigaherz: 7 is the same proprietary junk...
+T 1378846777 18<Sepultura>	it is a Privelege Escalation bug works since Windows 7 beta
+T 1378846786 18<gigaherz>	I disabled UAC in vista
+T 1378846790 18<gigaherz>	but I didn't bother in 7
+T 1378846813 18<gigaherz>	UAC isn't a security system, it's a safety measure
+T 1378846820 18<Sepultura>	I did not disable it because it did not annoy me
+T 1378846824 18<gigaherz>	I don't expect it to protect me
+T 1378846843 18<gigaherz>	just to warn me when I'm about to run something that's asking for extra privileges
+T 1378846853 18<gigaherz>	for the very rare case where I don't expect it to happen
+T 1378846861 18<gigaherz>	IF I wanted security
+T 1378846867 18<gigaherz>	I'd have a SEPARATE admin account
+T 1378846870 18<gigaherz>	with a password
+T 1378846877 18<gigaherz>	and not use UAC at all
+T 1378846887 18<[TheFlash]>	lol, and you would use an admin account instead of power user?
+T 1378846897 18<[TheFlash]>	that's not security
+T 1378846903 18<gigaherz>	no
+T 1378846909 18<gigaherz>	I'd use a restricted account
+T 1378846926 18<gigaherz>	and whe nsome app requires admin privileges, I'd manually enter the password only when necessary
+T 1378846955 18<gigaherz>	note that as far as I'm concerned, windows has two groups:
+T 1378846958 18<gigaherz>	Administrators, and Users.
+T 1378846960 18<gigaherz>	;P
+T 1378846963 18<[TheFlash]>	yes
+T 1378846972 18<Sepultura>	gigaherz: wasn't UAC made to make Windows more secure because everyone used Administration account on XP?
+T 1378846974 18<gigaherz>	people who can touch system files
+T 1378846976 18<gigaherz>	and people who can't
+T 1378846985 18<gigaherz>	Sepultura: no and yes
+T 1378847004 18<gigaherz>	UAC is to make the users that used windows as admin more secure
+T 1378847012 18<gigaherz>	but it's not TRUE security
+T 1378847033 18<gigaherz>	when you enable UAC
+T 1378847038 18<gigaherz>	and log into an UAC-enabled user
+T 1378847042 18<gigaherz>	you actually have TWO users
+T 1378847047 18<gigaherz>	logged in at the same time
+T 1378847050 18<gigaherz>	one has admin privileges
+T 1378847052 18<gigaherz>	and one doesn't
+T 1378847072 18<gigaherz>	so technically up to that point
+T 1378847084 18<gigaherz>	it would be as safe as creating those users manually
+T 1378847110 18<gigaherz>	and if you don't turn down the UAC level
+T 1378847111 18<Vampyre>	gigaherz, uac applications are not logged in users in the classical sense, they just have a system privilage token
+T 1378847119 18<gigaherz>	no
+T 1378847121 18<Vampyre>	compare it to linux capabilities
+T 1378847124 18<gigaherz>	there's actually TWO user sessions running
+T 1378847137 18<gigaherz>	if you enumerate the running sessions
+T 1378847141 18<Vampyre>	sessions are not logged in users
+T 1378847142 18*	[TheFlash] thinks UNIX users are better than NT
+T 1378847148 18<[TheFlash]>	which is why my OS
+T 1378847160 18<[TheFlash]>	which is NT-like in many ways, uses a UNIX-like user system
+T 1378847167 18<gigaherz>	Vampyre: when an user logs in, it creates two user sessions, that's all I meant
+T 1378847172 18<[TheFlash]>	two tokens
+T 1378847178 18<Vampyre>	ah, yes, then you are right
+T 1378847210 18<gigaherz>	as far as the windows security is concerned, some apps run under one session, and others under the other session
+T 1378847214 18<gigaherz>	although they share a window station
+T 1378847233 18<gigaherz>	if you have UAC set to max
+T 1378847242 18<gigaherz>	then the UAC prompts run in a separate window station
+T 1378847254 18<gigaherz>	so programs running in the machine can't keylog that screen
+T 1378847258 23*	23nandersson has quit (23Quit: Leaving23)
+T 1378847266 18<gigaherz>	or programmatically enter a password for you
+T 1378847310 18<gigaherz>	the first problem comes where a program can pretend to be the UAC screen
+T 1378847323 18<gigaherz>	by capturing a screenshot and running a fullscreen window
+T 1378847334 18<[TheFlash]>	and the second problem is that it uses CRC to verify the task scheduler hasn't been tampered with :D
+T 1378847386 18<gigaherz>	which is why I think UAC doesn't ask for a password, only a "yes"/"no"
+T 1378847393 18<gigaherz>	at least the windows 7 one doesn't
+T 1378847400 18<gigaherz>	but some users may not realize that
+T 1378847419 18<gigaherz>	of course, if the user is stupid, then it doesn't matter what you do
+T 1378847439 18<[TheFlash]>	and since it's a Windows user..
+T 1378847443 18<gigaherz>	even a cellphone walled garden is unsafe ...
+T 1378847476 18<Sepultura>	gigaherz: you are on restricted user now?
+T 1378847478 18<gigaherz>	[TheFlash]: it doesn't matter
+T 1378847481 18<gigaherz>	Sepultura: no
+T 1378847491 18<gigaherz>	I don't worry too much about being hacked
+T 1378847494 18<gigaherz>	or infected
+T 1378847499 18<Sepultura>	gigaherz: why?
+T 1378847506 18<gigaherz>	I'm not an interesting target for any professional hacking
+T 1378847508 18<gigaherz>	and
+T 1378847520 18<gigaherz>	I have enough common sense not to run bad software
+T 1378847531 18<Sepultura>	gigaherz: do you do online banking?
+T 1378847538 18<[TheFlash]>	but your run bad software every day!
+T 1378847552 18<[TheFlash]>	Windows is bad :D
+T 1378847561 18<gigaherz>	Sepultura: not much
+T 1378847567 18<gigaherz>	I forgot my operative key
+T 1378847572 18<gigaherz>	so I can't actually DO anything ;P
+T 1378847580 18<gigaherz>	and the other bank
+T 1378847582 18<gigaherz>	has a keycard
+T 1378847585 18<[TheFlash]>	oh, but since i don't want to bash something with no proof:
+T 1378847588 18<hbelusca>	[23:12:42] [TheFlash] thinks UNIX users are better than NT <-- maybe; users are different
+T 1378847590 18<gigaherz>	I mean a CC-sized card
+T 1378847590 18<[TheFlash]>	https://www.fsf.org/windows8
+T 1378847594 18<gigaherz>	with 3-digit numbers
+T 1378847598 18<Sepultura>	gigaherz: a bad guy could still use your PC to spread bad things
+T 1378847601 18<gigaherz>	and they ask you for one of those numbers
+T 1378847607 18<gigaherz>	Sepultura: sure
+T 1378847612 18<gigaherz>	but i'm not a famous person, so far
+T 1378847613 18<[TheFlash]>	http://en.windows7sins.org/
+T 1378847633 18<gigaherz>	so as I said, I'm not an interesting target for active hacking
+T 1378847635 23*	23zwabbit has quit (23Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812]23)
+T 1378847636 18<Sepultura>	gigaherz: how do you think pedophiles are spreading their crap?
+T 1378847642 18<gigaherz>	?
+T 1378847646 18<gigaherz>	over p2p?
+T 1378847650 18<gigaherz>	or TOR
+T 1378847654 18<gigaherz>	or whatever
+T 1378847656 18<Sepultura>	gigaherz: over infected PCs
+T 1378847674 18<gigaherz>	as I said
+T 1378847680 18<gigaherz>	I have common sense
+T 1378847684 18<gigaherz>	not to run crap
+T 1378847694 18<[TheFlash]>	gigaherz: (except Windows)
+T 1378847714 18<Sepultura>	gigaherz: have you a anti-virus scanner?
+T 1378847722 18<gigaherz>	yes, now
+T 1378847729 18<gigaherz>	because Microsoft Security Essentials doesn't annoy me
+T 1378847732 18<gigaherz>	but before that
+T 1378847734 18<gigaherz>	no I didn't use any
+T 1378847750 18<Vampyre>	^ with that ;-)
+T 1378847750 18<Sepultura>	you want to replace Mysoft :P
+T 1378847766 18<gigaherz>	I have only got 2 viruses in the past 15 years
+T 1378847773 18<gigaherz>	one, I knew it was there
+T 1378847777 18<gigaherz>	and I miss-clicked
+T 1378847781 18<gigaherz>	and run the .vbscript
+T 1378847782 22*	[TheFlash] is now known as Mysoft2
+T 1378847785 18<gigaherz>	instead of opening in notepad
+T 1378847791 18<Vampyre>	I get one or 2 every year, especially at the end of the winter
+T 1378847796 18<Mysoft2>	hi everyone
+T 1378847797 18<gigaherz>	and the other one
+T 1378847798 18<Mysoft2>	i'm back!!
+T 1378847801 18<Mysoft2>	:P
+T 1378847801 18<gigaherz>	was MSblaster
+T 1378847808 18*	Vampyre calls an excorcist
+T 1378847814 18<gigaherz>	I got that one when I had to format my pc
+T 1378847816 18<gigaherz>	for other reasons
+T 1378847826 18<gigaherz>	and I didn't have an XP with sp2 already installed
+T 1378847840 18<gigaherz>	and I got infected while downloading updates
+T 1378847858 18<Mysoft2>	lol
+T 1378847861 18<Vampyre>	I usually have more problems with bacteria
+T 1378847876 18<gigaherz>	Vampyre: lol
+T 1378847880 19*	19kcj (~casey@unaffiliated/kcj) has joined #reactos
+T 1378847885 22*	Mysoft2 is now known as [TheFlash]
+T 1378847891 18<hbelusca>	mf - ping
+T 1378847909 18<Vampyre>	bacteria almost killed me once! :-p
+T 1378847909 18<gigaherz>	I just thought "did he forget to press tab?"
+T 1378847919 18<gigaherz>	but then I saw that there's actually someone using "mf" nickname XD
+T 1378848004 18<mf>	hbelusca: pong
+T 1378848011 18<Sepultura>	gigaherz: do you know the three Studies Syndrom?
+T 1378848017 18<gigaherz>	no
+T 1378848023 18<RosKGB>	03ekohl r60013 10trunk/reactos/dll/win32/lsasrv/ 10(8 files in 2 dirs) * 14http://svn.reactos.org/svn/reactos?view=revision&revision=60013
+T 1378848023 18<RosKGB>	[LSASRV]
+T 1378848024 18<RosKGB>	- Allocate buffers for account and domain names in the well-known sid list instead of using pointers to strings.
+T 1378848024 18<RosKGB>	- Add a string load routine and convert all hard-coded SID names to resources.
+T 1378848025 18<RosKGB>	A german translation will follow soon.
+T 1378848029 18<hbelusca>	hi mf, isn't it you that you created some graphics for ReactOS ?
+T 1378848032 18<Sepultura>	gigaherz: you have so many viruses that everyone blocks each other so no one works XD
+T 1378848038 18<gigaherz>	lol
+T 1378848043 18<gigaherz>	no
+T 1378848046 18<gigaherz>	but this reminds me
+T 1378848051 18<gigaherz>	I downloaded a pirate game once
+T 1378848065 18<gigaherz>	when Vista x64 was still relatively new
+T 1378848070 18<gigaherz>	and all viruses were still 32bit
+T 1378848071 18<mf>	i did, a long time ago
+T 1378848078 18<gigaherz>	and
+T 1378848084 18<gigaherz>	the main .exe in the .iso
+T 1378848089 18<gigaherz>	was a bad exe
+T 1378848093 18<gigaherz>	full of viruses
+T 1378848102 18<gigaherz>	dozens of viruses in the same file
+T 1378848104 18<gigaherz>	BUT
+T 1378848109 18<gigaherz>	when I ran it
+T 1378848109 18<hbelusca>	ok so I have a question, mf, do you know who created the logo of the "welcome.exe" program that we find on the ReactOS boot cd ?
+T 1378848119 18<gigaherz>	it crashed
+T 1378848122 18<hbelusca>	(and which is used in the about-box dialog of ReactOS, too)
+T 1378848126 18<gigaherz>	because the viruses were not compatible XD
+T 1378848149 18<gigaherz>	I think 2 or 3 got through
+T 1378848154 18<Sepultura>	what was the name of the Game? Dr Mario?
+T 1378848156 18<Sepultura>	:P
+T 1378848162 18<gigaherz>	can't remember, and no ;P
+T 1378848178 18<mf>	hbelusca: http://img193.imageshack.us/img193/4125/reactosstartpanel.png this one?
+T 1378848216 18<[TheFlash]>	gigaherz: probably because they wanted to re-infect the file :D
+T 1378848218 18<Sepultura>	gigaherz: I heard there a Viruses which deletes other Viruses :P
+T 1378848220 18<hbelusca>	not this one, the one you obtain when opening winver.exe for example.
+T 1378848233 18<[TheFlash]>	gigaherz: you see, viruses store a special number in the checksum to know it's infected already
+T 1378848250 18<[TheFlash]>	gigaherz: after prepending / appending
+T 1378848259 18<[TheFlash]>	gigaherz: if you have many viruses in the chain
+T 1378848272 18<gigaherz>	I think one of them wasn't vista-compatible ;P
+T 1378848283 18<[TheFlash]>	gigaherz: only the last one that infected it knows it's infected
+T 1378848291 18<hbelusca>	mf this one: http://wp.xin.at/wp-content/uploads/2013/06/ReactOS_screenshot_2.jpg
+T 1378848292 18<[TheFlash]>	gigaherz: the rest of them would try to re-infect the same EXE
+T 1378848318 18<gigaherz>	it would have made the infected file crash
+T 1378848320 18<[TheFlash]>	gigaherz: and yes, since this is an entry point hook chain, if one of them crashes they all do
+T 1378848325 18<gigaherz>	but the source exe crashed
+T 1378848345 18<[TheFlash]>	it would be funny if the first one crashed
+T 1378848349 18<gigaherz>	anyhow the point is
+T 1378848352 18<gigaherz>	the two that gor through
+T 1378848353 18<Sepultura>	Maybe Gigaherz does not get infected because he is programming all the malware :P
+T 1378848356 18<gigaherz>	were not active viruses
+T 1378848360 18<gigaherz>	I ran a quick AV scan
+T 1378848364 18<gigaherz>	and only found 2-3 infected files
+T 1378848369 18<gigaherz>	quick cleanup and it was done
+T 1378848373 18<[TheFlash]>	gigaherz: also, the viruses might not be resident
+T 1378848396 18<gigaherz>	[TheFlash]: I strongly suspect the viruses were not written to take UAC into account
+T 1378848396 18<[TheFlash]>	resident viruses do: entry point -> create thread -> old entry point
+T 1378848396 18<gigaherz>	,P
+T 1378848398 18<RosKGB>	03hbelusca r60014 10trunk/reactos/ 10win32ss/user/user32/windows/menu.c 10dll/win32/userenv/desktop.c 10dll/win32/userenv/directory.c 10win32ss/user/user32/windows/message.c * 14http://svn.reactos.org/svn/reactos?view=revision&revision=60014
+T 1378848398 18<RosKGB>	[USERENV][USER32]
+T 1378848398 18<RosKGB>	Use a correct return variable for RtlCreateUnicodeStringFromAsciiz. Advice: read the documentation before using functions...
+T 1378848416 18<gigaherz>	anyhow
+T 1378848423 18<gigaherz>	that windows installation is long gone ;P
+T 1378848432 18<gigaherz>	so it doesn't matter anymore
+T 1378848500 18<[TheFlash]>	i never reinstalled windows :D
+T 1378848512 18<[TheFlash]>	while i was using it, i mean
+T 1378848553 18<gigaherz>	I did
+T 1378848553 18<gigaherz>	but
+T 1378848557 18<gigaherz>	usually after I broke something
+T 1378848560 18<gigaherz>	and it stopped booting
+T 1378848573 18<gigaherz>	or because of hardware changes
+T 1378848576 18<[TheFlash]>	why didn't you fix it instead?
+T 1378848576 18<gigaherz>	in fact
+T 1378848583 18<gigaherz>	because no internet
+T 1378848607 18<gigaherz>	and no running OS to actually fix it from
+T 1378848614 18<gigaherz>	...
+T 1378848619 18<gigaherz>	in fact, my laptop is pending a format
+T 1378848626 18<gigaherz>	something is slightly broken
+T 1378848633 18<gigaherz>	so the IE10 update won't install
+T 1378848634 18<gigaherz>	and
+T 1378848643 18<Sepultura>	hbelusca: have you switched off UAC?
+T 1378848645 18<gigaherz>	IE10 is a prerequisite for VS2013
+T 1378848645 18<PhonicUK>	wow, ReactOS is still going
+T 1378848653 18<gigaherz>	PhonicUK: of course!
+T 1378848657 18<hbelusca>	Sepultura - no, why ?
+T 1378848661 18<gigaherz>	slowly, because people doesn't give them enough credit
+T 1378848664 18<gigaherz>	and doesn't help
+T 1378848670 18<PhonicUK>	you know, I've been following this project for about 13 years now
+T 1378848679 18<gigaherz>	heh
+T 1378848682 18<gigaherz>	way longer than me
+T 1378848682 18<Sepultura>	hbelusca: did not you read what we were talking?
+T 1378848694 18<PhonicUK>	well it's why I have +v here
+T 1378848694 18<gigaherz>	I discovered it maybe around 2005 or 2006
+T 1378848719 18<gigaherz>	but I have only been trying to contribute recently
+T 1378848740 18<PhonicUK>	I've only ever made 1 code contribution
+T 1378848741 18<PhonicUK>	the infinst tool
+T 1378848752 18<gigaherz>	:O
+T 1378848754 18<hbelusca>	Sepultura - not really.
+T 1378848784 18<Sepultura>	hbelusca: we were talking about UAC and computer security
+T 1378848792 18<[TheFlash]>	hmm... that reminds me! i haven't paid any attention to the NET tool i wrote...
+T 1378848797 18<hbelusca>	Well, it doesn't popup every minute...
+T 1378848840 18<[TheFlash]>	you can now do "net helpmsg" in ReactOS!
+T 1378848849 18<hbelusca>	When I want to bring a modification to the system, I connect myself to the Administrator account of Windows 7.
+T 1378848851 18<PhonicUK>	infinst was nearly 10 years ago
+T 1378848869 18<hbelusca>	Otherwise I'm on my user-limited account (but here I'm not going to install any program with it).
+T 1378848887 18<hbelusca>	And for programming I have an admin-like account, but a little bit lower in rights.
+T 1378848899 18<[TheFlash]>	hbelusca: use NetBSD instead
+T 1378848915 18<[TheFlash]>	NetBSD > Windows
+T 1378848915 18<hbelusca>	[23:41:09] <@hbelusca> When I want to bring a modification to the system, I connect myself to the Administrator account of Windows 7. <-- The real Admin account is not enabled by default when you install Win7 (or when you buy a pc)
+T 1378848923 18<hbelusca>	[TheFlash] - no need :)
+T 1378848931 18<[TheFlash]>	Minix > Windows
+T 1378848941 18<hbelusca>	not at all ^ 
+T 1378848941 18<PhonicUK>	I wonder if any of the guys remember me still
+T 1378848946 18<PhonicUK>	but i'd feel rude pinging them
+T 1378848946 18<[TheFlash]>	Monolithium > Windows
+T 1378848951 18<[TheFlash]>	ReactOS > Windows
+T 1378848951 18<hbelusca>	surely not :P
+T 1378848959 18<hbelusca>	(talking about monolithium)
+T 1378848965 18<[TheFlash]>	(this is not a descending list, don't worry, ReactOS is above those other two)
+T 1378848965 18<hbelusca>	but ROS > Windows is the aim
+T 1378848967 18<PhonicUK>	lol
+T 1378848983 18<PhonicUK>	I remember encod** and Alex
+T 1378849004 18<hbelusca>	?
+T 1378849063 18<[TheFlash]>	FreeDOS > Windows
+T 1378849082 18<[TheFlash]>	PonyOS > Windows
+T 1378849096 18<RosKGB>	03hbelusca r60015 10trunk/reactos/dll/win32/advapi32/service/sctrl.c * 14http://svn.reactos.org/svn/reactos?view=revision&revision=60015
+T 1378849096 18<RosKGB>	[ADVAPI32]
+T 1378849096 18<RosKGB>	Use a correct control pipe sharing policy.
+T 1378849119 18<Vampyre>	I remember you PhonicUK
+T 1378849127 18<mf>	hbelusca: that particular image is the original one by steve cockeram (an acquaintance of kjk iirc)
+T 1378849128 18<PhonicUK>	Vampyre! You I remember
+T 1378849130 18<hbelusca>	[TheFlash] - troll detected
+T 1378849138 18<Vampyre>	welcome back :-)
+T 1378849143 18<[TheFlash]>	hbelusca: note that the relation ">" here
+T 1378849148 18<PhonicUK>	Vampyre, I also remember that there was something important about you, but I can't remember what it was
+T 1378849151 18<[TheFlash]>	hbelusca: means "more free software than"
+T 1378849153 18<hbelusca>	mf - hmm it exists only in bmp ? not in jpg ?
+T 1378849160 18<hbelusca>	[TheFlash] - ahhh !!
+T 1378849166 18<Vampyre>	hbelusca, [TheFlash] isn't a troll... he is more like an ogre... or a fairy... ;-)
+T 1378849169 18<hbelusca>	not in svg sorry @ mf
+T 1378849173 18<PhonicUK>	any idea what I'm thinking of?
+T 1378849188 18<Vampyre>	PhonicUK, my general excistance is important ;-)
+T 1378849190 18<mf>	hbelusca: the ancient original was made in corel photo paint in that exact resolution
+T 1378849197 18<PhonicUK>	Vampyre, :P
+T 1378849203 18<Vampyre>	but I don't know what kind of importance you would classify to me
+T 1378849210 18<Vampyre>	I'm not ;-)
+T 1378849211 18<hbelusca>	mf - but does corel have some idea of layers .. .and so on ?
+T 1378849213 18<PhonicUK>	Vampyre, I have a vague memory of flirting with you
+T 1378849216 18<hbelusca>	(I don't know it at all)à
+T 1378849222 18<mf>	hbelusca: i recreated the logo in vector (also available as SVG) but that doesn't include the green background
+T 1378849222 18<Vampyre>	errr
+T 1378849228 18<Vampyre>	ok ;-)
+T 1378849240 18<hbelusca>	mf - is this logo available somewhere ?
+T 1378849240 18<PhonicUK>	if you're a guy then that would be an incorrect memory
+T 1378849245 18<Vampyre>	was I an enjoyable flirt? ;-)
+T 1378849265 18<Vampyre>	welll.... I might not be a guy...! :-p
+T 1378849270 18<mf>	hbelusca: should be on svn somewhere
+T 1378849273 18<PhonicUK>	hehe yeah I remember now :D
+T 1378849279 18<Vampyre>	I probably am... but you never know ;-)
+T 1378849286 18<PhonicUK>	at least I think
+T 1378849289 18<PhonicUK>	I'm not sure >_<
+T 1378849292 18<Vampyre>	lol
+T 1378849297 18<[TheFlash]>	Vampyre never reveals any information
+T 1378849297 18<PhonicUK>	damn you and your ambiguity
+T 1378849303 18<hbelusca>	mf - to be clear, I'm talking about the logo *plus* the horizontal bars and all the decorations that are displayed in the about box of http://wp.xin.at/wp-content/uploads/2013/06/ReactOS_screenshot_2.jpg
+T 1378849304 18<Vampyre>	yah
+T 1378849310 18<Vampyre>	that's me ;-)
+T 1378849326 18<[TheFlash]>	so far we know the following:
+T 1378849336 18<PhonicUK>	if Vamp is a woman then I remember much flirting and innuendos
+T 1378849348 18<PhonicUK>	god that was nearly a decade ago...
+T 1378849357 18<[TheFlash]>	1) he lives in Amsterdam, Netherlands
+T 1378849362 18<mf>	hbelusca: that never existed in any scalable vector format
+T 1378849365 18<[TheFlash]>	2) he might be Theo de Raadt
+T 1378849377 18<PhonicUK>	lol
+T 1378849385 18<hbelusca>	ah :(
+T 1378849393 18<PhonicUK>	if it's a he then definitely not
+T 1378849405 18<[TheFlash]>	3) he studied at a university where Andy Tanenbaum teaches "Operating Systems"
+T 1378849436 18<hbelusca>	[23:49:16] <+PhonicUK> if Vamp is a woman then I remember much flirting and innuendos <-- well it's important because we don't have so much women on this channel (and on #reactos-dev too)
+T 1378849436 18<Vampyre>	[TheFlash], that's the VU in amsterdam ;-)
+T 1378849449 18<PhonicUK>	lol
+T 1378849449 18<hbelusca>	[TheFlash] - according to wikipedia, Theo lives in Canada :)
+T 1378849461 18<[TheFlash]>	scratch 2 off the list then
+T 1378849465 18<Vampyre>	I might have lied and be a canadian actually!
+T 1378849466 18<mf>	hbelusca: i still have the original corel photo paint file but it's an oddball format and i'm not sure if you can open it
+T 1378849476 18<Vampyre>	i always say morning when it is eavning in europe
+T 1378849485 18<[TheFlash]>	but that's because of #4
+T 1378849486 18<Vampyre>	maybe I am mistakingly revealing information that way!
+T 1378849486 18<hbelusca>	Vampyre -  +1
+T 1378849488 18<[TheFlash]>	4) he is a vampire
+T 1378849497 18<hbelusca>	or maybe point 2 is right 
+T 1378849497 18<hbelusca>	:D
+T 1378849525 18<[TheFlash]>	i think i vaguely remember
+T 1378849526 18<hbelusca>	but I see that you're using vanadinet.nl
+T 1378849535 18<[TheFlash]>	i saw Vampyre log in from *.nl
+T 1378849537 18<Vampyre>	hbelusca, also a ruse! ;-)
+T 1378849541 18<hbelusca>	ahahahah !!!
+T 1378849550 18<PhonicUK>	maybe thats just their TOR exit node :P
+T 1378849559 18<Vampyre>	maybe i should get a fsf cloak ;-)
+T 1378849579 18<[TheFlash]>	fsf/vampires/vampyre
+T 1378849584 18<PhonicUK>	/whois me - I have one :)
+T 1378849595 18<PhonicUK>	not a student anymore though
+T 1378849608 18<Vampyre>	that's pdpc, not fsf :-p
+T 1378849622 18<PhonicUK>	bleh :P
+T 1378849626 18<PhonicUK>	how do you get a fsf one?
+T 1378849631 18<Vampyre>	actually, PhonicUK you visited maya once right?
+T 1378849640 18<Vampyre>	or was that someone else?
+T 1378849648 18<PhonicUK>	no, but that name rings a bell
+T 1378849657 18<hbelusca>	mf - I think I'm interesting in the image, still :)
+T 1378849661 18<PhonicUK>	it really really rings a bell...
+T 1378849671 18<Vampyre>	she is still here as hackkitten
+T 1378849675 18<hbelusca>	yes ^
+T 1378849677 18<mf>	also it seems wikimedia people made the svg version of the logo better, hahah
+T 1378849682 18<mf>	http://commons.wikimedia.org/wiki/File:ReactOS_logo.svg
+T 1378849685 18<mf>	look at the changelog
+T 1378849689 18<Sepultura>	gn8
+T 1378849692 23*	23Sepultura has quit (23Quit: ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812]23)
+T 1378849693 18<Vampyre>	and you probably remember that blizard fake girl
+T 1378849696 18<Vampyre>	what's her name
+T 1378849697 18<mf>	they reduced the size from 27MB to 58KB :P
+T 1378849702 18<hbelusca>	mf - we have it I think in our svn
+T 1378849706 18<Vampyre>	mira
+T 1378849709 18<hbelusca>	(I did something with it at least, I know)
+T 1378849710 18<Vampyre>	or something
+T 1378849713 18<PhonicUK>	omw Maya I definitely remember
+T 1378849718 18<PhonicUK>	it was her I was flirty with
+T 1378849725 18<PhonicUK>	I think?
+T 1378849726 18<Vampyre>	heh
+T 1378849727 18<PhonicUK>	aaarg
+T 1378849739 18<PhonicUK>	I don't know what I do or don't remember anymore >_<
+T 1378849739 18<Vampyre>	I have logs... :-p
+T 1378849747 18<[TheFlash]>	PhonicUK: she's also from the Netherlands, i think
+T 1378849750 18<PhonicUK>	do they go back to 2003?
+T 1378849754 18<[TheFlash]>	PhonicUK: that's why you mixed her up with Vampyre 
+T 1378849760 18<Vampyre>	they go back to '96
+T 1378849761 18<PhonicUK>	possibly
+T 1378849765 18<PhonicUK>	impressive
+T 1378849775 18<PhonicUK>	shame she's AFK
+T 1378849779 18<[TheFlash]>	oh right, more information about Vampyre 
+T 1378849785 18<[TheFlash]>	5) he keeps lots of logs
+T 1378849787 18<mf>	hbelusca: if you feel very attached to that green background i could probably recreate it
+T 1378849791 18<Vampyre>	I did not say which century!
+T 1378849797 18<PhonicUK>	lool
+T 1378849799 18<mf>	but what's the point exactly? high dpi support or something?
+T 1378849805 18<PhonicUK>	Vampyre, can you check for me talking to maya?
+T 1378849811 18<[TheFlash]>	6) he often uses the phrases "heh", "hmz", and "ffs"
+T 1378849816 19*	19hencoded (~roswarrio@72.252.4.133) has joined #reactos
+T 1378849816 18<Vampyre>	errr
+T 1378849828 18<[TheFlash]>	but that also applies to Mysoft
+T 1378849832 18<Vampyre>	you probably did... it's lots of logs ;-)
+T 1378849841 18<hbelusca>	being able to resize it to some size, maybe moving the logo to the right and inversing the orientation of the background... to be used as the logo for winlogon.
+T 1378849865 18<Vampyre>	[TheFlash], ok, I admit, I am secretly mysoft
+T 1378849885 18<[TheFlash]>	7) he is certainly not Mysoft
+T 1378849889 18<Vampyre>	lol
+T 1378849899 18<hbelusca>	lol
+T 1378849900 19*	19smiley1_ (~johnyadam@athedsl-277890.home.otenet.gr) has joined #reactos
+T 1378849908 18<hbelusca>	you cannot, because you don't troll a lot as him.
+T 1378849925 23*	23jansssens has quit (23Ping timeout: 248 seconds23)
+T 1378849933 18<Vampyre>	yah, I still need lots of practice before I cn be as masterfull as him ;-)
+T 1378849933 23*	23smiely1_ has quit (23Read error: Connection reset by peer23)
+T 1378849958 18<mf>	hbelusca: i did make this ages ago: http://mufunyo.net/reactos/logon.png
+T 1378849968 18<Vampyre>	freebasic rules! reactos should be rewritten in freebasic! it only makes sense!
+T 1378850001 18<hbelusca>	mf - too... vista-like :)
+T 1378850004 18<[TheFlash]>	8) he once mentioned he is a sysadmin
+T 1378850046 18<[TheFlash]>	9) he might be an entrepreneur
+T 1378850048 18<Vampyre>	did I also mention I was a member of the amsterdam mafia? and if you know too much info about me I have to....visit you...? :-p

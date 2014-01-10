@@ -1,0 +1,474 @@
+T 1384678539 29*	29Topic for #qlpickup.us 29is: 12·4 North American QL Pickup Games12 · 14Web: http://www.quakepickups.com 12- Rankings: 14http://www.quakepickups.com/rankings 12· 4!14status14 for status, 4!14help14 for help 12·4 014 games since Monday 12·
+T 1384678539 29*	29Topic for #qlpickup.us 29set by QLPus-01 29at Sat Nov 16 23:58:06 2013
+T 1384678540 28-29Q28-	[#qlpickup.us] 0,1To get started in #qlpickup.us, type: 4!help
+T 1384678540 28-29QLPus-0128-	0,1Hello,4 hemite! 0Welcome to #qlpickup.us! The last pickup game started:8 unknown
+T 1384678567 23*	23xero has quit (23Signed off23)
+T 1384678599 23*	23walter has quit (23Signed off23)
+T 1384678623 19*	19walter (~woutlaw@woutlaw.users.quakenet.org) has joined #qlpickup.us
+T 1384678637 19*	19Trivium (~QLPrism@95-29-216-35.broadband.corbina.ru) has joined #qlpickup.us
+T 1384678646 19*	19xero (sawyer@bas2-toronto43-1279322091.dsl.bell.ca) has joined #qlpickup.us
+T 1384678712 23*	23QLPrism-User has quit (23EOF from client23)
+T 1384678883 19*	19CDRrules (~CDRrules@173-13-183-254-sfba.hfc.comcastbusiness.net) has joined #qlpickup.us
+T 1384678988 19*	19keed (~QLPrism@109.86.42.130) has joined #qlpickup.us
+T 1384679575 19*	19QLPrism-User (~QLPrism@rtr.jpk.pl) has joined #qlpickup.us
+T 1384679866 19*	19Pinsplay (~Pinsplay@ede67-4-88-180-54-57.fbx.proxad.net) has joined #qlpickup.us
+T 1384680083 19*	19QLPrism-User-5 (~kassary@32.129.broadband13.iol.cz) has joined #qlpickup.us
+T 1384680252 23*	23walter has quit (23Signed off23)
+T 1384680272 19*	19walter (~woutlaw@woutlaw.users.quakenet.org) has joined #qlpickup.us
+T 1384680838 23*	23walter has quit (23Signed off23)
+T 1384681038 19*	19Luminus (~QLPrism@p57B41C85.dip0.t-ipconnect.de) has joined #qlpickup.us
+T 1384681042 19*	19vega (~divnyz@178.248.252.209) has joined #qlpickup.us
+T 1384681601 23*	23CDRrules has quit (23Read error: EOF from client23)
+T 1384681833 23*	23QLPrism-User has quit (23EOF from client23)
+T 1384681861 19*	19walter (~woutlaw@woutlaw.users.quakenet.org) has joined #qlpickup.us
+T 1384681913 19*	19QLPrism-User (~QLPrism@95-178-195-78.dsl.optinet.hr) has joined #qlpickup.us
+T 1384682091 19*	19QLPrism-User-7 (~QLPrism@pool-173-72-113-50.cmdnnj.fios.verizon.net) has joined #qlpickup.us
+T 1384682286 23*	23asnigCkry has quit (23EOF from client23)
+T 1384682387 23*	23Pinsplay has quit (23EOF from client23)
+T 1384682610 19*	19QLPrism-User-9 (~QLPrism@37.140.109.160) has joined #qlpickup.us
+T 1384682650 19*	19extasy (~QLPrism@97-92-165-121.dhcp.krny.ne.charter.com) has joined #qlpickup.us
+T 1384683115 23*	23QLPrism-User-7 has quit (23EOF from client23)
+T 1384683175 19*	19FuzzyDunlop (~QLPrism@ip-89-177-122-169.net.upcbroadband.cz) has joined #qlpickup.us
+T 1384684486 22*	Disconnected (Connection timed out).
+T 1384684506 19*	19Now talking on #qlpickup.us
+T 1384684506 29*	29Topic for #qlpickup.us 29is: 12·4 North American QL Pickup Games12 · 14Web: http://www.quakepickups.com 12- Rankings: 14http://www.quakepickups.com/rankings 12· 4!14status14 for status, 4!14help14 for help 12·4 014 games since Monday 12·
+T 1384684506 29*	29Topic for #qlpickup.us 29set by QLPus-01 29at Sun Nov 17 01:58:06 2013
+T 1384684507 28-29QLPus-0128-	0,1Hello,4 hemite! 0Welcome to #qlpickup.us! The last pickup game started:8 unknown
+T 1384684515 19*	19VYSOR (~floor@mmmm.users.quakenet.org) has joined #qlpickup.us
+T 1384684587 19*	19ischju (~QLPrism@x2f18921.dyn.telefonica.de) has joined #qlpickup.us
+T 1384684623 19*	19depas (~QLPrism@151.77.145.99) has joined #qlpickup.us
+T 1384684817 19*	19Potatcka (~QLPrism@th-171-150.splius.lt) has joined #qlpickup.us
+T 1384684841 19*	19QLPrism-User-8 (~QLPrism@39-69-13-46.tmcz.cz) has joined #qlpickup.us
+T 1384685118 19*	19Latvietis (~QLPrism@95.68.101.107) has joined #qlpickup.us
+T 1384685279 23*	23QLPrism-User-9 has quit (23Ping timeout23)
+T 1384685318 23*	23CHRISM has quit (23Read error: Connection reset by peer23)
+T 1384685799 23*	23extasy has quit (23EOF from client23)
+T 1384686006 19*	19mdf__ (~QLPrism@c-e47070d5.020-75-736b7610.cust.bredbandsbolaget.se) has joined #qlpickup.us
+T 1384686211 23*	23QLPrism-User has quit (23Signed off23)
+T 1384686232 19*	19THEFREEZER (~QLPrism@dynamic-adsl-84-223-63-234.clienti.tiscali.it) has joined #qlpickup.us
+T 1384686461 19*	19QLPrism-User (~QLPrism@92.255.237.164) has joined #qlpickup.us
+T 1384686659 23*	23ia` has quit (23Ping timeout23)
+T 1384686913 19*	19QLPrism-User-9 (~QLPrism@110.78.152.95) has joined #qlpickup.us
+T 1384686926 22*	QLPrism-User-9 is now known as xuw
+T 1384686980 23*	23sauerkraut has quit (23Read error: EOF from client23)
+T 1384687006 19*	19sauerkraut (~sauerkrau@88-134-159-119-dynip.superkabel.de) has joined #qlpickup.us
+T 1384687017 19*	19BabyHurri (~QLPrism@194.187.148.223) has joined #qlpickup.us
+T 1384687277 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384687344 23*	23sauerkraut has quit (23Read error: EOF from client23)
+T 1384687446 23*	23Funkitronas has quit (23EOF from client23)
+T 1384687649 23*	23QLPrism-User-8 has quit (23EOF from client23)
+T 1384687814 19*	19SHARP_KNIFE (~QLPrism@87.114.217.233) has joined #qlpickup.us
+T 1384687842 23*	23SHARP_KNIFE has quit (23Read error: EOF from client23)
+T 1384687843 19*	19emilow (~emilow@78-69-84-103-no172.tbcn.telia.com) has joined #qlpickup.us
+T 1384688255 23*	23BabyHurri has quit (23Signed off23)
+T 1384688319 19*	19Am0z (~QLPrism@88-149-196-14.vps.virtuo.it) has joined #qlpickup.us
+T 1384688684 23*	23QLPrism-User-7 has quit (23EOF from client23)
+T 1384688731 19*	19ox1 (~QLPrism@65.162.15.37.dynamic.jazztel.es) has joined #qlpickup.us
+T 1384688799 19*	19QLPrism-User-7 (~QLPrism@91.221.65.7) has joined #qlpickup.us
+T 1384688821 23*	23QLPrism-User-7 has quit (23Read error: Connection reset by peer23)
+T 1384688896 23*	23ParaNoiiA has quit (23EOF from client23)
+T 1384689003 23*	23emilow has quit (23Signed off23)
+T 1384689035 19*	19sauerkraut (~sauerkrau@88-134-159-119-dynip.superkabel.de) has joined #qlpickup.us
+T 1384689077 19*	19QLPrism-User-7 (~QLPrism@xdsl-89-0-71-209.netcologne.de) has joined #qlpickup.us
+T 1384689273 23*	23QLPrism-User-5 has quit (23Read error: Operation timed out23)
+T 1384689372 19*	19extasy (~QLPrism@97-92-165-121.dhcp.krny.ne.charter.com) has joined #qlpickup.us
+T 1384689374 23*	23extasy has quit (23Signed off23)
+T 1384689393 23*	23THEFREEZER has quit (23Ping timeout23)
+T 1384689485 23*	23vega has quit (23Ping timeout23)
+T 1384689558 23*	23QLPrism-User has quit (23Read error: EOF from client23)
+T 1384689757 18<QLPus-02>	14· #QLPickup.us Channel Stats Updated @ 4http://www.quakepickups.com/stats 14·
+T 1384690090 23*	23mdf__ has quit (23Read error: Operation timed out23)
+T 1384690160 19*	19mdf__ (~QLPrism@c-e47070d5.020-75-736b7610.cust.bredbandsbolaget.se) has joined #qlpickup.us
+T 1384690283 19*	19QLPrism-User (~QLPrism@p549CC327.dip0.t-ipconnect.de) has joined #qlpickup.us
+T 1384690737 19*	19QLPrism-User-5 (~QLPrism@79.124.126.251.rybnet.pl) has joined #qlpickup.us
+T 1384690806 22*	QLPrism-User-5 is now known as BOSATSU
+T 1384690865 23*	23BOSATSU has quit (23EOF from client23)
+T 1384690947 23*	23depas has quit (23EOF from client23)
+T 1384690995 23*	23QLPrism-User has quit (23Read error: EOF from client23)
+T 1384691138 23*	23Nx|daviS_`- has quit (23Signed off23)
+T 1384691171 23*	23ox1 has quit (23Ping timeout23)
+T 1384691258 23*	23Dragoniz has quit (23Read error: EOF from client23)
+T 1384691455 19*	19lucknotskill (~QLPrism@95-91-224-215-dynip.superkabel.de) has joined #qlpickup.us
+T 1384691514 23*	23pthy has quit (23Ping timeout23)
+T 1384691528 23*	23wavius has quit (23Signed off23)
+T 1384691567 23*	23lucknotskill has quit (23Read error: EOF from client23)
+T 1384691624 19*	19GOOGL3 (~QLPrism@188.135.210.59) has joined #qlpickup.us
+T 1384691792 19*	19wavius (~nope@wavius.users.quakenet.org) has joined #qlpickup.us
+T 1384691832 19*	19BoLyDuDe (~QLPrism@cpc6-mfld15-2-0-cust233.13-1.cable.virginm.net) has joined #qlpickup.us
+T 1384691853 19*	19pthy (~pthy@adsl-74-162-151-232.rmo.bellsouth.net) has joined #qlpickup.us
+T 1384691853 22*	26Q gives channel operator status to26 pthy
+T 1384691902 23*	23QLPrism-User-3 has quit (23Ping timeout23)
+T 1384691987 19*	19asnigCkry (~QLPrism@p5B384C8A.dip0.t-ipconnect.de) has joined #qlpickup.us
+T 1384692016 23*	23xuw has quit (23Read error: EOF from client23)
+T 1384692209 19*	19Gauldoth (~QLPrism@93-136-41-79.adsl.net.t-com.hr) has joined #qlpickup.us
+T 1384692594 19*	19QLPrism-User (~QLPrism@91.221.65.7) has joined #qlpickup.us
+T 1384692598 23*	23QLPrism-User has quit (23Signed off23)
+T 1384692859 19*	19lucknotskill (~QLPrism@95-91-224-215-dynip.superkabel.de) has joined #qlpickup.us
+T 1384693032 23*	23Am0z has quit (23EOF from client23)
+T 1384693108 19*	19QLPrism-User (~QLPrism@189.78.132.239) has joined #qlpickup.us
+T 1384693144 23*	23QLPrism-User has quit (23Read error: EOF from client23)
+T 1384693499 23*	23BoLyDuDe has quit (23EOF from client23)
+T 1384693539 19*	19switchback (~nnscript@switchback25.users.quakenet.org) has joined #qlpickup.us
+T 1384693682 23*	23sauerkraut has quit (23Read error: EOF from client23)
+T 1384693697 23*	23QLPrism-User-2 has quit (23EOF from client23)
+T 1384693918 19*	19ox1 (~QLPrism@112.209.15.37.dynamic.jazztel.es) has joined #qlpickup.us
+T 1384693928 19*	19QLPrism-User-2 (~QLPrism@112.209.15.37.dynamic.jazztel.es) has joined #qlpickup.us
+T 1384693979 23*	23GOOGL3 has quit (23Signed off23)
+T 1384694057 23*	23HPlive has quit (23Read error: EOF from client23)
+T 1384694293 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384694384 23*	23HPlive has quit (23EOF from client23)
+T 1384694394 19*	19QLPrism-User (~QLPrism@177.102.186.164) has joined #qlpickup.us
+T 1384694427 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384694437 19*	19QLPrism-User-3 (~QLPrism@p4FE99C98.dip0.t-ipconnect.de) has joined #qlpickup.us
+T 1384694458 23*	23QLPrism-User has quit (23Signed off23)
+T 1384694469 22*	QLPrism-User-3 is now known as QLPrism-User
+T 1384694479 23*	23QLPrism-User has quit (23Read error: Connection reset by peer23)
+T 1384694791 23*	23QLPrism-User-4 has quit (23Read error: EOF from client23)
+T 1384694846 19*	19QLPrism-User (~QLPrism@77.53.42.128) has joined #qlpickup.us
+T 1384694961 19*	19Fulgore (~Fulgore@Fulg.users.quakenet.org) has joined #qlpickup.us
+T 1384695049 19*	19SLY_ (~QLPrism@ti0010a400-1863.bb.online.no) has joined #qlpickup.us
+T 1384695174 19*	19Am0z (~QLPrism@88-149-196-14.vps.virtuo.it) has joined #qlpickup.us
+T 1384695276 23*	23pthy has quit (23Ping timeout23)
+T 1384695417 19*	19QLPrism-User-3 (~QLPrism@108.204.28.249) has joined #qlpickup.us
+T 1384695644 23*	23FuzzyDunlop has quit (23Signed off23)
+T 1384695696 19*	19QLPrism-User-4 (~QLPrism@68-190-152-25.dhcp.eucl.wi.charter.com) has joined #qlpickup.us
+T 1384695725 19*	19pthy (~pthy@adsl-98-69-194-19.rmo.bellsouth.net) has joined #qlpickup.us
+T 1384695725 22*	26Q gives channel operator status to26 pthy
+T 1384695837 19*	19Vicod1n (~wally@c-98-230-255-114.hsd1.sc.comcast.net) has joined #qlpickup.us
+T 1384695980 19*	19ANITOR (~QLPrism@186.178.109.85) has joined #qlpickup.us
+T 1384695982 23*	23ANITOR has quit (23Signed off23)
+T 1384696073 19*	19QLPrism-User-5 (~QLPrism@frbg-5d84f00d.pool.mediaWays.net) has joined #qlpickup.us
+T 1384696098 23*	23HPlive has quit (23EOF from client23)
+T 1384696293 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384696413 19*	19yojji (~QLPrism@197.203.10.205) has joined #qlpickup.us
+T 1384696520 19*	19He4rt (~he4rt@host-91-196-12-13.net.brewet.pl) has joined #qlpickup.us
+T 1384696540 23*	23HPlive has quit (23Read error: EOF from client23)
+T 1384696581 23*	23imPLAMA (23~QLPrism@85.252.198.245) has left #qlpickup.us
+T 1384696666 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384697157 23*	23QLPrism-User-5 has quit (23Read error: EOF from client23)
+T 1384697227 23*	23QLPrism-User-7 has quit (23Signed off23)
+T 1384697328 23*	23HPlive has quit (23Read error: EOF from client23)
+T 1384697498 19*	19jarin27 (~jarin27@95.182.broadband18.iol.cz) has joined #qlpickup.us
+T 1384697502 23*	23QLPrism-User-6 has quit (23Read error: EOF from client23)
+T 1384697647 19*	19depas (~QLPrism@151.77.145.99) has joined #qlpickup.us
+T 1384697654 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384697659 23*	23depas has quit (23EOF from client23)
+T 1384697734 19*	19QLPrism-User-5 (~QLPrism@frbg-5d84f00d.pool.mediaWays.net) has joined #qlpickup.us
+T 1384697983 23*	23bl1ss has quit (23Ping timeout23)
+T 1384698078 23*	23HPlive has quit (23Read error: EOF from client23)
+T 1384698107 23*	23QLPrism-User-5 has quit (23Read error: EOF from client23)
+T 1384698211 19*	19QLPrism-User-5 (~QLPrism@frbg-5d84f00d.pool.mediaWays.net) has joined #qlpickup.us
+T 1384698250 19*	19kook (~QLPrism@77.72.136.234) has joined #qlpickup.us
+T 1384698266 23*	23QLPrism-User-5 has quit (23Read error: Connection reset by peer23)
+T 1384698276 19*	19easytarget_OFF (~easytarge@S0106602ad0746baa.vf.shawcable.net) has joined #qlpickup.us
+T 1384698276 22*	26Q gives channel operator status to26 easytarget_OFF
+T 1384698291 19*	19QLPrism-User-5 (~QLPrism@frbg-5d84f00d.pool.mediaWays.net) has joined #qlpickup.us
+T 1384698389 19*	19QLPrism-User-6 (~QLPrism@xdsl-89-0-71-209.netcologne.de) has joined #qlpickup.us
+T 1384698398 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384698425 19*	19Nico_QD (~QLPrism@Nico-QD.users.quakenet.org) has joined #qlpickup.us
+T 1384698543 19*	19FuzzyDunlop (~QLPrism@ip-89-177-122-169.net.upcbroadband.cz) has joined #qlpickup.us
+T 1384698736 19*	19Rob (~Rob@64-190-92-178.pool.ukrtel.net) has joined #qlpickup.us
+T 1384698742 23*	23He4rt has quit (23EOF from client23)
+T 1384698934 23*	23vuk has quit (23Read error: EOF from client23)
+T 1384698957 19*	19He4rt (~he4rt@host-91-196-12-13.net.brewet.pl) has joined #qlpickup.us
+T 1384698993 23*	23QLPrism-User-5 has quit (23Read error: EOF from client23)
+T 1384699042 23*	23HPlive has quit (23Read error: EOF from client23)
+T 1384699046 19*	19QLPrism-User-5 (~QLPrism@197.203.90.192) has joined #qlpickup.us
+T 1384699077 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384699092 23*	23yojji has quit (23Ping timeout23)
+T 1384699094 22*	QLPrism-User-5 is now known as yojji
+T 1384699127 19*	19QLPrism-User-5 (~QLPrism@p4FE99C98.dip0.t-ipconnect.de) has joined #qlpickup.us
+T 1384699178 23*	23QLPrism-User-5 has quit (23Read error: Connection reset by peer23)
+T 1384699203 19*	19QLPrism-User-5 (~QLPrism@201.141.63.128) has joined #qlpickup.us
+T 1384699331 23*	23yojji has quit (23Signed off23)
+T 1384699472 19*	19depas (~QLPrism@151.77.145.99) has joined #qlpickup.us
+T 1384699637 23*	23QLPrism-User-4 has quit (23Read error: EOF from client23)
+T 1384699772 23*	23QLPrism-User-3 has quit (23Read error: EOF from client23)
+T 1384699805 23*	23QLPrism-User-6 has quit (23Signed off23)
+T 1384700006 19*	19QLPrism-User-3 (~QLPrism@59.177.44.193) has joined #qlpickup.us
+T 1384700023 23*	23QLPrism-User-3 has quit (23EOF from client23)
+T 1384700199 23*	23Heafmo has quit (23Signed off23)
+T 1384700381 23*	23HPlive has quit (23Read error: EOF from client23)
+T 1384700443 23*	23Frannatic has quit (23Read error: EOF from client23)
+T 1384700459 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384700668 19*	19solovaiit (~QLPrism@187.112.110.158) has joined #qlpickup.us
+T 1384700819 19*	19Play2Win (~QLPrism@c-97e9e055.033-1-64736c10.cust.bredbandsbolaget.se) has joined #qlpickup.us
+T 1384701045 19*	19JESUS_ismyarmor (~QLPrism@91-64-17-57-dynip.superkabel.de) has joined #qlpickup.us
+T 1384701077 23*	23HPlive has quit (23EOF from client23)
+T 1384701117 19*	19s8n (~s8n@ti0088a400-3193.bb.online.no) has joined #qlpickup.us
+T 1384701182 19*	19QLPrism-User-3 (~QLPrism@c80-217-14-175.bredband.comhem.se) has joined #qlpickup.us
+T 1384701209 23*	23He4rt has quit (23EOF from client23)
+T 1384701216 23*	23QLPrism-User-3 has quit (23EOF from client23)
+T 1384701508 19*	19QLPrism-User-3 (~QLPrism@p57AEE425.dip0.t-ipconnect.de) has joined #qlpickup.us
+T 1384701614 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384701663 23*	23walter has quit (23Ping timeout23)
+T 1384701677 19*	19vega (~divnyz@178.248.252.209) has joined #qlpickup.us
+T 1384701683 23*	23FuzzyDunlop has quit (23Signed off23)
+T 1384701691 23*	23QLPrism-User-3 has quit (23Read error: EOF from client23)
+T 1384701718 23*	23QLPrism-User-5 has quit (23EOF from client23)
+T 1384701723 22*	vega is now known as divnyz
+T 1384701740 19*	19walter (~woutlaw@woutlaw.users.quakenet.org) has joined #qlpickup.us
+T 1384701814 23*	23fearrr has quit (23Ping timeout23)
+T 1384701874 19*	19fearrr (fearrr@81.subnet-69-85-115.ellijay.com) has joined #qlpickup.us
+T 1384701899 23*	23Gauldoth has quit (23Read error: Operation timed out23)
+T 1384701948 23*	23asnigCkry has quit (23Read error: EOF from client23)
+T 1384702084 23*	23HPlive has quit (23EOF from client23)
+T 1384702129 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384702492 23*	23depas has quit (23Read error: EOF from client23)
+T 1384702510 23*	23HPlive has quit (23EOF from client23)
+T 1384702586 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384702602 23*	23divnyz has quit (23Ping timeout23)
+T 1384702608 19*	19QLPrism-User-3 (~QLPrism@108.204.28.249) has joined #qlpickup.us
+T 1384702697 23*	23HPlive has quit (23EOF from client23)
+T 1384702775 19*	19Khaan (~QLPrism@187.67.122.96) has joined #qlpickup.us
+T 1384702801 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384702990 19*	19QLPrism-User-4 (~QLPrism@89-71-60-216.dynamic.chello.pl) has joined #qlpickup.us
+T 1384703149 19*	19Pinsplay (~Pinsplay@ede67-4-88-180-54-57.fbx.proxad.net) has joined #qlpickup.us
+T 1384703215 23*	23solovaiit has quit (23Signed off23)
+T 1384703243 19*	19solovaiit (~QLPrism@ec2-177-71-205-50.sa-east-1.compute.amazonaws.com) has joined #qlpickup.us
+T 1384703259 23*	23HPlive has quit (23EOF from client23)
+T 1384703291 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384703343 23*	23SLY_ has quit (23Read error: EOF from client23)
+T 1384703470 19*	19QLPrism-User-5 (~QLPrism@68-190-152-25.dhcp.eucl.wi.charter.com) has joined #qlpickup.us
+T 1384703579 19*	19nkro (~QLPrism@c-50-137-15-160.hsd1.wa.comcast.net) has joined #qlpickup.us
+T 1384703631 19*	19Gauldoth (~QLPrism@93-138-36-99.adsl.net.t-com.hr) has joined #qlpickup.us
+T 1384703641 23*	23Rob has quit (23Read error: Operation timed out23)
+T 1384703905 19*	19divnyz (~divnyz@178.248.252.209) has joined #qlpickup.us
+T 1384704021 23*	23HPlive has quit (23EOF from client23)
+T 1384704085 19*	19QLPrism-User-7 (~Pinsplay@ede67-4-88-180-54-57.fbx.proxad.net) has joined #qlpickup.us
+T 1384704130 23*	23Pinsplay has quit (23Ping timeout23)
+T 1384704133 22*	QLPrism-User-7 is now known as Pinsplay
+T 1384704217 19*	19vuk (~QLPrism@dslb-178-006-087-232.pools.arcor-ip.net) has joined #qlpickup.us
+T 1384704222 23*	23Pinsplay has quit (23Read error: EOF from client23)
+T 1384704432 23*	23jarin27 has quit (23EOF from client23)
+T 1384704585 19*	19QLPrism-User-6 (~QLPrism@pool-173-72-113-50.cmdnnj.fios.verizon.net) has joined #qlpickup.us
+T 1384704656 22*	ct is now known as cityy
+T 1384704761 19*	19_flow (~QLPrism@c-68-52-244-19.hsd1.tn.comcast.net) has joined #qlpickup.us
+T 1384705047 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384705213 23*	23HPlive has quit (23Read error: EOF from client23)
+T 1384705230 23*	23QLPrism-User-5 has quit (23EOF from client23)
+T 1384705260 23*	23JESUS_ismyarmor has quit (23EOF from client23)
+T 1384705352 19*	19asnigCkry (~QLPrism@p5B384C8A.dip0.t-ipconnect.de) has joined #qlpickup.us
+T 1384705429 19*	19Praxis (~QLPrism@cpc44-newt32-2-0-cust114.19-3.cable.virginm.net) has joined #qlpickup.us
+T 1384705474 22*	cityy is now known as ct
+T 1384705614 23*	23QLPrism-User-3 has quit (23Read error: Connection reset by peer23)
+T 1384705628 19*	19HPlive (~QLPrism@f049192009.adsl.alicedsl.de) has joined #qlpickup.us
+T 1384705630 23*	23solovaiit has quit (23EOF from client23)
+T 1384705693 19*	19Heafmo (~Jozef@95.148.209.204) has joined #qlpickup.us
+T 1384705806 19*	19unseendamage (~QLPrism@82-131-151-148.pool.invitel.hu) has joined #qlpickup.us
+T 1384705907 23*	23unseendamage has quit (23Read error: EOF from client23)
+T 1384706169 19*	19ShaZe (~QLPrism@dsl-173-248-231-234.acanac.net) has joined #qlpickup.us
+T 1384706202 19*	19solovaiit (~QLPrism@ec2-177-71-205-50.sa-east-1.compute.amazonaws.com) has joined #qlpickup.us
+T 1384706400 19*	19QLPrism-User-3 (~QLPrism@59.177.44.193) has joined #qlpickup.us
+T 1384706405 23*	23QLPrism-User-3 has quit (23EOF from client23)
+T 1384706423 23*	23vuk has quit (23Read error: EOF from client23)
+T 1384706426 19*	19QLPrism-User-3 (~kassary@32.129.broadband13.iol.cz) has joined #qlpickup.us
+T 1384706525 19*	19Despair (nnscript@unc-Despair.users.quakenet.org) has joined #qlpickup.us
+T 1384706624 19*	19QLPrism-User-7 (~QLPrism@dsl-kmibrasgw1-54f8c9-244.dhcp.inet.fi) has joined #qlpickup.us
+T 1384706634 19*	19Brocoly (~QLPrism@AAnnecy-652-1-439-186.w90-10.abo.wanadoo.fr) has joined #qlpickup.us
+T 1384706720 19*	19QLPrism-User-8 (~QLPrism@95-29-208-66.broadband.corbina.ru) has joined #qlpickup.us
+T 1384706744 23*	23QLPrism-User-8 has quit (23EOF from client23)
+T 1384706798 19*	19QLPrism-User-5 (~QLPrism@95-29-208-66.broadband.corbina.ru) has joined #qlpickup.us
+T 1384706891 23*	23QLPrism-User-7 has quit (23Read error: EOF from client23)
+T 1384706994 23*	23Trivium has quit (23Ping timeout23)
+T 1384707009 22*	QLPrism-User-5 is now known as Trivium
+T 1384707010 19*	19QLPrism-User-7 (~QLPrism@37.46.228.243) has joined #qlpickup.us
+T 1384707048 23*	23lucknotskill has quit (23EOF from client23)
+T 1384707308 23*	23Brocoly has quit (23Read error: EOF from client23)
+T 1384707350 19*	19THEFREEZER (~QLPrism@dynamic-adsl-84-223-63-234.clienti.tiscali.it) has joined #qlpickup.us
+T 1384707386 23*	23QLPrism-User-6 has quit (23EOF from client23)
+T 1384707438 19*	19QLPrism-User-5 (~QLPrism@host-176-36-61-49.la.net.ua) has joined #qlpickup.us
+T 1384707675 19*	19lucknotskill (~QLPrism@95-91-224-215-dynip.superkabel.de) has joined #qlpickup.us
+T 1384707691 19*	19QLPrism-User-6 (~QLPrism@CPE6cf049e721b0-CMbcc81000a2df.cpe.net.cable.rogers.com) has joined #qlpickup.us
+T 1384707716 23*	23Trivium has quit (23Signed off23)
+T 1384707779 19*	19Trivium (~QLPrism@95-29-208-66.broadband.corbina.ru) has joined #qlpickup.us
+T 1384707795 19*	19QLPrism-User-8 (~QLPrism@adsl-89-135-200-32.monradsl.monornet.hu) has joined #qlpickup.us
+T 1384707801 23*	23QLPrism-User-8 has quit (23Read error: Connection reset by peer23)
+T 1384707810 19*	19QLPrism-User-9 (~QLPrism@c-63b6e055.013-18-766d6f10.cust.bredbandsbolaget.se) has joined #qlpickup.us
+T 1384707810 23*	23QLPrism-User-9 has quit (23Read error: EOF from client23)
+T 1384708145 19*	19BoLyDuDe (~QLPrism@cpc6-mfld15-2-0-cust233.13-1.cable.virginm.net) has joined #qlpickup.us
+T 1384708169 23*	23Vicod1n has quit (23Ping timeout23)
+T 1384708666 23*	23ShaZe has quit (23Signed off23)
+T 1384708675 23*	23nkro has quit (23EOF from client23)
+T 1384708841 23*	23QLPrism-User-7 has quit (23Read error: EOF from client23)
+T 1384709070 23*	23BoLyDuDe has quit (23Ping timeout23)
+T 1384709073 23*	23Latvietis has quit (23Read error: Connection reset by peer23)
+T 1384709091 19*	19QLPrism-User-7 (~QLPrism@19.243.191.90.dyn.estpak.ee) has joined #qlpickup.us
+T 1384709127 23*	23QLPrism-User-6 has quit (23EOF from client23)
+T 1384709173 23*	23QLPrism-User-7 has quit (23Read error: EOF from client23)
+T 1384709181 19*	19yojji (~QLPrism@197.203.9.100) has joined #qlpickup.us
+T 1384709249 19*	19QLPrism-User-6 (~QLPrism@host59-73-dynamic.8-79-r.retail.telecomitalia.it) has joined #qlpickup.us
+T 1384709274 23*	23Play2Win has quit (23Read error: EOF from client23)
+T 1384709301 19*	19cypher[prizm] (~QLPrism@nat-minsk-pool-46-53-195-41.telecom.by) has joined #qlpickup.us
+T 1384709308 23*	23cypher[prizm] has quit (23Read error: EOF from client23)
+T 1384709539 19*	19Latvietis (~QLPrism@95.68.101.107) has joined #qlpickup.us
+T 1384709582 23*	23QLPrism-User-5 has quit (23Read error: EOF from client23)
+T 1384709760 19*	19He4rt (~he4rt@host-91-196-12-13.net.brewet.pl) has joined #qlpickup.us
+T 1384709816 23*	23He4rt has quit (23Read error: EOF from client23)
+T 1384709838 19*	19kozo4ka (~QLPrism@188.134.33.192) has joined #qlpickup.us
+T 1384709918 23*	23asnigCkry has quit (23EOF from client23)
+T 1384710085 19*	19QLPrism-User-5 (~QLPrism@195.18.30.58) has joined #qlpickup.us
+T 1384710245 19*	19Vicod1n (~wally@c-98-230-255-114.hsd1.sc.comcast.net) has joined #qlpickup.us
+T 1384710491 19*	19QLPrism-User-7 (~QLPrism@75-129-13-114.dhcp.mdsn.wi.charter.com) has joined #qlpickup.us
+T 1384710510 23*	23QLPrism-User has quit (23EOF from client23)
+T 1384710517 22*	QLPrism-User-7 is now known as QLPrism-User
+T 1384710739 22*	ct is now known as cityy
+T 1384710762 19*	19QLPrism-User-7 (~QLPrism@adsl-89-135-200-32.monradsl.monornet.hu) has joined #qlpickup.us
+T 1384710800 23*	23QLPrism-User has quit (23EOF from client23)
+T 1384710803 22*	QLPrism-User-7 is now known as QLPrism-User
+T 1384710838 19*	19QLPrism-User-7 (~QLPrism@75-129-13-114.dhcp.mdsn.wi.charter.com) has joined #qlpickup.us
+T 1384710843 19*	19Smier1 (~QLPrism@77.175.140.69) has joined #qlpickup.us
+T 1384710882 19*	19agekara_ (~agekara@nt10-ppp1289.west.sannet.ne.jp) has joined #qlpickup.us
+T 1384710912 23*	23agekara has quit (23Ping timeout23)
+T 1384710965 23*	23Vicod1n has quit (23Ping timeout23)
+T 1384711054 19*	19Vicod1n (~wally@c-98-230-255-114.hsd1.sc.comcast.net) has joined #qlpickup.us
+T 1384711126 19*	19He4rt (~he4rt@host-91-196-12-13.net.brewet.pl) has joined #qlpickup.us
+T 1384711267 23*	23QLPrism-User has quit (23EOF from client23)
+T 1384711272 19*	19Pinsplay (~Pinsplay@ede67-4-88-180-54-57.fbx.proxad.net) has joined #qlpickup.us
+T 1384711379 19*	19Play2Win (~QLPrism@c-97e9e055.033-1-64736c10.cust.bredbandsbolaget.se) has joined #qlpickup.us
+T 1384711480 19*	19cypher[prizm] (~QLPrism@nat-minsk-pool-46-53-195-41.telecom.by) has joined #qlpickup.us
+T 1384711483 23*	23cypher[prizm] has quit (23Read error: EOF from client23)
+T 1384711519 23*	23kook has quit (23Signed off23)
+T 1384711704 23*	23yojji has quit (23Read error: Operation timed out23)
+T 1384711836 19*	19QLPrism-User (~QLPrism@92.109.126.243) has joined #qlpickup.us
+T 1384711876 23*	23He4rt has quit (23Read error: EOF from client23)
+T 1384711892 23*	23QLPrism-User-6 has quit (23EOF from client23)
+T 1384711927 19*	19QLPrism-User-6 (~QLPrism@host59-73-dynamic.8-79-r.retail.telecomitalia.it) has joined #qlpickup.us
+T 1384712223 23*	23solovaiit has quit (23Signed off23)
+T 1384712241 19*	19SrK_ (~QLPrism@31.37.142.165) has joined #qlpickup.us
+T 1384712340 23*	23SrK_ has quit (23EOF from client23)
+T 1384712402 19*	19jarin27 (~jarin27@95.182.broadband18.iol.cz) has joined #qlpickup.us
+T 1384712655 19*	19solovaiit (~QLPrism@ec2-177-71-205-50.sa-east-1.compute.amazonaws.com) has joined #qlpickup.us
+T 1384712673 19*	19bl1ss (~QLPrism@bl1ss.users.quakenet.org) has joined #qlpickup.us
+T 1384712690 19*	19QLPrism-User-8 (~QLPrism@ip98-166-2-127.hr.hr.cox.net) has joined #qlpickup.us
+T 1384712774 23*	23QLPrism-User-8 has quit (23Read error: EOF from client23)
+T 1384712794 23*	23walter has quit (23Read error: EOF from client23)
+T 1384712823 23*	23Play2Win has quit (23EOF from client23)
+T 1384712851 19*	19STVYHIGH_ALLBLV (~ssss@109-161-104-102.pppoe.yaroslavl.ru) has joined #qlpickup.us
+T 1384712922 19*	19QLPrism-User-8 (~QLPrism@CPE6cf049e721b0-CMbcc81000a2df.cpe.net.cable.rogers.com) has joined #qlpickup.us
+T 1384712950 19*	19QLPrism-User-9 (~ssss@109-161-80-115.pppoe.yaroslavl.ru) has joined #qlpickup.us
+T 1384713043 23*	23lucknotskill has quit (23EOF from client23)
+T 1384713058 23*	23STVYHIGH_ALLBLV has quit (23Read error: Connection reset by peer23)
+T 1384713072 22*	QLPrism-User-9 is now known as STVYHIGH_ALLBLV
+T 1384713129 23*	23QLPrism-User-4 has quit (23Read error: EOF from client23)
+T 1384713300 23*	23tana has quit (23Signed off23)
+T 1384713378 23*	23QLPrism-User has quit (23Ping timeout23)
+T 1384713718 23*	23mirror has quit (23EOF from client23)
+T 1384713727 19*	19ia` (~ian@ip70-181-62-216.ri.ri.cox.net) has joined #qlpickup.us
+T 1384713748 19*	19Rob (~Rob@64-190-92-178.pool.ukrtel.net) has joined #qlpickup.us
+T 1384713905 23*	23QLPrism-User-5 has quit (23Signed off23)
+T 1384713957 19*	19mirror (~mirror@broadband-188-255-19-91.nationalcablenetworks.ru) has joined #qlpickup.us
+T 1384714037 19*	19kook (~QLPrism@77.72.136.234) has joined #qlpickup.us
+T 1384714081 19*	19madrigal-- (~QLPrism@modemcable050.220-203-24.mc.videotron.ca) has joined #qlpickup.us
+T 1384714135 23*	23divnyz has quit (23Read error: EOF from client23)
+T 1384714206 19*	19yojji (~QLPrism@197.203.75.170) has joined #qlpickup.us
+T 1384714208 19*	19QLPrism-User (~QLPrism@78.166.43.121) has joined #qlpickup.us
+T 1384714226 23*	23QLPrism-User-6 has quit (23Read error: Connection reset by peer23)
+T 1384714228 23*	23THEFREEZER has quit (23Ping timeout23)
+T 1384714240 23*	23QLPrism-User has quit (23EOF from client23)
+T 1384714478 19*	19QLPrism-User (~QLPrism@frbg-5d84f00d.pool.mediaWays.net) has joined #qlpickup.us
+T 1384714535 23*	23yojji has quit (23Read error: Operation timed out23)
+T 1384714544 22*	Tinkuuu is now known as tinkkk
+T 1384714549 22*	tinkkk is now known as Tinkuuu
+T 1384714568 23*	23Pinsplay has quit (23Read error: EOF from client23)
+T 1384714606 23*	23madrigal-- has quit (23EOF from client23)
+T 1384714678 19*	19cyr--- (~QLPrism@p549CC327.dip0.t-ipconnect.de) has joined #qlpickup.us
+T 1384714926 19*	19QLPrism-User-4 (~QLPrism@cm-84.208.124.35.getinternet.no) has joined #qlpickup.us
+T 1384714935 19*	19yojji (~QLPrism@197.203.127.101) has joined #qlpickup.us
+T 1384715003 23*	23kook has quit (23Signed off23)
+T 1384715101 23*	23yojji has quit (23Read error: Operation timed out23)
+T 1384715105 19*	19BabyHurri (~QLPrism@194.187.148.223) has joined #qlpickup.us
+T 1384715243 19*	19yojji (~QLPrism@197.203.15.150) has joined #qlpickup.us
+T 1384715387 23*	23Smier1 has quit (23Read error: Connection reset by peer23)
+T 1384715415 19*	19Smier1 (~QLPrism@77.175.140.69) has joined #qlpickup.us
+T 1384715541 19*	19QLPrism-User-5 (~QLPrism@host252.181-14-153.telecom.net.ar) has joined #qlpickup.us
+T 1384715557 23*	23QLPrism-User-5 has quit (23EOF from client23)
+T 1384715562 19*	19fe11a (~QLPrism@188.134.40.158) has joined #qlpickup.us
+T 1384715618 23*	23QLPrism-User-7 has quit (23EOF from client23)
+T 1384715657 19*	19vuk (~QLPrism@aftr-37-24-153-78.unity-media.net) has joined #qlpickup.us
+T 1384715674 19*	19lexaaa (~QLPrism@2.94.46.168) has joined #qlpickup.us
+T 1384715713 23*	23BabyHurri has quit (23Signed off23)
+T 1384715741 23*	23HPlive has quit (23Read error: EOF from client23)
+T 1384715791 19*	19extasy (~QLPrism@97-92-165-121.dhcp.krny.ne.charter.com) has joined #qlpickup.us
+T 1384716006 19*	19QLPrism-User-5 (~QLPrism@ip68-108-40-198.lv.lv.cox.net) has joined #qlpickup.us
+T 1384716077 23*	23QLPrism-User-5 has quit (23EOF from client23)
+T 1384716138 19*	19QLPrism-User-5 (~QLPrism@197.203.68.64) has joined #qlpickup.us
+T 1384716206 23*	23yojji has quit (23Ping timeout23)
+T 1384716216 22*	QLPrism-User-5 is now known as yojji
+T 1384716254 19*	19QLPrism-User-5 (~QLPrism@78.176.200.233) has joined #qlpickup.us
+T 1384716334 23*	23QLPrism-User-5 has quit (23EOF from client23)
+T 1384716488 19*	19rzd^ (~QLPrism@78-134-115-233.v4.ngi.it) has joined #qlpickup.us
+T 1384716506 23*	23STVYHIGH_ALLBLV has quit (23Read error: EOF from client23)
+T 1384716617 19*	19divnyz (~divnyz@178.248.252.209) has joined #qlpickup.us
+T 1384716632 23*	23divnyz has quit (23EOF from client23)
+T 1384716768 19*	19depas (~QLPrism@151.77.145.99) has joined #qlpickup.us
+T 1384716791 19*	19QLPrism-User-5 (~QLPrism@93-142-185-185.adsl.net.t-com.hr) has joined #qlpickup.us
+T 1384716820 23*	23QLPrism-User-5 has quit (23Read error: EOF from client23)
+T 1384716885 23*	23ox1 has quit (23Signed off23)
+T 1384716887 23*	23QLPrism-User-2 has quit (23Signed off23)
+T 1384716899 19*	19unrea1_ (~unrea1_@31.15.87.61) has joined #qlpickup.us
+T 1384716933 19*	19ox1 (~QLPrism@112.209.15.37.dynamic.jazztel.es) has joined #qlpickup.us
+T 1384716981 19*	19QLPrism-User-2 (~QLPrism@93-142-185-185.adsl.net.t-com.hr) has joined #qlpickup.us
+T 1384717041 19*	19BoLyDuDe (~QLPrism@cpc6-mfld15-2-0-cust233.13-1.cable.virginm.net) has joined #qlpickup.us
+T 1384717064 19*	19lucknotskill (~QLPrism@95-91-224-215-dynip.superkabel.de) has joined #qlpickup.us
+T 1384717187 23*	23depas has quit (23Read error: EOF from client23)
+T 1384717188 23*	23yojji has quit (23Read error: Connection reset by peer23)
+T 1384717231 19*	19yojji (~QLPrism@197.203.68.64) has joined #qlpickup.us
+T 1384717325 23*	23QLPrism-User-2 has quit (23Read error: EOF from client23)
+T 1384717333 19*	19QLPrism-User-5 (~QLPrism@c-76-23-115-222.hsd1.sc.comcast.net) has joined #qlpickup.us
+T 1384717347 23*	23Nico_QD has quit (23Read error: EOF from client23)
+T 1384717361 23*	23yojji has quit (23Read error: Operation timed out23)
+T 1384717425 23*	23solovaiit has quit (23Signed off23)
+T 1384717447 19*	19solovaiit (~QLPrism@187.112.110.158) has joined #qlpickup.us
+T 1384717449 19*	19QLPrism-User-2 (~QLPrism@93-142-185-185.adsl.net.t-com.hr) has joined #qlpickup.us
+T 1384717595 19*	19Sinc (~QLPrism@ip-109-91-169-7.unitymediagroup.de) has joined #qlpickup.us
+T 1384717626 23*	23QLPrism-User-5 has quit (23EOF from client23)
+T 1384717639 19*	19yojji (~QLPrism@197.203.28.183) has joined #qlpickup.us
+T 1384717737 19*	19TheLight (~QLPrism@efn176.neoplus.adsl.tpnet.pl) has joined #qlpickup.us
+T 1384717774 23*	23Smier1 has quit (23Read error: Connection reset by peer23)
+T 1384717786 23*	23TheLight has quit (23Signed off23)
+T 1384717795 23*	23_flow has quit (23Read error: EOF from client23)
+T 1384717803 19*	19Smier1 (~QLPrism@77.175.140.69) has joined #qlpickup.us
+T 1384717837 19*	19walter (~woutlaw@woutlaw.users.quakenet.org) has joined #qlpickup.us
+T 1384717890 19*	19ShaZe (~QLPrism@dsl-173-248-231-234.acanac.net) has joined #qlpickup.us
+T 1384717930 23*	23Zedman has quit (23Signed off23)
+T 1384718093 23*	23QLPrism-User-2 has quit (23EOF from client23)
+T 1384718102 23*	23ox1 has quit (23Signed off23)
+T 1384718213 19*	19Pinsplay (~Pinsplay@ede67-4-88-180-54-57.fbx.proxad.net) has joined #qlpickup.us
+T 1384718245 23*	23Sinc has quit (23EOF from client23)
+T 1384718337 23*	23jarin27 has quit (23Read error: EOF from client23)
+T 1384718368 23*	23Fulgore has quit (23Ping timeout23)
+T 1384718393 22*	easytarget_OFF is now known as easytarget_
+T 1384718417 23*	23cyr--- has quit (23EOF from client23)
+T 1384718421 19*	19QLPrism-User-2 (~QLPrism@host59-73-dynamic.8-79-r.retail.telecomitalia.it) has joined #qlpickup.us
+T 1384718423 23*	23QLPrism-User-2 has quit (23Read error: Connection reset by peer23)
+T 1384718428 23*	23Latvietis has quit (23EOF from client23)
+T 1384718443 19*	19QLPrism-User-2 (~QLPrism@host59-73-dynamic.8-79-r.retail.telecomitalia.it) has joined #qlpickup.us
+T 1384718596 19*	19QLPrism-User-5 (~QLPrism@c-24-16-251-140.hsd1.wa.comcast.net) has joined #qlpickup.us
+T 1384718606 23*	23yojji has quit (23Ping timeout23)
+T 1384718664 19*	19QLPrism-User-6 (~QLPrism@mo-71-51-196-39.dhcp.embarqhsd.net) has joined #qlpickup.us
+T 1384718682 19*	19Fulgore (~Fulgore@Fulg.users.quakenet.org) has joined #qlpickup.us
+T 1384718827 23*	23lexaaa has quit (23Ping timeout23)
+T 1384718891 19*	19QLPrism-User-7 (~QLPrism@93-142-185-185.adsl.net.t-com.hr) has joined #qlpickup.us
+T 1384718965 19*	19ANITOR (~QLPrism@190.214.80.245) has joined #qlpickup.us
+T 1384718968 23*	23QLPrism-User-7 has quit (23EOF from client23)
+T 1384718975 19*	19Play2Win (~QLPrism@c-97e9e055.033-1-64736c10.cust.bredbandsbolaget.se) has joined #qlpickup.us
+T 1384718984 19*	19divnyz (~divnyz@178.248.252.209) has joined #qlpickup.us
+T 1384719123 23*	23extasy has quit (23Read error: EOF from client23)
+T 1384719179 19*	19BabyHurri (~QLPrism@194.187.148.223) has joined #qlpickup.us
+T 1384719230 19*	19extasy (~QLPrism@97-92-165-121.dhcp.krny.ne.charter.com) has joined #qlpickup.us
+T 1384719375 19*	19echo-echo (echo-echo@forrest-kugell.umeres.maine.edu) has joined #qlpickup.us
+T 1384719418 19*	19QLPrism-User-7 (~QLPrism@69-61-159-155.ubr1.dyn.lebanon-oh.fuse.net) has joined #qlpickup.us
+T 1384719514 23*	23QLPrism-User-6 has quit (23Read error: EOF from client23)
+T 1384719552 19*	19griff (~QLPrism@cpe-23-240-0-55.socal.res.rr.com) has joined #qlpickup.us
+T 1384719736 23*	23QLPrism-User-2 has quit (23Read error: EOF from client23)
+T 1384719778 23*	23keed has quit (23EOF from client23)
+T 1384719782 23*	23extasy has quit (23Read error: EOF from client23)
+T 1384719870 19*	19QLPrism-User-2 (~QLPrism@S010620aa4bd92188.wp.shawcable.net) has joined #qlpickup.us
+T 1384719888 19*	19PerronDoN (PerronDoN@189-211-113-237.static.axtel.net) has joined #qlpickup.us
+T 1384720208 23*	23pthy has quit (23Read error: Connection reset by peer23)
+T 1384720293 23*	23Play2Win has quit (23Read error: EOF from client23)
+T 1384720360 19*	19QLPrism-User-6 (~QLPrism@60-242-92-242.static.tpgi.com.au) has joined #qlpickup.us
+T 1384720396 19*	19QLPrism-User-9 (~QLPrism@77.53.42.128) has joined #qlpickup.us
+T 1384720469 23*	23QLPrism-User-6 has quit (23Read error: EOF from client23)
+T 1384720474 23*	23QLPrism-User-8 has quit (23EOF from client23)

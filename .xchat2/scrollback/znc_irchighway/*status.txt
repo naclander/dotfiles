@@ -1,0 +1,4 @@
+T 1379138200 18<*status>	A client from [127.0.0.1] attempted to login as you, but was rejected [Invalid Password].
+T 1384419147 18<*status>	Connected!
+T 1384419237 22*	Disconnected (Remote host closed socket).
+T 1386136657 18<*status>	Connected!

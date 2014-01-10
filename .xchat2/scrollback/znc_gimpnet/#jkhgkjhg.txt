@@ -1,0 +1,14 @@
+T 1385945690 19*	19Now talking on #jkhgkjhg
+T 1385945690 22*	irc.poop.nl sets mode +n #jkhgkjhg
+T 1385945690 22*	irc.poop.nl sets mode +t #jkhgkjhg
+T 1385945692 22*	hemite sets mode +s #jkhgkjhg
+T 1385945692 22*	hemite sets mode +t #jkhgkjhg
+T 1385945692 22*	hemite sets mode +n #jkhgkjhg
+T 1385945697 18*	hemite hides
+T 1385945708 18*	hemite hides
+T 1385945708 18*	hemite hides
+T 1385945709 18*	hemite hides
+T 1385945709 18*	hemite hides
+T 1385945709 18*	hemite hides
+T 1385945709 18*	hemite hides
+T 1385945709 18*	hemite hides

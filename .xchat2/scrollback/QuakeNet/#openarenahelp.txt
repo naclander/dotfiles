@@ -1,0 +1,51 @@
+T 1384678573 19*	19Now talking on #openarenahelp
+T 1384678573 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1384678573 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1384678574 22*	26Q gives voice to26 hemite
+T 1384684486 22*	Disconnected (Connection timed out).
+T 1384684506 19*	19Now talking on #openarenahelp
+T 1384684506 29*	29Topic for #openarenahelp 29is: Welcome to OpenArena Help!  ::  OpenArenaHelp.com  ::  Ask us a question!  ::  Visit us on mumble @ openmafia.org  
+T 1384684506 29*	29Topic for #openarenahelp 29set by pet 29at Thu Oct  3 09:16:13 2013
+T 1384684506 22*	26Q gives voice to26 hemite
+T 1384685415 19*	19zammy (~sammy@ppp-233-191.98-62.inwind.it) has joined #openarenahelp
+T 1384685415 22*	26Q gives voice to26 zammy
+T 1384695672 23*	23Siju has quit (23Read error: Operation timed out23)
+T 1384698297 19*	19Kra1g1 (~angelo@net-2-40-228-56.cust.dsl.teletu.it) has joined #openarenahelp
+T 1384698297 22*	26Q gives voice to26 Kra1g1
+T 1384698436 23*	23Kra1g has quit (23Ping timeout23)
+T 1384700225 19*	19Siju (~siju@Siju.users.quakenet.org) has joined #openarenahelp
+T 1384700225 22*	26Q gives voice to26 Siju
+T 1384700570 23*	23N-i-K has quit (23Signed off23)
+T 1384701507 23*	23Zimmermint has quit (23Ping timeout23)
+T 1384702764 23*	23zammy has quit (23EOF from client23)
+T 1384702863 19*	19zammy (~sammy@ppp-233-191.98-62.inwind.it) has joined #openarenahelp
+T 1384702863 22*	26Q gives voice to26 zammy
+T 1384703095 23*	23zammy has quit (23Read error: Connection reset by peer23)
+T 1384703912 19*	19zammy (~sammy@ppp-233-191.98-62.inwind.it) has joined #openarenahelp
+T 1384703912 22*	26Q gives voice to26 zammy
+T 1384704750 23*	23zammy has quit (23EOF from client23)
+T 1384704885 19*	19zammy (~sammy@ppp-233-191.98-62.inwind.it) has joined #openarenahelp
+T 1384704885 22*	26Q gives voice to26 zammy
+T 1384706484 23*	23Kra1g1 has quit (23Read error: Operation timed out23)
+T 1384706516 19*	19Kra1g (~angelo@net-93-148-197-20.cust.dsl.teletu.it) has joined #openarenahelp
+T 1384706516 22*	26Q gives voice to26 Kra1g
+T 1384708171 19*	19`gb` (~e-m@78-62-150-25.static.zebra.lt) has joined #openarenahelp
+T 1384708171 22*	26Q gives voice to26 `gb`
+T 1384709928 23*	23MegaAIM has quit (23Read error: Connection reset by peer23)
+T 1384710834 19*	19Zimmermint (~Zimmy@05434bec.skybroadband.com) has joined #openarenahelp
+T 1384710834 22*	26Q gives channel operator status to26 Zimmermint
+T 1384710853 19*	19MegaAIM (~AIM@AIM-MEGA.users.quakenet.org) has joined #openarenahelp
+T 1384710853 22*	26Q gives voice to26 MegaAIM
+T 1384710960 22*	NVB is now known as nvb
+T 1384712161 23*	23MegaAIM has quit (23Signed off23)
+T 1384713532 19*	19Forki (~Fork@p5081851A.dip0.t-ipconnect.de) has joined #openarenahelp
+T 1384713532 22*	26Q gives voice to26 Forki
+T 1384713546 23*	23Forki (23~Fork@p5081851A.dip0.t-ipconnect.de) has left #openarenahelp (23Verlassend23)
+T 1384714652 19*	19MegaAIM (~AIM@AIM-MEGA.users.quakenet.org) has joined #openarenahelp
+T 1384714652 22*	26Q gives voice to26 MegaAIM
+T 1384717139 23*	23MegaAIM has quit (23Signed off23)
+T 1384718412 23*	23`gb` has quit (23Signed off23)
+T 1384719580 19*	19MegaAIM (~AIM@AIM-MEGA.users.quakenet.org) has joined #openarenahelp
+T 1384719580 22*	26Q gives voice to26 MegaAIM
+T 1384720399 19*	19`gb` (~gb@78-62-150-25.static.zebra.lt) has joined #openarenahelp
+T 1384720399 22*	26Q gives voice to26 `gb`
