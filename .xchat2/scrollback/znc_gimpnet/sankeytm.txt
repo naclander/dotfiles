@@ -1,3 +1,0 @@
-T 1387002547 31<hemite>30	https://github.com/ajalt/fuckitpy/blob/master/tests.py
-T 1387002549 31<hemite>30	I loled
-T 1387002558 31<hemite>30	Specifically at line 17

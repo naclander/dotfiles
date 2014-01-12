@@ -1,7 +1,0 @@
-T 1361763013 19*	19Now talking on #gn-sprint
-T 1361763013 29*	29Topic for #gn-sprint 29is: Sprint Galaxy Nexus (toroplus)| http://tinyw.in/LTE-whining | http://phota.me/n7Cf | Rules: http://tinyw.in/Io7n | XDA Dev: http://tinyw.in/UkNR | CM10.1: Nightly are ready now: http://get.cm/?device=toroplus | EOS Rom: http://tinyurl.com/d79f2r8| TWRP 2.4: http://teamw.in/project/twrp2/92 | Radio Upgrade Notes: http://tinyw.in/radioFD02 |Nexus 4 channel #nexus4
-T 1361763013 29*	29Topic for #gn-sprint 29set by riggsAndroid!~theREALri@unaffiliated/therealriggs 29at Mon Feb 11 11:51:19 2013
-T 1361763275 23*	23momentdroid has quit (23Ping timeout: 260 seconds23)
-T 1361764457 31<hemite>30	Hey I was wondering if anyone here has ever downloaded large amounts of data on the sprint network?
-T 1361764466 31<hemite>30	such as torrents or other large files?
-T 1361770865 31<hemite>30	anyone have any luck with foxfi on non rooted phone?

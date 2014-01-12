@@ -1,4 +1,0 @@
-T 1385691853 19*	19Now talking on #sgIII
-T 1385691853 22*	sendak.freenode.net sets mode +n #sgIII
-T 1385691853 22*	sendak.freenode.net sets mode +s #sgIII
-T 1385691853 22*	hemite sets mode +t #sgIII
