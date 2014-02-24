@@ -27,4 +27,7 @@ set pastetoggle=<C-p>
 " copy in viusal mode
 map <C-c> "+y<CR>"
 "number 0f spaces to indent when pressing > or <
-set sw=2
+set sw=4
+" swap ; and : so that we don't always have to press shit+; to get to : mode
+nnoremap ; :
+nnoremap : ;
