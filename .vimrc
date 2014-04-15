@@ -1,3 +1,5 @@
+" Set Pathogen Path
+execute pathogen#infect()
 set nu
 syntax on
 set hlsearch
@@ -24,10 +26,18 @@ set incsearch
 set mouse=a
 " set paste and no paste mode
 set pastetoggle=<C-p>
-" copy in viusal mode
+" copy in visual mode
 map <C-c> "+y<CR>"
-"number 0f spaces to indent when pressing > or <
+"number of spaces to indent when pressing > or <
 set sw=4
 " swap ; and : so that we don't always have to press shit+; to get to : mode
 nnoremap ; :
 nnoremap : ;
+"Set <C-h> to gundo shortcut
+nnoremap <C-h> :GundoToggle<CR>
+" Maintain undo history between sessions
+set undofile   
+set undodir=~/.vim/undodir
+" Skip up and down by 10 lines
+map <C-j> 10j
+map <C-k> 10k
