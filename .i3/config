@@ -17,6 +17,9 @@ font -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso10646-1
 #start desktop background using feh
 exec --no-startup-id sh ~/.fehbg &
 
+#set caps lock to act as escape key
+exec setxkbmap -option caps:escape
+
 #start secondary monitor
 exec xrandr --output HDMI1 --auto --right-of LVDS1
 
@@ -24,7 +27,7 @@ exec xrandr --output HDMI1 --auto --right-of LVDS1
 floating_modifier Mod1
 
 # start a terminal
-bindsym Mod1+Return exec xfce4-terminal
+bindsym Mod1+Return exec konsole
 
 #start dwb
 bindsym Mod1+b exec dwb
@@ -52,8 +55,8 @@ bindsym Mod1+q kill
 bindsym Mod1+space exec dmenu_run
 
 # change focus
-bindsym Mod1+j focus up
-bindsym Mod1+k focus down
+bindsym Mod1+k focus up
+bindsym Mod1+j focus down
 bindsym Mod1+l focus right
 bindsym Mod1+h focus left
 
