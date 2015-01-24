@@ -79,9 +79,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias y='yaourt -Syu --aur'
-alias s='sudo pm-suspend'
 alias t='konsole'
 alias tmx='tmux -2'
+alias c='clear'
+alias cdc='cd;c'
+#for fasd
+alias v='f -e vim' # quick opening files with vim
+
+#init fasd
+eval "$(fasd --init auto)"
 
 #ls after cd
 function chpwd() {
