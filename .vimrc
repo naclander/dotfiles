@@ -43,4 +43,10 @@ map <C-j> 10j
 map <C-k> 10k
 " Support for C++11 stuff in Syntastic vim plugin
 let g:syntastic_cpp_compiler = '-std=c++11'
-set smartindent
+syntax enable
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
+set t_Co=256
+"Spell check
+:set spell spelllang=en_us
