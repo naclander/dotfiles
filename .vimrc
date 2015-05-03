@@ -1,6 +1,7 @@
 " Set Pathogen Path
 execute pathogen#infect()
 set nu
+set cursorline
 syntax on
 set hlsearch
 set colorcolumn=80
@@ -50,3 +51,5 @@ let g:solarized_termcolors=256
 set t_Co=256
 "Spell check
 :set spell spelllang=en_us
+set laststatus=2
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
