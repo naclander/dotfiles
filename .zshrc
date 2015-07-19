@@ -1,5 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+# Path for golang
+export GOPATH=~/.go
+xset r rate 150 25
+bindkey -v
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -45,11 +49,12 @@ ZSH_THEME="af-magic"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=()
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+#export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/home/hemite/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,14 +88,10 @@ alias t='konsole'
 alias tmx='tmux -2'
 alias c='clear'
 alias cdc='cd;c'
-#for fasd
-alias v='f -e vim' # quick opening files with vim
-
-#init fasd
-eval "$(fasd --init auto)"
+alias tree='tree -CF'
 
 #ls after cd
 function chpwd() {
     emulate -L zsh
-    ls -a
+    ls -alh
 }
