@@ -147,7 +147,14 @@
 (setq vc-make-backup-files t)
 
 
-; --------------------------------Shackle configuration Configuration --------------
+; --------------------------------Shackle configuration Configuration -----------
+
+; Align helm and help windows at the bottom with a ratio of 40%
+; https://github.com/wasamasa/shackle
+(shackle-mode t)
+(setq helm-display-function 'pop-to-buffer) ; make helm play nice
+(setq shackle-rules '(("\\`\\*helm.*?\\*\\'" :regexp t :align t :size 0.5)
+                      ("\\`\\*help.*?\\*\\'" :regexp t :align t :size 0.5)))
 
 ;--------------------------------------------------------------------------------
 
