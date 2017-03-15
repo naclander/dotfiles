@@ -4,15 +4,17 @@
 ;(byte-recompile-directory package-user-dir nil 'force)
 
 ; Function to use to reinstall ( resync/redownload ) all installed packages
-; http://stackoverflow.com/questions/24725778/how-to-rebuild-elpa-packages-after-upgrade-of-emacs
-;; (defun package-reinstall-activated ()
-;;   "Reinstall all activated packages."
-;;   (interactive)
-;;   (dolist (package-name package-activated-list)
-;;     (when (package-installed-p package-name)
-;;       (unless (ignore-errors                   ;some packages may fail to install
-;;                 (package-reinstall package-name)
-;;                 (warn "Package %s failed to reinstall" package-name))))))
+;http://stackoverflow.com/questions/24725778/how-to-rebuild-elpa-packages-after-upgrade-of-emacs
+;(defun package-reinstall-activated ()
+;  "Reinstall all activated packages."
+;  (interactive)
+;  (dolist (package-name package-activated-list)
+;    (when (package-installed-p package-name)
+;      (unless (ignore-errors                   ;some packages may fail to install
+;                (package-reinstall package-name)
+;                (warn "Package %s failed to reinstall" package-name))))))
+
+
 
 ; list the repositories containing them
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")
@@ -38,41 +40,6 @@
 ; scroll one line at a time (less "jumpy" than defaults) ( using mouse )
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
 
-; Permanent undo
-(setq undo-tree-auto-save-history t)
-
-; Set undo directory
-(setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
-
-; Add line numbers
-(global-linum-mode t)
-; Set a bar after line numbers
-(setq linum-format "%2d\u2502 ")
-
-; Linum-mode fix for zoom in/out in gui mode
-(require 'linum)
-(defun linum-update-window-scale-fix (win)
-  "fix linum for scaled text"
-  (set-window-margins win
-          (ceiling (* (if (boundp 'text-scale-mode-step)
-                  (expt text-scale-mode-step
-                    text-scale-mode-amount) 1)
-              (if (car (window-margins))
-                  (car (window-margins)) 1)
-              ))))
-(advice-add #'linum-update-window :after #'linum-update-window-scale-fix)
-
-; To precalculate the line number width to avoid horizontal jumps on scrolling: 
-;; Preset `nlinum-format' for minimum width.
-(defun my-nlinum-mode-hook ()
-  (when nlinum-mode
-    (setq-local nlinum-format
-                (concat "%" (number-to-string
-                             ;; Guesstimate number of buffer lines.
-                             (ceiling (log (max 1 (/ (buffer-size) 80)) 10)))
-                        "d"))))
-(add-hook 'nlinum-mode-hook 'after-change-major-mode-hook)
-
 ; Disable menu-bar
 (menu-bar-mode -1)
 
@@ -83,19 +50,14 @@
 ; -- Systemd
 (add-to-list 'auto-mode-alist '("\\.service\\'" . conf-unix-mode))
 
-; Enable elpy
-(elpy-enable)
-
 ; IX pastebin package
 (require 'ix)
-
 
 ; Set redraw disaply key-map
 ; Also clear highlighting -- needed for persistent highlighting:
 ; https://github.com/juanjux/evil-search-highlight-persist
 (global-set-key (kbd "C-l") (lambda ()
 			      (interactive)
-			      (redraw-display)
 			      (evil-search-highlight-persist-remove-all)))
 
 ; Pretty lambdas!
@@ -122,10 +84,6 @@
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
-; Setup Tramp
-(require 'tramp)
-(setq tramp-default-method "ssh")
-
 ; Load the theme
 ; Originally I just did a load-theme, but that caused wierd white space issues.
 (load-theme 'sanityinc-tomorrow-eighties t)
@@ -146,8 +104,158 @@
 ;; Make backups of files, even when they're in version control.
 (setq vc-make-backup-files t)
 
+; Enable visual-line-mode ( set wrap on )
+(global-visual-line-mode t)
 
-; --------------------------------Shackle configuration Configuration -----------
+; Set default browser
+(setq browse-url-firefox-program "firefox-aurora")
+(setq browse-url-browser-function 'browse-url-firefox)
+
+;----------------------------------Undo-Tree-----Configuration-------------------
+
+; Permanent undo
+(setq undo-tree-auto-save-history t)
+
+; Set undo directory
+(setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
+
+;--------------------------------------------------------------------------------
+
+;----------------------------------iBuffer-----Configuration---------------------
+
+; Change list-buffers to ibuffer
+(defalias 'list-buffers 'ibuffer)
+
+;--------------------------------------------------------------------------------
+
+;----------------------------------Tramp ----Configuration-----------------------
+
+(require 'tramp)
+(tramp-set-completion-function "ssh"
+                               '((tramp-parse-sconfig "/etc/ssh_config")
+                                 (tramp-parse-sconfig "~/.ssh/config")))
+(setq tramp-default-method "sshx")
+
+; Make tram play nice with projectile
+; http://carloerodriguez.com/blog/2015/12/14/effective-ssh-connections-with-emacs/
+(defadvice projectile-project-root (around ignore-remote first activate)
+  (unless (file-remote-p default-directory) ad-do-it))
+
+;--------------------------------------------------------------------------------
+
+;-------------------------auto-highlight-symbol----Configuration-----------------
+
+; As described here:
+; https://www.hiroom2.com/2016/10/31/emacs-auto-highlight-symbol-package/
+(add-hook 'after-init-hook 'global-auto-highlight-symbol-mode)
+
+;--------------------------------------------------------------------------------
+
+;----------------------------------linum-mode----Configuration-------------------
+
+; Add line numbers
+(global-nlinum-mode t)
+;(global-linum-mode t)
+; Set a bar after line numbers
+(setq linum-format "%2d\u2502 ")
+(setq nlinum-format "%2d\u2502 ")
+
+; Linum-mode fix for zoom in/out in gui mode
+(require 'linum)
+(defun linum-update-window-scale-fix (win)
+  "fix linum for scaled text"
+  (set-window-margins win
+          (ceiling (* (if (boundp 'text-scale-mode-step)
+                  (expt text-scale-mode-step
+                    text-scale-mode-amount) 1)
+              (if (car (window-margins))
+                  (car (window-margins)) 1)
+              ))))
+(advice-add #'linum-update-window :after #'linum-update-window-scale-fix)
+
+;--------------------------------------------------------------------------------
+
+;----------------------------------winner-mode---Configuration-------------------
+
+; Mappings for undoing and redoing window configurations
+(global-set-key (kbd "C-S-U" ) 'winner-undo)
+(global-set-key (kbd "C-S-R") 'winner-redo)
+
+;--------------------------------------------------------------------------------
+
+;----------------------------------Org-wikish Configuration----------------------
+
+; org-wikish is not in melpa yet
+(add-to-list 'load-path "~/.emacs.d/misc/org-wikish/")
+(load "org-wikish")
+
+; Set the org-wikish directory
+(setq org-wikish-notes-directory "~/.emacs.d/org-wikish/")
+
+; There is also an evil org-wikish keybinding in the Evil section
+
+;--------------------------------------------------------------------------------
+
+;----------------------------------Org Configuration-----------------------------
+
+(require 'org)
+
+(setq org-return-follows-link t)
+(setq org-open-non-existing-files t)
+
+(defun org-insert-heading-with-timestamp ()
+  (interactive)
+  (org-insert-heading-respect-content)
+  (org-time-stamp-inactive))
+
+(define-key org-mode-map (kbd "<C-return>") 'org-insert-heading)
+(define-key org-mode-map (kbd "<C-S-return>") 'org-insert-heading-with-timestamp)
+
+; Open org links in the same window 
+(setq org-link-frame-setup '((file . find-file)))
+
+; Start all org files unfolded by default
+(setq org-startup-folded nil)
+
+;--------------------------------------------------------------------------------
+
+;----------------------------------Python Configuration--------------------------
+
+; Enable elpy
+(elpy-enable)
+
+; Set ipython as the shell interpreter ( such as when pressing C-c C-c )
+(setq python-shell-interpreter "ipython"
+    python-shell-interpreter-args "--simple-prompt")
+
+;--------------------------------------------------------------------------------
+
+; --------------------------------Rainbow-mode Configuration --------------------
+
+; Enable rainbow-mode
+(require 'rainbow-mode)
+; Originally I used the 'after-chage-major-mode-hook and it broke colors in
+; helm and in magit -- not sure why
+(add-hook 'prog-mode-hook 'rainbow-mode)
+
+;--------------------------------------------------------------------------------
+
+; --------------------------------Eyebrowse Configuration ---------------------
+
+; I would have preferred to use perspective-el:
+; https://github.com/nex3/perspective-el
+; but that project currently does not work with emacs26
+; https://github.com/nex3/perspective-el/issues/64
+; I should switch to that when they fix the issues
+; For now, lets just use eyebrowse ( meh )
+; https://github.com/wasamasa/eyebrowse
+(eyebrowse-mode)
+
+; I also have a hydra configuration in the hydra section
+
+;--------------------------------------------------------------------------------
+
+; --------------------------------Shackle Configuration -------------------------
 
 ; Align helm and help windows at the bottom with a ratio of 40%
 ; https://github.com/wasamasa/shackle
@@ -216,10 +324,14 @@
 
 ; --------------------------------Git-Gutter Configuration ----------------------
 
+; For now, disable git-gutter until
+; https://github.com/syohex/emacs-git-gutter/issues/143
+; is resolved
+
 (require 'git-gutter)
 
 ; Enable git-gutter
-(global-git-gutter-mode t)
+;(global-git-gutter-mode t)
 
 ;; If you would like to use git-gutter.el and linum-mode
 (git-gutter:linum-setup)
@@ -229,11 +341,11 @@
 (setq git-gutter:update-interval 2)
 
 
-; Customize symbols and colors
+;; ; Customize symbols and colors
 
-; Because we have an after-init-hook for the theme we need to have one for this too
-(add-hook 'after-init-hook (lambda ()
-			     (set-face-foreground 'git-gutter:modified "gold")))
+;; ; Because we have an after-init-hook for the theme we need to have one for this too
+ (add-hook 'after-init-hook (lambda ()
+ 			     (set-face-foreground 'git-gutter:modified "gold")))
 
 ;--------------------------------------------------------------------------------
 
@@ -255,6 +367,18 @@
 		       (interactive
 			(evil-previous-visual-line 10))))
 
+(evil-global-set-key 'visual (kbd "C-j")
+		     (lambda ()
+		       (interactive
+			(evil-next-visual-line 10))))
+(evil-global-set-key 'visual (kbd "C-k")
+		     (lambda ()
+		       (interactive
+			(evil-previous-visual-line 10))))
+
+; Go back to previous buffer
+(evil-global-set-key 'motion (kbd "C-b") 'evil-switch-to-windows-last-buffer)
+
 ; Map ';' to bring up the evil command buffer
 (evil-global-set-key 'motion ";" 'evil-ex)
 
@@ -263,8 +387,20 @@
 			       evil-motion-state-modes))
 (setq evil-emacs-state-modes nil)
 
+; Treat '_' and '-' as a word character
+(modify-syntax-entry ?_ "w")
+(modify-syntax-entry ?- "w")
 
 (evil-mode 1)
+
+; org-wikish keybindings. This makes it so that you can press enter to create
+; and follow links, just like in vimwiki
+(defun evil-org-follow-link()
+  (interactive)
+  (if (org-in-regexp org-bracket-link-regexp 1)
+      (org-open-at-point)
+     (org-wikish-link-word-at-point)))
+(evil-define-key 'normal org-mode-map (kbd "RET") 'evil-org-follow-link)
 
 ;--------------------------------------------------------------------------------
 
@@ -377,7 +513,9 @@
 ; EDIT EDIT: company-quickhelp also overrides company-active-map somehow
 ; so I can't rebind my keys, like above. I'm giving up on this package for now,
 ; even though its pretty cool.
-;(company-quickhelp-mode 1)
+(setq company-quickhelp-delay 10)
+(company-quickhelp-mode 1)
+company--electric-saved-window-configuration
 
 ;--------------------------------------------------------------------------------
 
@@ -406,13 +544,21 @@
 
 ;----------------------------------Hydra Configuration---------------------------
 
-; Easy window splitting commands using Hydra
-; Taken from http://oremacs.com/2015/02/03/one-hydra-two-hydra/
 (require 'hydra)
 
 (global-set-key
+ (kbd "C-M-e")
+ (defhydra hydra-eval (:exit t)
+   "Evaluate a"
+   ("r" eval-region "region" )
+   ("b" eval-buffer "buffer" ) ))
+   
+
+; Easy window splitting commands using Hydra
+; Taken from http://oremacs.com/2015/02/03/one-hydra-two-hydra/
+(global-set-key
  (kbd "C-M-w")
- (defhydra hydra-window ()
+ (defhydra hydra-window (:exit t)
    "window"
    ("h" evil-window-left)
    ("j" evil-window-down)
@@ -443,5 +589,17 @@
    ("o" delete-other-windows "max")
    ("m" winner-undo "min")
    ("q" nil "cancel")))
+
+; Use hydra to control eyebrowse:
+(global-set-key
+ (kbd "C-M-SPC")
+ (defhydra hydra-perspective ()
+   "perspective"
+   ( "s" eyebrowse-switch-to-window-config "switch")
+   ( "c" eyebrowse-create-window-config "create")
+   ( "k" eyebrowse-close-window-config "kill")
+   ( "r" eyebrowse-rename-window-config "rename")
+   ( "n" eyebrowse-next-window-config "next")
+   ( "p" eyebrowse-prev-window-config "previous")))
 
 ;--------------------------------------------------------------------------------
