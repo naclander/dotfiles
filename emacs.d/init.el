@@ -111,6 +111,15 @@
 (setq browse-url-firefox-program "firefox-aurora")
 (setq browse-url-browser-function 'browse-url-firefox)
 
+(global-set-key (kbd "C-x b") 'helm-mini)
+
+;----------------------------------Projectile-----Configuration-------------------
+
+(require 'projectile)
+(setq projectile-enable-caching t)
+
+;--------------------------------------------------------------------------------
+
 ;----------------------------------Undo-Tree-----Configuration-------------------
 
 ; Permanent undo
@@ -131,15 +140,22 @@
 ;----------------------------------Tramp ----Configuration-----------------------
 
 (require 'tramp)
-(tramp-set-completion-function "ssh"
+
+; Recommendation from arch-linux wiki re: slow networking in tramp
+; https://wiki.archlinux.org/index.php/emacs#When_network_is_limited
+(setq tramp-ssh-controlmaster-options
+      "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
+
+(tramp-set-completion-function "sshx"
                                '((tramp-parse-sconfig "/etc/ssh_config")
                                  (tramp-parse-sconfig "~/.ssh/config")))
 (setq tramp-default-method "sshx")
 
-; Make tram play nice with projectile
-; http://carloerodriguez.com/blog/2015/12/14/effective-ssh-connections-with-emacs/
-(defadvice projectile-project-root (around ignore-remote first activate)
-  (unless (file-remote-p default-directory) ad-do-it))
+; The timeout is number of seconds since last remote command
+; for rereading remote directory contents.
+; 0 re-reads immediately during file name completion, nil
+; uses cached directory contents. 
+(setq tramp-completion-reread-directory-timeout nil)
 
 ;--------------------------------------------------------------------------------
 
@@ -361,20 +377,11 @@
 (evil-global-set-key 'motion (kbd "C-j")
 		     (lambda ()
 		       (interactive
-			(evil-next-visual-line 10))))
+			(evil-next-line 10))))
 (evil-global-set-key 'motion (kbd "C-k")
 		     (lambda ()
 		       (interactive
-			(evil-previous-visual-line 10))))
-
-(evil-global-set-key 'visual (kbd "C-j")
-		     (lambda ()
-		       (interactive
-			(evil-next-visual-line 10))))
-(evil-global-set-key 'visual (kbd "C-k")
-		     (lambda ()
-		       (interactive
-			(evil-previous-visual-line 10))))
+			(evil-previous-line 10))))
 
 ; Go back to previous buffer
 (evil-global-set-key 'motion (kbd "C-b") 'evil-switch-to-windows-last-buffer)
@@ -539,6 +546,9 @@ company--electric-saved-window-configuration
 (define-key helm-map (kbd "TAB") 'helm-execute-persistent-action)
 
 
+(define-key helm-map (kbd "C-b") 'helm-find-files-up-one-level)
+
+
 ;--------------------------------------------------------------------------------
 
 
@@ -593,7 +603,7 @@ company--electric-saved-window-configuration
 ; Use hydra to control eyebrowse:
 (global-set-key
  (kbd "C-M-SPC")
- (defhydra hydra-perspective ()
+ (defhydra hydra-perspective (:exit t)
    "perspective"
    ( "s" eyebrowse-switch-to-window-config "switch")
    ( "c" eyebrowse-create-window-config "create")
@@ -601,5 +611,39 @@ company--electric-saved-window-configuration
    ( "r" eyebrowse-rename-window-config "rename")
    ( "n" eyebrowse-next-window-config "next")
    ( "p" eyebrowse-prev-window-config "previous")))
+
+; Use hydra for projectile
+; We need to "unbind" the dired keymap so that in works in dired mode. Then we
+; need to bind the hydra using bind-key*, becayse global-set-key doesn't work, for some reason.
+ (add-hook 'dired-mode-hook 'my-dired-mode-hook)
+     (defun my-dired-mode-hook ()
+       (define-key dired-mode-map (kbd "C-M-p") nil))
+(bind-key*
+ (kbd "C-M-p")
+ (defhydra hydra-projectile (:color teal
+                            :hint nil)
+  "
+     PROJECTILE: %(projectile-project-root)
+
+     Find               Search/Tags          Project
+------------------------------------------------------------------------------------------
+_f_: file            _a_: helm-ag           _i_: Ibuffer
+_d_: dir             _A_: ag                _D_: Dired
+_b_: buffer          _o_: search-buffers    _s_: shell
+_r_: recent file     _g_: grep
+
+  "
+  ("a"   helm-projectile-ag)
+  ("A"   projectile-ag)
+  ("b"   helm-projectile-switch-to-buffer)
+  ("d"   helm-projectile-find-dir)
+  ("f"   helm-projectile-find-file)
+  ("g"   ggtags-update-tags)
+  ("i"   helm-projectile-ibuffer)
+  ("o"   projectile-multi-occur)
+  ("r"   helm-projectile-recentf)
+  ("D"   projectile-dired)
+  ("s"   projectile-run-shell)
+  ("q"   nil "cancel" :color blue)))
 
 ;--------------------------------------------------------------------------------
