@@ -36,7 +36,7 @@ This code needs to be placed initially in =init.el=
 (load-file (concat user-emacs-directory "init.el"))
 #+END_SRC
   
-BEGIN!
+_BEGIN!_
 #+BEGIN_SRC emacs-lisp
 ;; -*- lexical-binding: t -*-
 
@@ -991,4 +991,4 @@ A magical magit hydra
 
 I hope this helps some of you. I tried to refrence back the location where I found
 the snippets of code that I used in my init file. If I've forgotten a refrence, 
-I'm truly sorry.
+I'm very sorry.
