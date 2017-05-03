@@ -1,0 +1,994 @@
+#+TITLE: Emacs configuration file
+#+AUTHOR: Nathan Aclander ( with help from The Internet and #emacs )
+#+BABEL: :cache yes
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{inconsolata}
+#+LATEX_HEADER: \usepackage[utf8]{inputenc}
+#+PROPERTY: header-args :tangle yes
+
+* About
+  
+This is my literate emacs init file. 
+
+This, together with =init.el=, might be useful for you if:
+
+- You come from a background of Linux, Vim, and i3
+- You want your interaction with emacs to be mostly keyboard driven
+- You're me
+
+Please let me know if you find any bugs, or see any improvements that could 
+be made
+
+* Configuration 
+
+This code needs to be placed initially in =init.el=
+
+#+BEGIN_SRC emacs-lisp :tangle no
+;; This file replaces itself with the actual configuration at first run.
+
+;; We can't tangle without org!
+(require 'org)
+;; Open the configuration
+(find-file (concat user-emacs-directory "init.org"))
+;; tangle it
+(org-babel-tangle)
+;; load it
+(load-file (concat user-emacs-directory "init.el"))
+#+END_SRC
+  
+BEGIN!
+#+BEGIN_SRC emacs-lisp
+;; -*- lexical-binding: t -*-
+
+;; For commentary, please see init.org
+#+END_SRC
+
+* Package Stuff
+
+Boring package related things, and some helper functions.
+
+\Set up the package repositories.
+#+BEGIN_SRC emacs-lisp
+(setq package-archives '(("elpa" . "http://tromey.com/elpa/")
+			 ("melpa" . "https://melpa.org/packages/")
+                         ("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "https://marmalade-repo.org/packages/")))
+#+END_SRC
+
+Load Emacs Lisp packages, and activate them.
+#+BEGIN_SRC emacs-lisp
+(package-initialize)
+#+END_SRC
+
+The following functions are useful to mass-redownload and recompile packages.
+Usually I would use these after a major emacs change that would require me to
+recompile all =elc= files.
+
+I try to use the =/mine= suffix to denote helper functions that I've written myself.
+
+Byte compile all emacs packages
+#+BEGIN_SRC emacs-lisp
+(defun byte-recompile-all/mine () (interactive)
+       (progn
+         (package-refresh-contents)
+         (byte-recompile-directory package-user-dir nil 'force)
+         ))
+#+END_SRC
+
+
+This Function to use to reinstall ( resync/redownload ) all installed packages.
+This is "[[http://stackoverflow.com/questions/24725778/how-to-rebuild-elpa-packages-after-upgrade-of-emacs][borrowed]]" from this stack overflow thread
+#+BEGIN_SRC emacs-lisp
+(defun package-reinstall-activated/mine ()
+  "Reinstall all activated packages."
+  (interactive)
+  (package-refresh-contents)
+  (dolist (package-name package-activated-list)
+    (when (package-installed-p package-name)
+      (unless (ignore-errors                   ;some packages may fail to install
+                (package-reinstall package-name)
+                (warn "Package %s failed to reinstall" package-name))))))
+#+END_SRC
+
+* Miscellaneous 
+
+** Keybindings
+
+I find that C-h C-f makes a good keybinding for find-function given that c-h f
+ c-h f is bound by default to describe-function
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-h C-f") 'find-function)
+#+END_SRC
+
+Max and min buttons for GUI emacs
+We need the zoom-frm package because standard text increase decrease
+does not work well with [[https://github.com/alpaker/Fill-Column-Indicator][fill-column-indicator]]
+#+BEGIN_SRC emacs-lisp
+(if window-system (progn
+    (global-set-key (kbd "C--" ) 'zoom-frm-out)
+    (global-set-key (kbd "C-=") 'zoom-frm-in)
+    (global-set-key (kbd "C-0") 'zoom-frm-unzoom)))
+#+END_SRC
+    
+Clear the highlighting 
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-l") (lambda ()
+			      (interactive)
+                              (evil-ex-nohighlight)
+			      (evil-search-highlight-persist-remove-all)))
+#+END_SRC
+
+Make helm-mini the default quick buffer list
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-x b") 'helm-mini)
+#+END_SRC
+
+Mappings for undoing and redoing window configurations.
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-S-U" ) 'winner-undo)
+(global-set-key (kbd "C-S-R") 'winner-redo)
+#+END_SRC
+
+** Scrolling
+
+Scroll only one line at a time like in vim
+#+BEGIN_SRC emacs-lisp
+(setq scroll-step            1
+      scroll-conservatively  10000)
+#+END_SRC
+
+Scroll one line at a time, using the mouse ( this is less "jumpy" than the defaults )
+#+BEGIN_SRC emacs-lisp
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
+#+END_SRC
+
+** Miscellaneous Helper Functions
+
+This auto-creates init.el from init.org, everytime I save init.org
+#+BEGIN_SRC emacs-lisp
+(defun tangle-init ()
+  "If the current buffer is 'init.org' the code-blocks are
+tangled, and the tangled file is compiled."
+  (when (equal (buffer-file-name)
+               (expand-file-name (concat user-emacs-directory "init.org")))
+    ;; Avoid running hooks when tangling.
+    (let ((prog-mode-hook nil) )
+      (org-babel-tangle)
+      )))
+(add-hook 'after-save-hook 'tangle-init)
+#+END_SRC
+
+Reload init.el
+#+BEGIN_SRC emacs-lisp
+(defun reload-init/mine () (interactive) (load-file "~/.emacs.d/init.el"))
+#+END_SRC
+
+Wrapper around desktop-save / desktop-change-dir so I don't have to keep writing
+down the save directory
+#+BEGIN_SRC emacs-lisp
+(setq desktop-save-location "~/.emacs.d/desktop-saves")
+(defun desktop-save/mine () (interactive) (desktop-save desktop-save-location))
+(defun desktop-load/mine () (interactive) (desktop-change-dir desktop-save-location))
+#+END_SRC
+
+** Emacs Editor Look And Feel
+
+Load the theme
+#+BEGIN_SRC emacs-lisp
+(load-theme 'sanityinc-tomorrow-eighties t)
+#+END_SRC
+   
+Disable menu bars, toolbars, and welcome menus.
+#+BEGIN_SRC emacs-lisp
+(menu-bar-mode -1)
+
+(setq inhibit-startup-screen t)
+
+(tool-bar-mode -1)
+#+END_SRC
+
+Remove the scroll bar
+I also added =Emacs.Scrollbars: off= in =.Xresources= or else there was
+screen flickering on evil =:w= if =scroll-bar-mode= was set to =-1=
+#+BEGIN_SRC emacs-lisp
+(scroll-bar-mode -1)
+#+END_SRC
+
+** Text Configuration
+
+Highlight the current line.
+#+BEGIN_SRC emacs-lisp
+(global-hl-line-mode 1)
+#+END_SRC
+
+Pretty lambdas!
+#+BEGIN_SRC emacs-lisp
+(add-hook 'after-change-major-mode-hook 'prettify-symbols-mode)
+#+END_SRC
+
+Enable visual-line-mode ( set wrap on ).
+#+BEGIN_SRC emacs-lisp
+(global-visual-line-mode t)
+#+END_SRC
+
+Use spaces instead of tabs.
+#+BEGIN_SRC emacs-lisp
+(setq-default indent-tabs-mode nil)
+#+END_SRC
+
+** Miscellaneous Miscellany
+   
+These are configurations which I couldn't find a place for anywhere else.
+
+Syntax highlighting for systemd unit files.
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'auto-mode-alist '("\\.service\\'" . conf-unix-mode))
+#+END_SRC
+
+Use IX pastebin package.
+#+BEGIN_SRC emacs-lisp
+(require 'ix)
+#+END_SRC
+
+
+Enable winner-mode, for window manipulation.
+#+BEGIN_SRC emacs-lisp
+(add-hook 'after-change-major-mode-hook 'winner-mode)
+#+END_SRC
+
+
+Set the customization file somewhere else.
+#+BEGIN_SRC emacs-lisp
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+#+END_SRC
+
+Write backup files to their own seperate directory.
+#+BEGIN_SRC emacs-lisp
+    (setq backup-directory-alist
+          `((".*" . ,temporary-file-directory)))
+    (setq auto-save-file-name-transforms
+          `((".*" ,temporary-file-directory t)))
+#+END_SRC
+
+Make backups of files, even when they're in version control.
+#+BEGIN_SRC emacs-lisp
+(setq vc-make-backup-files t)
+#+END_SRC
+
+
+Set default browser to Firefox Aurora ( Developer Edition )
+This is the actual name of the binary, which might be different on different
+systems.
+#+BEGIN_SRC emacs-lisp
+(setq browse-url-firefox-program "firefox-aurora")
+(setq browse-url-browser-function 'browse-url-firefox)
+#+END_SRC
+
+
+Set garbage collection at 500MB instead of the default 0.76.
+#+BEGIN_SRC emacs-lisp
+(setq gc-cons-threshold 50000000)
+#+END_SRC
+
+* Package Specific Configuration
+
+For packages that I install, I try to keep their configuration in their own
+section.
+
+** Uniquify 
+
+We can use Uniquify library to name them thing/init.el and other-thing/init.el,
+which is much easier to make sense of.
+#+BEGIN_SRC emacs-lisp
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
+#+END_SRC
+
+** Paren
+
+Highlight parentheses.
+#+BEGIN_SRC emacs-lisp
+(require 'paren)
+(show-paren-mode t)
+(setq show-paren-delay 0)
+(setq show-paren-when-point-inside-paren t)
+#+END_SRC
+
+** Neotree
+
+Set all-the-icons for neotree.
+#+BEGIN_SRC emacs-lisp
+(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+#+END_SRC
+
+** lsp-mode 
+   
+Set up lsp for Java and Python. More information about lsp can be found [[https://github.com/Microsoft/language-server-protocol][here]].
+The Language Server Protocol is still in its early days and support for emacs is
+sparse. 
+#+BEGIN_SRC emacs-lisp
+(require 'lsp-java)
+(require 'lsp-python)
+(require 'lsp-mode)
+(global-lsp-mode t)
+
+(with-eval-after-load 'lsp-mode
+    (require 'lsp-flycheck))
+#+END_SRC
+
+** Fortune Cookie
+
+Enable a random string from the fortune program in the scratch buffer whenver 
+restarting emacs. Project page is [[https://github.com/andschwa/fortune-cookie][here]].
+#+BEGIN_SRC emacs-lisp
+(fortune-cookie-mode t)
+
+(setq inhibit-startup-message t)
+#+END_SRC
+
+** multi-term 
+
+
+Configuration for [[https://www.emacswiki.org/emacs/MultiTerm][multi-term]]
+#+BEGIN_SRC emacs-lisp
+(require 'multi-term)
+
+(setq multi-term-program "/bin/bash")
+#+END_SRC
+
+** Dired
+
+#+BEGIN_SRC emacs-lisp
+(require 'dired )
+#+END_SRC
+
+Auto update dired buffer if directory contents change. Found at:
+http://pragmaticemacs.com/emacs/automatically-revert-buffers/ 
+#+BEGIN_SRC emacs-lisp
+(add-hook 'dired-mode-hook 'auto-revert-mode)
+#+END_SRC
+
+Human readable units in dired-mode.
+#+BEGIN_SRC emacs-lisp
+(setq-default dired-listing-switches "-alh")
+#+END_SRC
+
+Using the dired-subtree package, Use 'i' to open and close directories in dired 
+and 'I' to cycle all directories.
+#+BEGIN_SRC emacs-lisp
+(define-key dired-mode-map (kbd "i") 'dired-subtree-toggle)
+(define-key dired-mode-map (kbd "I") 'dired-subtree-cycle)
+#+END_SRC
+
+Use [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] icons in dired to make it look pretty.
+#+BEGIN_SRC emacs-lisp
+(add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
+#+END_SRC
+
+** Projectile
+
+Enable [[https://github.com/bbatsov/projectile][projectile]]
+#+BEGIN_SRC emacs-lisp
+(require 'projectile)
+(setq projectile-enable-caching t)
+#+END_SRC
+
+** Undo-Tree
+
+Set an undo directory.
+#+BEGIN_SRC emacs-lisp
+(setq undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
+#+END_SRC
+
+Enable permanent undos.
+#+BEGIN_SRC emacs-lisp
+(setq undo-tree-auto-save-history t)
+#+END_SRC
+
+** iBuffer
+
+Change list-buffers to ibuffer.
+#+BEGIN_SRC emacs-lisp
+(defalias 'list-buffers 'ibuffer)
+#+END_SRC
+
+** Tramp
+
+#+BEGIN_SRC emacs-lisp
+(require 'tramp)
+#+END_SRC
+
+[[https://wiki.archlinux.org/index.php/emacs#When_network_is_limited][This]] recommendation is from the Arch-Linux wiki regarding slow networking in tramp
+#+BEGIN_SRC emacs-lisp
+(setq tramp-ssh-controlmaster-options
+      "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
+#+END_SRC
+
+=sshx= seems to work more reliably, but I don't know why.
+#+BEGIN_SRC emacs-lisp
+(tramp-set-completion-function "sshx"
+                               '((tramp-parse-sconfig "/etc/ssh_config")
+                                 (tramp-parse-sconfig "~/.ssh/config")))
+(setq tramp-default-method "sshx")
+#+END_SRC
+
+The timeout is the number of seconds since the last remote command for rereading 
+remote  directory contents. 0 re-reads immediately during file name completion, 
+nil uses cached directory contents. 
+#+BEGIN_SRC emacs-lisp
+(setq tramp-completion-reread-directory-timeout nil)
+#+END_SRC
+
+** auto-highlight-symbol
+   
+As described [[https://www.hiroom2.com/2016/10/31/emacs-auto-highlight-symbol-package/][here]]:
+#+BEGIN_SRC emacs-lisp
+(add-hook 'after-init-hook 'global-auto-highlight-symbol-mode)
+#+END_SRC
+
+** (N)linum 
+
+Add line numbers.
+#+BEGIN_SRC emacs-lisp
+(global-nlinum-mode t)
+#+END_SRC
+
+Set a bar after line numbers.
+#+BEGIN_SRC emacs-lisp
+(setq linum-format "%2d\u2502 ")
+(setq nlinum-format "%2d\u2502 ")
+#+END_SRC
+
+This fixes linum-mode when zooming in/out in emacs GUI mode.
+#+BEGIN_SRC emacs-lisp
+(require 'linum)
+(defun linum-update-window-scale-fix (win)
+  "fix linum for scaled text"
+  (set-window-margins win
+          (ceiling (* (if (boundp 'text-scale-mode-step)
+                  (expt text-scale-mode-step
+                    text-scale-mode-amount) 1)
+              (if (car (window-margins))
+                  (car (window-margins)) 1)
+              ))))
+(advice-add #'linum-update-window :after #'linum-update-window-scale-fix)
+#+END_SRC
+
+** org-wikish
+
+ Unfortunatley this package is not in melpa yet.
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'load-path "~/.emacs.d/misc/org-wikish/")
+(load "org-wikish")
+#+END_SRC
+
+Set the org-wikish directory
+
+#+BEGIN_SRC emacs-lisp
+(setq org-wikish-wiki-directory "~/.emacs.d/org-wikish/")
+#+END_SRC
+
+There is also an evil org-wikish keybinding in the Evil section.
+
+** org-mode
+   
+#+BEGIN_SRC emacs-lisp
+(require 'org)
+#+END_SRC
+
+Follow links and open non existing files.
+#+BEGIN_SRC emacs-lisp
+(setq org-return-follows-link t)
+(setq org-open-non-existing-files t)
+#+END_SRC
+
+Open org links in the same window.
+#+BEGIN_SRC emacs-lisp
+(setq org-link-frame-setup '((file . find-file)))
+#+END_SRC
+
+Start all org files unfolded by default.
+#+BEGIN_SRC emacs-lisp
+(setq org-startup-folded nil)
+#+END_SRC
+
+Enable syntax highlighting of source code in org mode.
+#+BEGIN_SRC emacs-lisp
+(setq org-src-fontify-natively t)
+#+END_SRC
+
+Enable org-bullet mode
+#+BEGIN_SRC emacs-lisp
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+#+END_SRC
+
+Pretty fontification of source code blocks, taken from [[http://orgmode.org/worg/org-contrib/babel/examples/fontify-src-code-blocks.html][here]].
+#+BEGIN_SRC emacs-lisp
+(setq org-src-fontify-natively t)
+#+END_SRC
+
+Define a function to insert a heading with a timestamp
+#+BEGIN_SRC emacs-lisp
+(defun org-insert-heading-with-timestamp ()
+  (interactive)
+  (org-insert-heading-respect-content)
+  (org-time-stamp-inactive))
+#+END_SRC
+
+Set up some org specific keybindings
+#+BEGIN_SRC emacs-lisp
+(define-key org-mode-map (kbd "<C-return>") 'org-insert-heading)
+(define-key org-mode-map (kbd "<C-S-return>") 'org-insert-heading-with-timestamp)
+#+END_SRC
+
+** Python
+
+Enable elpy
+#+BEGIN_SRC emacs-lisp
+(elpy-enable)
+#+END_SRC
+
+Set ipython as the shell interpreter ( such as when pressing =C-c C-c= ).
+#+BEGIN_SRC emacs-lisp
+(setq python-shell-interpreter "ipython"
+    python-shell-interpreter-args "--simple-prompt")
+#+END_SRC
+
+** Rainbow-mode
+
+Enable rainbow-mode
+#+BEGIN_SRC emacs-lisp
+(require 'rainbow-mode)
+#+END_SRC
+
+Originally I used the 'after-chage-major-mode-hook and it broke colors in
+Helm and in magit; not sure why, but it works now.
+#+BEGIN_SRC emacs-lisp
+(add-hook 'prog-mode-hook 'rainbow-mode)
+#+END_SRC
+
+** Eyebrowse
+
+[[https://github.com/wasamasa/eyebrowse][Eyebrowse]] is useful for window configuration, like in a tiling window manager.
+I would have preferred to use [[https://github.com/nex3/perspective-el][perspective-el]],
+but that project currently [[https://github.com/nex3/perspective-el/issues/64][does not work]] with emacs' master branch.
+I would like to switch back to perspective-el when that issue is fixed.
+#+BEGIN_SRC emacs-lisp
+(eyebrowse-mode)
+#+END_SRC
+
+I also have a hydra configuration in the Hydra section.
+
+** Shackle
+ 
+[[https://github.com/wasamasa/shackle][Shakle]] helps keep windows at certain ratios
+
+Align =helm= and =help= windows at the bottom with a ratio of 40%.
+#+BEGIN_SRC emacs-lisp
+(shackle-mode t)
+(setq helm-display-function 'pop-to-buffer) ; make helm play nice
+(setq shackle-rules '(("\\`\\*helm.*?\\*\\'" :regexp t :align t :size 0.5)
+                      ("\\`\\*help.*?\\*\\'" :regexp t :align t :size 0.5)))
+#+END_SRC
+
+** Rainbow Delimiters
+   
+Enable rainbow parentheses
+#+BEGIN_SRC emacs-lisp
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+#+END_SRC
+
+Custom face for rainbow parentheses taken from [[https://ericscrivner.me/2015/06/better-emacs-rainbow-delimiters-color-scheme/][here]].
+#+BEGIN_SRC emacs-lisp
+(custom-set-faces
+ '(rainbow-delimiters-depth-1-face ((t (:foreground "dark orange"))))
+ '(rainbow-delimiters-depth-2-face ((t (:foreground "deep pink"))))
+ '(rainbow-delimiters-depth-3-face ((t (:foreground "chartreuse"))))
+ '(rainbow-delimiters-depth-4-face ((t (:foreground "deep sky blue"))))
+ '(rainbow-delimiters-depth-5-face ((t (:foreground "yellow"))))
+ '(rainbow-delimiters-depth-6-face ((t (:foreground "orchid"))))
+ '(rainbow-delimiters-depth-7-face ((t (:foreground "spring green"))))
+ '(rainbow-delimiters-depth-8-face ((t (:foreground "sienna1")))))
+#+END_SRC
+
+** simpleclip
+
+Enable copy, cut, and paste, to clipboard
+#+BEGIN_SRC emacs-lisp
+(require 'simpleclip)
+
+(simpleclip-mode 1)
+#+END_SRC
+
+These keybindings are what's also used in most terminal emulators on Linux.
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-S-C" ) 'simpleclip-copy)
+(global-set-key (kbd "C-S-X" ) 'simpleclip-cut)
+(global-set-key (kbd "C-S-V" ) 'simpleclip-paste)
+#+END_SRC
+
+** Fill Column Indicator
+   
+Oh boy.
+
+This package is great, but it causes lots of strange bugs, and doesn't play
+nicely with other emacs pacakges ( or even other parts of emacs ).
+
+It also doesn't seem to be maintained very well. Information about this package
+can be found [[https://www.emacswiki.org/emacs/FillColumnIndicator][here]] and [[https://github.com/alpaker/Fill-Column-Indicator/][here]].
+
+All this package does is set a line at a column number, so that we know not
+to keep writing past it.
+
+Set the column at 80, with pixel length 1 ( I wish this was a percentage ), with
+color "slate grey".
+#+BEGIN_SRC emacs-lisp
+(setq fci-rule-column 80)
+(setq fci-rule-width 1)
+(setq fci-rule-color "slate grey")
+(fci-mode t)
+(add-hook 'after-change-major-mode-hook 'fci-mode)
+#+END_SRC
+
+[https://github.com/alpaker/Fill-Column-Indicator/issues/54][Workaround] for fci-mode and company-mode
+#+BEGIN_SRC emacs-lisp
+(defun on-off-fci-before-company(command)
+   (when (string= "show" command)
+     (turn-off-fci-mode))
+   (when (string= "hide" command)
+     (turn-on-fci-mode)))
+
+(advice-add 'company-call-frontends :before #'on-off-fci-before-company)
+#+END_SRC
+
+** Git-Gutter
+
+For now, disable git-gutter until [[https://github.com/syohex/emacs-git-gutter/issues/143][this issue]] is resolved.
+#+BEGIN_SRC emacs-lisp
+;(global-git-gutter-mode t)
+#+END_SRC
+
+Add this to use git-gutter and linum-mode
+#+BEGIN_SRC emacs-lisp
+(git-gutter:linum-setup)
+#+END_SRC
+
+Set the update interval
+#+BEGIN_SRC emacs-lisp
+(setq git-gutter:update-interval 2)
+#+END_SRC
+
+Customize the symbols and colors
+#+BEGIN_SRC emacs-lisp
+(setq git-gutter:modified-sign "≈")
+
+ (add-hook 'after-init-hook (lambda ()
+ 			     (set-face-foreground 'git-gutter:modified "gold")))
+#+END_SRC
+
+** Evil
+
+Use [https://github.com/naclander/evil-search-highlight-persist][evil-search-highlight-persist]
+to keep the highlighting persistent. This is available by default using 
+evil-search but I prefer isearch.
+#+BEGIN_SRC emacs-lisp
+;(setq evil-search-module 'evil-search)
+(require 'highlight)
+(require 'evil-search-highlight-persist)
+(global-evil-search-highlight-persist t)
+#+END_SRC
+
+Set highlighting across all windows in evil-search-highlight-persist.
+#+BEGIN_SRC emacs-lisp
+(setq evil-search-highlight-persist-all-windows t)
+#+END_SRC
+
+Change the default face of evil-search-highlight-persist to something better.
+#+BEGIN_SRC emacs-lisp
+(set-face-background 'evil-search-highlight-persist-highlight-face "gold")
+(set-face-foreground 'evil-search-highlight-persist-highlight-face "black")
+#+END_SRC
+
+
+
+Change the evil-search face colors. This has to come after requiring evil so 
+that the face is already created. I'm currently not using evil-search so this 
+isn't used.
+#+BEGIN_SRC emacs-lisp
+(require 'evil)
+(require 'evil-magit)
+(set-face-background 'evil-ex-lazy-highlight "gold")
+(set-face-foreground 'evil-ex-lazy-highlight "black")
+#+END_SRC
+
+
+Make =C-j= and =C-k= move down and up 10 lines at a time.
+#+BEGIN_SRC emacs-lisp
+(evil-global-set-key 'motion (kbd "C-j")
+		     (lambda ()
+		       (interactive
+			(evil-next-line 10))))
+(evil-global-set-key 'motion (kbd "C-k")
+		     (lambda ()
+		       (interactive
+			(evil-previous-line 10))))
+#+END_SRC
+
+
+Go back to previous buffer.
+#+BEGIN_SRC emacs-lisp
+(evil-global-set-key 'motion (kbd "C-b") 'evil-switch-to-windows-last-buffer)
+#+END_SRC
+
+Map =;= to bring up the evil command buffer.
+#+BEGIN_SRC emacs-lisp
+(evil-global-set-key 'motion ";" 'evil-ex)
+#+END_SRC
+
+Enable evil mode in all buffers.
+#+BEGIN_SRC emacs-lisp
+(setq evil-motion-state-modes (append evil-emacs-state-modes
+			       evil-motion-state-modes))
+(setq evil-emacs-state-modes nil)
+#+END_SRC
+
+Treat =_= and =-= as a word character.
+#+BEGIN_SRC emacs-lisp
+(modify-syntax-entry ?_ "w")
+(modify-syntax-entry ?- "w")
+#+END_SRC
+
+Some org-wikish keybindings. This makes it so that you can press enter to create
+and follow links, just like in [[https://github.com/vimwiki/vimwiki][vimwiki]].
+#+BEGIN_SRC emacs-lisp
+(evil-mode 1)
+(defun evil-org-follow-link()
+  (interactive)
+  (if (org-in-regexp org-bracket-link-regexp 1)
+      (org-open-at-point)
+     (org-wikish-link-word-at-point)))
+(evil-define-key 'normal org-mode-map (kbd "RET") 'evil-org-follow-link)
+#+END_SRC
+
+** Highlight sexp
+   
+Enable the [[https://www.emacswiki.org/emacs/HighlightSexp][highlight sexp]] package
+#+BEGIN_SRC emacs-lisp
+(require 'highlight-sexp)
+(add-hook 'lisp-mode-hook 'highlight-sexp-mode)
+(add-hook 'clojure-mode-hook 'highlight-sexp-mode)
+(add-hook 'emacs-lisp-mode-hook 'highlight-sexp-mode)
+(add-hook 'org-mode-hook 'highlight-sexp-mode)
+#+END_SRC
+
+** Spaceline/Powerline
+   
+Set up spaceline style, and size. powerline-height should ideally be a percentage,
+or else this value has to be changed depending on the DPI. 40 seems to be an OK
+size for my monitors.
+#+BEGIN_SRC emacs-lisp
+(require 'spaceline-config)
+(setq powerline-default-separator 'wave)
+(setq spaceline-workspace-numbers-unicode t)
+(setq spaceline-window-numbers-unicode t)
+(setq spaceline-highlight-face-func 'spaceline-highlight-face-evil-state)
+(setq spaceline-minor-modes-p nil)
+(setq powerline-height 40)
+#+END_SRC
+
+This is my attempt to define a spaceline segment. I just want it to show the path
+of the file currently open in the buffer. It unfortunately does not work.
+#+BEGIN_SRC emacs-lisp
+(spaceline-define-segment buffer-path
+  "my segment"
+  (when t
+  (print buffer-file-name)))
+(setq spaceline-buffer-path-p t)
+#+END_SRC
+
+Set the theme.
+#+BEGIN_SRC emacs-lisp
+(spaceline-spacemacs-theme)
+#+END_SRC
+
+
+** Company mode
+
+Enable company-mode.
+#+BEGIN_SRC emacs-lisp
+(add-hook 'after-init-hook 'global-company-mode)
+#+END_SRC
+
+Enable Vim keybinding in company-mode window.
+#+BEGIN_SRC emacs-lisp
+(define-key company-active-map (kbd "C-n") 'company-select-next-or-abort)
+(define-key company-active-map (kbd "C-p") 'company-select-previous-or-abort)
+#+END_SRC
+
+** Helm
+   
+Enable helm-mode
+#+BEGIN_SRC emacs-lisp
+(helm-mode 1)
+#+END_SRC
+
+Map =M-x= to start helm.
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "M-x") 'helm-M-x)
+#+END_SRC
+
+Define things like helm-map.
+#+BEGIN_SRC emacs-lisp
+(require 'helm)
+(require 'helm-config)
+#+END_SRC
+
+Use =C-j= and =C-k= to navigate inside helm buffer.
+#+BEGIN_SRC emacs-lisp
+(define-key helm-map (kbd "C-j") 'helm-next-line)
+(define-key helm-map (kbd "C-k") 'helm-previous-line)
+#+END_SRC
+
+Use tab to give function definition. I would ideally like to use tab for 
+auto-completion in helm, but apparently that's "not how you're supposed to use helm".
+#+BEGIN_SRC emacs-lisp
+(define-key helm-map (kbd "TAB") 'helm-execute-persistent-action)
+#+END_SRC
+
+More key definitions
+#+BEGIN_SRC emacs-lisp
+(define-key helm-map (kbd "C-b") 'helm-find-files-up-one-level)
+#+END_SRC
+
+Use =M-o= in some helm buffers to open files in a new split window. This is really
+cool but, unfortunately it doesn't always work. I borrowed this from [[https://github.com/emacs-helm/helm/issues/1100#issuecomment-128939418][here]].
+#+BEGIN_SRC emacs-lisp
+(defun helm-buffer-switch-to-new-window (_candidate)
+  "Display buffers in new windows."
+  ;; Select the bottom right window
+  (require 'winner)
+  (select-window (car (last (winner-sorted-window-list))))
+  ;; Display buffers in new windows
+  (dolist (buf (helm-marked-candidates))
+    (select-window (split-window-right))
+    (switch-to-buffer buf))
+  ;; Adjust size of windows
+  (balance-windows))
+
+(add-to-list 'helm-type-buffer-actions
+             '("Display buffer(s) in new window(s) `M-o'" .
+               helm-buffer-switch-new-window) 'append)
+
+(defun helm-buffer-switch-new-window ()
+  (interactive)
+  (with-helm-alive-p
+    (helm-quit-and-execute-action 'helm-buffer-switch-to-new-window)))
+
+(define-key helm-buffer-map (kbd "M-o") #'helm-buffer-switch-new-window)
+#+END_SRC
+
+** Hydra
+   
+[[https://github.com/abo-abo/hydra][Hydra]] makes it pretty useful to group a set of commonly used commands.
+#+BEGIN_SRC emacs-lisp
+(require 'hydra)
+#+END_SRC
+
+Baby hydra to quickly eval elips things
+#+BEGIN_SRC emacs-lisp
+(global-set-key
+ (kbd "C-M-e")
+ (defhydra hydra-eval (:exit t)
+   "Evaluate a"
+   ("r" eval-region "region" )
+   ("b" eval-buffer "buffer" ) ))
+#+END_SRC
+
+Hydra for quick window splitting taken from [[http://oremacs.com/2015/02/03/one-hydra-two-hydra/][here]].
+#+BEGIN_SRC emacs-lisp
+(global-set-key
+ (kbd "C-M-w")
+ (defhydra hydra-window (:exit t)
+   "window"
+   ("h" evil-window-left)
+   ("j" evil-window-down)
+   ("k" evil-window-up)
+   ("l" evil-window-right)
+   ("v" (lambda ()
+          (interactive)
+          (split-window-right)
+          (windmove-right))
+        "vert")
+   ("x" (lambda ()
+          (interactive)
+          (split-window-below)
+          (windmove-down))
+        "horz")
+   ("s" (lambda ()
+          (interactive)
+          (ace-window 4)
+          (add-hook 'ace-window-end-once-hook
+                    'hydra-window/body))
+        "swap")
+   ("d" (lambda ()
+          (interactive)
+          (ace-window 16)
+          (add-hook 'ace-window-end-once-hook
+                    'hydra-window/body))
+        "del")
+   ("o" delete-other-windows "max")
+   ("m" winner-undo "min")
+   ("q" nil "cancel")))
+#+END_SRC
+
+Hydra for eyebrowse window manipulation
+#+BEGIN_SRC emacs-lisp
+(global-set-key
+ (kbd "C-M-SPC")
+ (defhydra hydra-perspective (:exit t)
+   "perspective"
+   ( "s" eyebrowse-switch-to-window-config "switch")
+   ( "c" eyebrowse-create-window-config "create")
+   ( "k" eyebrowse-close-window-config "kill")
+   ( "r" eyebrowse-rename-window-config "rename")
+   ( "n" eyebrowse-next-window-config "next")
+   ( "p" eyebrowse-prev-window-config "previous")))
+#+END_SRC
+
+Hydra for projectile.
+We need to "unbind" the dired keymap so that in works in dired mode. Then we
+need to bind the hydra using bind-key*, because global-set-key doesn't work for 
+some reason.
+#+BEGIN_SRC emacs-lisp
+ (add-hook 'dired-mode-hook 'my-dired-mode-hook)
+     (defun my-dired-mode-hook ()
+       (define-key dired-mode-map (kbd "C-M-p") nil))
+(bind-key*
+ (kbd "C-M-p")
+ (defhydra hydra-projectile (:color teal
+                            :hint nil)
+  "
+     PROJECTILE: %(projectile-project-root)
+
+     Find               Search/Tags          Project
+------------------------------------------------------------------------------------------
+  _f_: file            _a_: helm-ag             _i_: Ibuffer
+  _d_: dir             _A_: ag                  _D_: Dired
+  _b_: buffer          _o_: search-buffers      _s_: shell
+  _r_: recent file     _g_: grep
+
+  "
+  ("a"   helm-projectile-ag)
+  ("A"   projectile-ag)
+  ("b"   helm-projectile-switch-to-buffer)
+  ("d"   helm-projectile-find-dir)
+  ("f"   helm-projectile-find-file)
+  ("g"   ggtags-update-tags)
+  ("i"   helm-projectile-ibuffer)
+  ("o"   projectile-multi-occur)
+  ("r"   helm-projectile-recentf)
+  ("D"   projectile-dired)
+  ("s"   projectile-run-shell)
+  ("q"   nil "cancel" :color blue)))
+#+END_SRC
+
+A magical magit hydra
+#+BEGIN_SRC emacs-lisp
+(global-set-key
+ (kbd "C-M-g")
+ (defhydra hydra-magit (:exit t)
+   "perspective"
+   ( "d" magit-diff "diff")
+   ( "s" magit-status "status")
+   ( "l" magit-log-current "log")
+   ( "p" magit-pull "pull")
+   ( "b" magit-blame "blame")))
+#+END_SRC
+
+* Conclusion
+
+I hope this helps some of you. I tried to refrence back the location where I found
+the snippets of code that I used in my init file. If I've forgotten a refrence, 
+I'm truly sorry.
