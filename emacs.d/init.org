@@ -47,7 +47,7 @@ _BEGIN!_
 
 Boring package related things, and some helper functions.
 
-\Set up the package repositories.
+Set up the package repositories.
 #+BEGIN_SRC emacs-lisp
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")
 			 ("melpa" . "https://melpa.org/packages/")
@@ -91,6 +91,37 @@ This is "[[http://stackoverflow.com/questions/24725778/how-to-rebuild-elpa-packa
 #+END_SRC
 
 * Miscellaneous 
+
+** Emacs Editor Look And Feel
+   
+The earlier this is done the better so we don't get random GUI elements popping
+in and out when emacs loads.
+
+Load the theme
+#+BEGIN_SRC emacs-lisp
+(load-theme 'sanityinc-tomorrow-eighties t)
+#+END_SRC
+   
+Disable menu bars, toolbars, and welcome menus.
+#+BEGIN_SRC emacs-lisp
+(menu-bar-mode -1)
+
+(setq inhibit-startup-screen t)
+
+(tool-bar-mode -1)
+#+END_SRC
+
+Remove the scroll bar
+I also added =Emacs.Scrollbars: off= in =.Xresources= or else there was
+screen flickering on evil =:w= if =scroll-bar-mode= was set to =-1=
+#+BEGIN_SRC emacs-lisp
+(scroll-bar-mode -1)
+#+END_SRC
+
+Make emacs prompt =y= or =n= instead of =yes= or =no=
+#+BEGIN_SRC emacs-lisp
+(fset 'yes-or-no-p 'y-or-n-p)
+#+END_SRC
 
 ** Keybindings
 
@@ -171,29 +202,6 @@ down the save directory
 (defun desktop-load/mine () (interactive) (desktop-change-dir desktop-save-location))
 #+END_SRC
 
-** Emacs Editor Look And Feel
-
-Load the theme
-#+BEGIN_SRC emacs-lisp
-(load-theme 'sanityinc-tomorrow-eighties t)
-#+END_SRC
-   
-Disable menu bars, toolbars, and welcome menus.
-#+BEGIN_SRC emacs-lisp
-(menu-bar-mode -1)
-
-(setq inhibit-startup-screen t)
-
-(tool-bar-mode -1)
-#+END_SRC
-
-Remove the scroll bar
-I also added =Emacs.Scrollbars: off= in =.Xresources= or else there was
-screen flickering on evil =:w= if =scroll-bar-mode= was set to =-1=
-#+BEGIN_SRC emacs-lisp
-(scroll-bar-mode -1)
-#+END_SRC
-
 ** Text Configuration
 
 Highlight the current line.
@@ -271,10 +279,145 @@ Set garbage collection at 500MB instead of the default 0.76.
 (setq gc-cons-threshold 50000000)
 #+END_SRC
 
+Get emacs terminal ( =term= ) to play nicely with unicode characters
+#+BEGIN_SRC emacs-lisp
+(add-hook 'term-exec-hook
+          (function
+           (lambda ()
+             (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix))))
+#+END_SRC
+
 * Package Specific Configuration
 
 For packages that I install, I try to keep their configuration in their own
-section.
+section. As I discover new packages, I append to this list frontwise.
+
+** language-detection
+  
+I use this to get nice syntax highlighting for code blocks inside eww. 
+Unfortunatley this requires copying the following code block to my init file.
+Ideally this would hidden from me. This was taken from [[https://github.com/andreasjansson/language-detection.el#eww-syntax-highlighting][here]].
+#+BEGIN_SRC emacs-lisp
+(require 'cl-lib)
+
+(defun eww-tag-pre (dom)
+  (let ((shr-folding-mode 'none)
+        (shr-current-font 'default))
+    (shr-ensure-newline)
+    (insert (eww-fontify-pre dom))
+    (shr-ensure-newline)))
+
+(defun eww-fontify-pre (dom)
+  (with-temp-buffer
+    (shr-generic dom)
+    (let ((mode (eww-buffer-auto-detect-mode)))
+      (when mode
+        (eww-fontify-buffer mode)))
+    (buffer-string)))
+
+(defun eww-fontify-buffer (mode)
+  (delay-mode-hooks (funcall mode))
+  (font-lock-default-function mode)
+  (font-lock-default-fontify-region (point-min)
+                                    (point-max)
+                                    nil))
+
+(defun eww-buffer-auto-detect-mode ()
+  (let* ((map '((ada ada-mode)
+                (awk awk-mode)
+                (c c-mode)
+                (cpp c++-mode)
+                (clojure clojure-mode lisp-mode)
+                (csharp csharp-mode java-mode)
+                (css css-mode)
+                (dart dart-mode)
+                (delphi delphi-mode)
+                (emacslisp emacs-lisp-mode)
+                (erlang erlang-mode)
+                (fortran fortran-mode)
+                (fsharp fsharp-mode)
+                (go go-mode)
+                (groovy groovy-mode)
+                (haskell haskell-mode)
+                (html html-mode)
+                (java java-mode)
+                (javascript javascript-mode)
+                (json json-mode javascript-mode)
+                (latex latex-mode)
+                (lisp lisp-mode)
+                (lua lua-mode)
+                (matlab matlab-mode octave-mode)
+                (objc objc-mode c-mode)
+                (perl perl-mode)
+                (php php-mode)
+                (prolog prolog-mode)
+                (python python-mode)
+                (r r-mode)
+                (ruby ruby-mode)
+                (rust rust-mode)
+                (scala scala-mode)
+                (shell shell-script-mode)
+                (smalltalk smalltalk-mode)
+                (sql sql-mode)
+                (swift swift-mode)
+                (visualbasic visual-basic-mode)
+                (xml sgml-mode)))
+         (language (language-detection-string
+                    (buffer-substring-no-properties (point-min) (point-max))))
+         (modes (cdr (assoc language map)))
+         (mode (cl-loop for mode in modes
+                        when (fboundp mode)
+                        return mode)))
+    (message (format "%s" language))
+    (when (fboundp mode)
+      mode)))
+
+(setq shr-external-rendering-functions
+      '((pre . eww-tag-pre)))
+#+END_SRC
+
+** helm-google
+
+Helm interface to quick Google searches
+
+Use =eww= as the browser so we can see the results in emacs.
+#+BEGIN_SRC emacs-lisp
+(setq browse-url-browser-function 'eww-browse-url)
+#+END_SRC
+
+** webpaste
+
+Set webpaste to ix.io
+#+BEGIN_SRC emacs-lisp
+(setq webpaste-provider-priority '("ix.io"))
+#+END_SRC
+
+** lisp
+   
+Configuration for various lisps
+   
+Enable using paredit in lisps
+#+BEGIN_SRC emacs-lisp
+(autoload 'enable-paredit-mode "paredit")
+(add-hook 'emacs-lisp-mode-hook 'paredit-mode)
+(add-hook 'eval-expression-minibuffer-setup-hook 'paredit-mode)
+(add-hook 'ielm-mode-hook             'paredit-mode)
+(add-hook 'lisp-mode-hook             'paredit-mode)
+(add-hook 'lisp-interaction-mode-hook 'paredit-mode)
+(add-hook 'scheme-mode-hook           'paredit-mode)
+(add-hook 'cider-repl-mode-hook 'paredit-mode)
+(add-hook 'clojure-mode-hook 'paredit-mode)
+#+END_SRC
+
+** Info 
+   
+Some configuration for Info buffers
+
+Use info-buffer to open info pages as seperate buffers. By default emacs keeps
+reusing the same one.
+#+BEGIN_SRC emacs-lisp
+  (global-set-key (kbd "C-h i") 'info-buffer)
+#+END_SRC
 
 ** Uniquify 
 
@@ -302,19 +445,48 @@ Set all-the-icons for neotree.
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 #+END_SRC
 
+Make the neotree window not force a fixed size
+#+BEGIN_SRC emacs-lisp
+(setq neo-window-fixed-size nil)
+#+END_SRC
+    
+
+Every time when the neotree window is opened, let it find current file and 
+jump to node.
+#+BEGIN_SRC emacs-lisp
+(setq neo-smart-open t)
+#+END_SRC
+
+Similar to find-file-in-project, NeoTree can be opened (toggled) at projectile 
+project root as follows ( taken from [[https://www.emacswiki.org/emacs/NeoTree][emacswiki]] ):
+#+BEGIN_SRC emacs-lisp
+(defun neotree-project-dir ()
+    "Open NeoTree using the git root."
+    (interactive)
+    (let ((project-dir (projectile-project-root))
+          (file-name (buffer-file-name)))
+      (neotree-toggle)
+      (if project-dir
+          (if (neo-global--window-exists-p)
+              (progn
+                (neotree-dir project-dir)
+                (neotree-find file-name)))
+        (message "Could not find git project root."))))
+#+END_SRC
+
 ** lsp-mode 
    
 Set up lsp for Java and Python. More information about lsp can be found [[https://github.com/Microsoft/language-server-protocol][here]].
 The Language Server Protocol is still in its early days and support for emacs is
 sparse. 
 #+BEGIN_SRC emacs-lisp
-(require 'lsp-java)
-(require 'lsp-python)
-(require 'lsp-mode)
-(global-lsp-mode t)
+;(require 'lsp-java)
+;(require 'lsp-python)
+;(require 'lsp-mode)
+;(global-lsp-mode t)
 
-(with-eval-after-load 'lsp-mode
-    (require 'lsp-flycheck))
+;(with-eval-after-load 'lsp-mode
+;    (require 'lsp-flycheck))
 #+END_SRC
 
 ** Fortune Cookie
@@ -543,7 +715,7 @@ Enable rainbow-mode
 (require 'rainbow-mode)
 #+END_SRC
 
-Originally I used the 'after-chage-major-mode-hook and it broke colors in
+Originally I used the 'after-change-major-mode-hook and it broke colors in
 Helm and in magit; not sure why, but it works now.
 #+BEGIN_SRC emacs-lisp
 (add-hook 'prog-mode-hook 'rainbow-mode)
@@ -629,7 +801,8 @@ color "slate grey".
 (setq fci-rule-width 1)
 (setq fci-rule-color "slate grey")
 (fci-mode t)
-(add-hook 'after-change-major-mode-hook 'fci-mode)
+(add-hook 'prog-mode-hook 'fci-mode)
+(add-hook 'text-mode-hook 'fci-mode)
 #+END_SRC
 
 [https://github.com/alpaker/Fill-Column-Indicator/issues/54][Workaround] for fci-mode and company-mode
@@ -716,7 +889,6 @@ Make =C-j= and =C-k= move down and up 10 lines at a time.
 			(evil-previous-line 10))))
 #+END_SRC
 
-
 Go back to previous buffer.
 #+BEGIN_SRC emacs-lisp
 (evil-global-set-key 'motion (kbd "C-b") 'evil-switch-to-windows-last-buffer)
@@ -744,12 +916,33 @@ Some org-wikish keybindings. This makes it so that you can press enter to create
 and follow links, just like in [[https://github.com/vimwiki/vimwiki][vimwiki]].
 #+BEGIN_SRC emacs-lisp
 (evil-mode 1)
-(defun evil-org-follow-link()
+(defun evil-org-follow-link/mine ()
+  " If there is a link at point, follow it. Otherwise create an org-wikish link"
   (interactive)
-  (if (org-in-regexp org-bracket-link-regexp 1)
-      (org-open-at-point)
-     (org-wikish-link-word-at-point)))
-(evil-define-key 'normal org-mode-map (kbd "RET") 'evil-org-follow-link)
+  (save-excursion
+    ;; If its a link, open it. Otherwise, create an org-wikish link
+    (if (org-in-regexp org-bracket-link-regexp 1)
+        (org-open-at-point)
+      ;; Create a new page whether we're on a word, or have a region selected
+      (if (use-region-p)
+          (org-wikish-link-region
+           (buffer-substring-no-properties (region-beginning) (region-end)))
+        (org-wikish-link-word-at-point)))))
+(evil-define-key 'normal org-mode-map (kbd "RET") 'evil-org-follow-link/mine)
+#+END_SRC
+
+Use helm-flyspell instead of the evil dictionary suggestion
+#+BEGIN_SRC emacs-lisp
+;(defun mine/helm-flyspell-correct ()
+;  (interactive)
+;  (save-excursion (helm-flyspell-correct)))
+;(evil-global-set-key 'normal (kbd "z =") 'mine/helm-flyspell-correct)
+(evil-global-set-key 'normal (kbd "z =") 'helm-flyspell-correct)
+#+END_SRC
+
+Make emacs' undo more fine-grain. This is speicifc to evil. Answer found [[http://stackoverflow.com/questions/10474555/how-to-change-granularity-level-of-undo-in-emacs-evil-mode-with-undo-tree][here]].
+#+BEGIN_SRC emacs-lisp
+(setq evil-want-fine-undo t)
 #+END_SRC
 
 ** Highlight sexp
@@ -775,7 +968,10 @@ size for my monitors.
 (setq spaceline-window-numbers-unicode t)
 (setq spaceline-highlight-face-func 'spaceline-highlight-face-evil-state)
 (setq spaceline-minor-modes-p nil)
+(setq spaceline-lines-p nil)
 (setq powerline-height 40)
+(spaceline-helm-mode)
+(spaceline-info-mode)
 #+END_SRC
 
 This is my attempt to define a spaceline segment. I just want it to show the path
@@ -792,7 +988,6 @@ Set the theme.
 #+BEGIN_SRC emacs-lisp
 (spaceline-spacemacs-theme)
 #+END_SRC
-
 
 ** Company mode
 
@@ -986,6 +1181,28 @@ A magical magit hydra
    ( "p" magit-pull "pull")
    ( "b" magit-blame "blame")))
 #+END_SRC
+
+A small hydra for neotree
+#+BEGIN_SRC emacs-lisp
+(global-set-key
+ (kbd "C-M-t")
+ (defhydra hydra-neotree (:exit t)
+   "perspective"
+   ( "t" neotree-toggle "toggle")
+   ( "p" neotree-project-dir "toggle in projectile")))
+#+END_SRC
+
+A hydra for misc utilities through helm
+#+BEGIN_SRC emacs-lisp
+(global-set-key
+ (kbd "C-M-h")
+ (defhydra hydra-helm (:exit t)
+   "helm-*"
+   ( "g" helm-google "google")
+   ( "p" helm-projectile "projectile")
+   ( "a" helm-do-ag "helm-do-ag")))
+#+END_SRC
+
 
 * Conclusion
 
