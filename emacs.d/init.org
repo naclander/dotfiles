@@ -306,6 +306,14 @@ Always follow symbolic-links when opening.
 For packages that I install, I try to keep their configuration in their own
 section. As I discover new packages, I append to this list frontwise.
 
+** Flyspell
+   
+Automatically start flyspell for org files
+
+#+BEGIN_SRC emacs-lisp 
+(add-hook 'org-mode-hook 'turn-on-flyspell)
+#+END_SRC
+
 ** imenu-list
 
 Brings up a small menu for navigation in list buffers like org files
@@ -319,8 +327,6 @@ Set its size properly
 #+BEGIN_SRC emacs-lisp 
 (setq imenu-list-auto-resize t)
 #+END_SRC
-
-
 
 ** tide
    
