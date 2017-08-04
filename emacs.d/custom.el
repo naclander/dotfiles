@@ -17,6 +17,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(android-mode-sdk-dir "~/opt/android-sdk")
  '(ansi-color-faces-vector
    [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
@@ -29,7 +30,7 @@
  '(helm-follow-mode-persistent t)
  '(package-selected-packages
    (quote
-    (column-enforce-mode esqlite sqlite nlinum-hl sudo-edit evil-multiedit language-detection w3m info+ helm-flyspell helm-google helm-pydoc jedi ecukes undercover el-mock ert-runner helm-projectile helm-ag helm-cider helm info-buffer pdf-tools webpaste company-anaconda anaconda-mode web-mode spaceline-all-the-icons all-the-icons-dired all-the-icons neotree meghanada lsp-python lsp-java lsp-mode htmlize org-preview-html evil-search-highlight-persist fortune-cookie org-bullets auctex multi-term restart-emacs markdown-mode dired-subtree evil-mc groovy-mode projectile-ripgrep ripgrep dumb-jump ctags persp-mode spaceline spacemacs-theme silkworm-theme pandoc-mode znc hackernews ibuffer-projectile auto-highlight-symbol hy-mode company-quickhelp nlinum rainbow-mode eyebrowse shackle zone-matrix zone-rainbow zone-nyan company-irony auto-complete-etags ag ggtags circe cider highlight-sexp highlight-parentheses zoom-frm fill-column-indicator powerline-evil ace-window evil-magit hydra helm-anything magit use-package projectile evil elpy color-theme-sanityinc-tomorrow)))
+    (sudo-edit imenu-list tide android-mode use-package mixed-pitch helm-ag undo-tree column-enforce-mode esqlite sqlite evil-multiedit language-detection w3m info+ helm-flyspell helm-google helm-pydoc jedi ecukes undercover el-mock ert-runner helm-projectile helm-cider helm info-buffer pdf-tools webpaste company-anaconda anaconda-mode web-mode spaceline-all-the-icons all-the-icons-dired all-the-icons neotree meghanada lsp-python lsp-java lsp-mode htmlize org-preview-html evil-search-highlight-persist fortune-cookie org-bullets auctex multi-term restart-emacs markdown-mode dired-subtree evil-mc groovy-mode projectile-ripgrep ripgrep dumb-jump ctags persp-mode spaceline spacemacs-theme silkworm-theme pandoc-mode znc hackernews ibuffer-projectile auto-highlight-symbol hy-mode company-quickhelp rainbow-mode eyebrowse shackle zone-matrix zone-rainbow zone-nyan company-irony auto-complete-etags ag ggtags circe cider highlight-sexp highlight-parentheses zoom-frm fill-column-indicator powerline-evil ace-window evil-magit hydra helm-anything magit projectile evil elpy color-theme-sanityinc-tomorrow)))
  '(projectile-mode t nil (projectile))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map

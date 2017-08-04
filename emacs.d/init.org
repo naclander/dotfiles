@@ -50,8 +50,6 @@ Create an emacs server instance if one hasn't been started.
   (server-start))
 #+END_SRC
 
-
-
 * Package Stuff
 
 Boring package related things, and some helper functions.
@@ -298,10 +296,71 @@ Make emacs save a bookmark as soon as its created.
 (setq bookmark-save-flag 1)
 #+END_SRC
 
-* Package Specific Configuration
+Always follow symbolic-links when opening.
+#+BEGIN_SRC emacs-lisp 
+(setq vc-follow-symlinks t)
+#+END_SRC
 
+* Package Specific Configuration
+  
 For packages that I install, I try to keep their configuration in their own
 section. As I discover new packages, I append to this list frontwise.
+
+** imenu-list
+
+Brings up a small menu for navigation in list buffers like org files
+
+Focus imenu-list when activated.
+#+BEGIN_SRC emacs-lisp 
+(setq imenu-list-focus-after-activation t)
+#+END_SRC
+
+Set its size properly
+#+BEGIN_SRC emacs-lisp 
+(setq imenu-list-auto-resize t)
+#+END_SRC
+
+
+
+** tide
+   
+Typescript development. This setup is copied from the github readme
+#+BEGIN_SRC emacs-lisp 
+(defun setup-tide-mode ()
+  (interactive)
+  (tide-setup)
+  (flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (eldoc-mode +1)
+  (tide-hl-identifier-mode +1)
+  (company-mode t))
+
+;; aligns annotation to the right hand side
+(setq company-tooltip-align-annotations t)
+
+;; formats the buffer before saving
+(add-hook 'before-save-hook 'tide-format-before-save)
+
+(add-hook 'typescript-mode-hook #'setup-tide-mode)
+#+END_SRC
+
+** Magit
+
+Stop Magit from asking to save unsaved buffers if being called
+#+BEGIN_SRC emacs-lisp 
+(setq magit-save-repository-buffers nil)
+#+END_SRC
+
+** Meghanada
+
+This package tries very hard to be intellij, and maybe one day it will achieve its dream.
+#+BEGIN_SRC emacs-lisp 
+(require 'meghanada)
+(add-hook 'java-mode-hook (lambda ()
+ 			     (meghanada-mode t)))
+#+END_SRC
+
+I also added a hydra, in the hydra section.
 
 ** language-detection
   
@@ -395,11 +454,11 @@ This flips the default order of =helm-googl-actions= so that we use the eww
 browser only for =helm-google= searches.
 #+BEGIN_SRC emacs-lisp
 (setq helm-google-actions
-      '(("Browse URL with EWW" lambda
-        (candidate)
-        (eww-browse-url
-         (helm-google-display-to-real candidate)))
-       ("Browse URL" . browse-url)))
+  '(("Browse URL with EWW" lambda
+      (candidate)
+      (eww-browse-url
+      (helm-google-display-to-real candidate)))
+    ("Browse URL" . browse-url)))
 #+END_SRC
 
 ** webpaste
@@ -616,6 +675,12 @@ Set the background of the line numbers face to make it separate from the
 rest of the buffer.
 #+BEGIN_SRC emacs-lisp 
 (set-face-background 'line-number "grey12")
+(set-face-foreground 'line-number-current-line "gold3")
+#+END_SRC
+
+Also chagne the font to match the default font I use for text:
+#+BEGIN_SRC emacs-lisp 
+(set-face-attribute 'line-number nil :family "DejaVu Sans Mono")
 #+END_SRC
 
 ** org-wikish
@@ -692,6 +757,20 @@ instructions specified [[http://nicholasvanhorn.com/posts/org-structure-completi
 (add-to-list 'org-structure-template-alist '("e" "#+BEGIN_SRC emacs-lisp \n?\n#+END_SRC" ))
 #+END_SRC
 
+Set background to be darker on code blocks so that its easier to read:
+#+BEGIN_SRC emacs-lisp 
+(set-face-background 'org-block "grey12")
+#+END_SRC
+
+Set up syntax highlighting when exporting org to Latex, then to PDF. Solution found [[https://emacs.stackexchange.com/questions/27982/export-code-blocks-in-org-mode-with-minted-environment][here]].
+#+BEGIN_SRC emacs-lisp 
+(setq org-latex-listings 'minted
+      org-latex-packages-alist '(("" "minted"))
+      org-latex-pdf-process
+      '("pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+        "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
+#+END_SRC
+
 ** Python
 
 Enable elpy
@@ -707,7 +786,7 @@ Set ipython as the shell interpreter ( such as when pressing =C-c C-c= ).
 
 ** Rainbow-mode
 
-Enable rainbow-mode
+Enable rainbow-mode, this highlights colors in buffer over the word.
 #+BEGIN_SRC emacs-lisp
 (require 'rainbow-mode)
 #+END_SRC
@@ -1233,12 +1312,46 @@ A small hydra for neotree
 A hydra for misc utilities through helm
 #+BEGIN_SRC emacs-lisp
 (global-set-key
- (kbd "C-M-h")
- (defhydra hydra-helm (:exit t)
-   "helm-*"
-   ( "g" helm-google "google")
-   ( "p" helm-projectile "projectile")
-   ( "a" helm-do-ag "helm-do-ag")))
+ (kbd "M-m")
+ (defhydra hydra-meghanada (:hint nil :exit t)
+   "
+^Edit^                           ^Tast or Task^
+^^^^^^-------------------------------------------------------
+_f_: meghanada-compile-file      _m_: meghanada-restart
+_c_: meghanada-compile-project   _t_: meghanada-run-task
+_o_: meghanada-optimize-import   _j_: meghanada-run-junit-test-case
+_s_: meghanada-switch-test-case  _J_: meghanada-run-junit-class
+_v_: meghanada-local-variable    _R_: meghanada-run-junit-recent
+_i_: meghanada-import-all        _r_: meghanada-reference
+_g_: magit-status                _T_: meghanada-typeinfo
+_l_: helm-ls-git-ls
+_q_: exit
+"
+   ("f" meghanada-compile-file)
+   ("m" meghanada-restart)
+
+   ("c" meghanada-compile-project)
+   ("o" meghanada-optimize-import)
+   ("s" meghanada-switch-test-case)
+   ("v" meghanada-local-variable)
+   ("i" meghanada-import-all)
+
+   ("g" magit-status)
+   ("l" helm-ls-git-ls)
+
+   ("t" meghanada-run-task)
+   ("T" meghanada-typeinfo)
+   ("j" meghanada-run-junit-test-case)
+   ("J" meghanada-run-junit-class)
+   ("R" meghanada-run-junit-recent)
+   ("r" meghanada-reference)
+
+   ("q" exit)
+   ("z" nil "leave")))
+#+END_SRC
+
+A hydra for meghanada-mode stolen from the project's readme
+#+BEGIN_SRC emacs-lisp 
 #+END_SRC
 
 * Conclusion
