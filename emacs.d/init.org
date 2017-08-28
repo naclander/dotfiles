@@ -57,7 +57,7 @@ Boring package related things, and some helper functions.
 Set up the package repositories.
 #+BEGIN_SRC emacs-lisp
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")
-			 ("melpa" . "https://melpa.org/packages/")
+                         ("melpa" . "https://melpa.org/packages/")
                          ("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "https://marmalade-repo.org/packages/")))
 #+END_SRC
@@ -125,6 +125,15 @@ screen flickering on evil =:w= if =scroll-bar-mode= was set to =-1=
 (scroll-bar-mode -1)
 #+END_SRC
 
+Set the fonts. The default and line-number font should match.
+#+BEGIN_SRC emacs-lisp
+(setq my-font "Inconsolata")
+(set-face-attribute 'line-number nil :family 'my-font)
+(set-face-attribute 'default nil :family 'my-font)
+#+END_SRC
+
+
+
 Make emacs prompt =y= or =n= instead of =yes= or =no=
 #+BEGIN_SRC emacs-lisp
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -141,6 +150,7 @@ I find that C-h C-f makes a good keybinding for find-function given that c-h f
 Max and min buttons for GUI emacs
 We need the zoom-frm package because standard text increase decrease
 does not work well with [[https://github.com/alpaker/Fill-Column-Indicator][fill-column-indicator]]
+
 #+BEGIN_SRC emacs-lisp
 (if window-system (progn
     (global-set-key (kbd "C--" ) 'zoom-frm-out)
@@ -151,9 +161,9 @@ does not work well with [[https://github.com/alpaker/Fill-Column-Indicator][fill
 Clear the highlighting
 #+BEGIN_SRC emacs-lisp
 (global-set-key (kbd "C-l") (lambda ()
-			      (interactive)
+                              (interactive)
                               (evil-ex-nohighlight)
-			      (evil-search-highlight-persist-remove-all)))
+                              (evil-search-highlight-persist-remove-all)))
 #+END_SRC
 
 Make helm-mini the default quick buffer list
@@ -306,6 +316,25 @@ Always follow symbolic-links when opening.
 For packages that I install, I try to keep their configuration in their own
 section. As I discover new packages, I append to this list frontwise.
 
+** yafolding
+
+A package for folding that works surprisingly well.
+
+Set it up so its on for prog-modes
+#+BEGIN_SRC emacs-lisp
+(add-hook 'prog-mode-hook
+          (lambda () (yafolding-mode)))
+#+END_SRC
+
+** avy
+
+Avy lets you jump quickly to words or chars or lines. Chars is too specific, and
+I use key bindings to jump to lines, so I mainly use it to jump to words.
+
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-M-j") 'avy-goto-word-0)
+#+END_SRC
+
 ** Flyspell
 
 Automatically start flyspell for org files
@@ -363,7 +392,7 @@ This package tries very hard to be intellij, and maybe one day it will achieve i
 #+BEGIN_SRC emacs-lisp
 (require 'meghanada)
 (add-hook 'java-mode-hook (lambda ()
- 			     (meghanada-mode t)))
+                             (meghanada-mode t)))
 #+END_SRC
 
 I also added a hydra, in the hydra section.
@@ -526,7 +555,7 @@ Highlight parentheses.
 ** Neotree
 
 Set all-the-icons for neotree.
-#+BEGIN_SRC emacs-lisp
++BEGIN_SRC emacs-lisp
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 #+END_SRC
 
@@ -534,7 +563,6 @@ Make the neotree window not force a fixed size
 #+BEGIN_SRC emacs-lisp
 (setq neo-window-fixed-size nil)
 #+END_SRC
-
 
 Every time when the neotree window is opened, let it find current file and
 jump to node.
@@ -584,8 +612,7 @@ restarting emacs. Project page is [[https://github.com/andschwa/fortune-cookie][
 (setq inhibit-startup-message t)
 #+END_SRC
 
-** multi-term/term/ansi-term
-
+** shell/multi-term/term/ansi-term
 
 Configuration for [[https://www.emacswiki.org/emacs/MultiTerm][multi-term]]
 #+BEGIN_SRC emacs-lisp
@@ -606,6 +633,20 @@ Get emacs terminal ( =term= ) to play nicely with unicode characters
 (defun my-term-hook ()
   (goto-address-mode))
 (add-hook 'term-mode-hook 'my-term-hook)
+#+END_SRC
+
+Turn off helm-completion-at-point for helm mode so that zsh bash completion
+works.
+#+BEGIN_SRC emacs-lisp
+(eval-after-load "shell"
+  '(define-key shell-mode-map (kbd "TAB") #'company-complete))
+(add-hook 'shell-mode-hook #'company-mode)
+#+END_SRC
+
+Rebind =C-c C-l= to clear the screen in shell-mode
+#+BEGIN_SRC emacs-lisp
+(require 'shell)
+(define-key shell-mode-map (kbd "C-c C-l") 'comint-clear-buffer)
 #+END_SRC
 
 ** Projectile
@@ -674,7 +715,9 @@ As described [[https://www.hiroom2.com/2016/10/31/emacs-auto-highlight-symbol-pa
 Add line numbers. Recently emacs added built-in line numbers. So nlinum
 or linum mode are no longer necessary.
 #+BEGIN_SRC emacs-lisp
-(setq-default display-line-numbers 'relative)
+;(setq-default display-line-numbers 'relative)
+(setq display-line-numbers-type 'relative)
+;(global-display-line-numbers-mode t)
 #+END_SRC
 
 Set the background of the line numbers face to make it separate from the
@@ -684,15 +727,19 @@ rest of the buffer.
 (set-face-foreground 'line-number-current-line "gold3")
 #+END_SRC
 
-Also chagne the font to match the default font I use for text:
+Enable emacs built in line numbers, except for blacklisted major modes.
 #+BEGIN_SRC emacs-lisp
-(set-face-attribute 'line-number nil :family "DejaVu Sans Mono")
+(setq mine/disable-line-number-for-modes '('neotree-mode))
+(add-hook 'after-change-major-mode-hook
+          (lambda () (unless
+                    (member major-mode mine/disable-line-number-for-modes)
+                  (display-line-numbers-mode t))))
 #+END_SRC
 
 ** org-wikish
 
  Unfortunatley this package is not in melpa yet.
-#+BEGIN_SRC emacs-lisp
+#[[~/.emacs.d/org-wikish/+begin_src.org][+BEGIN_SRC]] emacs-lisp
 (add-to-list 'load-path "~/.emacs.d/misc/org-wikish/")
 (load "org-wikish")
 #+END_SRC
@@ -865,9 +912,36 @@ These keybindings are what's also used in most terminal emulators on Linux.
 
 ** Column Enforce
 
-I used to use =fci-mode= but that ended up causing too many problems. Now I use
-a simpler package that just highlights anything past a desired line. I would
-still like to use soemthing equivalent to =fci-mode=, eventually.
++I used to use =fci-mode= but that ended up causing too many problems.+
++I use a simpler package that just highlights anything past a desired line.+
++I would still like to use soemthing equivalent to =fci-mode=, eventually.+
+
+fci-mode seems to be working again using some patches on GitHub.
+Specifically, I applied the zoom patch and the patch to make fci work with
+the new line-numbers built into emacs. I had to make those patches compatible
+but now fci mostly works.
+
+#+BEGIN_SRC emacs-lisp
+(require 'fill-column-indicator)
+(setq fci-rule-width 1)
+(setq fci-rule-color "grey")
+(setq fci-rule-column 80)
+(add-hook 'prog-mode-hook 'fci-mode)
+(add-hook 'text-mode-hook 'fci-mode)
+#+END_SRC
+
+fill-column-indicator is a little finicky when it comes to company-mode popups
+or flyspell-popups but this hack below mostly works. Taken from [[https://github.com/alpaker/Fill-Column-Indicator/issues/54][here]].
+
+#+BEGIN_SRC emacs-lisp
+(defun on-off-fci-before-company(command)
+  (when (string= "show" command)
+    (turn-off-fci-mode))
+  (when (string= "hide" command)
+    (turn-on-fci-mode)))
+
+(advice-add 'company-call-frontends :before #'on-off-fci-before-company)
+#+END_SRC
 
 #+BEGIN_SRC emacs-lisp
 (require 'column-enforce-mode)
@@ -899,7 +973,7 @@ Customize the symbols and colors
 (setq git-gutter:modified-sign "≈")
 
  (add-hook 'after-init-hook (lambda ()
- 			     (set-face-foreground 'git-gutter:modified "gold")))
+                             (set-face-foreground 'git-gutter:modified "gold")))
 #+END_SRC
 
 ** Evil
@@ -941,13 +1015,13 @@ isn't used.
 Make =C-j= and =C-k= move down and up 10 lines at a time.
 #+BEGIN_SRC emacs-lisp
 (evil-global-set-key 'motion (kbd "C-j")
-		     (lambda ()
-		       (interactive
-			(evil-next-line 10))))
+                     (lambda ()
+                       (interactive
+                        (evil-next-line 10))))
 (evil-global-set-key 'motion (kbd "C-k")
-		     (lambda ()
-		       (interactive
-			(evil-previous-line 10))))
+                     (lambda ()
+                       (interactive
+                        (evil-previous-line 10))))
 #+END_SRC
 
 Go back to previous buffer.
@@ -965,7 +1039,7 @@ Map =;= to bring up the evil command buffer. Dired needs a special case.
 Enable evil mode in all buffers.
 #+BEGIN_SRC emacs-lisp
 (setq evil-motion-state-modes (append evil-emacs-state-modes
-			       evil-motion-state-modes))
+                               evil-motion-state-modes))
 (setq evil-emacs-state-modes nil)
 #+END_SRC
 
@@ -994,18 +1068,24 @@ and follow links, just like in [[https://github.com/vimwiki/vimwiki][vimwiki]].
 (evil-define-key 'normal org-mode-map (kbd "RET") 'evil-org-follow-link/mine)
 #+END_SRC
 
-Use helm-flyspell instead of the evil dictionary suggestion
+Use flyspell-popup instead of the evil dictionary suggestion. I used to use
+helm-flyspell but I think flyspell-popup is nicer
 #+BEGIN_SRC emacs-lisp
 ;(defun mine/helm-flyspell-correct ()
 ;  (interactive)
 ;  (save-excursion (helm-flyspell-correct)))
 ;(evil-global-set-key 'normal (kbd "z =") 'mine/helm-flyspell-correct)
-(evil-global-set-key 'normal (kbd "z =") 'helm-flyspell-correct)
+(evil-global-set-key 'normal (kbd "z =") 'flyspell-popup-correct)
 #+END_SRC
 
 Make emacs' undo more fine-grain. This is speicifc to evil. Answer found [[http://stackoverflow.com/questions/10474555/how-to-change-granularity-level-of-undo-in-emacs-evil-mode-with-undo-tree][here]].
 #+BEGIN_SRC emacs-lisp
 (setq evil-want-fine-undo t)
+#+END_SRC
+
+Make =C-S-d= scroll up, since =C-u= can't be used to scroll up in emacs.
+#+BEGIN_SRC emacs-lisp
+(evil-global-set-key 'motion (kbd "C-S-d") 'evil-scroll-up)
 #+END_SRC
 
 ** Dired
@@ -1173,6 +1253,12 @@ In a helm menu, =C-v= already maps to page-down. =C-p= should map to page-up
 (define-key helm-map (kbd "C-p") 'helm-previous-page)
 #+END_SRC
 
+use ripgrep for helm-ag
+#+BEGIN_SRC emacs-lisp
+(custom-set-variables
+ '(helm-ag-base-command "rg --no-heading"))
+#+END_SRC
+
 ** Hydra
 
 [[https://github.com/abo-abo/hydra][Hydra]] makes it pretty useful to group a set of commonly used commands.
@@ -1278,7 +1364,7 @@ some reason.
   _r_: recent file     _g_: grep
 
   "
-  ("a"   helm-projectile-ag)
+  ("a"   helm-do-ag-project-root)
   ("A"   projectile-ag)
   ("b"   helm-projectile-switch-to-buffer)
   ("d"   helm-projectile-find-dir)
