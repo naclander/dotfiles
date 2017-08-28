@@ -953,7 +953,7 @@ or flyspell-popups but this hack below mostly works. Taken from [[https://github
 
 ** Git-Gutter
 
-=For now, disable git-gutter until [[https://github.com/syohex/emacs-git-gutter/issues/143][this issue]] is resolved.=
++For now, disable git-gutter until [[https://github.com/syohex/emacs-git-gutter/issues/143][this issue]] is resolved.+
 I am no longer using nlinum-mode, so I can re-enable git-gutter!
 #+BEGIN_SRC emacs-lisp
 (global-git-gutter-mode t)
