@@ -56,9 +56,10 @@ Boring package related things, and some helper functions.
 
 Set up the package repositories.
 #+BEGIN_SRC emacs-lisp
-(setq package-archives '(("elpa" . "http://tromey.com/elpa/")
-                         ("melpa" . "https://melpa.org/packages/")
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
                          ("gnu" . "http://elpa.gnu.org/packages/")
+                         ("org" . "http://orgmode.org/elpa/")
+                         ("elpa" . "http://tromey.com/elpa/")
                          ("marmalade" . "https://marmalade-repo.org/packages/")))
 #+END_SRC
 
@@ -106,7 +107,20 @@ in and out when emacs loads.
 
 Load the theme
 #+BEGIN_SRC emacs-lisp
-(load-theme 'sanityinc-tomorrow-eighties t)
+;(load-theme 'sanityinc-tomorrow-eighties t)
+(load-theme 'doom-vibrant t)
+#+END_SRC
+
+Set the fringe background
+#+BEGIN_SRC emacs-lisp
+(set-face-attribute 'fringe nil :background "grey16" :foreground "grey16" :distant-foreground "grey16")
+#+END_SRC
+
+Set the background of the line numbers face to make it separate from the
+rest of the buffer.
+#+BEGIN_SRC emacs-lisp
+(set-face-background 'line-number "grey12")
+(set-face-foreground 'line-number-current-line "gold3")
 #+END_SRC
 
 Disable menu bars, toolbars, and welcome menus.
@@ -132,8 +146,6 @@ Set the fonts. The default and line-number font should match.
 (set-face-attribute 'default nil :family 'my-font)
 #+END_SRC
 
-
-
 Make emacs prompt =y= or =n= instead of =yes= or =no=
 #+BEGIN_SRC emacs-lisp
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -141,8 +153,15 @@ Make emacs prompt =y= or =n= instead of =yes= or =no=
 
 ** Keybindings
 
+Use helpful instead of the default =describe-function=
+
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-h f") 'helpful-symbol)
+(global-set-key (kbd "C-h v") 'helpful-variable)
+#+END_SRC
+
 I find that C-h C-f makes a good keybinding for find-function given that c-h f
- c-h f is bound by default to describe-function
+ c-h f is bound by default to =describe-function=
 #+BEGIN_SRC emacs-lisp
 (global-set-key (kbd "C-h C-f") 'find-function)
 #+END_SRC
@@ -194,16 +213,17 @@ Scroll one line at a time, using the mouse ( this is less "jumpy" than the defau
 
 This auto-creates init.el from init.org, everytime I save init.org
 #+BEGIN_SRC emacs-lisp
-(defun tangle-init ()
-  "If the current buffer is 'init.org' the code-blocks are
-tangled, and the tangled file is compiled."
-  (when (equal (buffer-file-name)
-               (expand-file-name (concat user-emacs-directory "init.org")))
-    ;; Avoid running hooks when tangling.
+(require 'async)
+ (defun tangle-init ()
+   "If the current buffer is 'init.org' the code-blocks are
+ tangled, and the tangled file is compiled."
+   (when (equal (buffer-file-name)
+                (expand-file-name (concat user-emacs-directory "init.org")))
+  ;; Avoid running hooks when tangling.
     (let ((prog-mode-hook nil) )
-      (org-babel-tangle)
-      )))
-(add-hook 'after-save-hook 'tangle-init)
+       (org-babel-tangle)
+       )))
+ (add-hook 'after-save-hook 'tangle-init)
 #+END_SRC
 
 Reload init.el
@@ -255,7 +275,6 @@ Use IX pastebin package.
 (require 'ix)
 #+END_SRC
 
-
 Enable winner-mode, for window manipulation.
 #+BEGIN_SRC emacs-lisp
 (add-hook 'after-change-major-mode-hook 'winner-mode)
@@ -286,7 +305,7 @@ Set default browser to Firefox Developer Edition
 This is the actual name of the binary, which might be different on different
 systems.
 #+BEGIN_SRC emacs-lisp
-(setq browse-url-firefox-program "firefox-developer")
+(setq browse-url-firefox-program "firefox-developer-edition")
 (setq browse-url-browser-function 'browse-url-firefox)
 #+END_SRC
 
@@ -306,15 +325,379 @@ Make emacs save a bookmark as soon as its created.
 (setq bookmark-save-flag 1)
 #+END_SRC
 
+Helper function to read from .authinfo.gpg
+#+BEGIN_SRC emacs-lisp
+(defun mine/my-fetch-authinfo (index &rest params)
+  (require 'auth-source)
+  (let ((match (car (apply 'auth-source-search params))))
+    (if match
+        (let ((secret (plist-get match index)))
+          (if (functionp secret)
+              (funcall secret)
+            secret))
+      (message "index not found for %S" params))))
+#+END_SRC
+
 Always follow symbolic-links when opening.
 #+BEGIN_SRC emacs-lisp
 (setq vc-follow-symlinks t)
+#+END_SRC
+
+Address possible startup slowdown. See:
+https://lists.gnu.org/archive/html/bug-gnu-emacs/2017-11/msg00038.[[~/.emacs.d/org-wikish/html.org][html]]
+#+BEGIN_SRC emacs-lisp
+(setq x-wait-for-event-timeout nil)
 #+END_SRC
 
 * Package Specific Configuration
 
 For packages that I install, I try to keep their configuration in their own
 section. As I discover new packages, I append to this list frontwise.
+
+** emojify
+
+With this package, emacs can display emojis. Turn this on globally. :smile:
+#+BEGIN_SRC emacs-lisp
+(add-hook 'after-init-hook #'global-emojify-mode)
+#+END_SRC
+
+** Xwidget
+
+if compiled with xwidget support, we can launch a webkit browser directly in
+emacs.
+
+Some useful keybindings
+#+BEGIN_SRC emacs-lisp
+(require 'xwidget)
+(define-key xwidget-webkit-mode-map [mouse-4] 'xwidget-webkit-scroll-down)
+(define-key xwidget-webkit-mode-map (kbd "k") 'xwidget-webkit-scroll-down)
+(define-key xwidget-webkit-mode-map [mouse-5] 'xwidget-webkit-scroll-up)
+(define-key xwidget-webkit-mode-map (kbd "j") 'xwidget-webkit-scroll-up)
+(define-key xwidget-webkit-mode-map (kbd "<up>") 'xwidget-webkit-scroll-down)
+(define-key xwidget-webkit-mode-map (kbd "<down>") [[~/.emacs.d/org-wikish/'xwidget-webkit-scroll-up.org]['xwidget-webkit-scroll-up]])
+(define-key xwidget-webkit-mode-map (kbd "M-w") [[~/.emacs.d/org-wikish/'xwidget-webkit-copy-selection-as-kill.org]['xwidget-webkit-copy-selection-as-kill]])
+(define-key xwidget-webkit-mode-map (kbd "C-c") 'xwidget-webkit-copy-selection-as-kill)
+#+END_SRC
+
+
+Adapt webkit according to window configuration chagne automatically
+without this hook, every time you change your window configuration,
+you must press 'a' to adapt webkit content to new window size
+#+BEGIN_SRC emacs-lisp
+(add-hook 'window-configuration-change-hook (lambda ()
+               (when (equal major-mode 'xwidget-webkit-mode)
+                 (xwidget-webkit-adjust-size-dispatch))))
+#+END_SRC
+
+By default, xwidget reuses previous xwidget window,
+thus overriding your current website, unless a prefix argument
+is supplied
+This function always opens a new website in a new window
+#+BEGIN_SRC emacs-lisp
+(defun xwidget-browse-url-no-reuse (url &optional sessoin)
+  (interactive (progn
+                 (require 'browse-url)
+                 (browse-url-interactive-arg "xwidget-webkit URL: ")))
+
+  (xwidget-webkit-browse-url url t))
+#+END_SRC
+
+** Go development
+
+Some plugins and configuration for working in Go.
+
+Set up company-mode backend. Taken from [[https://emacs.stackexchange.com/questions/26820/can-i-use-emacs-with-company-mode-and-company-go-to-complete-gos-standard-libra][here]].
+#+BEGIN_SRC emacs-lisp
+(add-hook 'go-mode-hook
+      (lambda ()
+        (set (make-local-variable 'company-backends) '(company-go))
+        (company-mode)))
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+(with-eval-after-load 'go-mode
+   (require 'go-autocomplete))
+
+(setq company-go-show-annotation t)
+
+(require 'go-eldoc) ;; Don't need to require, if you install by package.el
+(add-hook 'go-mode-hook 'go-eldoc-setup)
+
+(require 'go-guru)
+
+;(require 'go-mode-autoloads)
+;(require 'go-flymake)
+#+END_SRC
+
+Go format before save
+#+BEGIN_SRC emacs-lisp
+;(add-hook 'before-save-hook 'gofmt-before-save)
+#+END_SRC
+
+** helm-swoop
+
+Set the line-number-face for =help-swoop= to be more visible
+#+BEGIN_SRC emacs-lisp
+(require 'helm-swoop)
+(setq helm-swoop-use-line-number-face t)
+(set-face-foreground 'helm-swoop-line-number-face "blue")
+(set-face-background 'helm-swoop-line-number-face "blue")
+#+END_SRC
+
+** circe
+
+An IRC client for emacs
+#+BEGIN_SRC emacs-lisp
+(setq freenode-port (mine/my-fetch-authinfo :port :user "aclander.com"
+                                       :host "irc.freenode.net"))
+(setq gimp-port (mine/my-fetch-authinfo :port :user "aclander.com"
+                                       :host "irc.gimp.net"))
+
+(setq freenode-pass (mine/my-fetch-authinfo :secret :user "aclander.com"
+                                       :host "irc.freenode.net"))
+
+(setq gimp-pass (mine/my-fetch-authinfo :secret :user "aclander.com"
+                                       :host "irc.gimp.net"))
+
+(setq nick-to-watch (mine/my-fetch-authinfo :secret :host "irc.nick.to.watch"))
+
+(setq circe-network-options
+      `(("Freenode"
+         :host "aclander.com"
+         :tls t
+         :port ,freenode-port
+         :pass ,freenode-pass
+         )
+        ("GIMP Net"
+         :host "aclander.com"
+         :tls t
+         :port ,gimp-port
+         :pass ,gimp-pass
+         )))
+#+END_SRC
+
+circe notifications
+#+BEGIN_SRC emacs-lisp
+(require 'circe-notifications)
+
+(autoload 'enable-circe-notifications "circe-notifications" nil t)
+(setq circe-notifications-watch-strings `(,nick-to-watch))
+(add-hook 'circe-server-connected-hook 'enable-circe-notifications)
+
+(setq circe-notifications-alert-style 'x11)
+#+END_SRC
+
+Don't wait before sending notifications
+#+BEGIN_SRC emacs-lisp
+(setq circe-notifications-wait-for 0)
+#+END_SRC
+
+Reduce spam when people join/quit
+#+BEGIN_SRC emacs-lisp
+(setq circe-reduce-lurker-spam t)
+#+END_SRC
+
+Set the format for names
+#+BEGIN_SRC emacs-lisp
+(setq circe-format-say "[{nick:-16s} {body}")
+#+END_SRC
+
+Enable logging
+#+BEGIN_SRC emacs-lisp
+(load "lui-logging" nil t)
+(enable-lui-logging-globally)
+(setq lui-logging-directory "~/.emacs.d/circe-logs/")
+#+END_SRC
+
+Enable color nicks and highlight all nicks in the current channel
+#+BEGIN_SRC emacs-lisp
+(require 'circe-color-nicks)
+(enable-circe-color-nicks)
+(setq circe-color-nicks-everywhere t)
+#+END_SRC
+
+Change line break point to 120 characters
+#+BEGIN_SRC emacs-lisp
+(setq lui-fill-column 80)
+#+END_SRC
+
+Enable circe to disaply images inline:
+#+BEGIN_SRC emacs-lisp
+(require 'circe-display-images)
+(enable-circe-display-images)
+#+END_SRC
+
+** shx
+
+Some helpers for shell-mode. More info [[https://github.com/riscy/shx-for-emacs][here]].
+#+BEGIN_SRC emacs-lisp
+(require 'shx)
+(shx-global-mode t)
+#+END_SRC
+
+** mu4e
+
+Have to load mu4e manually because it is not yet a package in MELPA
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'load-path "/usr/share/emacs/site-lisp/mu4e")
+(require 'mu4e)
+(require 'evil-mu4e)
+#+END_SRC
+
+Set various mu4e settings
+#+BEGIN_SRC emacs-lisp
+(setq mu4e-maildir (expand-file-name "~/mail"))
+(setq mu4e-headers-skip-duplicates t)
+(setq mu4e-drafts-folder "/[Gmail].Drafts")
+;; don't save [[~/.emacs.d/org-wikish/messages.org][messages]] to Sent Messages,
+;; Gmail/IMAP takes care of this
+(setq mu4e-sent-messages-behavior 'delete)
+(setq mu4e-trash-folder  "/[Gmail].Trash")
+
+;; don't save message to Sent Messages, GMail/IMAP will take care of this
+(setq mu4e-sent-messages-behavior 'delete)
+
+;; setup some handy shortcuts
+(setq mu4e-maildir-shortcuts
+      '(("/INBOX"             . ?i)
+        ("/emacs"     . ?e)
+        ("/[Gmail].Sent Mail" . ?s)
+        ("/[Gmail].Spam"     . ?t)))
+
+;; allow for updating mail using 'U' in the main view:
+(setq mu4e-get-mail-command "")
+
+(setq
+ user-mail-address "nathan.aclander@gmail.com"
+ user-full-name  "Nathan Aclander")
+
+(require 'smtpmail)
+
+(setq message-send-mail-function 'smtpmail-send-it
+      starttls-use-gnutls t
+      smtpmail-starttls-credentials
+      '(("smtp.gmail.com" 587 nil nil))
+      smtpmail-auth-credentials
+      (expand-file-name "~/.authinfo.gpg")
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587
+      smtpmail-debug-info t)
+#+END_SRC
+
+Custom mu4e bookmarks
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'mu4e-bookmarks
+             (make-mu4e-bookmark
+              :name  "Unread Inbox messages"
+              :query "maildir:/INBOX flag:unread"
+              :key ?i))
+(add-to-list 'mu4e-bookmarks
+             (make-mu4e-bookmark
+              :name  "Unread emacs messages"
+              :query "maildir:/emacs flag:unread"
+              :key ?e))
+#+END_SRC
+
+Some useful keybindings. These are done this way because of mu4e-evil.
+#+BEGIN_SRC emacs-lisp
+(evil-define-key evil-mu4e-state mu4e-headers-mode-map "H" 'mu4e-headers-prev-unread)
+(evil-define-key evil-mu4e-state mu4e-headers-mode-map "L" 'mu4e-headers-next-unread)
+(evil-define-key evil-mu4e-state mu4e-view-mode-map "H" 'mu4e-view-headers-prev-unread)
+(evil-define-key evil-mu4e-state mu4e-view-mode-map "L" 'mu4e-view-headers-next-unread)
+
+(evil-define-key evil-mu4e-state mu4e-headers-mode-map (kbd ";") 'mu4e-select-other-view)
+(evil-define-key evil-mu4e-state mu4e-view-mode-map (kbd ";") 'mu4e-select-other-view)
+
+(evil-define-key evil-mu4e-state mu4e-view-mode-map (kbd "u") 'mu4e-view-go-to-url)
+
+(evil-define-key evil-mu4e-state mu4e-headers-mode-map (kbd "W")
+  'mu4e-headers-toggle-include-related)
+
+(evil-define-key evil-mu4e-state mu4e-headers-mode-map (kbd "+")
+  'mu4e-view-mark-for-flag)
+
+;; Extend the T hotkey to also scroll the cursor to the top
+(evil-define-key evil-mu4e-state mu4e-headers-mode-map (kbd "T")
+  (lambda nil (interactive)
+    (mu4e-headers-mark-thread nil (quote (read)))
+    (evil-scroll-line-to-top (line-number-at-pos (point)))))
+
+#+END_SRC
+
+Use fancy characters in mu4e
+#+BEGIN_SRC emacs-lisp
+(setq mu4e-use-fancy-chars t)
+#+END_SRC
+
+Show email address in from field
+#+BEGIN_SRC emacs-lisp
+(setq mu4e-view-show-addresses t)
+#+END_SRC
+
+Set the max number of emails in view ( all these have to be loaded before a
+message is read )
+#+BEGIN_SRC emacs-lisp
+(setq mu4e-headers-results-limit 750)
+#+END_SRC
+
+mu4e uses a different way to split windows, which means I can't use [[https://www.djcbsoftware.nl/code/mu/mu4e/Split-view.html][shackle]].
+However, mu4e makes it really easy to limit how big the =mu4e-view= window can be,
+which is exactly what I wanted.
+#+BEGIN_SRC emacs-lisp
+(setq mu4e-split-view 'vertical)
+(setq mu4e-headers-visible-lines 30)
+(setq mu4e-headers-visible-columns 150)
+#+END_SRC
+
+Enable inline images
+#+BEGIN_SRC emacs-lisp
+(setq mu4e-view-show-images t)
+#+END_SRC
+
+Use imagemagick, if available
+#+BEGIN_SRC emacs-lisp
+(when (fboundp 'imagemagick-register-types)
+  (imagemagick-register-types))
+#+END_SRC
+
+Speed up indexing
+#+BEGIN_SRC emacs-lisp
+(setq
+  mu4e-index-cleanup nil      ;; don't do a full cleanup check
+  mu4e-index-lazy-check t)    ;; don't consider up-to-date dirs
+#+END_SRC
+
+View message ( html ) in browser
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'mu4e-view-actions
+  '("ViewInBrowser" . mu4e-action-view-in-browser) t)
+#+END_SRC
+
+Support attachments with dired, explanation [[https://www.djcbsoftware.nl/code/mu/mu4e/Dired.html#Dired][here]]
+#+BEGIN_SRC emacs-lisp
+(require 'gnus-dired)
+;; make the `gnus-dired-mail-buffers' function also work on
+;; message-mode derived modes, such as mu4e-compose-mode
+(defun gnus-dired-mail-buffers ()
+  "Return a list of active message buffers."
+  (let (buffers)
+    (save-current-buffer
+      (dolist (buffer (buffer-list t))
+        (set-buffer buffer)
+        (when (and (derived-mode-p 'message-mode)
+                (null message-sent-message-via))
+          (push (buffer-name buffer) buffers))))
+    (nreverse buffers)))
+
+(setq gnus-dired-mail-mode 'mu4e-user-agent)
+(add-hook 'dired-mode-hook 'turn-on-gnus-dired-mode)
+#+END_SRC
+
+Set mu4d as the default mail client for emacs
+#+BEGIN_SRC emacs-lisp
+(setq mail-user-agent 'mu4e-user-agent)
+#+END_SRC
 
 ** yafolding
 
@@ -341,6 +724,12 @@ Automatically start flyspell for org files
 
 #+BEGIN_SRC emacs-lisp
 (add-hook 'org-mode-hook 'turn-on-flyspell)
+(add-hook 'text-mode-hook 'turn-on-flyspell)
+#+END_SRC
+
+Add flyspell in comments for programming modes
+#+BEGIN_SRC emacs-lisp
+(add-hook 'prog-mode-hook (lambda () (flyspell-prog-mode)))
 #+END_SRC
 
 ** imenu-list
@@ -390,9 +779,9 @@ Stop Magit from asking to save unsaved buffers if being called
 
 This package tries very hard to be intellij, and maybe one day it will achieve its dream.
 #+BEGIN_SRC emacs-lisp
-(require 'meghanada)
-(add-hook 'java-mode-hook (lambda ()
-                             (meghanada-mode t)))
+;(require 'meghanada)
+;(add-hook 'java-mode-hook (lambda ()
+;                             (meghanada-mode t)))
 #+END_SRC
 
 I also added a hydra, in the hydra section.
@@ -510,17 +899,32 @@ clipboard.
 
 Configuration for various lisps
 
-Enable using paredit in lisps
+Enable using +paredit+ [[https://github.com/DogLooksGood/parinfer-mode][parinfer]] in lisps
 #+BEGIN_SRC emacs-lisp
-(autoload 'enable-paredit-mode "paredit")
-(add-hook 'emacs-lisp-mode-hook 'paredit-mode)
-(add-hook 'eval-expression-minibuffer-setup-hook 'paredit-mode)
-(add-hook 'ielm-mode-hook             'paredit-mode)
-(add-hook 'lisp-mode-hook             'paredit-mode)
-(add-hook 'lisp-interaction-mode-hook 'paredit-mode)
-(add-hook 'scheme-mode-hook           'paredit-mode)
-(add-hook 'cider-repl-mode-hook 'paredit-mode)
-(add-hook 'clojure-mode-hook 'paredit-mode)
+  ;; (autoload 'enable-paredit-mode "paredit")
+  ;; (add-hook 'emacs-lisp-mode-hook 'paredit-mode)
+  ;; (add-hook 'eval-expression-minibuffer-setup-hook 'paredit-mode)
+  ;; (add-hook 'ielm-mode-hook             'paredit-mode)
+  ;; (add-hook 'lisp-mode-hook             'paredit-mode)
+  ;; (add-hook 'lisp-interaction-mode-hook 'paredit-mode)
+  ;; (add-hook 'scheme-mode-hook           'paredit-mode)
+  ;; (add-hook 'cider-repl-mode-hook 'paredit-mode)
+  ;; (add-hook 'clojure-mode-hook 'paredit-mode)
+(autoload 'enable-parinfer-mode "parinfer")
+(add-hook 'emacs-lisp-mode-hook 'parinfer-mode)
+(add-hook 'eval-expression-minibuffer-setup-hook 'parinfer-mode)
+(add-hook 'ielm-mode-hook             'parinfer-mode)
+(add-hook 'lisp-mode-hook             'parinfer-mode)
+(add-hook 'lisp-interaction-mode-hook 'parinfer-mode)
+(add-hook 'scheme-mode-hook           'parinfer-mode)
+(add-hook 'cider-repl-mode-hook 'parinfer-mode)
+(add-hook 'clojure-mode-hook 'parinfer-mode)
+#+END_SRC
+
+Use +[[https://github.com/Fuco1/litable][litable]]+  litable is too "jumpy" and moves the text around with its
+messages. This makes it unusable and annoying, at least to use by default.
+#+BEGIN_SRC emacs-lisp
+;(add-hook 'emacs-lisp-mode-hook 'litable-mode)
 #+END_SRC
 
 ** Info
@@ -550,6 +954,11 @@ Highlight parentheses.
 (show-paren-mode t)
 (setq show-paren-delay 0)
 (setq show-paren-when-point-inside-paren t)
+
+
+(set-face-background 'show-paren-match "gold3")
+(set-face-foreground 'show-paren-match "black")
+(set-face-attribute 'show-paren-match nil :weight 'extra-bold)
 #+END_SRC
 
 ** Neotree
@@ -596,10 +1005,11 @@ sparse.
 ;(require 'lsp-java)
 ;(require 'lsp-python)
 ;(require 'lsp-mode)
-;(global-lsp-mode t)
 
 ;(with-eval-after-load 'lsp-mode
 ;    (require 'lsp-flycheck))
+;(require 'lsp-mode)
+;(add-hook 'prog-major-mode #'lsp-mode)
 #+END_SRC
 
 ** Fortune Cookie
@@ -688,12 +1098,12 @@ Change list-buffers to ibuffer.
       "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
 #+END_SRC
 
-=sshx= seems to work more reliably, but I don't know why.
+=sshx/scpx= seems to work more reliably, but I don't know why.
 #+BEGIN_SRC emacs-lisp
-(tramp-set-completion-function "sshx"
+(tramp-set-completion-function "scpx"
                                '((tramp-parse-sconfig "/etc/ssh_config")
                                  (tramp-parse-sconfig "~/.ssh/config")))
-(setq tramp-default-method "sshx")
+(setq tramp-default-method "scpx")
 #+END_SRC
 
 The timeout is the number of seconds since the last remote command for rereading
@@ -707,7 +1117,7 @@ nil uses cached directory contents.
 
 As described [[https://www.hiroom2.com/2016/10/31/emacs-auto-highlight-symbol-package/][here]]:
 #+BEGIN_SRC emacs-lisp
-(add-hook 'after-init-hook 'global-auto-highlight-symbol-mode)
+(add-hook 'text-mode-hook 'auto-highlight-symbol-mode)
 #+END_SRC
 
 ** Line numbers
@@ -720,16 +1130,10 @@ or linum mode are no longer necessary.
 ;(global-display-line-numbers-mode t)
 #+END_SRC
 
-Set the background of the line numbers face to make it separate from the
-rest of the buffer.
-#+BEGIN_SRC emacs-lisp
-(set-face-background 'line-number "grey12")
-(set-face-foreground 'line-number-current-line "gold3")
-#+END_SRC
-
 Enable emacs built in line numbers, except for blacklisted major modes.
 #+BEGIN_SRC emacs-lisp
-(setq mine/disable-line-number-for-modes '('neotree-mode))
+(setq mine/disable-line-number-for-modes '(neotree-mode circe-channel-mode
+  term-mode mu4e-headers-mode))
 (add-hook 'after-change-major-mode-hook
           (lambda () (unless
                     (member major-mode mine/disable-line-number-for-modes)
@@ -739,7 +1143,7 @@ Enable emacs built in line numbers, except for blacklisted major modes.
 ** org-wikish
 
  Unfortunatley this package is not in melpa yet.
-#[[~/.emacs.d/org-wikish/+begin_src.org][+BEGIN_SRC]] emacs-lisp
+#+BEGIN_SRC emacs-lisp
 (add-to-list 'load-path "~/.emacs.d/misc/org-wikish/")
 (load "org-wikish")
 #+END_SRC
@@ -794,13 +1198,13 @@ Define a function to insert a heading with a timestamp
 #+BEGIN_SRC emacs-lisp
 (defun org-insert-heading-with-timestamp ()
   (interactive)
-  (org-insert-heading-respect-content)
+  (org-insert-heading)
   (org-time-stamp-inactive))
 #+END_SRC
 
 Set up some org specific keybindings
 #+BEGIN_SRC emacs-lisp
-(define-key org-mode-map (kbd "<C-return>") 'org-insert-heading)
+(define-key org-mode-map (kbd "<C-return>") 'org-insert-item)
 (define-key org-mode-map (kbd "<C-S-return>") 'org-insert-heading-with-timestamp)
 #+END_SRC
 
@@ -824,6 +1228,12 @@ Set up syntax highlighting when exporting org to Latex, then to PDF. Solution fo
         "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
 #+END_SRC
 
+key bindings to shift list indentation left and right
+#+BEGIN_SRC emacs-lisp
+(define-key org-mode-map (kbd "C-<") 'org-shiftmetaleft)
+(define-key org-mode-map (kbd "C->") 'org-shiftmetaright)
+#+END_SRC
+
 ** Python
 
 Enable elpy
@@ -835,6 +1245,27 @@ Set ipython as the shell interpreter ( such as when pressing =C-c C-c= ).
 #+BEGIN_SRC emacs-lisp
 (setq python-shell-interpreter "ipython"
     python-shell-interpreter-args "--simple-prompt")
+#+END_SRC
+
+Set elpy-doc to have the same keybinding as describe-function in elisp-mode
+#+BEGIN_SRC emacs-lisp
+(define-key elpy-mode-map (kbd "C-h f") 'elpy-doc)
+#+END_SRC
+
+Set C-p and C-n to go back/forward in inferior python shell history, just like
+a regular terminal.
+#+BEGIN_SRC emacs-lisp
+(define-key inferior-python-mode-map (kbd "C-p") 'comint-previous-input)
+(define-key inferior-python-mode-map (kbd "C-n") 'comint-next-input)
+#+END_SRC
+
+Remove "and" and "or" from being "prettified" in python mode. These symbols
+are actually very confusing for me to read.
+#+BEGIN_SRC emacs-lisp
+(setq python-prettify-symbols-alist
+  (delq (assoc "and" python-prettify-symbols-alist) python-prettify-symbols-alist))
+(setq python-prettify-symbols-alist
+  (delq (assoc "or" python-prettify-symbols-alist) python-prettify-symbols-alist))
 #+END_SRC
 
 ** Rainbow-mode
@@ -866,19 +1297,32 @@ I also have a hydra configuration in the Hydra section.
 
 [[https://github.com/wasamasa/shackle][Shakle]] helps keep windows at certain ratios
 
-Align =helm= and =help= windows at the bottom with a ratio of 40%.
+Align =helm= and =help= windows at the bottom with a ratio of 40%. Also force
+shell buffers to open in current window.
 #+BEGIN_SRC emacs-lisp
 (shackle-mode t)
 (setq helm-display-function 'pop-to-buffer) ; make helm play nice
-(setq shackle-rules '(("\\`\\*helm.*?\\*\\'" :regexp t :align t :size 0.5)
-                      ("\\`\\*help.*?\\*\\'" :regexp t :align t :size 0.5)))
+(setq shackle-default-alignment 'below)
+(setq shackle-rules '(("\\`\\*helm.*?\\*\\'" :regexp t :align t :size 0.4)
+                      ("\\`\\*help.*?\\*\\'" :regexp t :align t :size 0.4)
+                      ("\\`\\*mu4e.*?\\*\\'" :regexp t :align t :size 0.4)
+                      ("mu4e-loading" :regexp t :popup t :select t :same t size: 0.4)
+                      ("mu4e-view" :regexp t size: 0.4)
+                      ("mu4e" :regexp t :popup t :select t :same t size: 0.4)
+                      ("view" :regexp t :popup t :select t :same t size: 0.4)
+                      ("shell" :regexp t :same t)))
+
 #+END_SRC
 
 ** Rainbow Delimiters
 
 Enable rainbow parentheses
 #+BEGIN_SRC emacs-lisp
-(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+(require 'rainbow-delimiters)
+(add-hook 'text-mode-hook #'rainbow-delimiters-mode)
+(add-hook 'emacs-lisp-mode-hook #'rainbow-delimiters-mode)
+;(setq rainbow-delimiters-mode 1)
+(rainbow-delimiters-mode)
 #+END_SRC
 
 Custom face for rainbow parentheses taken from [[https://ericscrivner.me/2015/06/better-emacs-rainbow-delimiters-color-scheme/][here]].
@@ -930,25 +1374,34 @@ but now fci mostly works.
 (add-hook 'text-mode-hook 'fci-mode)
 #+END_SRC
 
-fill-column-indicator is a little finicky when it comes to company-mode popups
-or flyspell-popups but this hack below mostly works. Taken from [[https://github.com/alpaker/Fill-Column-Indicator/issues/54][here]].
-
+Disable fci-mode when using company-mode or popup. Taken from [[https://github.com/alpaker/Fill-Column-Indicator/issues/21][here]] and [[https://github.com/company-mode/company-mode/issues/180#issuecomment-55047120][here]].
 #+BEGIN_SRC emacs-lisp
-(defun on-off-fci-before-company(command)
-  (when (string= "show" command)
-    (turn-off-fci-mode))
-  (when (string= "hide" command)
+(defvar-local company-fci-mode-on-p nil)
+
+(defun company-turn-off-fci (&rest ignore)
+  (when (boundp 'fci-mode)
+    (setq company-fci-mode-on-p fci-mode)
+    (when fci-mode (fci-mode -1))))
+
+(defun company-maybe-turn-on-fci (&rest ignore)
+  (when company-fci-mode-on-p (fci-mode 1)))
+
+(add-hook 'company-completion-started-hook 'company-turn-off-fci)
+(add-hook 'company-completion-finished-hook 'company-maybe-turn-on-fci)
+(add-hook 'company-completion-cancelled-hook 'company-maybe-turn-on-fci)
+
+
+(defvar sanityinc/fci-mode-suppressed nil)
+(defadvice popup-create (before suppress-fci-mode activate)
+  "Suspend fci-mode while popups are visible"
+  (set (make-local-variable 'sanityinc/fci-mode-suppressed) fci-mode)
+  (when fci-mode
+    (turn-off-fci-mode)))
+(defadvice popup-delete (after restore-fci-mode activate)
+  "Restore fci-mode when all popups have closed"
+  (when (and (not popup-instances) sanityinc/fci-mode-suppressed)
+    (setq sanityinc/fci-mode-suppressed nil)
     (turn-on-fci-mode)))
-
-(advice-add 'company-call-frontends :before #'on-off-fci-before-company)
-#+END_SRC
-
-#+BEGIN_SRC emacs-lisp
-(require 'column-enforce-mode)
-(setq column-enforce-column 100)
-(set-face-foreground 'column-enforce-face "red")
-(add-hook 'prog-mode-hook 'column-enforce-mode)
-(add-hook 'text-mode-hook 'column-enforce-mode)
 #+END_SRC
 
 ** Git-Gutter
@@ -956,6 +1409,7 @@ or flyspell-popups but this hack below mostly works. Taken from [[https://github
 +For now, disable git-gutter until [[https://github.com/syohex/emacs-git-gutter/issues/143][this issue]] is resolved.+
 I am no longer using nlinum-mode, so I can re-enable git-gutter!
 #+BEGIN_SRC emacs-lisp
+(require 'git-gutter)
 (global-git-gutter-mode t)
 #+END_SRC
 
@@ -966,6 +1420,12 @@ Set the update interval
 
 Customize the symbols and colors
 #+BEGIN_SRC emacs-lisp
+(set-face-attribute 'git-gutter:separator nil :background "grey16" :foreground "grey16" :distant-foreground "grey16")
+(set-face-attribute 'git-gutter:added nil :background "grey16" :foreground "grey16":distant-foreground "grey16")
+(set-face-attribute 'git-gutter:deleted nil :background "grey16" :foreground "grey16":distant-foreground "grey16")
+(set-face-attribute 'git-gutter:modified nil :background "grey16" :foreground "grey16":distant-foreground "grey16")
+(set-face-attribute 'git-gutter:unchanged nil :background "grey16" :foreground "grey16":distant-foreground "grey16")
+
 (setq git-gutter:modified-sign "≈")
 
  (add-hook 'after-init-hook (lambda ()
@@ -974,9 +1434,8 @@ Customize the symbols and colors
 
 ** Evil
 
-Use [https://github.com/naclander/evil-search-highlight-persist][evil-search-highlight-persist]
-to keep the highlighting persistent. This is available by default using
-evil-search but I prefer isearch.
+Use [[https://github.com/naclander/evil-search-highlight-persist][evil-search-highlight-persist]] to keep the highlighting persistent.
+This is available by default using evil-search but I prefer isearch.
 #+BEGIN_SRC emacs-lisp
 ;(setq evil-search-module 'evil-search)
 (require 'highlight)
@@ -1084,6 +1543,18 @@ Make =C-S-d= scroll up, since =C-u= can't be used to scroll up in emacs.
 (evil-global-set-key 'motion (kbd "C-S-d") 'evil-scroll-up)
 #+END_SRC
 
+Use =helm-swoop= instead of evil-search-backwards
+#+BEGIN_SRC emacs-lisp
+(evil-global-set-key 'normal (kbd "#") 'helm-swoop-from-evil-search)
+#+END_SRC
+
+Define word at a point. Set up the key binding so its next to the spell-check
+key binding. This is an evil mode keybinding.
+#+BEGIN_SRC emacs-lisp
+(evil-global-set-key 'normal (kbd "z -") 'define-word-at-point)
+(evil-global-set-key 'motion (kbd "z -") 'define-word-at-point)
+#+END_SRC
+
 ** Dired
 
 #+BEGIN_SRC emacs-lisp
@@ -1113,15 +1584,20 @@ Use [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] icons in dir
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 #+END_SRC
 
+Use [[https://github.com/Fuco1/dired-hacks#dired-collapse][dired-collapse]] in dired.
+#+BEGIN_SRC emacs-lisp
+(add-hook 'dired-mode-hook 'dired-collapse-mode)
+#+END_SRC
+
 ** Highlight sexp
 
-Enable the [[https://www.emacswiki.org/emacs/HighlightSexp][highlight sexp]] package
+Enable the [[https://www.emacswiki.org/emacs/HighlightSexp][highlight sexp]] . This highlights s-expressions.
 #+BEGIN_SRC emacs-lisp
-(require 'highlight-sexp)
-(add-hook 'lisp-mode-hook 'highlight-sexp-mode)
-(add-hook 'clojure-mode-hook 'highlight-sexp-mode)
-(add-hook 'emacs-lisp-mode-hook 'highlight-sexp-mode)
-(add-hook 'org-mode-hook 'highlight-sexp-mode)
+;(require 'highlight-sexp)
+;(add-hook 'lisp-mode-hook 'highlight-sexp-mode)
+;(add-hook 'clojure-mode-hook 'highlight-sexp-mode)
+;(add-hook 'emacs-lisp-mode-hook 'highlight-sexp-mode)
+;(add-hook 'org-mode-hook 'highlight-sexp-mode)
 #+END_SRC
 
 ** Spaceline/Powerline
@@ -1291,10 +1767,10 @@ Hydra for quick window splitting taken from [[http://oremacs.com/2015/02/03/one-
  (kbd "C-M-w")
  (defhydra hydra-window (:exit t)
    "window"
-   ("h" evil-window-left)
-   ("j" evil-window-down)
-   ("k" evil-window-up)
-   ("l" evil-window-right)
+   ("h" evil-window-left :exit nil)
+   ("j" evil-window-down :exit nil)
+   ("k" evil-window-up :exit nil)
+   ("l" evil-window-right :exit nil)
    ("v" (lambda ()
           (interactive)
           (split-window-right)
@@ -1342,9 +1818,9 @@ We need to "unbind" the dired keymap so that in works in dired mode. Then we
 need to bind the hydra using bind-key*, because global-set-key doesn't work for
 some reason.
 #+BEGIN_SRC emacs-lisp
- (add-hook 'dired-mode-hook 'my-dired-mode-hook)
-     (defun my-dired-mode-hook ()
-       (define-key dired-mode-map (kbd "C-M-p") nil))
+(add-hook 'dired-mode-hook 'my-dired-mode-hook)
+(defun my-dired-mode-hook ()
+  (define-key dired-mode-map (kbd "C-M-p") nil))
 (bind-key*
  (kbd "C-M-p")
  (defhydra hydra-projectile (:color teal
@@ -1364,7 +1840,7 @@ some reason.
   ("A"   projectile-ag)
   ("b"   helm-projectile-switch-to-buffer)
   ("d"   helm-projectile-find-dir)
-  ("f"   helm-projectile-find-file)
+  ("f"   helm-projectile-find-file-dwim)
   ("g"   ggtags-update-tags)
   ("i"   helm-projectile-ibuffer)
   ("o"   projectile-multi-occur)
@@ -1372,6 +1848,18 @@ some reason.
   ("D"   projectile-dired)
   ("s"   projectile-run-shell)
   ("q"   nil "cancel" :color blue)))
+#+END_SRC
+
+A hydra for package management shortcuts
+#+BEGIN_SRC emacs-lisp
+(bind-key*
+ (kbd "M-p")
+ (defhydra hydra-package-management (:color teal)
+ "package management"
+  ("r" package-refresh-contents "refresh package list")
+  ("d" package-delete "delete")
+  ("e" package-reinstall "reinstall")
+  ("i" package-install "install")))
 #+END_SRC
 
 A magical magit hydra
@@ -1407,7 +1895,7 @@ A hydra for misc utilities through helm
 ^^^^^^-------------------------------------------------------
 _f_: meghanada-compile-file      _m_: meghanada-restart
 _c_: meghanada-compile-project   _t_: meghanada-run-task
-_o_: meghanada-optimize-import   _j_: meghanada-run-junit-test-case
+                                 _j_: meghanada-run-junit-test-case
 _s_: meghanada-switch-test-case  _J_: meghanada-run-junit-class
 _v_: meghanada-local-variable    _R_: meghanada-run-junit-recent
 _i_: meghanada-import-all        _r_: meghanada-reference
@@ -1419,7 +1907,7 @@ _q_: exit
    ("m" meghanada-restart)
 
    ("c" meghanada-compile-project)
-   ("o" meghanada-optimize-import)
+   ;("o" meghanada-optimize-import)
    ("s" meghanada-switch-test-case)
    ("v" meghanada-local-variable)
    ("i" meghanada-import-all)
@@ -1436,6 +1924,37 @@ _q_: exit
 
    ("q" exit)
    ("z" nil "leave")))
+#+END_SRC
+
+A hydra for mu4e
+#+BEGIN_SRC emacs-lisp
+  (defhydra hydra-mu4e-mark (:color blue)
+    "Mu4e marks"
+    ("q" nil "cancel")
+    ("<SPC>" hydra-leader/body "leader")
+    (";"  mu4e-context-switch "Switch context")
+    ("!"  mu4e-headers-mark-for-read "Read")
+    ("r"  mu4e-headers-mark-for-refile "Refile")
+    ("t"  mu4e-headers-mark-subthread "Subthread")
+    ("u"  mu4e-headers-mark-for-unmark "Unmark")
+    ("<backspace>"     mu4e-headers-mark-for-trash "Trash")
+    ("<delete>"        mu4e-headers-mark-for-delete "Delete")
+    ("#"  mu4e-mark-resolve-deferred-marks "Resolve deferred")
+    ("%"  mu4e-headers-mark-pattern "Mark pattern")
+    ("&"  mu4e-headers-mark-custom "Mark Custom")
+    ("*"  mu4e-headers-mark-for-something "Something")
+    ("+"  mu4e-headers-mark-for-flag "Flag")
+    ("m" mu4e-headers-mark-for-move)
+    ("T" mu4e-headers-mark-thread)
+    ("/" mu4e-headers-search-narrow)
+    ("?" mu4e-headers-mark-for-unread)
+    ("A" mu4e-headers-mark-for-action)
+    ("O" mu4e-headers-change-sorting)
+    ("P" mu4e-headers-toggle-threading)
+    ("Q" mu4e-headers-toggle-full-search)
+    ("V" mu4e-headers-toggle-skip-duplicates)
+    ("W" mu4e-headers-toggle-include-related)
+("-" mu4e-headers-mark-for-unflag "Unflag"))
 #+END_SRC
 
 A hydra for meghanada-mode stolen from the project's readme
