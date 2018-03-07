@@ -1,5 +1,38 @@
 [user]
-	email = naclander@linux.ucla.edu
+	email = nathan.aclander@gmail.com
 	name = Nathan Aclander
+	signingkey = 19E25756407059EECFB471804FED90F6A3D52D24
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	undo = reset --soft HEAD~1
+	co = checkout
+	cm = commit -S
+	rb = rebase
+	br = branch
+	st = status
+	cp = cherry-pick
+        pu = pull
+        sh = show
+        rmt = remote
+[push]
+	default = matching
+[github]
+	user = naclander
+[magit]
+	hideCampaign = true
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 227
+	frag = magenta bold
+	commit = 227 bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
