@@ -63,11 +63,6 @@ Set up the package repositories.
                          ("marmalade" . "https://marmalade-repo.org/packages/")))
 #+END_SRC
 
-Load Emacs Lisp packages, and activate them.
-#+BEGIN_SRC emacs-lisp
-(package-initialize)
-#+END_SRC
-
 The following functions are useful to mass-redownload and recompile packages.
 Usually I would use these after a major emacs change that would require me to
 recompile all =elc= files.
@@ -149,6 +144,11 @@ Set the fonts. The default and line-number font should match.
 Make emacs prompt =y= or =n= instead of =yes= or =no=
 #+BEGIN_SRC emacs-lisp
 (fset 'yes-or-no-p 'y-or-n-p)
+#+END_SRC
+
+Disable line wrap globally.
+#+BEGIN_SRC emacs-lisp 
+(setq-default truncate-lines t)
 #+END_SRC
 
 ** Keybindings
@@ -349,10 +349,71 @@ https://lists.gnu.org/archive/html/bug-gnu-emacs/2017-11/msg00038.[[~/.emacs.d/o
 (setq x-wait-for-event-timeout nil)
 #+END_SRC
 
+Add timestamps to emacs \*Messages\* buffer. Solution from [[https://emacs.stackexchange.com/questions/32150/how-to-add-a-timestamp-to-each-entry-in-emacs-messages-buffer][here]].
+#+BEGIN_SRC emacs-lisp 
+(defun sh/current-time-microseconds ()
+  "Return the current time formatted to include microseconds."
+  (let* ((nowtime (current-time))
+         (now-ms (nth 2 nowtime)))
+    (concat (format-time-string "[%Y-%m-%dT%T" nowtime) (format ".%d]" now-ms))))
+
+(defun sh/ad-timestamp-message (FORMAT-STRING &rest args)
+  "Advice to run before `message' that prepends a timestamp to each message.
+
+Activate this advice with:
+(advice-add 'message :before 'sh/ad-timestamp-message)"
+  (unless (string-equal FORMAT-STRING "%s%s")
+    (let ((deactivate-mark nil)
+          (inhibit-read-only t))
+      (with-current-buffer "*Messages*"
+        (goto-char (point-max))
+        (if (not (bolp))
+          (newline))
+        (insert (sh/current-time-microseconds) " ")))))
+
+(advice-add 'message :before 'sh/ad-timestamp-message)
+#+END_SRC
+
 * Package Specific Configuration
 
 For packages that I install, I try to keep their configuration in their own
 section. As I discover new packages, I append to this list frontwise.
+
+** Sage Shell Mode
+   
+[[https://github.com/sagemath/sage-shell-mode][sage-shell-mode]] lets us use sage inside emacs.
+
+This enables us to see plots inline ( instead of opening them in an external
+program ).
+#+BEGIN_SRC emacs-lisp 
+(add-hook 'sage-shell-after-prompt-hook #'sage-shell-view-mode)
+#+END_SRC
+
+** elfeed
+
+[[https://github.com/skeeto/elfeed][Elfeed]] is an Rss reader.
+
+Use [[https://github.com/remyhonig/elfeed-org][elfeed-org]]
+#+BEGIN_SRC emacs-lisp 
+(require 'elfeed)
+(require 'elfeed-org)
+(elfeed-org)
+#+END_SRC
+
+Set the elfeed db.
+#+BEGIN_SRC emacs-lisp 
+(setq elfeed-db-directory "~/.emacs.d/elfeed/elfeeddb")
+#+END_SRC
+
+set elfeed feed file.
+#+BEGIN_SRC emacs-lisp 
+(setq rmh-elfeed-org-files (list  "~/.emacs.d/elfeed/elfeed.org"))
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp 
+(add-hook 'elfeed-show-mode-hook (lambda () 
+(setq-local browse-url-browser-function 'xwidget-webkit-browse-url)))
+#+END_SRC
 
 ** emojify
 
@@ -374,8 +435,8 @@ Some useful keybindings
 (define-key xwidget-webkit-mode-map [mouse-5] 'xwidget-webkit-scroll-up)
 (define-key xwidget-webkit-mode-map (kbd "j") 'xwidget-webkit-scroll-up)
 (define-key xwidget-webkit-mode-map (kbd "<up>") 'xwidget-webkit-scroll-down)
-(define-key xwidget-webkit-mode-map (kbd "<down>") [[~/.emacs.d/org-wikish/'xwidget-webkit-scroll-up.org]['xwidget-webkit-scroll-up]])
-(define-key xwidget-webkit-mode-map (kbd "M-w") [[~/.emacs.d/org-wikish/'xwidget-webkit-copy-selection-as-kill.org]['xwidget-webkit-copy-selection-as-kill]])
+(define-key xwidget-webkit-mode-map (kbd "<down>") 'xwidget-webkit-scroll-up)
+(define-key xwidget-webkit-mode-map (kbd "M-w") 'xwidget-webkit-copy-selection-as-kill)
 (define-key xwidget-webkit-mode-map (kbd "C-c") 'xwidget-webkit-copy-selection-as-kill)
 #+END_SRC
 
@@ -406,7 +467,7 @@ This function always opens a new website in a new window
 
 Some plugins and configuration for working in Go.
 
-Set up company-mode backend. Taken from [[https://emacs.stackexchange.com/questions/26820/can-i-use-emacs-with-company-mode-and-company-go-to-complete-gos-standard-libra][here]].
+Set up [[~/.emacs.d/org-wikish/company-mode.org][company-mode]] backend. Taken from [[https://emacs.stackexchange.com/questions/26820/can-i-use-emacs-with-company-mode-and-company-go-to-complete-gos-standard-libra][here]].
 #+BEGIN_SRC emacs-lisp
 (add-hook 'go-mode-hook
       (lambda ()
@@ -527,6 +588,11 @@ Enable circe to disaply images inline:
 (enable-circe-display-images)
 #+END_SRC
 
+Set the quit message
+#+BEGIN_SRC emacs-lisp 
+(setq circe-default-quit-message "ZNC probably borked")
+#+END_SRC
+
 ** shx
 
 Some helpers for shell-mode. More info [[https://github.com/riscy/shx-for-emacs][here]].
@@ -534,6 +600,28 @@ Some helpers for shell-mode. More info [[https://github.com/riscy/shx-for-emacs]
 (require 'shx)
 (shx-global-mode t)
 #+END_SRC
+
+Set the histroy file to be ~~/.zsh_history~ so that emacs shell and other shells
+can be used interchangeably. Solution was found [[https://stackoverflow.com/a/22950941][here]].
+
+#+BEGIN_SRC emacs-lisp 
+(setq comint-input-ring-file-name "~/.zsh_history")
+#+END_SRC
+
+When using ~zsh_history~, timestamps are added, but this causes emacs shell
+to corrupt the commands when they're recalled. This fixes the problem. Solution
+found [[https://emacs.stackexchange.com/a/22295][here]].
+#+BEGIN_SRC emacs-lisp 
+(setq comint-input-ring-size 100000)
+(add-hook 'shell-mode-hook 'my-shell-mode-hook)
+(defun my-shell-mode-hook ()
+  (setq comint-input-ring-file-name "~/.zsh_history")
+  ; Ignore timestamps in history file.  Assumes that zsh
+  ; EXTENDED_HISTORY option is in use.
+  (setq comint-input-ring-separator "\n: \\([0-9]+\\):\\([0-9]+\\);")
+  (comint-read-input-ring t))
+#+END_SRC
+
 
 ** mu4e
 
@@ -549,7 +637,7 @@ Set various mu4e settings
 (setq mu4e-maildir (expand-file-name "~/mail"))
 (setq mu4e-headers-skip-duplicates t)
 (setq mu4e-drafts-folder "/[Gmail].Drafts")
-;; don't save [[~/.emacs.d/org-wikish/messages.org][messages]] to Sent Messages,
+;; don't save messages to Sent Messages,
 ;; Gmail/IMAP takes care of this
 (setq mu4e-sent-messages-behavior 'delete)
 (setq mu4e-trash-folder  "/[Gmail].Trash")
@@ -597,6 +685,16 @@ Custom mu4e bookmarks
               :name  "Unread emacs messages"
               :query "maildir:/emacs flag:unread"
               :key ?e))
+(add-to-list 'mu4e-bookmarks
+             (make-mu4e-bookmark
+              :name  "Unread archlinux messages"
+              :query "maildir:/archlinux flag:unread"
+              :key ?a))
+(add-to-list 'mu4e-bookmarks
+             (make-mu4e-bookmark
+              :name  "Unread pass messages"
+              :query "maildir:/pass flag:unread"
+              :key ?p))
 #+END_SRC
 
 Some useful keybindings. These are done this way because of mu4e-evil.
@@ -646,8 +744,8 @@ However, mu4e makes it really easy to limit how big the =mu4e-view= window can b
 which is exactly what I wanted.
 #+BEGIN_SRC emacs-lisp
 (setq mu4e-split-view 'vertical)
-(setq mu4e-headers-visible-lines 30)
-(setq mu4e-headers-visible-columns 150)
+(setq mu4e-headers-visible-lines 10)
+(setq mu4e-headers-visible-columns 120)
 #+END_SRC
 
 Enable inline images
@@ -697,6 +795,28 @@ Support attachments with dired, explanation [[https://www.djcbsoftware.nl/code/m
 Set mu4d as the default mail client for emacs
 #+BEGIN_SRC emacs-lisp
 (setq mail-user-agent 'mu4e-user-agent)
+#+END_SRC
+
+Add action to view email in webkit xwidget ( although this currently does not
+work, it is supported by mu4e )
+#+BEGIN_SRC emacs-lisp 
+(add-to-list 'mu4e-view-actions '("xViewInWebkit" . mu4e-action-view-with-xwidget))
+#+END_SRC
+
+Add support for ~helm-mu~ to search mu4e emails using helm
+#+BEGIN_SRC emacs-lisp 
+(define-key mu4e-main-mode-map "s" 'helm-mu)
+(define-key mu4e-headers-mode-map "s" 'helm-mu)
+(define-key mu4e-view-mode-map "s" 'helm-mu)
+#+END_SRC
+
+Use ~mu4e-conversation~ to combine all emails into one thread. Set it to be
+the default. More info [[https://gitlab.com/ambrevar/mu4e-conversation/tree/master][here]].
+
+#+BEGIN_SRC emacs-lisp 
+;(with-eval-after-load 'mu4e (require 'mu4e-conversation))
+;(global-mu4e-conversation-mode)
+;(setq mu4e-view-func 'mu4e-conversation)
 #+END_SRC
 
 ** yafolding
@@ -763,7 +883,7 @@ Typescript development. This setup is copied from the github readme
 (setq company-tooltip-align-annotations t)
 
 ;; formats the buffer before saving
-(add-hook 'before-save-hook 'tide-format-before-save)
+;(add-hook 'before-save-hook 'tide-format-before-save)
 
 (add-hook 'typescript-mode-hook #'setup-tide-mode)
 #+END_SRC
@@ -1098,9 +1218,10 @@ Change list-buffers to ibuffer.
       "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
 #+END_SRC
 
-=sshx/scpx= seems to work more reliably, but I don't know why.
++=sshx/scpx= seems to work more reliably, but I don't know why.+ With ~scpx~ I can't 
+sudo edit files. I have to use ~sshx~ for that.
 #+BEGIN_SRC emacs-lisp
-(tramp-set-completion-function "scpx"
+(tramp-set-completion-function "sshx"
                                '((tramp-parse-sconfig "/etc/ssh_config")
                                  (tramp-parse-sconfig "~/.ssh/config")))
 (setq tramp-default-method "scpx")
@@ -1138,6 +1259,23 @@ Enable emacs built in line numbers, except for blacklisted major modes.
           (lambda () (unless
                     (member major-mode mine/disable-line-number-for-modes)
                   (display-line-numbers-mode t))))
+#+END_SRC
+
+** Org Brain
+   
+Org Brain lets you create mind maps using org mode.
+   
+#+BEGIN_SRC emacs-lisp 
+(require 'org-brain)
+(setq org-brain-path "~/.emacs.d/misc/brain/")
+(setq org-id-track-globally t)
+(setq org-id-locations-file "~/.emacs.d/id-locations")
+(setq org-brain-visualize-default-choices 'all)
+#+END_SRC
+
+To make Org-Brain work with Evil
+#+BEGIN_SRC emacs-lisp 
+(evil-set-initial-state 'org-brain-visualize-mode 'emacs)
 #+END_SRC
 
 ** org-wikish
@@ -1206,6 +1344,13 @@ Set up some org specific keybindings
 #+BEGIN_SRC emacs-lisp
 (define-key org-mode-map (kbd "<C-return>") 'org-insert-item)
 (define-key org-mode-map (kbd "<C-S-return>") 'org-insert-heading-with-timestamp)
+(define-key org-mode-map (kbd "K") 'org-move-item-up)
+(define-key org-mode-map (kbd "J") 'org-move-item-down)
+#+END_SRC
+key bindings to shift list indentation left and right
+#+BEGIN_SRC emacs-lisp
+(define-key org-mode-map (kbd "C-<") 'org-shiftmetaleft)
+(define-key org-mode-map (kbd "C->") 'org-shiftmetaright)
 #+END_SRC
 
 This adds a custom org template expansion for emacs lisp. I followed the
@@ -1228,44 +1373,37 @@ Set up syntax highlighting when exporting org to Latex, then to PDF. Solution fo
         "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
 #+END_SRC
 
-key bindings to shift list indentation left and right
-#+BEGIN_SRC emacs-lisp
-(define-key org-mode-map (kbd "C-<") 'org-shiftmetaleft)
-(define-key org-mode-map (kbd "C->") 'org-shiftmetaright)
+Make org-code face show up as a box. Org-code is the face with the ~ lines. ~Like this~
+#+BEGIN_SRC emacs-lisp 
+(set-face-attribute 'org-code nil :box "white" :background "black" :foreground "white")
+#+END_SRC
+
+Enable [[https://github.com/melpa/melpa/pull/5417#issuecomment-383493211][variable pitch mode]]. More discussion [[https://www.reddit.com/r/emacs/comments/8838hk/orgvariablepitchel_variablepitch_in_org_mode_but/][here]].
+#+BEGIN_SRC emacs-lisp 
+(variable-pitch-mode)
 #+END_SRC
 
 ** Python
 
-Enable elpy
-#+BEGIN_SRC emacs-lisp
-(elpy-enable)
-#+END_SRC
-
 Set ipython as the shell interpreter ( such as when pressing =C-c C-c= ).
 #+BEGIN_SRC emacs-lisp
-(setq python-shell-interpreter "ipython"
-    python-shell-interpreter-args "--simple-prompt")
+;(setq python-shell-interpreter "ipython"
+;    python-shell-interpreter-args "--simple-prompt")
 #+END_SRC
 
-Set elpy-doc to have the same keybinding as describe-function in elisp-mode
-#+BEGIN_SRC emacs-lisp
-(define-key elpy-mode-map (kbd "C-h f") 'elpy-doc)
+Add anaconda and jedi to Python mode
+#+BEGIN_SRC emacs-lisp 
+(add-hook 'python-mode-hook 'anaconda-mode)
+(add-hook 'python-mode-hook 'anaconda-eldoc-mode)
+(add-hook 'python-mode-hook 'jedi-mode)
 #+END_SRC
 
-Set C-p and C-n to go back/forward in inferior python shell history, just like
-a regular terminal.
-#+BEGIN_SRC emacs-lisp
-(define-key inferior-python-mode-map (kbd "C-p") 'comint-previous-input)
-(define-key inferior-python-mode-map (kbd "C-n") 'comint-next-input)
-#+END_SRC
-
-Remove "and" and "or" from being "prettified" in python mode. These symbols
-are actually very confusing for me to read.
-#+BEGIN_SRC emacs-lisp
-(setq python-prettify-symbols-alist
-  (delq (assoc "and" python-prettify-symbols-alist) python-prettify-symbols-alist))
-(setq python-prettify-symbols-alist
-  (delq (assoc "or" python-prettify-symbols-alist) python-prettify-symbols-alist))
+Use company jedi and anaconda
+#+BEGIN_SRC emacs-lisp 
+(eval-after-load "company"
+ '(add-to-list 'company-backends 'company-anaconda))
+(eval-after-load "company"
+ '(add-to-list 'company-backends 'company-jedi))
 #+END_SRC
 
 ** Rainbow-mode
@@ -1289,6 +1427,23 @@ but that project currently [[https://github.com/nex3/perspective-el/issues/64][d
 I would like to switch back to perspective-el when that issue is fixed.
 #+BEGIN_SRC emacs-lisp
 (eyebrowse-mode)
+#+END_SRC
+
+Add some global keybindings for easily switching between eyebrowse windows. This
+mimics my i3wm configuration. It would ideally be nice to use right Alt only,
+but I haven't figured out how to split apart left and right Alt into different
+modifier keys yet.
+#+BEGIN_SRC emacs-lisp 
+(global-set-key (kbd "C-M-0") 'eyebrowse-switch-to-window-config-0)
+(global-set-key (kbd "C-M-1") 'eyebrowse-switch-to-window-config-1)
+(global-set-key (kbd "C-M-2") 'eyebrowse-switch-to-window-config-2)
+(global-set-key (kbd "C-M-3") 'eyebrowse-switch-to-window-config-3)
+(global-set-key (kbd "C-M-4") 'eyebrowse-switch-to-window-config-4)
+(global-set-key (kbd "C-M-5") 'eyebrowse-switch-to-window-config-5)
+(global-set-key (kbd "C-M-6") 'eyebrowse-switch-to-window-config-6)
+(global-set-key (kbd "C-M-7") 'eyebrowse-switch-to-window-config-7)
+(global-set-key (kbd "C-M-8") 'eyebrowse-switch-to-window-config-8)
+(global-set-key (kbd "C-M-9") 'eyebrowse-switch-to-window-config-9)
 #+END_SRC
 
 I also have a hydra configuration in the Hydra section.
@@ -1461,7 +1616,7 @@ that the face is already created. I'm currently not using evil-search so this
 isn't used.
 #+BEGIN_SRC emacs-lisp
 (require 'evil)
-(require 'evil-magit)
+;(require 'evil-magit)
 (set-face-background 'evil-ex-lazy-highlight "gold")
 (set-face-foreground 'evil-ex-lazy-highlight "black")
 #+END_SRC
@@ -1555,6 +1710,77 @@ key binding. This is an evil mode keybinding.
 (evil-global-set-key 'motion (kbd "z -") 'define-word-at-point)
 #+END_SRC
 
+Some keybindings from [[https://github.com/emacs-evil/evil-collection/blob/master/evil-collection-elfeed.el][evil-collection-elfeed]]. I was trying to use the
+evil-collections package by itself but was having some trouble. For now, I just
+copied over the evil keybindings directly. I opened an [[https://github.com/emacs-evil/evil-collection/issues/115][issue]].
+#+BEGIN_SRC emacs-lisp 
+  (evil-set-initial-state 'elfeed-search-mode 'normal)
+  (evil-define-key 'normal elfeed-search-mode-map
+    ;; open
+    (kbd "<return>") 'elfeed-search-show-entry
+    (kbd "S-<return>") 'elfeed-search-browse-url
+    "go" 'elfeed-search-browse-url
+
+    "y" 'elfeed-search-yank
+
+    ;; filter
+    "s" 'elfeed-search-live-filter
+    "S" 'elfeed-search-set-filter
+
+    ;; refresh
+    "gR" 'elfeed-search-fetch ; TODO: Which update function is more useful?
+    "gr" 'elfeed-search-update--force
+
+    ;; quit
+    "q" 'quit-window
+    "ZQ" 'quit-window
+    "ZZ" 'quit-window)
+
+  (evil-define-key '(normal visual) elfeed-search-mode-map
+    "+" 'elfeed-search-tag-all
+    "-" 'elfeed-search-untag-all
+    "U" 'elfeed-search-tag-all-unread
+    "u" 'elfeed-search-untag-all-unread)
+
+  (evil-set-initial-state 'elfeed-show-mode 'normal)
+  (evil-define-key 'normal elfeed-show-mode-map
+    (kbd "S-<return>") 'elfeed-show-visit
+    "go" 'elfeed-show-visit
+
+    ;; filter
+    "s" 'elfeed-show-new-live-search
+
+    "+" 'elfeed-show-tag
+    "-" 'elfeed-show-untag
+
+    "A" 'elfeed-show-add-enclosure-to-playlist
+    "P" 'elfeed-show-play-enclosure
+    "d" 'elfeed-show-save-enclosure
+
+    "]" 'elfeed-show-next
+    "[" 'elfeed-show-prev
+    "gj" 'elfeed-show-next
+    "gk" 'elfeed-show-prev
+    (kbd "C-j") 'elfeed-show-next
+    (kbd "C-k") 'elfeed-show-prev
+
+    ;; refresh
+    "gr" 'elfeed-show-refresh
+
+    ;; quit
+    "q" 'elfeed-kill-buffer
+    "ZQ" 'elfeed-kill-buffer
+    "ZZ" 'elfeed-kill-buffer)
+#+END_SRC
+
+Add advice to center after using ~G~
+#+BEGIN_SRC emacs-lisp 
+(defun scroll-to-center-advice (&rest args)
+  (evil-scroll-line-to-center (line-number-at-pos)))
+(advice-add #'evil-goto-line :after #'scroll-to-center-advice)
+#+END_SRC
+
+
 ** Dired
 
 #+BEGIN_SRC emacs-lisp
@@ -1603,7 +1829,7 @@ Enable the [[https://www.emacswiki.org/emacs/HighlightSexp][highlight sexp]] . T
 ** Spaceline/Powerline
 
 Set up spaceline style, and size. powerline-height should ideally be a percentage,
-or else this value has to be changed depending on the DPI. 40 seems to be an OK
+or else this value has to be changed depending on the DPI. 10 seems to be an OK
 size for my monitors.
 #+BEGIN_SRC emacs-lisp
 (require 'spaceline-all-the-icons)
@@ -1614,7 +1840,7 @@ size for my monitors.
 (setq spaceline-highlight-face-func 'spaceline-highlight-face-evil-state)
 (setq spaceline-minor-modes-p nil)
 (setq spaceline-lines-p nil)
-(setq powerline-height 40)
+(setq powerline-height 10)
 (spaceline-helm-mode)
 (spaceline-info-mode)
 #+END_SRC
@@ -1639,6 +1865,7 @@ Set the theme.
 
 Enable company-mode.
 #+BEGIN_SRC emacs-lisp
+(require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
 #+END_SRC
 
@@ -1646,6 +1873,12 @@ Enable Vim keybinding in company-mode window.
 #+BEGIN_SRC emacs-lisp
 (define-key company-active-map (kbd "C-n") 'company-select-next-or-abort)
 (define-key company-active-map (kbd "C-p") 'company-select-previous-or-abort)
+#+END_SRC
+
+Set up completions to be very fast.
+#+BEGIN_SRC emacs-lisp 
+(setq company-dabbrev-downcase 0)
+(setq company-idle-delay 0)
 #+END_SRC
 
 ** Helm
